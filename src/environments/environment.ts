@@ -7,13 +7,13 @@ export const environment = {
 };
 
 export const FirebaseConfig = {
-  apiKey: "AIzaSyBWM4VGdzObE7pb7sVBvxeZI5FC_-sREog",
-  authDomain: "tpcomanda-880f3.firebaseapp.com",
-  databaseURL: "https://tpcomanda-880f3.firebaseio.com",
-  projectId: "tpcomanda-880f3",
-  storageBucket: "tpcomanda-880f3.appspot.com",
-  messagingSenderId: "816387770353",
-  appId: "1:816387770353:web:fd79d8b7ebb6c1f0c2a650"
+    apiKey: "AIzaSyCk-qEe67y8mBfSQgV9bVDP3YX1qgYAA2o",
+    authDomain: "lacomanda-brino.firebaseapp.com",
+    databaseURL: "https://lacomanda-brino.firebaseio.com",
+    projectId: "lacomanda-brino",
+    storageBucket: "lacomanda-brino.appspot.com",
+    messagingSenderId: "512103874596",
+    appId: "1:512103874596:web:d0a5c7f81f200756f1d8b1"
 };
 
 /*

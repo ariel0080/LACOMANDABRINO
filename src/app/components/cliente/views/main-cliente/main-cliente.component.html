@@ -1,10 +1,14 @@
-<nav class="bottom-shadow">
-    <div class="row main-bar general-color">
-        <div class="col-6">
-            <h1 class="main-title">La Comanda</h1>
-        </div>
-        <div class="col-6 profile">
-            <img *ngIf="user" src="{{user.image}}" class="profile-pic" [ngClass]="open ? 'active': ''" (click)="toggleSidebar()">
+ <nav><!--</nav> class="bottom-shadow"> -->
+    <div> <!--class="row main-bar ">-->
+        <!-- <div class="col-6">
+            <h2 class="main-title">Usuario: {{user.name}}</h2>
+        </div> -->
+        <div class="col-3 profile">
+            <tr>
+            <td><img *ngIf="user" src="{{user.image}}" class="profile-pic" [ngClass]="open ? 'active': ''" (click)="toggleSidebar()"></td>
+
+            <td><label *ngIf="user">{{user.name}}</label></td>
+        </tr>
         </div>
     </div>
 </nav>
