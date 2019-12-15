@@ -24,16 +24,22 @@ import { ManageOrdersAdminComponent } from './components/socio/views/manage-orde
 import { ManageTablesAdminComponent } from './components/socio/views/manage-tables-admin/manage-tables-admin.component';
 import { ProfileComponent } from './components/all/views/profile/profile.component';
 import { SurveyTableComponent } from './components/socio/views/survey-table/survey-table.component';
+import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 
 
 const routes: Routes = [
 
+	
+
 	{path: '', component: RedirectComponent},
+
+	{path: 'b', component: BienvenidaComponent},
   
   	{path: 'app', component: MainGeneralComponent,
 		children:	
 		[
-      		{path: 'login', component: LoginComponent},
+			  {path: 'login', component: LoginComponent},
+			  
       		{path: 'register', component: RegisterComponent}
 		]},
 		

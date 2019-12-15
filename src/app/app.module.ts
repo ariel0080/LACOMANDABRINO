@@ -50,6 +50,11 @@ import { SurveyCommentDirective } from './directives/survey-comment.directive';
 import { NeatDatePipe } from './pipes/neat-date.pipe';
 import { IsProdDirective } from './directives/is-prod.directive';
 import { NgxCaptchaModule } from 'ngx-captcha';
+import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+
+
 
 @NgModule({
   declarations: [
@@ -90,12 +95,14 @@ import { NgxCaptchaModule } from 'ngx-captcha';
     SurveyAverageDirective,
     SurveyCommentDirective,
     NeatDatePipe,
-    IsProdDirective
+    IsProdDirective,
+    BienvenidaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    NgbModule,
     ReactiveFormsModule,
     AngularFireModule.initializeApp(FirebaseConfig),
     AngularFirestoreModule,

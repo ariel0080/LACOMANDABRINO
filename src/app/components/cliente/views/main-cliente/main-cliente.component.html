@@ -1,8 +1,6 @@
- <nav><!--</nav> class="bottom-shadow"> -->
-    <div> <!--class="row main-bar ">-->
-        <!-- <div class="col-6">
-            <h2 class="main-title">Usuario: {{user.name}}</h2>
-        </div> -->
+ <nav>
+    <div> 
+        
         <div class="col-3 profile">
             <tr>
             <td><img *ngIf="user" src="{{user.image}}" class="profile-pic" [ngClass]="open ? 'active': ''" (click)="toggleSidebar()"></td>
@@ -15,8 +13,8 @@
 
 <div class="sidebar" [ngClass]="open ? '' : 'collapsed'">
     <div class="top-row">
-        <app-sidebar-option name="Perfil" link="/cliente/profile"></app-sidebar-option>
-        <app-sidebar-option name="Pedir algo" link="/cliente"></app-sidebar-option>
+        <app-sidebar-option name="Ver mi perfil" link="/cliente/profile"></app-sidebar-option>
+        <app-sidebar-option name="Realizar pedido" link="/cliente"></app-sidebar-option>
         <app-sidebar-option name="Buscar pedido" link="buscar"></app-sidebar-option>
         <app-sidebar-option logOut=true></app-sidebar-option>
     </div>
