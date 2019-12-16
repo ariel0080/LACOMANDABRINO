@@ -1,36 +1,43 @@
 <div class="container">
-    <div class="row top-row page-title">
+    <!-- <div class="row top-row page-title">
         <div class="col-3"></div>
         <div class="col-6">- Menu -</div>
         <div class="col-3"></div>
-    </div>
+    </div> -->
+
+    <div class="row top-row ">
+        <div class="col-3"></div>
+        <div class="col-6 tprincipal"> NUESTRAS EXQUISITESES </div>
+        <div class="col-3"></div>
+    </div> 
+
     <hr>
     <div class="row">
         <div class="col-3 align-center">
             <div class="btn-group full-width" *ngIf="order">
                 <button class="btn btn-info" disabled>${{order.totalPrice}}</button>
-                <button class="btn btn-info" disabled>{{order.tableID | table}}</button>
+                <button class="btn btn-info" disabled> Mesa N° {{order.tableID}}</button>
             </div>
             <app-spinner *ngIf="!order"></app-spinner>
         </div>
         <div class="col-6">
-            <button class="btn btn-success full-width" data-toggle="modal" data-target="#orderModal">Ver pedido</button>
+            <button class="btn btn-info full-width" data-toggle="modal" data-target="#orderModal">Ver pedido</button>
         </div>
         <div class="col-3">
             <div class="btn-group full-width">
-                <button title="Todo" class="btn btn-outline-success" (click)="ClearFilters()"><i class="fas fa-asterisk"></i></button>
-                <button title="Comida" class="btn btn-outline-success" (click)="Filter('comida')"><i class="fas fa-utensils"></i></button>
-                <button title="Bebidas" class="btn btn-outline-success" (click)="Filter('bebida')"><i class="fas fa-wine-glass-alt"></i></button>
-                <button title="Postres" class="btn btn-outline-success" (click)="Filter('postre')"><i class="fas fa-ice-cream"></i></button>
-                <button title="Alcohol" class="btn btn-outline-success" (click)="Filter('alcohol')"><i class="fas fa-beer"></i></button>
-                <button title="Sin TACC" class="btn btn-outline-success" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
-                <button title="Vegana" class="btn btn-outline-success" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button>
+                <button title="Todo" class="btn btn-outline-info" (click)="ClearFilters()"><i class="fas fa-asterisk"></i></button>
+                <button title="Comida" class="btn btn-outline-info" (click)="Filter('comida')"><i class="fas fa-utensils"></i></button>
+                <button title="Bebidas" class="btn btn-outline-info" (click)="Filter('bebida')"><i class="fas fa-wine-glass-alt"></i></button>
+                <button title="Postres" class="btn btn-outline-info" (click)="Filter('postre')"><i class="fas fa-ice-cream"></i></button>
+                <button title="Alcohol" class="btn btn-outline-info" (click)="Filter('alcohol')"><i class="fas fa-beer"></i></button>
+                <!-- <button title="Sin TACC" class="btn btn-outline-info" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
+                <button title="Vegana" class="btn btn-outline-info" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button> -->
             </div>
         </div>
     </div>
     <div class="ordered align-center" *ngIf="hasOrder">
         <hr>
-        Tu código de pedido es <b>{{order.codeID}}</b> y tu mozo es <b>{{order.waiter.name}} {{order.waiter.lastname}}</b>.
+        Código de pedido: <b>{{order.codeID}}</b> Mozo:  <b>{{order.waiter.name}} {{order.waiter.lastname}}</b>.
     </div>
     <hr>
     <div class="row card-group">
@@ -73,7 +80,7 @@
                             </div>
                         </div>
                         <div *ngIf="!somethingOrdered" class="align-center">
-                            <span>Todavía no pediste nada. ¡Pedí algo!</span>
+                            <span>Todavía no realizaste ningún pedido</span>
                         </div>
                     </div>
                     <div class="col-1"></div>
@@ -84,7 +91,7 @@
                     <div class="col-8">
                         <div class="btn-group full-width">
                             <button class="btn btn-outline-danger" title="Borrar pedido" (click)="CancelOrder()" data-dismiss="modal"><i class="fas fa-times"></i></button>
-                            <button class="btn btn-outline-success" title="Confirmar pedido" (click)="MakeOrder()"><i class="fas fa-check"></i></button>
+                            <button class="btn btn-outline-success" title="Confirmar pedido" (click)="MakeOrder()" data-dismiss="modal"><i class="fas fa-check"></i></button>
                             <button class="btn btn-outline-secondary" title="Seguir pidiendo" data-dismiss="modal"><i class="fas fa-long-arrow-alt-left"></i></button>
                         </div>
                     </div>

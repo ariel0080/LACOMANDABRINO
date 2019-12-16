@@ -113,14 +113,29 @@ export class HomeClienteComponent implements OnInit {
 	private CreateTestProducts(): Product[]
 	{
 		return [
-			Product.Create('B-CER-QUIL', 'Cerveza Quilmes', 'assets/img/B-CER-QUIL.jpg', 50, [FoodType.bebida, FoodType.alcohol], Cook.cervecero),
-			Product.Create('C-COM-MCFR', 'Milanesa con fritas', 'assets/img/C-COM-MCFR.jpg', 300, [FoodType.comida], Cook.cocinero),
-			Product.Create('C-COM-MACF', 'Milanesa a caballo con fritas', 'assets/img/C-COM-MACF.jpg', 350, [FoodType.comida], Cook.cocinero),
-			Product.Create('C-COM-MNAF', 'Milanesa napo con fritas', 'assets/img/C-COM-MNAF.jpg', 350, [FoodType.comida], Cook.cocinero),
+			// Product.Create('B-CER-QUIL', 'Cerveza Quilmes', 'assets/img/B-CER-QUIL.jpg', 50, [FoodType.bebida, FoodType.alcohol], Cook.cervecero),
+			// Product.Create('C-COM-MCFR', 'Milanesa con fritas', 'assets/img/C-COM-MCFR.jpg', 300, [FoodType.comida], Cook.cocinero),
+			// Product.Create('C-COM-MACF', 'Milanesa a caballo con fritas', 'assets/img/C-COM-MACF.jpg', 350, [FoodType.comida], Cook.cocinero),
+			// Product.Create('C-COM-MNAF', 'Milanesa napo con fritas', 'assets/img/C-COM-MNAF.jpg', 350, [FoodType.comida], Cook.cocinero),
+			// Product.Create('B-GAS-COCA', 'Coca-Cola', 'assets/img/B-GAS-COCA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
+			// Product.Create('B-AGU-BONA', 'Bon Aqua', 'assets/img/B-AGU-BONA.jpg', 45, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
+			// Product.Create('B-TRA-DDFR', 'Daikiri de frutilla', 'assets/img/B-TRA-DDFR.jpg', 70, [FoodType.bebida, FoodType.alcohol, FoodType.postre], Cook.bartender),
+			// Product.Create('C-COM-ENCE', 'Ensalada el Cesar', 'assets/img/C-COM-ENCE.jpg', 150, [FoodType.comida, FoodType.vegano], Cook.cocinero),
+
+			Product.Create('B-CER-RUBI', 'Cerveza Rubia', 'assets/img/cerveza1.jpg', 150, [FoodType.bebida, FoodType.alcohol], Cook.cervecero),
+			Product.Create('B-CER-NEGR', 'Cerveza Negra', 'assets/img/cerveza2.jpg', 160, [FoodType.bebida, FoodType.alcohol], Cook.cervecero),
+			Product.Create('B-TRA-GINT', 'Gin-Tonic', 'assets/img/gintonic.jpeg', 350, [FoodType.bebida, FoodType.alcohol], Cook.bartender),
+			Product.Create('B-TRA-FERN', 'Fernet-Cola', 'assets/img/fernet.jpg', 350, [FoodType.bebida, FoodType.alcohol], Cook.bartender),
 			Product.Create('B-GAS-COCA', 'Coca-Cola', 'assets/img/B-GAS-COCA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
-			Product.Create('B-AGU-BONA', 'Bon Aqua', 'assets/img/B-AGU-BONA.jpg', 45, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
-			Product.Create('B-TRA-DDFR', 'Daikiri de frutilla', 'assets/img/B-TRA-DDFR.jpg', 70, [FoodType.bebida, FoodType.alcohol, FoodType.postre], Cook.bartender),
-			Product.Create('C-COM-ENCE', 'Ensalada el Cesar', 'assets/img/C-COM-ENCE.jpg', 150, [FoodType.comida, FoodType.vegano], Cook.cocinero),
+			Product.Create('B-AGU-BONA', 'Bon Aqua', 'assets/img/B-AGU-BONA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
+			Product.Create('C-COM-HELA', 'Helado', 'assets/img/helado.jpg', 120, [FoodType.comida, FoodType.postre], Cook.cocinero),
+			Product.Create('C-COM-ENCE', 'Ensalada', 'assets/img/C-COM-ENCE.jpg', 350, [FoodType.comida, FoodType.vegano], Cook.cocinero),
+			Product.Create('C-COM-CAMA', 'Camarones', 'assets/img/camarones.jpeg', 750, [FoodType.comida], Cook.cocinero),
+			Product.Create('C-COM-RABA', 'Rabas', 'assets/img/rabas.jpeg', 450, [FoodType.comida], Cook.cocinero),
+			Product.Create('C-COM-MEJI', 'Mejillones', 'assets/img/mejillones.jpg', 1500, [FoodType.comida], Cook.cocinero),
+
+
+
 		];
 	}
 }

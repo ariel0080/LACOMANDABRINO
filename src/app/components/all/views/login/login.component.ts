@@ -61,7 +61,7 @@ export class LoginComponent implements OnInit {
 				this.loginForm.get('email').setValue('bartender@gmail.com');
 				break;
 			case 'cervecero':
-				this.loginForm.get('email').setValue('cervecerp@gmail.com');
+				this.loginForm.get('email').setValue('cervecero@gmail.com');
 				break;
 			case 'cocinero':
 				this.loginForm.get('email').setValue('cocinero@gmail.com');

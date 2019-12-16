@@ -1,7 +1,7 @@
- <nav>
-    <div> 
+ <!-- <nav>
+    <div class="row main-bar"> 
         
-        <div class="col-3 profile">
+        <div class="col-6 profile">
             <tr>
             <td><img *ngIf="user" src="{{user.image}}" class="profile-pic" [ngClass]="open ? 'active': ''" (click)="toggleSidebar()"></td>
 
@@ -9,11 +9,28 @@
         </tr>
         </div>
     </div>
+</nav> -->
+
+
+<nav>
+    <div class="row main-bar bc">
+        <div class="col-6"></div>
+        <div class="col-5 profile">
+            
+                <img *ngIf="user" src="{{user.image}}" class="profile-pic" [ngClass]="open ? 'active': ''" (click)="toggleSidebar()">
+    
+                <label *ngIf="user">{{user.name}} {{user.lastname}}</label>
+            
+        </div>
+    </div>
 </nav>
 
-<div class="sidebar" [ngClass]="open ? '' : 'collapsed'">
+
+
+
+<div class="sidebar bc" [ngClass]="open ? '' : 'collapsed'">
     <div class="top-row">
-        <app-sidebar-option name="Ver mi perfil" link="/cliente/profile"></app-sidebar-option>
+        <app-sidebar-option name="Mi perfil" link="/cliente/profile"></app-sidebar-option>
         <app-sidebar-option name="Realizar pedido" link="/cliente"></app-sidebar-option>
         <app-sidebar-option name="Buscar pedido" link="buscar"></app-sidebar-option>
         <app-sidebar-option logOut=true></app-sidebar-option>

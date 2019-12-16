@@ -52,7 +52,7 @@ export class ProfileComponent implements OnInit {
 				this.toastr.success('Imagen cargada con éxito.');
 				setTimeout(() => {
 					//location.reload();
-					location.assign('https://ivan-rojas.github.io/TP_Lab4_2c_2019/');
+					location.assign('http://localhost:4200/');
 				},1000)
 			})
 		});
