@@ -37,7 +37,7 @@ export class RedirectComponent implements OnInit {
 			}
 		})
 		.catch(() => {
-			this.router.navigate(['/app/login']);
+			this.router.navigate(['/b']);
 		});
 	}
 
