@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product, FoodType, Cook } from 'src/app/models/product';
 import { Order } from 'src/app/models/order';
-import { Subject } from 'rxjs';
+import { Subject, Observable } from 'rxjs';
 import { OrderService } from 'src/app/services/firebase/order.service';
 import { AuthService } from 'src/app/services/authentication/auth.service';
 import { User } from 'src/app/models/user';
@@ -9,6 +9,7 @@ import { UserService } from 'src/app/services/firebase/user.service';
 import { TableService } from 'src/app/services/firebase/table.service';
 import { ToastrService } from 'ngx-toastr';
 import { TableState } from 'src/app/models/table';
+import { promise } from 'protractor';
 
 @Component({
 	selector: 'app-home-cliente',
@@ -26,6 +27,7 @@ export class HomeClienteComponent implements OnInit {
 	public hasOrder = false;
 	private currentUser: User;
 	private currentWorker: User;
+	private Updateo: boolean;
 
 	constructor(private orderService: OrderService, private userService: UserService, private authService: AuthService, private tableService: TableService, private toastr: ToastrService) { }
 
@@ -48,7 +50,7 @@ export class HomeClienteComponent implements OnInit {
 		console.log('order:', this.order);
 	}
 
-	public CancelOrder(): void
+	 public CancelOrder(): void
 	{
 		this.somethingOrdered = false;
 		this.order.items = [];
@@ -64,10 +66,13 @@ export class HomeClienteComponent implements OnInit {
 		{
 			if(this.order.CheckOrder())
 			{
+				
 				this.order.waiter = this.currentWorker;
 				this.order.client = this.currentUser;
 				this.tableService.UpdateStatus(this.order.tableID, TableState.waitingOrder);
-				this.orderService.Add(this.order);
+				this.orderService.Update(this.order).then((value) => {if(!value){this.orderService.Add(this.order);} });
+				
+				
 				this.toastr.success("El pedido se ha realizado correctamente! Este es tu número de pedido: " + this.order.codeID);
 				this.hasOrder = true;
 			}
@@ -127,7 +132,7 @@ export class HomeClienteComponent implements OnInit {
 			Product.Create('B-TRA-GINT', 'Gin-Tonic', 'assets/img/gintonic.jpeg', 350, [FoodType.bebida, FoodType.alcohol], Cook.bartender),
 			Product.Create('B-TRA-FERN', 'Fernet-Cola', 'assets/img/fernet.jpg', 350, [FoodType.bebida, FoodType.alcohol], Cook.bartender),
 			Product.Create('B-GAS-COCA', 'Coca-Cola', 'assets/img/B-GAS-COCA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
-			Product.Create('B-AGU-BONA', 'Bon Aqua', 'assets/img/B-AGU-BONA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
+			Product.Create('B-AGU-BONA', 'Agua Mineral', 'assets/img/B-AGU-BONA.jpg', 60, [FoodType.bebida, FoodType.vegano, FoodType.celiaco], Cook.bartender),
 			Product.Create('C-COM-HELA', 'Helado', 'assets/img/helado.jpg', 120, [FoodType.comida, FoodType.postre], Cook.cocinero),
 			Product.Create('C-COM-ENCE', 'Ensalada', 'assets/img/C-COM-ENCE.jpg', 350, [FoodType.comida, FoodType.vegano], Cook.cocinero),
 			Product.Create('C-COM-CAMA', 'Camarones', 'assets/img/camarones.jpeg', 750, [FoodType.comida], Cook.cocinero),

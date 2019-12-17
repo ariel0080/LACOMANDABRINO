@@ -10,6 +10,7 @@ export class Survey
     public cookScore: number;
     public comment: string;
     public commentType: boolean;
+    public fecha: Date;
 
     constructor()
     {
@@ -29,6 +30,8 @@ export class Survey
         newSurvey.cookScore = cook;
         newSurvey.comment = comment;
         newSurvey.commentType = commentType;
+        newSurvey.fecha = new Date();
+
         return newSurvey;
     }
 }

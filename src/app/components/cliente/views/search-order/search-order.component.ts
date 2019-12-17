@@ -24,6 +24,8 @@ export class SearchOrderComponent implements OnInit {
 	public surveyForm: FormGroup;
 	public surveyDone: boolean = false;
 
+	public today: Date;
+
 	constructor(private surveyService: SurveyService, private toastr: ToastrService, private orderService: OrderService, private tableService: TableService) { }
 
 	ngOnInit() 
@@ -98,6 +100,7 @@ export class SearchOrderComponent implements OnInit {
 			this.surveyForm.get('cookScore').value,
 			this.surveyForm.get('comment').value,
 			this.surveyForm.get('commentType').value,
+			
 		);
 
 		this.surveyService.Add(survey)

@@ -4,7 +4,7 @@ import { Order, OrderState } from 'src/app/models/order';
 import { CommonHelper } from 'src/app/classes/helpers/common-helper';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
-import { Cook } from 'src/app/models/product';
+import { Cook, Product } from 'src/app/models/product';
 
 
 @Injectable({
@@ -12,12 +12,22 @@ import { Cook } from 'src/app/models/product';
 })
 export class OrderService {
 
+
+
 	constructor(private db: AngularFirestore) { }
 
 	public Add(order: Order): void
 	{
 		this.db.collection('pedidos').add(CommonHelper.ConvertToObject(order));
+		console.log("Orden: ",order);
 	}
+
+	// public updateOrderItem(idOrder: string, productos: Product[]){
+
+	// 	let prodductosAux: Product[];
+
+        
+    // }
 
 	public GetAllOrderByTime(): AngularFirestoreCollection<Order>
 	{
