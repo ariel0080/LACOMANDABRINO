@@ -8,15 +8,15 @@ export class TablePipe implements PipeTransform {
 	transform(value: string): string {
 		switch(value)
 		{
-			case 'AW':
-			case 'AM':	
-			case 'BW':
-			case 'BM':
-			case 'CW':
-			case 'CM':
-			case 'DW':
-			case 'DM':
-				return 'Mesa ' + value;
+			case 'VEN01':
+			case 'VEN02':	
+			case 'VEN03':
+			case 'PAS01':
+			case 'PAS02':
+			// case 'CM':
+			// case 'DW':
+			// case 'DM':
+			 	return 'Mesa ' + value;
 			default:
 				return 'No hay mesa';
 		}
