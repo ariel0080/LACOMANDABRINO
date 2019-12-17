@@ -43,8 +43,12 @@
                             <td>{{sur.waiterScore}}</td>
                             <td>{{sur.restaurantScore}}</td>
                             <td>{{sur.cookScore}}</td>
-                            <td>{{sur.fecha}}</td>
+                            <td>{{sur.fecha |  date:'dd/MM/yyyy'}} - {{sur.fecha | date: 'HH:mm'}}</td>  
+                                <!-- Hora: {{ sur.fecha.toMillis() | date: 'HH:mm' }}
+                            </td> -->
                             <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->
+
+
                         </tr>
                     </tbody>
                 </table>
