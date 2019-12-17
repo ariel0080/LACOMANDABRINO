@@ -15,13 +15,12 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class ProfileComponent implements OnInit {
 
 	public user: User;
+	public isAdmin: boolean = false;
 	public isLoaded: boolean = false;
 	public selectedFile: File = null;
 	public listaUsuarios = new Array<string>();
 	public UpdateForm: FormGroup;
 	public usuario: string = 'none';
-	public n: string;
-	public a: string;
 	public e: string;
 	constructor(private userService: UserService, private fileService: FileService, private authService: AuthService, private toastr: ToastrService) { 
 	this.userService.GetAll_InArray().then((usuarios) => {usuarios.forEach(element => {this.listaUsuarios.push(element.email)
@@ -32,6 +31,7 @@ export class ProfileComponent implements OnInit {
 	ngOnInit() {
 		this.authService.GetCurrentUser().then(usr => {
 			this.user = usr;
+			if(this.user.email === 'socio@gmail.com'){this.isAdmin = true;}
 		});
 
 		this.UpdateForm = new FormGroup({
@@ -65,8 +65,6 @@ export class ProfileComponent implements OnInit {
 		console.log("SI!",$event);
 		this.userService.GetAll_InArray().then((u) => {u.forEach(e => {if(e.email === $event){
 			this.UpdateForm.get('nombre').setValue(e.name);
-			this.n = e.name;
-			this.a = e.lastname;
 			this.e = e.email;
 			this.UpdateForm.get('apellido').setValue(e.lastname);}})});
 	}
