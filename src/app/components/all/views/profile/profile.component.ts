@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ɵConsole } from '@angular/core';
 import { FileService } from 'src/app/services/firestorage/file.service';
 import { AuthService } from 'src/app/services/authentication/auth.service';
 import { User } from 'src/app/models/user';
 import { CommonHelper } from 'src/app/classes/helpers/common-helper';
 import { ToastrService } from 'ngx-toastr';
 import { UserService } from 'src/app/services/firebase/user.service';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
 	selector: 'app-profile',
@@ -16,13 +17,28 @@ export class ProfileComponent implements OnInit {
 	public user: User;
 	public isLoaded: boolean = false;
 	public selectedFile: File = null;
-
-	constructor(private userService: UserService, private fileService: FileService, private authService: AuthService, private toastr: ToastrService) { }
+	public listaUsuarios = new Array<string>();
+	public UpdateForm: FormGroup;
+	public usuario: string = 'none';
+	public n: string;
+	public a: string;
+	public e: string;
+	constructor(private userService: UserService, private fileService: FileService, private authService: AuthService, private toastr: ToastrService) { 
+	this.userService.GetAll_InArray().then((usuarios) => {usuarios.forEach(element => {this.listaUsuarios.push(element.email)
+		
+	});})
+	}
 
 	ngOnInit() {
 		this.authService.GetCurrentUser().then(usr => {
 			this.user = usr;
 		});
+
+		this.UpdateForm = new FormGroup({
+			'nombre': new FormControl(null, [Validators.required]),
+			'apellido': new FormControl(null, [Validators.required]),
+			
+			});
 	}
 
 	public OnFileSelected(event: any): void
@@ -44,6 +60,28 @@ export class ProfileComponent implements OnInit {
 			})
 			.catch(() => this.toastr.error('Se ha producido un error al cargar la imagen.'));
 	}
+
+	completarUsuario($event){
+		console.log("SI!",$event);
+		this.userService.GetAll_InArray().then((u) => {u.forEach(e => {if(e.email === $event){
+			this.UpdateForm.get('nombre').setValue(e.name);
+			this.n = e.name;
+			this.a = e.lastname;
+			this.e = e.email;
+			this.UpdateForm.get('apellido').setValue(e.lastname);}})});
+	}
+
+	public onSubmit() {
+
+		this.userService.actualizarUsuario(this.e, this.UpdateForm.value.nombre,this.UpdateForm.value.apellido);
+		this.vaciarForm();
+	}
+
+	public vaciarForm(){
+		this.UpdateForm.get('nombre').setValue('');
+		this.UpdateForm.get('apellido').setValue('');
+	}
+
 
 	private ChangeProfilePic(imgName: string): void
 	{

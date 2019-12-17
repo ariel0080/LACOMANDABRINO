@@ -31,11 +31,27 @@
                                 <button [disabled]="!isLoaded" class="btn btn-success" (click)="Upload()">Cargar imagen</button>
                             </div>
                         </div>
-                        <div class="col-6 align-center">
+                        <!-- aca arranca lo nuevo y termina en el otro comentario -->
+
+                        <div class="col-4 align-center">
+                        <select class="form-control"  (ngModelChange)="completarUsuario($event)" [(ngModel)]="userOption">
+
+                            <option *ngFor="let usuario of listaUsuarios" [ngValue]="usuario">{{usuario}}</option>
+                            
+                        </select>
+                        <form [formGroup]="UpdateForm" (ngSubmit)="onSubmit()">
+                                <input type="text" formControlName="nombre" class="form-control separate-top-input align-center" placeholder="Nombre" autofocus>
+                                <input type="text" formControlName="apellido" class="form-control separate-top-input align-center" placeholder="Apellido">
+                                <button [disabled]="!UpdateForm.valid" type="submit" class="btn btn-danger full-width separate-top-input">Modificar</button>
+                         </form></div>
+
+
+
+                        <!-- <div class="col-6 align-center">
                             <h5 class="card-title">Nombre</h5>
                             <p class="card-text">Modificá tu nombre, apellido y/o email de una forma simple.</p>
                             <button class="btn btn-primary" disabled>Cambiar mis datos</button>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

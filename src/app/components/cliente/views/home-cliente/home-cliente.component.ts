@@ -27,7 +27,7 @@ export class HomeClienteComponent implements OnInit {
 	public hasOrder = false;
 	private currentUser: User;
 	private currentWorker: User;
-	private Updateo: boolean;
+	
 
 	constructor(private orderService: OrderService, private userService: UserService, private authService: AuthService, private tableService: TableService, private toastr: ToastrService) { }
 
@@ -47,7 +47,7 @@ export class HomeClienteComponent implements OnInit {
 		this.order.items.push(prod);
 		this.order.CalculateTotal();
 		this.somethingOrdered = true;
-		console.log('order:', this.order);
+		
 	}
 
 	 public CancelOrder(): void

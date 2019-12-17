@@ -88,4 +88,15 @@ export class UserService {
 			this.db.collection('usuarios').doc(doc.id).update(user);
 		})
 	}
+
+	public actualizarUsuario(email: string, nombre: string, apellido: string): Promise<void>
+	{
+		return this.GetUserByEmail(email).then(doc => {
+			let user = doc;
+			user.name = nombre;
+			user.lastname = apellido;
+			this.db.collection('usuarios').doc(doc.id).update(user);
+		})
+	}
+
 }
