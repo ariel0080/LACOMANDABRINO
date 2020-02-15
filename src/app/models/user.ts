@@ -7,6 +7,8 @@ export class User
     public email: string;
     public role: Role;
     public image: string;
+    public deleted: boolean;
+    public state: string;
 
     constructor() 
     {
@@ -26,6 +28,21 @@ export class User
         user.password = password;
         user.email = email;
         user.role = role;
+        user.deleted = false;
+        user.state = 'habilitado';
+        return user;
+    }
+
+    public static CreateUserFromAdmin(name: string, lastname: string,  email: string, role: Role): User
+    {
+        let user = new User();
+        user.name = name;
+        user.lastname = lastname;
+        user.password = email;
+        user.email = email;
+        user.role = role;
+        user.deleted = false;
+        user.state = 'habilitado';
         return user;
     }
 }

@@ -11,6 +11,9 @@ export class Product
     public cook: Cook;
     public worker: User;
 
+    public description: string;
+    public demand: number;
+
     constructor()
     {
         this.codeID = "";
@@ -19,6 +22,8 @@ export class Product
         this.price = -1;
         this.foodTypes = [];
         this.state = FoodState.pending;
+
+        this.demand = 0;
     }
     
     public IsFoodType(type: string): boolean
@@ -26,7 +31,7 @@ export class Product
         return this.foodTypes.includes(type as FoodType);
     }
 
-    public static Create(code: string, name: string, pathImg: string, price: number, foodTypes: FoodType[], cook: Cook)
+    public static Create(code: string, name: string, pathImg: string, price: number, foodTypes: FoodType[], cook: Cook,description:string)
     {
         let newProd = new Product();
         newProd.codeID = code;
@@ -35,6 +40,7 @@ export class Product
         newProd.price = price;
         newProd.foodTypes = foodTypes;
         newProd.cook = cook;
+        newProd.description = description;
         return newProd;
     }
 }

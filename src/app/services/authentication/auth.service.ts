@@ -27,6 +27,15 @@ export class AuthService {
     	});
 	}
 
+	public RegisterWithEmailAdmin(mail: string) {
+		this.userService.GetUserByEmail(mail).then(user => {
+			const pass = user.password;
+			this.RegisterWithEmail(user).then(() => {
+				this.LoginWithEmail(mail, pass);
+			});
+		})
+	}
+
 	public LoginWithEmail(email: string, pwd: string)
 	{
 		return new Promise((resolve, reject) => {
