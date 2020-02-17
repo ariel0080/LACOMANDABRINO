@@ -31,6 +31,13 @@ export class FileService {
       .catch(error => reject(error.message));
   }
 
+  public updatePhotoUrlOrders(url: string, uid: string): Promise<boolean>{
+	
+		return this.orders.doc(uid).update({ image: url }).then(()=>{
+			return true;
+		});
+	}
+
   public GetImageURL(fileName: string) {
     return this.storage
       .ref(fileName)

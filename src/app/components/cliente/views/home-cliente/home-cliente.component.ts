@@ -9,7 +9,6 @@ import { UserService } from "src/app/services/firebase/user.service";
 import { TableService } from "src/app/services/firebase/table.service";
 import { ToastrService } from "ngx-toastr";
 import { TableState } from "src/app/models/table";
-import { promise } from "protractor";
 import { ProductoServiceService } from "src/app/services/firebase/producto-service.service";
 import { AngularFirestoreCollection } from "@angular/fire/firestore";
 import { map } from "rxjs/operators";
@@ -20,8 +19,10 @@ import { map } from "rxjs/operators";
   styleUrls: ["./home-cliente.component.scss"]
 })
 export class HomeClienteComponent implements OnInit {
-  public order: Order;
-  public productos: AngularFirestoreCollection<any>;
+  public order: Order = null;
+  //public products: Product[];
+  //public showingProducts: Product[];
+  public products: AngularFirestoreCollection<any>;
   public showingProducts: any;
   public somethingOrdered: boolean;
   public onReset: Subject<void> = new Subject<void>();
@@ -29,21 +30,31 @@ export class HomeClienteComponent implements OnInit {
   private currentUser: User;
   private currentWorker: User;
 
+  //public waitingOrder: boolean = false;
+
   constructor(
     private orderService: OrderService,
     private userService: UserService,
     private authService: AuthService,
     private tableService: TableService,
     private toastr: ToastrService,
-    private pS: ProductoServiceService
+    private productService: ProductoServiceService
   ) {}
 
   ngOnInit() {
     this.InitializeOrder();
-    this.productos = this.pS.GetAll2();
-    
-    this.showingProducts = this.productos;
-    this.authService.GetCurrentUser().then(userLogged => (this.currentUser = userLogged));
+    //this.products = this.CreateTestProducts();
+    //this.products = this.productService.listado;
+
+    this.products = this.productService.GetAll2();
+
+    //this.products = new Array<Product>();
+    //this.products = this.productService.listado;
+
+    //this.showingProducts = this.products;
+    this.authService
+      .GetCurrentUser()
+      .then(userLogged => (this.currentUser = userLogged));
     this.SelectRandomWaiter().then(waiter => (this.currentWorker = waiter));
     this.ClearFilters();
   }
@@ -54,6 +65,7 @@ export class HomeClienteComponent implements OnInit {
     this.order.items.push(prod);
     this.order.CalculateTotal();
     this.somethingOrdered = true;
+    console.log('order:', this.order);
   }
 
   public CancelOrder(): void {
@@ -64,8 +76,8 @@ export class HomeClienteComponent implements OnInit {
   }
 
   public MakeOrder(): void {
-    if (this.order.tableID === "No hay")
-      this.toastr.error("No hay mesas disponibles. Espere unos minutos.");
+    if (this.order.tableID == "No hay")
+      this.toastr.error("No hay mesas disponibles. Vuelva más tarde.");
     else {
       if (this.order.CheckOrder()) {
         this.order.waiter = this.currentWorker;
@@ -74,12 +86,20 @@ export class HomeClienteComponent implements OnInit {
           this.order.tableID,
           TableState.waitingOrder
         );
-        this.orderService.Update(this.order).then(value => {
-          if (!value) {
-            this.orderService.Add(this.order);
-          }
-        });
-
+        //this.orderService.Add(this.order);
+        this.orderService
+          .Update(this.order)
+          .then(value => {
+            if (!value) {
+              this.orderService.Add(this.order);
+            }
+          })
+          .then(() => {
+            this.orderService.UpdateImageURL(
+              this.order,
+              this.currentUser.image
+            );
+          });
         this.toastr.success(
           "El pedido se ha realizado correctamente! Este es tu número de pedido: " +
             this.order.codeID
@@ -92,7 +112,7 @@ export class HomeClienteComponent implements OnInit {
   // ##### FILTER FUNCTIONS #####
 
   public Filter(type: string): void {
-    this.showingProducts = this.productos.valueChanges().pipe(
+    this.showingProducts = this.products.valueChanges().pipe(
       map(productos => {
         return productos.filter(res => {
           res = Object.assign(new Product(), res);
@@ -103,7 +123,14 @@ export class HomeClienteComponent implements OnInit {
   }
 
   public ClearFilters(): void {
-    this.showingProducts = this.productos;
+    this.showingProducts = this.products.valueChanges().pipe(
+      map(productos => {
+        return productos.filter(res => {
+          res = Object.assign(new Product(), res);
+          return res;
+        });
+      })
+    );
   }
 
   // ###### PRIVATE FUNCTIONS #####
@@ -117,7 +144,13 @@ export class HomeClienteComponent implements OnInit {
 
   private SelectRandomWaiter(): Promise<User> {
     return this.userService.GetAllWaiters().then(waiters => {
+      // let random;
+      // do{
+      // 	random = Math.floor(Math.random() * waiters.length);
+      // }while(!waiters[random].deleted && waiters[random].state != 'deshabilitado')
+
       let random = Math.floor(Math.random() * waiters.length);
+
       return waiters[random];
     });
   }

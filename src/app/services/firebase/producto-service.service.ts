@@ -54,8 +54,7 @@ traerProductosArray() {
             p.description = unProd.description;
             p.foodTypes = unProd.foodTypes;
             p.name = unProd.name;
-            p.pathImg = unProd.image;
-            // tslint:disable-next-line: radix
+            p.image = unProd.image;
             p.price = parseInt(unProd.price);
             p.state = unProd.state;
             p.worker = unProd.worker;
