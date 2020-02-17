@@ -52,6 +52,7 @@ import { IsProdDirective } from './directives/is-prod.directive';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AdminProductosComponent } from './components/all/admin-productos/admin-productos.component';
 
 
 
@@ -96,7 +97,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     SurveyCommentDirective,
     NeatDatePipe,
     IsProdDirective,
-    BienvenidaComponent
+    BienvenidaComponent,
+    AdminProductosComponent
   ],
   imports: [
     BrowserModule,
