@@ -52,7 +52,7 @@ import { IsProdDirective } from './directives/is-prod.directive';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { AdminProductosComponent } from './components/all/admin-productos/admin-productos.component';
+import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component'
 
 
 
@@ -114,7 +114,7 @@ import { AdminProductosComponent } from './components/all/admin-productos/admin-
     NgxCaptchaModule,
     ToastrModule.forRoot({
       timeOut: 2300,
-      positionClass: 'toast-bottom-left',
+      positionClass: 'toast-bottom-right',//aca iba left
       preventDuplicates: true
     })
   ],
