@@ -52,7 +52,8 @@ import { IsProdDirective } from './directives/is-prod.directive';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component'
+import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component';
+import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component'
 
 
 
@@ -98,7 +99,8 @@ import { AdminProductosComponent } from './components/all/main/admin-productos/a
     NeatDatePipe,
     IsProdDirective,
     BienvenidaComponent,
-    AdminProductosComponent
+    AdminProductosComponent,
+    ManageProductsComponent
   ],
   imports: [
     BrowserModule,

@@ -44,8 +44,8 @@ export class LoginComponent implements OnInit {
       .GetUserByEmail(usr)
       .then(usuario => {
         console.log('esta en la base');
-        if (!usuario.deleted && usuario.state == 'habilitado') {
-          if (usuario.role == 'cliente' && !restriccion) {
+        if (!usuario.deleted && usuario.state === 'habilitado') {
+          if (usuario.role === 'cliente' && !restriccion) {
             this.toastr.info(
               'El horario de atencion es de Miercoles a Domingo de 18:00 a 2:00'
             );

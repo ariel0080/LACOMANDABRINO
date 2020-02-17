@@ -1,9 +1,5 @@
 <div class="container">
-    <!-- <div class="row top-row page-title">
-        <div class="col-3"></div>
-        <div class="col-6">- Menu -</div>
-        <div class="col-3"></div>
-    </div> -->
+   
 
     <div class="row top-row ">
         <div class="col-3"></div>
@@ -30,8 +26,8 @@
                 <button title="Bebidas" class="btn btn-outline-info" (click)="Filter('bebida')"><i class="fas fa-wine-glass-alt"></i></button>
                 <button title="Postres" class="btn btn-outline-info" (click)="Filter('postre')"><i class="fas fa-ice-cream"></i></button>
                 <button title="Alcohol" class="btn btn-outline-info" (click)="Filter('alcohol')"><i class="fas fa-beer"></i></button>
-                <!-- <button title="Sin TACC" class="btn btn-outline-info" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
-                <button title="Vegana" class="btn btn-outline-info" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button> -->
+                <button title="Sin TACC" class="btn btn-outline-info" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
+                <button title="Vegana" class="btn btn-outline-info" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button> 
             </div>
         </div>
     </div>
@@ -41,7 +37,7 @@
     </div>
     <hr>
     <div class="row card-group">
-        <div class="col-3 mar-top-2"  *ngFor="let prod of showingProducts">
+        <div class="col-3 mar-top-2"  *ngFor="let prod of showingProducts" >
             <app-food-card (added)="AddToOrder($event)" [resetEvent]="onReset" [product]="prod"></app-food-card>
         </div>
     </div>

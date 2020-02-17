@@ -15,20 +15,13 @@
         </div>
         <div class="col-3">
             <div class="btn-group full-width">
-                <button title="Todo" class="btn btn-outline-success" (click)="ClearFilters()"><i
-                        class="fas fa-asterisk"></i></button>
-                <button title="Comida" class="btn btn-outline-success" (click)="Filter('comida')"><i
-                        class="fas fa-utensils"></i></button>
-                <button title="Bebidas" class="btn btn-outline-success" (click)="Filter('bebida')"><i
-                        class="fas fa-wine-glass-alt"></i></button>
-                <button title="Postres" class="btn btn-outline-success" (click)="Filter('postre')"><i
-                        class="fas fa-ice-cream"></i></button>
-                <button title="Alcohol" class="btn btn-outline-success" (click)="Filter('alcohol')"><i
-                        class="fas fa-beer"></i></button>
-                <button title="Sin TACC" class="btn btn-outline-success" (click)="Filter('celiaco')"><i
-                        class="fas fa-seedling"></i></button>
-                <button title="Vegana" class="btn btn-outline-success" (click)="Filter('vegano')"><i
-                        class="fas fa-carrot"></i></button>
+                <button title="Todo" class="btn btn-outline-info" (click)="ClearFilters()"><i class="fas fa-asterisk"></i></button>
+                <button title="Comida" class="btn btn-outline-info" (click)="Filter('comida')"><i class="fas fa-utensils"></i></button>
+                <button title="Bebidas" class="btn btn-outline-info" (click)="Filter('bebida')"><i class="fas fa-wine-glass-alt"></i></button>
+                <button title="Postres" class="btn btn-outline-info" (click)="Filter('postre')"><i class="fas fa-ice-cream"></i></button>
+                <button title="Alcohol" class="btn btn-outline-info" (click)="Filter('alcohol')"><i class="fas fa-beer"></i></button>
+                <button title="Sin TACC" class="btn btn-outline-info" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
+                <button title="Vegana" class="btn btn-outline-info" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button> 
             </div>
         </div>
     </div>
@@ -46,10 +39,10 @@
                 </tr>
             </thead>
             <tbody *ngIf="products">
-                <tr class="product" *ngFor="let prod of showingProducts | async">
+                 <tr class="product" *ngFor="let prod of showingProducts | async">
                     <td><label>{{prod.name}}</label></td>
                     <td>${{prod.price}}</td>
-                    <td><img [src]="prod.image" width="30px" height="30px">
+                    <td><img [src]="prod.image" width="50px" height="50px">
                     </td>
 
                     <td><button class="btn btn-outline-danger" *ngIf="prod.state != 'Deshabilitado'"
@@ -93,7 +86,7 @@
                         <div class="row" *ngIf="this.haySeleccionado">
                             <div class="col-5"></div>
                             <div class="col-2">
-                                <img [src]="this.productoSeleccionado.image" width="60px" height="60px">
+                                <img [src]="this.productoSeleccionado.pathImg" width="60px" height="60px">
                             </div>
                             <div class="col-5"></div>
                         </div>

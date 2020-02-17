@@ -25,6 +25,7 @@ import { ManageTablesAdminComponent } from './components/socio/views/manage-tabl
 import { ProfileComponent } from './components/all/views/profile/profile.component';
 import { SurveyTableComponent } from './components/socio/views/survey-table/survey-table.component';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
+import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
 
 
 const routes: Routes = [
@@ -50,6 +51,7 @@ const routes: Routes = [
 			{path: 'tables', component: ManageTablesAdminComponent},
 			{path: 'orders', component: ManageOrdersAdminComponent},
 			{path: 'profile', component: ProfileComponent},
+			{path: 'products', component: ManageProductsComponent},
 			{path: 'surveys', component: SurveyTableComponent},
 		],
 	canActivate: [AuthGuard]},
