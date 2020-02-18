@@ -65,7 +65,7 @@ export class ManejoLogsComponent implements OnInit {
           res = Object.assign(new Log(), res);
           if (res['fecha'] > this.fechaInicio && res['fecha'] < this.fechaFin) {
             if (res['usuario'].includes(this.busqueda) || this.busqueda == null) {
-              if (this.logForm.value.typeMozo && res['role'] == Role.mozo) {
+              if (this.logForm.value.typeMozo && res['role'] === Role.mozo) {
                 this.coincidencias++;
                 this.data.push(res);
                 return res;
