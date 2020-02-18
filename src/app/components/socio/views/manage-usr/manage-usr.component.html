@@ -10,27 +10,27 @@
     
             </div>
             <div class="col-6">
-                <button class="btn btn-success full-width" data-toggle="modal" data-target="#userModal">Agregar
+                <button class="btn btn-info full-width" data-toggle="modal" data-target="#userModal">Alta
                     Usuario</button>
             </div>
             <div class="col-3">
                 <div class="btn-group full-width">
     
-                    <button title="Todos" class="btn btn-outline-success" (click)="ClearFilters()"><i
+                    <button title="Todos" class="btn btn-info" (click)="ClearFilters()"><i
                             class="fas fa-asterisk"></i></button>
-                    <button title="Socios" class="btn btn-outline-success" (click)="Filter('socio')"><i
-                            class="fas fa-user-secret"></i></button>
-                    <button title="Bartenders" class="btn btn-outline-success" (click)="Filter('bartender')"><i
+                    <button title="Socios" class="btn btn-info" (click)="Filter('socio')"><i
+                            class="fa fa-user-circle"></i></button>
+                    <button title="Bartenders" class="btn btn-info" (click)="Filter('bartender')"><i
                             class="fas fa-wine-glass-alt"></i></button>
-                    <button title="Cerveceros" class="btn btn-outline-success" (click)="Filter('cervecero')"><i
+                    <button title="Cerveceros" class="btn btn-info" (click)="Filter('cervecero')"><i
                             class="fas fa-beer"></i></button>
-                    <button title="Cocineros" class="btn btn-outline-success" (click)="Filter('cocinero')"><i
+                    <button title="Cocineros" class="btn btn-info" (click)="Filter('cocinero')"><i
                             class="fas fa-fire"></i></button>
-                            <button title="Mozos" class="btn btn-outline-success" (click)="Filter('mozo')"><i
+                            <button title="Mozos" class="btn btn-info" (click)="Filter('mozo')"><i
                                 class="fas fa-book"></i></button>
-                    <button title="Suspendidos" class="btn btn-outline-success" (click)="Filter('suspendidos')"><i
+                    <button title="Suspendidos" class="btn btn-info" (click)="Filter('suspendidos')"><i
                             class="fas fa-ban"></i></button>
-                    <button title="Habilitados" class="btn btn-outline-success" (click)="Filter('habilitados')"><i
+                    <button title="Habilitados" class="btn btn-info" (click)="Filter('habilitados')"><i
                             class="fas fa-check"></i></button>
     
                 </div>
@@ -44,7 +44,7 @@
     
             </div>
             <div class="form-group col-6 align-center full-width">
-                <input class="form-control" type="text" [(ngModel)]="busqueda" (input)="search()" placeholder="Ingrese aqui su busqueda...">
+                <input class="form-control" type="text" [(ngModel)]="busqueda" (input)="search()" placeholder="Buscar...">
             </div>
             <div class="col-3 align-center">
     
@@ -76,15 +76,15 @@
                         <td>{{user.lastname}}</td>
                         <td>{{user.email}}</td>
                         <td>{{user.role}}</td>
-                        <td><button class="btn btn-outline-danger" *ngIf="user.state != 'deshabilitado'"
+                        <td><button class="btn btn-warning" *ngIf="user.state != 'deshabilitado'"
                                 (click)="changeState(user.id, user.state)">Suspender</button>
-                            <button class="btn btn-outline-success" *ngIf="user.state == 'deshabilitado'"
+                            <button class="btn btn-success" *ngIf="user.state == 'deshabilitado'"
                                 (click)="changeState(user.id, user.state)">Reincorporar</button>
                         </td>
-                        <td><button class="btn btn-outline-danger" (click)="deleteUser(user.id)">Borrar</button>
+                        <td><button class="btn btn-danger" (click)="deleteUser(user.id)">Borrar</button>
                         </td>
                         <td>
-                            <button class="btn btn-outline-primary" data-toggle="modal" data-target="#userModal"
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#userModal"
                                 (click)="editarUsuario(user)">Editar</button>
                         </td>
                     </tr>
