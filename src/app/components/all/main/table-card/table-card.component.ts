@@ -2,6 +2,9 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Table, TableState } from 'src/app/models/table';
 import { TableService } from 'src/app/services/firebase/table.service';
 import { ToastrService } from 'ngx-toastr';
+import { LoggingService } from 'src/app/services/firebase/logging.service';
+import { AuthService } from 'src/app/services/authentication/auth.service';
+import { TargetMovimiento, TipoMovimiento } from 'src/app/models/logging';
 
 @Component({
 	selector: 'app-table-card',
@@ -13,16 +16,14 @@ export class TableCardComponent implements OnInit {
 	@Input() table: Table;
 	@Input() isAdmin: boolean;
 
-	constructor(private tableService: TableService, private toastr: ToastrService) { }
+	constructor(private tableService: TableService, private toastr: ToastrService, private authService: AuthService, private movimientoService: LoggingService) { }
 
 	ngOnInit() {
 	}
 
-	public ChangeStatus(option: number): void
-	{
+	public ChangeStatus(option: number): void {
 		let status: TableState;
-		switch(option)
-		{
+		switch (option) {
 			case 1:
 				status = TableState.available;
 				break;
@@ -42,14 +43,19 @@ export class TableCardComponent implements OnInit {
 				status = TableState.available;
 				break;
 		}
-		
-		this.tableService.UpdateStatus(this.table.tableID, status)
+
+		this.tableService.UpdateStatus(this.table.tableID, status).then(() => {
+			this.authService.GetCurrentUser().then(user => {
+				let mensaje: string = `${user.email} cambia el estado de la mesa ${this.table.tableID} a ${status}`;
+				this.movimientoService.persistirMovimiento(user, TargetMovimiento.mesa, TipoMovimiento.modificacion, mensaje);
+			});
+		})
 			.then(() => {
 				this.toastr.success('Se cambió el estado de la mesa.');
 			})
 			.catch(() => {
 				this.toastr.error('Ha ocurrido un error al actualizar.');
 			});
-	}
 
-}
+		}
+	}
