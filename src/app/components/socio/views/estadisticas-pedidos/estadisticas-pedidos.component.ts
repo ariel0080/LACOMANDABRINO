@@ -103,9 +103,8 @@ export class EstadisticasPedidosComponent implements OnInit {
       map(orders => {
         return orders.filter(order => {
           order = Object.assign(new Order(), order);
-          if (order['delayed'] < 0) {
-            console.log(order['delayed']);
-            return order;
+          if (order.delayed > 0) {
+               return order;
           }
         });
       })
@@ -144,7 +143,7 @@ export class EstadisticasPedidosComponent implements OnInit {
       });
       //console.log(result);
 
-      console.table(result);
+     // console.table(result);
       const mejores  = Object.assign([], result);
       const peores  = Object.assign([], result);
       mejores.sort((a,b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0));
@@ -171,7 +170,7 @@ export class EstadisticasPedidosComponent implements OnInit {
       data.map(row => {
         csvData += row;
       });
-      console.log(csvData);
+     // console.log(csvData);
       let file = new Blob([csvData], { type: 'text/csv' });
       let fileUrl = URL.createObjectURL(file);
       let hiddenEl = document.createElement('a');

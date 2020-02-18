@@ -111,6 +111,17 @@
                                 class="btn btn-success full-width">Pagar</button>
                         </div>
                     </div>
+
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <button [disabled]="!CanPayNow()" (click)="ticketPDF()"
+                                class="btn btn-warning full-width">Descargar Ticket</button>
+                        </div>
+                    </div>
+                    <hr>
+
                 </div>
             </div>
         </div>
