@@ -94,6 +94,16 @@
                         </div>
                         <div class="col-2"></div>
                     </div>
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <button [disabled]="CanPayNow()" (click)="Cancel()" *ngIf="!notCancelled()"
+                                class="btn btn-danger full-width">Cancelar Pedido</button>
+                        </div>
+                    </div>
+                    <hr>
+
                     <hr>
                     <div class="row">
                         <div class="col-12">

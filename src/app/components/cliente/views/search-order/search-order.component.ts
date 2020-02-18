@@ -77,7 +77,7 @@ export class SearchOrderComponent implements OnInit {
 	{
 		this.waitingOrder = true;
 		this.orderService.GetByCodeID(this.orderID)
-			.then(ord => this.order = ord)
+			.then(ord => {if (ord.state !== 'Cancelado') {this.order = ord}})
 			.catch(error => this.toastr.error(error, 'Error'))
 			.finally(() => this.waitingOrder = false);
 	}
@@ -111,4 +111,22 @@ export class SearchOrderComponent implements OnInit {
 			.catch(() => this.toastr.error('Se ha producido un error al enviar la encuesta.'))
 			.finally(() => this.surveyDone = true);
 	}
+
+
+	public notCancelled(): boolean {
+		let can = false;
+		if (this.order) {
+			if (this.order.state == OrderState.cancelled || this.order.state == OrderState.paidOut)
+				can = true;
+		}
+		return can;
+	}
+
+	public Cancel(): void {
+		this.order.state = OrderState.cancelled;
+		this.order.completed = true;
+		this.orderService.ChangeStatus(OrderState.cancelled, this.order.codeID);
+
+	}
+
 }

@@ -235,5 +235,10 @@ export class OrderService {
 			})
 	}
 
+  public GetAllByWaiterOrderByTime2(email: string) {
+		const pendiente = 'Pendiente';
+		const servido = 'Servido';
+		return this.db.collection("pedidos", ref => ref.where('client.email', '==', email));
+	}
 
 }
