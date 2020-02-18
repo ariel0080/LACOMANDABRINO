@@ -27,6 +27,7 @@ import { SurveyTableComponent } from './components/socio/views/survey-table/surv
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
 import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component';
+import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component';
 
 
 const routes: Routes = [
@@ -55,6 +56,7 @@ const routes: Routes = [
 			{path: 'products', component: ManageProductsComponent},
 			{path: 'surveys', component: SurveyTableComponent},
 			{path: 'usuarios', component: ManageUsrComponent},
+			{path: 'logs', component: ManejoLogsComponent},
 		],
 	canActivate: [AuthGuard]},
 

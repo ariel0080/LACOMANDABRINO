@@ -55,7 +55,8 @@ import { SortPipePipe } from './pipes/sort-pipe.pipe';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component';
 import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
-import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component'
+import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component';
+import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component'
 
 
 
@@ -104,7 +105,8 @@ import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-u
     BienvenidaComponent,
     AdminProductosComponent,
     ManageProductsComponent,
-    ManageUsrComponent
+    ManageUsrComponent,
+    ManejoLogsComponent
   ],
   imports: [
     BrowserModule,

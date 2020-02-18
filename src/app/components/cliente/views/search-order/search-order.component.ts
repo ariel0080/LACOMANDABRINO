@@ -7,15 +7,18 @@ import { TableState } from 'src/app/models/table';
 import { SurveyService } from 'src/app/services/firebase/survey.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Survey } from 'src/app/models/survey';
+import * as jsPDF from 'jspdf';
+import { AuthService } from 'src/app/services/authentication/auth.service';
+import { User } from 'src/app/models/user';
+import { DatePipe } from '@angular/common';
 
 @Component({
-	selector: 'app-search-order',
-	templateUrl: './search-order.component.html',
-	styleUrls: ['./search-order.component.scss']
+  selector: 'app-search-order',
+  templateUrl: './search-order.component.html',
+  styleUrls: ['./search-order.component.scss']
 })
 export class SearchOrderComponent implements OnInit {
-
-	public order: Order;
+  public order: Order;
 	public orderID: string;
 	public remainingTime: number;
 	public alreadyPaid: boolean = false;
@@ -100,7 +103,7 @@ export class SearchOrderComponent implements OnInit {
 			this.surveyForm.get('cookScore').value,
 			this.surveyForm.get('comment').value,
 			this.surveyForm.get('commentType').value,
-			
+
 		);
 
 		this.surveyService.Add(survey)

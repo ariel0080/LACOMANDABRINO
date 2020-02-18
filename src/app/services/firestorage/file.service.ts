@@ -36,7 +36,29 @@ export class FileService {
 		return this.orders.doc(uid).update({ image: url }).then(()=>{
 			return true;
 		});
-	}
+  }
+  
+  public subirFotoPedido(foto: File, uid: string): Promise<boolean> {
+    const pathFoto = `imagenesPedidos/${uid}`;
+    const tarea = this.storage.upload(pathFoto, foto);
+    console.log("uid" + uid);
+
+    return tarea
+      .then(() => {
+        this.storage
+          .ref(pathFoto)
+          .getDownloadURL()
+          .subscribe(url => {
+            this.updatePhotoUrlOrders(url, uid);
+          });
+      })
+      .then(() => {
+        return true;
+      })
+      .catch(() => {
+        return false;
+      });
+  }
 
   public GetImageURL(fileName: string) {
     return this.storage

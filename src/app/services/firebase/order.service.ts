@@ -11,14 +11,14 @@ import { Cook, Product } from "src/app/models/product";
 import { FileService } from "../firestorage/file.service";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class OrderService {
   constructor(private db: AngularFirestore, private fileService: FileService) {}
 
   public Add(order: Order): void {
-    this.db.collection('pedidos').add(CommonHelper.ConvertToObject(order));
-    console.log('Orden: ', order);
+    this.db.collection("pedidos").add(CommonHelper.ConvertToObject(order));
+    console.log("Orden: ", order);
   }
 
   // public updateOrderItem(idOrder: string, productos: Product[]){
@@ -28,14 +28,31 @@ export class OrderService {
   // }
 
   public GetAllOrderByTime(): AngularFirestoreCollection<Order> {
-    return this.db.collection('pedidos', ref =>
-      ref.where('completed', '==', false)
+    return this.db.collection("pedidos", ref =>
+      ref.where("completed", "==", false)
     );
   }
+  public setOrderImage(code: string, image: File) {
+    this.GetByCodeID(code)
+      .then(ord => {
+        this.UpdateImage(ord, image);
+      })
+      .catch(() => {
+        console.log("no se pudo subir");
+      });
+  }
+
+  public UpdateImage(order: Order, image: File) {
+    return this.fileService.subirFotoPedido(image, order.id).then(() => {
+      return true;
+    });
+  }
+
+  
 
   public GetAllCompletedOrders_InArray(): Promise<Order[]> {
     return this.db
-      .collection('pedidos', ref => ref.where('completed', '==', true))
+      .collection("pedidos", ref => ref.where("completed", "==", true))
       .get()
       .toPromise()
       .then(doc => {
@@ -49,35 +66,53 @@ export class OrderService {
   }
 
   public GetAllByWaiterOrderByTime(email: string) {
-    
-    return this.db.collection('pedidos', ref =>
-      ref.where('waiter.email', '==', email).where('completed', '==', false)
+    return this.db.collection("pedidos", ref =>
+      ref.where("waiter.email", "==", email).where("completed", "==", false)
     );
   }
 
   public GetAllByCook(cook: Cook): Observable<Order[]> {
-    let documents = this.db.collection('pedidos', ref =>
-      ref.where('completed', '==', false).orderBy('timestamp', 'desc')
+    let documents = this.db.collection("pedidos", ref =>
+      ref.where("completed", "==", false).orderBy("timestamp", "desc")
     ) as AngularFirestoreCollection<Order>;
     return documents.valueChanges().pipe(
       map(orders => {
         return orders.filter(order => {
           order = Object.assign(new Order(), order);
           let hasRole = false;
-          order['items'].forEach(el => {
-            if (el.cook === cook) { hasRole = true; }
+          order["items"].forEach(el => {
+            if (el.cook === cook) {
+              hasRole = true;
+            }
           });
-          if (hasRole) { return order; }
+          if (hasRole) {
+            return order;
+          }
         });
       })
     );
   }
 
+  public GetByCodeUser(code: string): Promise<Order> {
+		let documents = this.db.collection("pedidos", ref => ref.where('client.email', '==', code) && ref.where('completed', '==', false));
+		return documents.get().toPromise().then(doc => {
+			return new Promise((resolve, reject) => {
+				if (doc.docs[0]) {
+					let theOrder = doc.docs[0].data() as Order;
+					theOrder.id = doc.docs[0].id;
+					resolve(theOrder);
+				}
+				else
+					reject('No se encontró el pedido.');
+			})
+		});
+	}
+
   public ChangeStatus(state: OrderState, orderCode: string): void {
     this.GetByCodeID(orderCode).then(order => {
       order.state = state;
       this.db
-        .collection('pedidos')
+        .collection("pedidos")
         .doc(order.id)
         .update(order);
     });
