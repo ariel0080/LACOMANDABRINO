@@ -51,9 +51,11 @@ import { NeatDatePipe } from './pipes/neat-date.pipe';
 import { IsProdDirective } from './directives/is-prod.directive';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
+import { SortPipePipe } from './pipes/sort-pipe.pipe';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component';
-import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component'
+import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
+import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component'
 
 
 
@@ -97,10 +99,12 @@ import { ManageProductsComponent } from './components/socio/views/manage-product
     SurveyAverageDirective,
     SurveyCommentDirective,
     NeatDatePipe,
+    SortPipePipe,
     IsProdDirective,
     BienvenidaComponent,
     AdminProductosComponent,
-    ManageProductsComponent
+    ManageProductsComponent,
+    ManageUsrComponent
   ],
   imports: [
     BrowserModule,

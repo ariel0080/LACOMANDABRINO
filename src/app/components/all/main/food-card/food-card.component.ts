@@ -15,6 +15,9 @@ export class FoodCardComponent implements OnInit, OnDestroy {
 	public ordered: boolean;
 	public quantity: number;
 	private eventSubscriptions: any;
+	
+
+
 
 	constructor() 
 	{ 
@@ -27,6 +30,7 @@ export class FoodCardComponent implements OnInit, OnDestroy {
 		this.eventSubscriptions = this.resetEvent.subscribe(() => {
 			this.ordered = false;
 			this.quantity = 0;
+			
 		})
 	}
 

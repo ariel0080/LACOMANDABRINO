@@ -28,7 +28,6 @@ export class AdminProductosComponent implements OnInit {
   // tslint:disable-next-line: max-line-length
   constructor(
     private productService: ProductoServiceService,
-    //private fileService: FileService,
     private authService: AuthService,
     private movimientoService: LoggingService
   ) {}
@@ -203,7 +202,7 @@ export class AdminProductosComponent implements OnInit {
     this.productService
       .updateProd(this.productoSeleccionado, this.file)
       .then(() => {
-        this.productoSeleccionado = null;
+        
         this.haySeleccionado = false;
         this.file = null;
         this.authService.GetCurrentUser().then(user => {
@@ -215,6 +214,7 @@ export class AdminProductosComponent implements OnInit {
             mensaje
           );
         });
+        //this.productoSeleccionado = null;
       });
   }
 

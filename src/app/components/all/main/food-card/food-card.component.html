@@ -1,4 +1,4 @@
-<div *ngIf="product" class="card outside-shadow">
+<div *ngIf="product.state !== 'Deshabilitado'" class="card outside-shadow">
     <div class="card-body align-center">
         <div class="card-title">{{product.name}}</div>
         <img src="{{product.image}}" class="img-shadow" (click)="AddToOrder(product)">

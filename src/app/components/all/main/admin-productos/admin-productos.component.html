@@ -45,16 +45,16 @@
                  <tr class="product" *ngFor="let prod of showingProducts | async">
                     <td><label>{{prod.name}}</label></td>
                     <td>${{prod.price}}</td>
-                    <td><img [src]="prod.image" width="50px" height="50px">
+                    <td><img [src]="prod.image" width="70px" height="70px">
                     </td>
 
-                    <td><button class="btn btn-outline-danger" *ngIf="prod.state != 'Deshabilitado'"
+                    <td><button class="btn btn-danger btn-lg" *ngIf="prod.state != 'Deshabilitado'"
                             (click)="changeState(prod.codeID, prod.state)">Deshabilitar</button>
-                        <button class="btn btn-outline-success" *ngIf="prod.state == 'Deshabilitado'"
+                        <button class="btn btn-success btn-lg" *ngIf="prod.state == 'Deshabilitado'"
                             (click)="changeState(prod.codeID, prod.state)">Habilitar</button>
                     </td>
                     <td>
-                        <button class="btn btn-outline-primary" data-toggle="modal" data-target="#productModal"
+                        <button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#productModal"
                             (click)="editarProducto(prod)">Editar</button>
                     </td>
                 </tr>
