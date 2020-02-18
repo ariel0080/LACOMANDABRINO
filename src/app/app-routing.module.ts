@@ -28,6 +28,8 @@ import { BienvenidaComponent } from './components/bienvenida/bienvenida.componen
 import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
 import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component';
 import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component';
+import { EstadisticasPedidosComponent } from './components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component';
+import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component';
 
 
 const routes: Routes = [
@@ -57,6 +59,8 @@ const routes: Routes = [
 			{path: 'surveys', component: SurveyTableComponent},
 			{path: 'usuarios', component: ManageUsrComponent},
 			{path: 'logs', component: ManejoLogsComponent},
+			{path: 'estPedidos', component: EstadisticasPedidosComponent},
+			{path: 'estMesas', component: EstadisticasMesasComponent},
 		],
 	canActivate: [AuthGuard]},
 

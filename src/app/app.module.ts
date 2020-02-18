@@ -56,7 +56,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AdminProductosComponent } from './components/all/main/admin-productos/admin-productos.component';
 import { ManageProductsComponent } from './components/socio/views/manage-products/manage-products.component';
 import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component';
-import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component'
+import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component';
+import { EstadisticasPedidosComponent } from './components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component';
+import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component'
 
 
 
@@ -106,7 +108,9 @@ import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo
     AdminProductosComponent,
     ManageProductsComponent,
     ManageUsrComponent,
-    ManejoLogsComponent
+    ManejoLogsComponent,
+    EstadisticasPedidosComponent,
+    EstadisticasMesasComponent
   ],
   imports: [
     BrowserModule,

@@ -24,4 +24,9 @@ export class SurveyService {
 				.catch(() => reject());
 		})
 	}
+
+	public GetAll2()
+	{
+		return this.db.collection('encuestas');
+	}
 }

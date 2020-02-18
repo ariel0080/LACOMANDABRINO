@@ -3,6 +3,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { AuthService } from 'src/app/services/authentication/auth.service';
 import { ToastrService } from 'ngx-toastr';
 import { UserService } from 'src/app/services/firebase/user.service';
+import { LoggingService } from 'src/app/services/firebase/logging.service';
+import { TargetMovimiento, TipoMovimiento } from 'src/app/models/logging';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +19,8 @@ export class LoginComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private toastr: ToastrService,
-    private userService: UserService
+    private userService: UserService,
+    private lS: LoggingService
   ) {}
 
   ngOnInit() {
@@ -57,6 +60,12 @@ export class LoginComponent implements OnInit {
               this.loginForm.get('password').enable();
             }, 2000);
           } else {
+            this.authService.GetCurrentUser().then(user => 
+            {const msj = `El usuario ${user.email} inicio sesion`;
+            this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
+          });
+
+
             this.authService
               .LoginWithEmail(usr, pass)
               .then(() => {

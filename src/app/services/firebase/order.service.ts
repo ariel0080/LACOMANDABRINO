@@ -108,6 +108,39 @@ export class OrderService {
 		});
 	}
 
+  public GetAllCancelled() {
+		return this.db.collection("pedidos").valueChanges()
+			.pipe(
+				map(orders => {
+					return orders.filter(order => {
+						order = Object.assign(new Order(), order);
+						if (order['state'] == "Cancelado")
+							return order;
+					});
+				})
+			);
+	}
+
+	public GetAllDelayed() {
+		return this.db.collection("pedidos").valueChanges()
+			.pipe(
+				map(orders => {
+					return orders.filter(order => {
+						order = Object.assign(new Order(), order);
+						if (order['delayed'] < 0) {
+							return order;
+						}
+					});
+				})
+			);
+	};
+
+	public GetAll() {
+		return this.db.collection("pedidos");
+	}
+
+
+
   public ChangeStatus(state: OrderState, orderCode: string): void {
     this.GetByCodeID(orderCode).then(order => {
       order.state = state;
@@ -162,4 +195,45 @@ export class OrderService {
         });
       });
   }
+
+  public traerOrdenesArray() {
+		this.db.collection("pedidos").get().toPromise()
+			.then(doc => {
+				let orders: Order[] = [];
+				doc.docs.forEach(el => {
+					orders.push(el.data() as Order);
+				});
+				return orders;
+			})
+	}
+
+	public GetAllCancelledOrders_InArray(): Promise<Order[]> {
+		return this.db.collection("pedidos").get().toPromise()
+			.then(doc => {
+				let orders: Order[] = [];
+				doc.docs.forEach(el => {
+					let ela = el.data() as Order;
+					if (ela['state'] == 'Cancelado') {
+						orders.push(ela);
+					}
+				});
+				return orders;
+			})
+	}
+
+	public GetAllDelayedOrders_InArray(): Promise<Order[]> {
+		return this.db.collection("pedidos").get().toPromise()
+			.then(doc => {
+				let orders: Order[] = [];
+				doc.docs.forEach(el => {
+					let ela = el.data() as Order;
+					if (ela['delayed'] != null) {
+						orders.push(ela);
+					}
+				});
+				return orders;
+			})
+	}
+
+
 }
