@@ -78,6 +78,7 @@ const routes: Routes = [
 		[
 			{path: '', component: HomeCocineroComponent},
 			{path: 'profile', component: ProfileComponent},
+			{path: 'productos', component: ManageProductsComponent},
 		],
 	canActivate: [AuthGuard]},
 

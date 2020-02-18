@@ -20,8 +20,6 @@ import { map } from "rxjs/operators";
 })
 export class HomeClienteComponent implements OnInit {
   public order: Order = null;
-  //public products: Product[];
-  //public showingProducts: Product[];
   public products: AngularFirestoreCollection<any>;
   public showingProducts: any;
   public somethingOrdered: boolean;
@@ -30,7 +28,6 @@ export class HomeClienteComponent implements OnInit {
   private currentUser: User;
   private currentWorker: User;
 
-  //public waitingOrder: boolean = false;
 
   constructor(
     private orderService: OrderService,
@@ -43,15 +40,7 @@ export class HomeClienteComponent implements OnInit {
 
   ngOnInit() {
     this.InitializeOrder();
-    //this.products = this.CreateTestProducts();
-    //this.products = this.productService.listado;
-
     this.products = this.productService.GetAll2();
-
-    //this.products = new Array<Product>();
-    //this.products = this.productService.listado;
-
-    //this.showingProducts = this.products;
     this.authService
       .GetCurrentUser()
       .then(userLogged => (this.currentUser = userLogged));
@@ -86,7 +75,7 @@ export class HomeClienteComponent implements OnInit {
           this.order.tableID,
           TableState.waitingOrder
         );
-        //this.orderService.Add(this.order);
+        
         this.orderService
           .Update(this.order)
           .then(value => {

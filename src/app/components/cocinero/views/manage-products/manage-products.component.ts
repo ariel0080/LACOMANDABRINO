@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from 'src/app/services/authentication/auth.service';
 
 @Component({
   selector: 'app-manage-products',
@@ -8,15 +7,9 @@ import { AuthService } from 'src/app/services/authentication/auth.service';
 })
 export class ManageProductsComponent implements OnInit {
 
-  public role: string;
-
-  constructor(private authService: AuthService) { }
+  constructor() { }
 
   ngOnInit() {
-
-    this.authService.GetCurrentUser().then(user => {
-      this.role = user.role;
-    });
   }
 
 }

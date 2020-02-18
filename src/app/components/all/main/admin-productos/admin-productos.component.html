@@ -13,7 +13,10 @@
             <button class="btn btn-success full-width" data-toggle="modal" data-target="#productModal">Agregar
                 Producto</button>
         </div>
-        <div class="col-3">
+
+
+        <!--FILTROS DE COMIDA 
+            <div class="col-3">
             <div class="btn-group full-width">
                 <button title="Todo" class="btn btn-outline-info" (click)="ClearFilters()"><i class="fas fa-asterisk"></i></button>
                 <button title="Comida" class="btn btn-outline-info" (click)="Filter('comida')"><i class="fas fa-utensils"></i></button>
@@ -23,7 +26,7 @@
                 <button title="Sin TACC" class="btn btn-outline-info" (click)="Filter('celiaco')"><i class="fas fa-seedling"></i></button>
                 <button title="Vegana" class="btn btn-outline-info" (click)="Filter('vegano')"><i class="fas fa-carrot"></i></button> 
             </div>
-        </div>
+        </div> -->
     </div>
 
     <hr>
@@ -86,7 +89,7 @@
                         <div class="row" *ngIf="this.haySeleccionado">
                             <div class="col-5"></div>
                             <div class="col-2">
-                                <img [src]="this.productoSeleccionado.pathImg" width="60px" height="60px">
+                                <img [src]="this.productoSeleccionado.image" width="60px" height="60px">
                             </div>
                             <div class="col-5"></div>
                         </div>

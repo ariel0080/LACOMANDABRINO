@@ -38,7 +38,7 @@ export class AdminProductosComponent implements OnInit {
       productName: new FormControl(null, [Validators.required]),
       productPrice: new FormControl(null, [Validators.required]),
       productDescription: new FormControl(null, [Validators.required]),
-      productImage: new FormControl("", [Validators.required]),
+      productImage: new FormControl('', [Validators.required]),
       typeComida: new FormControl(null),
       typeBebida: new FormControl(null),
       typeAlcohol: new FormControl(null),
@@ -50,7 +50,6 @@ export class AdminProductosComponent implements OnInit {
 
     this.products = new Array<Product>();
     this.products = this.productService.listado;
-    console.log("EL LISTADO QUE SE TRAE", this.products);
     this.ClearFilters();
 
     this.haySeleccionado = false;
@@ -248,11 +247,11 @@ export class AdminProductosComponent implements OnInit {
 
   public Filter(type: string): void {
     this.showingProducts = this.products.filter(element => {
-       if (element.cook === this.role || this.role === Role.socio) {
+       //if (element.cook === this.role || this.role === Role.socio) {
         if (element.IsFoodType(type)) {
           return element;
         }
-      }
+      // }
     });
   }
 
@@ -278,6 +277,8 @@ export class AdminProductosComponent implements OnInit {
       this.file = null;
     });
   }
+
+  
 
   public Cancel(): void {
     this.productForm.reset();
