@@ -23,6 +23,7 @@ export class SearchOrderComponent implements OnInit {
   public remainingTime: number;
   public alreadyPaid: boolean = false;
   public waitingOrder: boolean = false;
+  public file: File = null;
 
   public surveyForm: FormGroup;
   public surveyDone: boolean = false;
@@ -87,6 +88,14 @@ export class SearchOrderComponent implements OnInit {
         this.toastr.error("Se ha producido un error.");
       });
   }
+
+  public onFileChanged(event) {
+		this.file = event.target.files[0];
+	}
+
+  public cambiarImagen() {
+		this.orderService.setOrderImage(this.order.codeID, this.file);
+	}
 
   public IsServed(): boolean {
     let served = false;
@@ -176,7 +185,7 @@ export class SearchOrderComponent implements OnInit {
       '<h3> LA FAROLA DE BERAZATEGUI <h3> <br> <br> <h4>Ticket de consumos realizados<h4><div style="text-align: center"><h2>Pedido: ' +
       this.order.codeID +
       "</h2>";
-
+      
     usersHtml += liSt + "Mozo: " + this.order.waiter.email + liEnd;
     usersHtml += liSt + "Mesa N°: " + this.order.tableID + liEnd;
     usersHtml += liSt + "Pedido: " + this.order.codeID + liEnd;
