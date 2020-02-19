@@ -1,6 +1,7 @@
 import { Product, FoodState } from './product';
 import { User } from './user';
 import { CommonHelper } from '../classes/helpers/common-helper';
+import { ɵConsole } from '@angular/core';
 
 export class Order 
 {
@@ -35,6 +36,16 @@ export class Order
     {
         this.completed = true;
         this.state = OrderState.served;
+//AGREGADO OJO/////
+        if(this.timeLeft !== null) {
+            const resta = new Date().getTime() - new Date(this.timeLeft).getTime();
+            console.log("CUANTO ME DA LA RESTA:", resta);
+            if(resta > 0){
+                this.delayed = resta;
+            }
+
+//AGREGADO OJO ////
+        }
     }
 
     public CalculateTimeInMinutes(): number

@@ -161,7 +161,7 @@ export class SearchOrderComponent implements OnInit {
     let items = this.order.items;
     let start;
     let usersHtml = "";
-    let end = "</ul></div>";
+    let end = "<h4>Gracias por visita <h4></ul></div>";
     let nombreArchivo: string;
     let liSt: string = "<li>";
     let liEnd: string = "</li>";
@@ -173,9 +173,9 @@ export class SearchOrderComponent implements OnInit {
     this.toastr.info("Generando archivo PDF...");
 
     start =
-      '<div style="text-align: center"><h1>Pedido: ' +
+      '<h3> LA FAROLA DE BERAZATEGUI <h3> <br> <br> <h4>Ticket de consumos realizados<h4><div style="text-align: center"><h2>Pedido: ' +
       this.order.codeID +
-      "</h1>";
+      "</h2>";
 
     usersHtml += liSt + "Mozo: " + this.order.waiter.email + liEnd;
     usersHtml += liSt + "Mesa N°: " + this.order.tableID + liEnd;
@@ -200,7 +200,7 @@ export class SearchOrderComponent implements OnInit {
 
     console.log(html);
     let pdf = new jsPDF();
-    pdf.addImage(img, "jpg", 20, 0, 100, 100);
+    pdf.addImage(img, "jpg", 20, 20, 60, 60);
 
     pdf.fromHTML(html, 20, 80);
 
