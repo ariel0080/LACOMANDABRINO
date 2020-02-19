@@ -1,92 +1,168 @@
 <div class="container">
-	<div class="row top-row">
-		<div class="col-3"></div>
-		<div class="col-6">
-			<div class="card">
-				<div class="card-body align-center">
-					<h4 class="form-title">Ingresar</h4>
-					<hr>
-					<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-						<input type="text" formControlName="email" class="form-control separate-top-input align-center"
-							placeholder="Email" autofocus>
-						<input type="password" formControlName="password"
-							class="form-control separate-top-input align-center" placeholder="Contraseña">
-						<div class="row mar-top-2">
-							<div class="col-2"></div>
-							<div class="col-8 align-center">
-								<ngx-recaptcha2 formControlName="captcha" #captchaElem
-									[siteKey]="'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'" [useGlobalDomain]="false">
-								</ngx-recaptcha2>
+  <div class="row top-row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <div class="card">
+        <div class="card-body align-center">
+          <h4 class="form-title">Ingresar</h4>
+          <hr />
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <input
+              type="text"
+              formControlName="email"
+              class="form-control separate-top-input align-center"
+              placeholder="Email"
+              autofocus
+            />
+            <input
+              type="password"
+              formControlName="password"
+              class="form-control separate-top-input align-center"
+              placeholder="Contraseña"
+            />
+            <div class="row mar-top-2">
+              <div class="col-2"></div>
+              <div class="col-8 align-center">
+                <ngx-recaptcha2
+                  formControlName="captcha"
+                  #captchaElem
+                  [siteKey]="'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'"
+                  [useGlobalDomain]="false"
+                >
+                </ngx-recaptcha2>
 
-								<!-- <ngx-recaptcha2  formControlName="captcha" #captchaElem [siteKey]="'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'" [useGlobalDomain]="false"></ngx-recaptcha2> -->
-							</div>
-							<div class="col-2"></div>
-						</div>
-						<button *ngIf="!loading" [disabled]="!loginForm.valid" type="submit"
-							class="btn btn-success full-width separate-top-input">Entrar</button>
-						<div class="mar-top-1">
-							<app-spinner *ngIf="loading"></app-spinner>
-						</div>
+                <!-- <ngx-recaptcha2  formControlName="captcha" #captchaElem [siteKey]="'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'" [useGlobalDomain]="false"></ngx-recaptcha2> -->
+              </div>
+              <div class="col-2"></div>
+            </div>
+            <button
+              *ngIf="!loading"
+              [disabled]="!loginForm.valid"
+              type="submit"
+              class="btn btn-success full-width separate-top-input"
+            >
+              Entrar
+            </button>
+            <div class="mar-top-1">
+              <app-spinner *ngIf="loading"></app-spinner>
+            </div>
 
-						<!-- hola -->
-						<div class="row mar-top-2">
-							<div class="col-2"></div>
-							<div class="col-12 align-center">
-								<div class="btn-group-toggle" data-toggle="buttons">
-									<label class="btn btn-info active">
-									<input type="checkbox"  id="chkHorario" formControlName="chkHorario" unchecked autocomplete="off" >FORZAR INGRESO
-								</label>
-					
-								<label class="btn btn-info active">
-					
-									<input type="checkbox"id="chkLunes" formControlName="chkLunes" unchecked autocomplete="off" > ESTAMOS CERRADOS
-								</label>
-					
-								</div>
-							</div>
-							<div class="col-2"></div>
-						</div>
+            <!-- hola -->
+            <div class="row mar-top-2">
+              <div class="col-2"></div>
+              <div class="col-12 align-center">
+                <div class="btn-group-toggle" data-toggle="buttons">
+					<label class="btn btn-sm btn-outline-info">
+                    <input
+                      type="checkbox"
+                      id="chkHorario"
+                      formControlName="chkHorario"
+                      unchecked
+                      autocomplete="off"
+                    />FORZAR INGRESO
+                  </label>
 
-						<!-- chau -->
+				  <label class="btn btn-sm btn-outline-info">
+                    <input
+                      type="checkbox"
+                      id="chkLunes"
+                      formControlName="chkLunes"
+                      unchecked
+                      autocomplete="off"
+                    />
+                    ESTAMOS CERRADOS
+                  </label>
+                </div>
+              </div>
+              <div class="col-2"></div>
+            </div>
 
-
-					</form>
-					<hr>
-					<button routerLink="/app/register" class="btn btn-primary full-width">Registrarse</button>
-				</div>
-			</div>
-		</div>
-		<!-- <div class="col-3"></div> -->
-	</div>
-	<div class="row middle-row" [isProd]>
-		<div class="col-3"></div>
-		<div class="col-6">
-
-
-			<div class="btn-group" role="group" aria-label="Basic example">
-				
-					<button class="btn btn-info" type="button" name="opcliente1" value="cliente1" (click)="ue('cliente1')">Cli1</button>
-				
-					<button class="btn btn-info" type="button" name="opcliente2" value="cliente2" (click)="ue('cliente2')">Cli2</button>
-				
-          <button class="btn btn-info" type="button" name="opmozo" value="mozo" (click)="ue('mozo')">Mozo</button>
-				
-					<button class="btn btn-info" type="button" name="opbartender" value="bartender" (click)="ue('bartender')">Bartender</button>
-							
-					<button class="btn btn-info" type="button" name="opcervecero" value="cervecero" (click)="ue('cervecero')">Cervecero</button>
-					
-					<button class="btn btn-info" type="button" name="opcocinero" value="cocinero" (click)="ue('cocinero')">Cocinero</button>
-       
-        	<button class="btn btn-info" type="button" name="opsocio" value="socio" (click)="ue('socio')">Socio</button>
-      
-        
+            <!-- chau -->
+          </form>
+          <hr />
+          <button routerLink="/app/register" class="btn btn-primary full-width">
+            Registrarse
+          </button>
+        </div>
       </div>
+    </div>
+    <!-- <div class="col-3"></div> -->
+  </div>
+  <div class="row middle-row" [isProd]>
+    <div class="col-3"></div>
+    <div class="col-6">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opcliente1"
+          value="cliente1"
+          (click)="ue('cliente1')"
+        >
+          Cli1
+        </button>
 
-		</div>
-		<div class="col-3"></div>
-	</div>
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opcliente2"
+          value="cliente2"
+          (click)="ue('cliente2')"
+        >
+          Cli2
+        </button>
 
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opmozo"
+          value="mozo"
+          (click)="ue('mozo')"
+        >
+          Mozo
+        </button>
 
-	
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opbartender"
+          value="bartender"
+          (click)="ue('bartender')"
+        >
+          Bartender
+        </button>
 
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opcervecero"
+          value="cervecero"
+          (click)="ue('cervecero')"
+        >
+          Cervecero
+        </button>
+
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opcocinero"
+          value="cocinero"
+          (click)="ue('cocinero')"
+        >
+          Cocinero
+        </button>
+
+        <button
+          class="btn btn-info"
+          type="button"
+          name="opsocio"
+          value="socio"
+          (click)="ue('socio')"
+        >
+          Socio
+        </button>
+      </div>
+    </div>
+    <div class="col-3"></div>
+  </div>
 </div>
