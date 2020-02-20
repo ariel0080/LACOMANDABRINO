@@ -9,8 +9,9 @@ import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { Survey } from "src/app/models/survey";
 import * as jsPDF from "jspdf";
 import { AuthService } from "src/app/services/authentication/auth.service";
-import { User } from "src/app/models/user";
+import { User, Role } from "src/app/models/user";
 import { DatePipe } from "@angular/common";
+import { asLiteral } from '@angular/compiler/src/render3/view/util';
 
 @Component({
   selector: "app-search-order",
@@ -27,6 +28,8 @@ export class SearchOrderComponent implements OnInit {
 
   public surveyForm: FormGroup;
   public surveyDone: boolean = false;
+  public usuarioAux: User;
+
 
   public today: Date;
 
@@ -34,10 +37,14 @@ export class SearchOrderComponent implements OnInit {
     private surveyService: SurveyService,
     private toastr: ToastrService,
     private orderService: OrderService,
-    private tableService: TableService
-  ) {}
+    private tableService: TableService,
+    private au: AuthService
+  ) { }
 
   ngOnInit() {
+
+    this.au.GetCurrentUser().then( escliente =>{this.usuarioAux = escliente; });
+
     this.surveyForm = new FormGroup({
       tableScore: new FormControl(null, [
         Validators.required,
@@ -90,12 +97,12 @@ export class SearchOrderComponent implements OnInit {
   }
 
   public onFileChanged(event) {
-		this.file = event.target.files[0];
-	}
+    this.file = event.target.files[0];
+  }
 
   public cambiarImagen() {
-		this.orderService.setOrderImage(this.order.codeID, this.file);
-	}
+    this.orderService.setOrderImage(this.order.codeID, this.file);
+  }
 
   public IsServed(): boolean {
     let served = false;
@@ -108,12 +115,24 @@ export class SearchOrderComponent implements OnInit {
   }
 
   public FindOrder(): void {
+
     this.waitingOrder = true;
     this.orderService
       .GetByCodeID(this.orderID)
       .then(ord => {
-        if (ord.state !== "Cancelado") {
-          this.order = ord;
+        console.log(ord.state !== "Cancelado" && 
+        ((ord.client === this.usuarioAux && Role.cliente === this.usuarioAux.role) ||
+        this.usuarioAux.role === Role.mozo));
+
+        /*console.log(ord.client.id === this.usuarioAux.id); // false  ---
+        console.log(Role.cliente === this.usuarioAux.role); // true --
+        console.log(this.usuarioAux.role === Role.mozo); // false  ---*/
+
+        if (ord.state !== "Cancelado" && 
+        ((ord.client.id === this.usuarioAux.id && Role.cliente === this.usuarioAux.role) ||
+        this.usuarioAux.role === Role.mozo)
+        ) {
+          this.order = ord; 
         }
       })
       .catch(error => this.toastr.error(error, "Error"))
@@ -185,7 +204,7 @@ export class SearchOrderComponent implements OnInit {
       '<h3> LA FAROLA DE BERAZATEGUI <h3> <br> <br> <h4>Ticket de consumos realizados<h4><div style="text-align: center"><h2>Pedido: ' +
       this.order.codeID +
       "</h2>";
-      
+
     usersHtml += liSt + "Mozo: " + this.order.waiter.email + liEnd;
     usersHtml += liSt + "Mesa N°: " + this.order.tableID + liEnd;
     usersHtml += liSt + "Pedido: " + this.order.codeID + liEnd;
