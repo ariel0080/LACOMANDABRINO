@@ -24,7 +24,7 @@ export class Order
         this.items = [];
         this.totalPrice = 0;
         this.tableID = '';
-        this.state = OrderState.pending;
+        this.state = OrderState.verificar;
         this.timeLeft = undefined;
         this.timestamp = Date.now();
         this.completed = false;
@@ -166,5 +166,6 @@ export enum OrderState
     readyToServe = 'Listo para servir',
     served = 'Servido',
     paidOut = 'Pagado',
-    cancelled = 'Cancelado'
+    cancelled = 'Cancelado',
+    verificar = 'Verificar'
 }

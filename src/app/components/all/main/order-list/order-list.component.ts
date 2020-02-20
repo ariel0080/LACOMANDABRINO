@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from "@angular/core";
-import { Order } from "src/app/models/order";
+import { Order, OrderState } from "src/app/models/order";
 import { OrderService } from "src/app/services/firebase/order.service";
 import { User, Role } from "src/app/models/user";
 import { AuthService } from "src/app/services/authentication/auth.service";
@@ -17,7 +17,10 @@ export class OrderListComponent implements OnInit {
 
   public orders: any;
   public me: User;
-	showingOrders: boolean;
+  showingOrders: boolean;
+  public solomozo = false;
+
+  
 
   constructor(
     private orderService: OrderService,
@@ -25,6 +28,9 @@ export class OrderListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+
+    this.authService.GetCurrentUser().then( u => {if (u.role === Role.mozo){this.solomozo = true}});
+
     const cancelado = "Cancelado";
     const pagado = "Pagado";
 
@@ -61,7 +67,7 @@ export class OrderListComponent implements OnInit {
             return orders.filter(order => {
               order = Object.assign(new Order(), order);
               console.log(order["state"]);
-              if (order["state"] != cancelado) {
+              if (order["state"] != cancelado && order["state"]!= "Verificar") {
                 this.showingOrders = false;
                 return order;
               }
@@ -116,5 +122,22 @@ export class OrderListComponent implements OnInit {
 
   public SelectOrder(order: Order): void {
     this.orderSelected.emit(order);
+  }
+
+  public mozoCancelar(order: Order) {
+
+      order.state = OrderState.cancelled;
+      this.orderService.Update(order);
+      
+
+  }
+
+  public mozoAprueba(order: Order) {
+
+    order.state = OrderState.pending;
+    this.orderService.Update(order);
+   
+
+
   }
 }
