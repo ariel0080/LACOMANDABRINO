@@ -48,8 +48,6 @@ export class OrderService {
     });
   }
 
-  
-
   public GetAllCompletedOrders_InArray(): Promise<Order[]> {
     return this.db
       .collection("pedidos", ref => ref.where("completed", "==", true))
@@ -94,52 +92,59 @@ export class OrderService {
   }
 
   public GetByCodeUser(code: string): Promise<Order> {
-		let documents = this.db.collection("pedidos", ref => ref.where('client.email', '==', code) && ref.where('completed', '==', false));
-		return documents.get().toPromise().then(doc => {
-			return new Promise((resolve, reject) => {
-				if (doc.docs[0]) {
-					let theOrder = doc.docs[0].data() as Order;
-					theOrder.id = doc.docs[0].id;
-					resolve(theOrder);
-				}
-				else
-					reject('No se encontró el pedido.');
-			})
-		});
-	}
+    let documents = this.db.collection(
+      "pedidos",
+      ref =>
+        ref.where("client.email", "==", code) &&
+        ref.where("completed", "==", false)
+    );
+    return documents
+      .get()
+      .toPromise()
+      .then(doc => {
+        return new Promise((resolve, reject) => {
+          if (doc.docs[0]) {
+            let theOrder = doc.docs[0].data() as Order;
+            theOrder.id = doc.docs[0].id;
+            resolve(theOrder);
+          } else reject("No se encontró el pedido.");
+        });
+      });
+  }
 
   public GetAllCancelled() {
-		return this.db.collection("pedidos").valueChanges()
-			.pipe(
-				map(orders => {
-					return orders.filter(order => {
-						order = Object.assign(new Order(), order);
-						if (order['state'] == "Cancelado")
-							return order;
-					});
-				})
-			);
-	}
+    return this.db
+      .collection("pedidos")
+      .valueChanges()
+      .pipe(
+        map(orders => {
+          return orders.filter(order => {
+            order = Object.assign(new Order(), order);
+            if (order["state"] == "Cancelado") return order;
+          });
+        })
+      );
+  }
 
-	public GetAllDelayed() {
-		return this.db.collection("pedidos").valueChanges()
-			.pipe(
-				map(orders => {
-					return orders.filter(order => {
-						order = Object.assign(new Order(), order);
-						if (order['delayed'] < 0) {
-							return order;
-						}
-					});
-				})
-			);
-	};
+  public GetAllDelayed() {
+    return this.db
+      .collection("pedidos")
+      .valueChanges()
+      .pipe(
+        map(orders => {
+          return orders.filter(order => {
+            order = Object.assign(new Order(), order);
+            if (order["delayed"] < 0) {
+              return order;
+            }
+          });
+        })
+      );
+  }
 
-	public GetAll() {
-		return this.db.collection("pedidos");
-	}
-
-
+  public GetAll() {
+    return this.db.collection("pedidos");
+  }
 
   public ChangeStatus(state: OrderState, orderCode: string): void {
     this.GetByCodeID(orderCode).then(order => {
@@ -186,9 +191,8 @@ export class OrderService {
       .get()
       .toPromise()
       .then(doc => {
-      
         return new Promise((resolve, reject) => {
-          if (doc.docs[0] ) {
+          if (doc.docs[0]) {
             let theOrder = doc.docs[0].data() as Order;
             theOrder.id = doc.docs[0].id;
             resolve(theOrder);
@@ -198,48 +202,58 @@ export class OrderService {
   }
 
   public traerOrdenesArray() {
-		this.db.collection("pedidos").get().toPromise()
-			.then(doc => {
-				let orders: Order[] = [];
-				doc.docs.forEach(el => {
-					orders.push(el.data() as Order);
-				});
-				return orders;
-			})
-	}
+    this.db
+      .collection("pedidos")
+      .get()
+      .toPromise()
+      .then(doc => {
+        let orders: Order[] = [];
+        doc.docs.forEach(el => {
+          orders.push(el.data() as Order);
+        });
+        return orders;
+      });
+  }
 
-	public GetAllCancelledOrders_InArray(): Promise<Order[]> {
-		return this.db.collection("pedidos").get().toPromise()
-			.then(doc => {
-				let orders: Order[] = [];
-				doc.docs.forEach(el => {
-					let ela = el.data() as Order;
-					if (ela['state'] == 'Cancelado') {
-						orders.push(ela);
-					}
-				});
-				return orders;
-			})
-	}
+  public GetAllCancelledOrders_InArray(): Promise<Order[]> {
+    return this.db
+      .collection("pedidos")
+      .get()
+      .toPromise()
+      .then(doc => {
+        let orders: Order[] = [];
+        doc.docs.forEach(el => {
+          let ela = el.data() as Order;
+          if (ela["state"] == "Cancelado") {
+            orders.push(ela);
+          }
+        });
+        return orders;
+      });
+  }
 
-	public GetAllDelayedOrders_InArray(): Promise<Order[]> {
-		return this.db.collection("pedidos").get().toPromise()
-			.then(doc => {
-				let orders: Order[] = [];
-				doc.docs.forEach(el => {
-					let ela = el.data() as Order;
-					if (ela['delayed'] != null) {
-						orders.push(ela);
-					}
-				});
-				return orders;
-			})
-	}
+  public GetAllDelayedOrders_InArray(): Promise<Order[]> {
+    return this.db
+      .collection("pedidos")
+      .get()
+      .toPromise()
+      .then(doc => {
+        let orders: Order[] = [];
+        doc.docs.forEach(el => {
+          let ela = el.data() as Order;
+          if (ela["delayed"] != null) {
+            orders.push(ela);
+          }
+        });
+        return orders;
+      });
+  }
 
   public GetAllByWaiterOrderByTime2(email: string) {
-		const pendiente = 'Pendiente';
-		const servido = 'Servido';
-		return this.db.collection("pedidos", ref => ref.where('client.email', '==', email));
-	}
-
+    const pendiente = "Pendiente";
+    const servido = "Servido";
+    return this.db.collection("pedidos", ref =>
+      ref.where("client.email", "==", email)
+    );
+  }
 }
