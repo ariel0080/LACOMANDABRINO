@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-12">
                     <select class="form-control" [ngModel]="selectedItem" (ngModelChange)="SelectItem($event)">
-                        <option [ngValue]="it" *ngFor="let it of order.items">{{it.name}}</option>
+                        <option [ngValue]="it" *ngFor="let it of itemsRol">{{it.name}}</option>
                     </select>
                 </div>
             </div>

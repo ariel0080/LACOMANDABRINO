@@ -58,7 +58,9 @@ import { ManageProductsComponent } from './components/socio/views/manage-product
 import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-usr.component';
 import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component';
 import { EstadisticasPedidosComponent } from './components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component';
-import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component'
+import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component';
+
+
 
 
 
@@ -110,7 +112,7 @@ import { EstadisticasMesasComponent } from './components/socio/views/estadistica
     ManageUsrComponent,
     ManejoLogsComponent,
     EstadisticasPedidosComponent,
-    EstadisticasMesasComponent
+    EstadisticasMesasComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,13 @@
-import { Component, OnInit, Input, OnChanges } from "@angular/core";
+import { Component, OnInit, Input, OnChanges, ViewContainerRef } from "@angular/core";
 import { Order, OrderState } from "src/app/models/order";
 import { Product, FoodState, Cook } from "src/app/models/product";
-import { User } from "src/app/models/user";
+import { User, Role } from "src/app/models/user";
 import { AuthService } from "src/app/services/authentication/auth.service";
 import { OrderService } from "src/app/services/firebase/order.service";
 import { ToastrService } from "ngx-toastr";
 import { LoggingService } from "src/app/services/firebase/logging.service";
 import { TargetMovimiento, TipoMovimiento } from "src/app/models/logging";
+import { worker } from 'cluster';
 
 @Component({
   selector: "app-work-order",
@@ -20,6 +21,7 @@ export class WorkOrderComponent implements OnInit, OnChanges {
   public me: User;
   public addedTime: number;
   public remainingTime: number;
+  public itemsRol: Array<Product>;
 
   constructor(
     private authService: AuthService,
@@ -30,6 +32,7 @@ export class WorkOrderComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     this.authService.GetCurrentUser().then(user => (this.me = user));
+    this.itemsRol = new Array<Product>();
 
     setInterval(() => {
       if (this.order) {
@@ -49,11 +52,13 @@ export class WorkOrderComponent implements OnInit, OnChanges {
 
   ngOnChanges() {
     this.selectedItem = null;
+    if(this.order !== null){
+    this.itemsRol = this.filtrarPorRol();}
   }
 
   public IsPending(): boolean {
     let is = false;
-    if (this.selectedItem.state == FoodState.pending) is = true;
+    if (this.selectedItem.state === FoodState.pending) { is = true; }
     return is;
   }
 
@@ -128,5 +133,20 @@ export class WorkOrderComponent implements OnInit, OnChanges {
     this.order = Object.assign(new Order(), this.order);
     this.order.AddMinutes(this.addedTime);
     this.addedTime = null;
+  }
+  
+  private filtrarPorRol(): Array<Product> {
+
+    const resultado = new Array<Product>();
+
+    this.order.items.forEach(element => {
+      if (JSON.stringify(element.cook) === JSON.stringify(this.me.role)) {
+        resultado.push(element);
+      }
+      
+    });
+
+    return resultado;
+
   }
 }
