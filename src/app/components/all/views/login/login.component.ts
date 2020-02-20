@@ -80,7 +80,8 @@ export class LoginComponent implements OnInit {
           this.toastr.error('Usuario deshabilitado o inexistente');
         }
       })
-      .catch(() => this.toastr.error('Usuario y/o contraseña incorrecto.'))
+      .catch(() => {this.toastr.error('Usuario y/o contraseña incorrecto.');
+    this.loading = false;})
       .finally(() => {
 
         this.userOption = 'none';
