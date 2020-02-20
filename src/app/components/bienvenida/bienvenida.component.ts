@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbCarouselConfig, NgbCarousel} from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
+import { timestamp } from 'rxjs/operators';
+import { Timestamp } from 'rxjs/internal/operators/timestamp';
 //import {NgbdCarouselNavigation } from '@ng-bootstrap/ng-bootstrap/carousel/carousel.module';
 
 @Component({
@@ -31,6 +33,7 @@ export class BienvenidaComponent implements OnInit {
 
   console.log("presionaste");
   this.router.navigate(['/app/login']);
+  
   }
 
   ngOnInit() {

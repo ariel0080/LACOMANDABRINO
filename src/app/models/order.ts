@@ -39,7 +39,7 @@ export class Order
 //AGREGADO OJO/////
         if(this.timeLeft !== null) {
             const resta = new Date().getTime() - new Date(this.timeLeft).getTime();
-            console.log("CUANTO ME DA LA RESTA:", resta);
+           
             if(resta > 0){
                 this.delayed = resta;
             }
