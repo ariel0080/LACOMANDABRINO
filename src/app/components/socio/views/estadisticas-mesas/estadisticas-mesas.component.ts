@@ -140,7 +140,7 @@ export class EstadisticasMesasComponent implements OnInit {
     this.lista = new Array<any>();
     let cantidadNombres = new Array<any>();
     let cantidad: number;
-    let copia = this.showingOrders;
+    const copia = this.showingOrders;
     this.facturaMayorImporte = new Order();
     this.facturaMenorImporte = new Order();
     this.arrayAcumulador = new Array<number>();
@@ -161,7 +161,7 @@ export class EstadisticasMesasComponent implements OnInit {
         }, {});
       });
 
-      var result = Object.keys(cantidadNombres).map(function (key) {
+      const result = Object.keys(cantidadNombres).map(function (key) {
         return [String(key), cantidadNombres[key]];
       });
       this.getMayoryMenorFacturación();
