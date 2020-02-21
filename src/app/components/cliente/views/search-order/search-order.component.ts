@@ -183,6 +183,7 @@ export class SearchOrderComponent implements OnInit {
     this.order.state = OrderState.cancelled;
     this.order.completed = true;
     this.orderService.ChangeStatus(OrderState.cancelled, this.order.codeID);
+  
   }
 
   ticketPDF() {

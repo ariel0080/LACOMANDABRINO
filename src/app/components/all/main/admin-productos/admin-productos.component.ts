@@ -185,6 +185,7 @@ export class AdminProductosComponent implements OnInit {
     );
 
     this.traerTipos(producto.foodTypes);
+    this.productForm.controls["productImage"].setValue(producto.image);
   }
 
   public updateProduct() {
@@ -194,7 +195,7 @@ export class AdminProductosComponent implements OnInit {
     array = this.traerFoodTypes();
 
     this.productoSeleccionado.name = this.productForm.value.productName;
-    this.productoSeleccionado.price = this.productForm.value.productPrice;
+    this.productoSeleccionado.price = Number.parseFloat(this.productForm.value.productPrice);
     this.productoSeleccionado.foodTypes = array;
     this.productoSeleccionado.cook = this.productForm.value.productCook;
     this.productoSeleccionado.description = this.productForm.value.productDescription;
@@ -213,7 +214,7 @@ export class AdminProductosComponent implements OnInit {
             TipoMovimiento.modificacion,
             mensaje
           );
-        });
+        }).then(()=>this.Cancel());
         //this.productoSeleccionado = null;
       });
   }
@@ -284,5 +285,7 @@ export class AdminProductosComponent implements OnInit {
     this.productForm.reset();
     this.onReset.next();
     this.laFuncion();
+    this.haySeleccionado = false;
+    this.productoSeleccionado = null;
   }
 }

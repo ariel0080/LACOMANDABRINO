@@ -96,6 +96,7 @@ export class HomeClienteComponent implements OnInit {
         this.hasOrder = true;
       } else this.toastr.error("Hay algo erróneo con este pedido.");
     }
+    //this.ngOnInit();
   }
 
   // ##### FILTER FUNCTIONS #####

@@ -166,8 +166,8 @@ export class EstadisticasMesasComponent implements OnInit {
       });
       this.getMayoryMenorFacturación();
       cantidad = result.length;
-      this.mesaMasUsada = result[0];
-      this.mesaMenosUsada = result[cantidad - 1];
+      this.mesaMasUsada = result[cantidad - 1];
+      this.mesaMenosUsada = result[0];
       // console.log(this.mesaMenosUsada);
       // console.log(this.mesaMasUsada);
       // console.log(this.facturaMenorImporte);
