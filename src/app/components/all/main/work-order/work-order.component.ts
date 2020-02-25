@@ -51,20 +51,22 @@ export class WorkOrderComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
-    this.selectedItem = null;
+    /*this.selectedItem = null;
     if(this.order !== null){
-    this.itemsRol = this.filtrarPorRol();}
+    this.itemsRol = this.filtrarPorRol();
+  }*/
   }
 
-  public IsPending(): boolean {
+  public IsPending(item: Product): boolean {
     let is = false;
-    if (this.selectedItem.state === FoodState.pending) { is = true; }
+    if (item.state === FoodState.pending) { is = true; }
     return is;
+
   }
 
-  public IsCooking(): boolean {
+  public IsCooking(item: Product): boolean {
     let is = false;
-    if (this.selectedItem.state == FoodState.preparing) is = true;
+    if (item.state == FoodState.preparing) {is = true;}
     return is;
   }
 
@@ -104,11 +106,11 @@ export class WorkOrderComponent implements OnInit, OnChanges {
       });
   }
 
-  public ReadyToServe(): void {
-    this.selectedItem.state = FoodState.finished;
+  public ReadyToServe(item: Product): void {
+    item.state = FoodState.finished;
     this.order = Object.assign(new Order(), this.order);
     this.order.UpdateOrderState();
-    let mensaje: string = `El usuario ${this.me.email} (${this.me.role}) comenzó a preparar ${this.selectedItem.name} del pedido ${this.order.codeID}`;
+    let mensaje: string = `El usuario ${this.me.email} (${this.me.role}) comenzó a preparar ${item.name} del pedido ${this.order.codeID}`;
     this.logService.persistirMovimiento(
       this.me,
       TargetMovimiento.pedido,

@@ -59,6 +59,7 @@ import { ManageUsrComponent } from './components/socio/views/manage-usr/manage-u
 import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo-logs.component';
 import { EstadisticasPedidosComponent } from './components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component';
 import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component';
+import { FiltrarProductosPipe } from './pipes/filtrar-productos.pipe';
 
 
 
@@ -113,6 +114,7 @@ import { EstadisticasMesasComponent } from './components/socio/views/estadistica
     ManejoLogsComponent,
     EstadisticasPedidosComponent,
     EstadisticasMesasComponent,
+    FiltrarProductosPipe,
   ],
   imports: [
     BrowserModule,

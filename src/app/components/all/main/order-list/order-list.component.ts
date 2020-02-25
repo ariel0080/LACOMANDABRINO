@@ -20,6 +20,7 @@ export class OrderListComponent implements OnInit {
   showingOrders: boolean;
   public solomozo = false;
 
+
   
 
   constructor(
@@ -28,6 +29,8 @@ export class OrderListComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+
+
 
     this.authService.GetCurrentUser().then( u => {if (u.role === Role.mozo){this.solomozo = true}});
 
@@ -59,6 +62,7 @@ export class OrderListComponent implements OnInit {
       case Role.cervecero:
       case Role.bartender:
       case Role.cocinero:
+
         const cook: string = this.role;
         console.log(cook);
 
@@ -69,6 +73,9 @@ export class OrderListComponent implements OnInit {
               console.log(order["state"]);
               if (order["state"] != cancelado && order["state"]!= "Verificar") {
                 this.showingOrders = false;
+////////////////////////
+              
+//////////////////////
                 return order;
               }
             });
@@ -136,8 +143,5 @@ export class OrderListComponent implements OnInit {
 
     order.state = OrderState.pending;
     this.orderService.Update(order);
-   
-
-
-  }
+   }
 }

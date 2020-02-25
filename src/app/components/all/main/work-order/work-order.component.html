@@ -1,91 +1,39 @@
 <div class="card outside-shadow">
     <div class="card-body align-center">
-        <h5 class="card-title">Pedido</h5>
-        <hr>
+        <h5 class="card-title">Descripción del pedido:</h5>
+
         <div *ngIf="order" class="order-body align-center">
 
-            <div class="row">
-                <div class="col-12">
+           
                     <b>Código:</b> {{order.codeID}}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <b>Cliente:</b> {{order.client.name}} {{order.client.lastname}}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <b>Mozo:</b> {{order.waiter.name}} {{order.waiter.lastname}}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <b>Está:</b> {{order.state}}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
+              
                     <b>Tiempo restante: </b> 
                     <span *ngIf="remainingTime">{{remainingTime | timeleft}}</span>
                     <span *ngIf="!remainingTime">No tiene un tiempo asignado.</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <b>Mesa:</b> {{order.tableID}}
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-12">
-                    <select class="form-control" [ngModel]="selectedItem" (ngModelChange)="SelectItem($event)">
-                        <option [ngValue]="it" *ngFor="let it of itemsRol">{{it.name}}</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row mar-top-1" *ngIf="!selectedItem">
-                <div class="col-12">
-                    <label>No se seleccionó nada.</label>
-                </div>
-            </div>
-            <div class="item mar-top-1" *ngIf="selectedItem">
-                <div class="row">
-                    <div class="col-12">
-                        <b>Es para un {{selectedItem.cook}}.</b>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-12">
-                        <b>Estado:</b> {{selectedItem.state}}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <b>Lo tiene:</b> 
-                        <span *ngIf="selectedItem.worker">
-                        {{selectedItem.worker.name}} {{selectedItem.worker.lastname}} 
-                        </span>
-                        <span *ngIf="!selectedItem.worker">
-                            Nadie por ahora.
-                        </span>
-                    </div>
-                </div>
-                <hr>
-                <div class="row mar-top-1" *ngIf="IsAvailableForMe()">
-                    <div class="col-12">
-                        <div class="btn-group">
-                            <button [disabled]="!IsPending()" class="btn btn-sm btn-info full-width" data-toggle="modal" data-target="#prodModal">Comenzar a preparar</button>
-                            <button [disabled]="!IsCooking()" (click)="ReadyToServe()" class="btn btn-sm btn-success full-width">Listo para servir</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" *ngIf="!order">
-            <div class="col-12">
-                <label>Seleccione un pedido.</label>
+
+            <div class="table-responsive">
+                 <table class="table"> 
+                    <thead>
+                        <tr>
+                            <th scope="col">Items del pedido</th>
+                            <th scope="col">Foto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="order"  *ngFor="let it of order.items | filtrarProductos: me.role" >
+                            
+                           
+                            <td>{{it.name}}</td>
+                            <td><img [src]="it.image" width="40" height="40"></td>
+                            
+                         
+                            <td><button [disabled]="!IsPending(it)" class="btn btn-outline-info full-width" data-toggle="modal" data-target="#prodModal" (click)="SelectItem(it)">Comenzar a preparar</button></td>
+                            <td><button [disabled]="!IsCooking(it)" (click)="ReadyToServe(it)" class="btn btn-outline-success full-width">Listo para servir</button></td>
+                        
+                        </tr>
+                    
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
