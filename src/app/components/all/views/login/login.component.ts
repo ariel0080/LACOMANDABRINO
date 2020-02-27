@@ -60,9 +60,12 @@ export class LoginComponent implements OnInit {
               this.loginForm.get('password').enable();
             }, 2000);
           } else {
-            this.authService.GetCurrentUser().then(user => 
-            {const msj = `El usuario ${user.email} inicio sesion`;
-            this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
+            //this.authService.GetCurrentUser().then(user => 
+            //{const msj = `El usuario ${user.email} inicio sesion`;
+            //this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
+            this.userService.GetUserByEmail(usr).then(user => 
+              {const msj = `El usuario ${usr} inicio sesion`;
+               this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
           });
 
 
