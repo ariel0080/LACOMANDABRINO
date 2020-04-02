@@ -1,47 +1,47 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { AuthService } from 'src/app/services/authentication/auth.service';
-import { ToastrService } from 'ngx-toastr';
-import { UserService } from 'src/app/services/firebase/user.service';
-import { LoggingService } from 'src/app/services/firebase/logging.service';
-import { TargetMovimiento, TipoMovimiento } from 'src/app/models/logging';
+import { Component, OnInit } from "@angular/core";
+import { FormGroup, FormControl, Validators } from "@angular/forms";
+import { AuthService } from "src/app/services/authentication/auth.service";
+import { ToastrService } from "ngx-toastr";
+import { UserService } from "src/app/services/firebase/user.service";
+import { LoggingService } from "src/app/services/firebase/logging.service";
+import { TargetMovimiento, TipoMovimiento } from "src/app/models/logging";
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  selector: "app-login",
+  templateUrl: "./login.component.html",
+  styleUrls: ["./login.component.scss"]
 })
 export class LoginComponent implements OnInit {
   public loginForm: FormGroup;
-  public userOption: string = 'none';
+  public userOption: string = "none";
   public loading: boolean = false;
-
+  public captchasi: boolean;
   constructor(
     private authService: AuthService,
     private toastr: ToastrService,
     private userService: UserService,
     private lS: LoggingService
-  ) {}
-
-  ngOnInit() {
+  ) {
     this.loginForm = new FormGroup({
       email: new FormControl(null, [Validators.required]),
       chkHorario: new FormControl(false, [Validators.required]),
       chkLunes: new FormControl(false, [Validators.required]),
       password: new FormControl(null, [Validators.required]),
-      captcha: new FormControl('', [Validators.required])
+      captcha: new FormControl("", [Validators.required])
     });
+    this.loginForm.controls.captcha.setValidators(null);
+    this.captchasi = false;
   }
+
+  ngOnInit() {}
 
   public onSubmit() {
     this.loading = true;
     const usr = this.loginForm.get('email').value;
     const pass = this.loginForm.get('password').value;
-    let restriccion = this.restriccionHoraria(
+    const restriccion = this.restriccionHoraria(
       this.loginForm.get('chkHorario').value
     );
-
-
 
     this.userService
       .GetUserByEmail(usr)
@@ -54,20 +54,24 @@ export class LoginComponent implements OnInit {
             );
             setTimeout(() => {
               this.loading = false;
-              this.loginForm.get('email').setValue('');
-              this.loginForm.get('password').setValue('');
-              this.loginForm.get('email').enable();
-              this.loginForm.get('password').enable();
+              this.loginForm.get("email").setValue("");
+              this.loginForm.get("password").setValue("");
+              this.loginForm.get("email").enable();
+              this.loginForm.get("password").enable();
             }, 2000);
           } else {
-            //this.authService.GetCurrentUser().then(user => 
+            //this.authService.GetCurrentUser().then(user =>
             //{const msj = `El usuario ${user.email} inicio sesion`;
             //this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
-            this.userService.GetUserByEmail(usr).then(user => 
-              {const msj = `El usuario ${usr} inicio sesion`;
-               this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
-          });
-
+            this.userService.GetUserByEmail(usr).then(user => {
+              const msj = `El usuario ${usr} inicio sesion`;
+              this.lS.persistirMovimiento(
+                user,
+                TargetMovimiento.usuario,
+                TipoMovimiento.ingreso,
+                msj
+              );
+            });
 
             this.authService
               .LoginWithEmail(usr, pass)
@@ -83,14 +87,14 @@ export class LoginComponent implements OnInit {
           this.toastr.error('Usuario deshabilitado o inexistente');
         }
       })
-      .catch(() => {this.toastr.error('Usuario y/o contraseña incorrecto.');
-    this.loading = false;})
+      .catch(() => {
+        this.toastr.error('Usuario y/o contraseña incorrecto.');
+        this.loading = false;
+      })
       .finally(() => {
-
         this.userOption = 'none';
         this.loginForm.get('email').disable();
         this.loginForm.get('password').disable();
-
       });
   }
 
@@ -98,6 +102,16 @@ export class LoginComponent implements OnInit {
     this.userOption = u;
     console.log('esta en la base', u);
     this.LoadUser();
+  }
+
+  public c_option() {
+    // if (this.captchasi) {
+    //   this.loginForm.controls.captcha.setValidators(null);
+    //   this.captchasi = false;
+    // } else {
+      this.loginForm.controls.captcha.setValidators(Validators.required);
+      this.captchasi = true;
+  //  }
   }
 
   private LoadUser() {
@@ -131,7 +145,9 @@ export class LoginComponent implements OnInit {
         isNull = true;
         break;
     }
-    if (!isNull) { this.loginForm.get('password').setValue('password'); }
+    if (!isNull) {
+      this.loginForm.get('password').setValue('password');
+    }
   }
 
   private restriccionHoraria(chk: boolean): boolean {

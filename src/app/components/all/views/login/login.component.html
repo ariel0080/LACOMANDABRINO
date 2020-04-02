@@ -20,10 +20,31 @@
               class="form-control separate-top-input align-center"
               placeholder="Contraseña"
             />
-            <div class="row mar-top-2">
+
+
+            <!-- <button class="btn btn-sm btn-outline-danger"
+                *ngIf="captchasi"
+                (click)="c_option()"
+                unchecked
+                autocomplete="off"
+              >OMITIR CAPTCHA
+          </button> -->
+
+    <button class="btn btn-sm btn-outline-danger"
+          *ngIf="!captchasi"
+          (click)="c_option()"
+          unchecked
+          autocomplete="off"
+        >ACTIVAR CAPTCHA
+    </button>
+
+
+
+            <div  class="row mar-top-2">
               <div class="col-2"></div>
               <div class="col-8 align-center">
                 <ngx-recaptcha2
+                  *ngIf="captchasi"
                   formControlName="captcha"
                   #captchaElem
                   [siteKey]="'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'"
@@ -164,5 +185,9 @@
       </div>
     </div>
     <div class="col-3"></div>
+
+    
+
+
   </div>
 </div>
