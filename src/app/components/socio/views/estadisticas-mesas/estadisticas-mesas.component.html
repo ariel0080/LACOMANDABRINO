@@ -54,8 +54,9 @@
         <div class="card col-5 align-center" *ngIf="mesaMasUsada">
             <img src="../../../../../assets/img/1.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">Mesa más usada</h5>
-                <p class="card-text">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces
+                <h5 class="card-title">Mesa más usada</h5> 
+                <!-- <p class="card-text">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces -->
+                <p class="card-text">La mesa {{ mesamas }} fue utilizada {{ mesamasnumber }} veces   
                 </p>
             </div>
         </div>
@@ -63,7 +64,7 @@
             <img src="../../../../../assets/img/ultimo.png" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa menos usada</h5>
-                <p class="card-text">La mesa {{ this.mesaMenosUsada[0] }} fue utilizada {{ this.mesaMenosUsada[1] }}
+                <p class="card-text">La mesa {{ mesamenos }} fue utilizada {{ mesamenosnumber }}
                     veces </p>
             </div>
         </div>
@@ -72,16 +73,22 @@
             <img src="../../../../../assets/img/billetes.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con mayor recaudación</h5>
-                <p class="card-text">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó
-                    {{ this.mesaMayorFacturacion }} pesos </p>
+                <!-- <p class="card-text">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó
+                    {{ this.mesaMayorFacturacion }} pesos </p> -->
+
+                    <p class="card-text">La mesa {{ mesamasrecaudo }} recaudó
+                        {{ mesamasrecaudonumber }} pesos </p>    
+
             </div>
         </div>
         <div class="card col-5 align-center" *ngIf="mesaMenorFacturacion">
             <img src="../../../../../assets/img/sinplata.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con menor recaudación</h5>
-                <p class="card-text">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó
-                    {{ this.mesaMenorFacturacion }} pesos </p>
+                <!-- <p class="card-text">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó
+                    {{ this.mesaMenorFacturacion }} pesos </p> -->
+                    <p class="card-text">La mesa {{ mesamenosrecaudo }} recaudó
+                        {{ mesamenosrecaudonumber }} pesos </p>
             </div>
         </div>
 
@@ -89,16 +96,22 @@
             <img src="../../../../../assets/img/muchaprop.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con mayor importe de factura</h5>
-                <p class="card-text">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por
-                    {{ facturaMayorImporte.totalPrice }} pesos </p>
+                <!-- <p class="card-text">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por
+                    {{ facturaMayorImporte.totalPrice }} pesos </p> -->
+
+                    <p class="card-text">La mesa {{ mesamayorfactura }} tuvo una factura por
+                        {{ mesamayorfacturanumber }} pesos </p> 
             </div>
         </div>
         <div class="card col-5 align-center" *ngIf="mesaMenorFacturacion">
             <img src="../../../../../assets/img/monedas.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con menor importe de factura</h5>
-                <p class="card-text">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por
-                    {{ facturaMenorImporte.totalPrice }} pesos </p>
+                <!-- <p class="card-text">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por
+                    {{ facturaMenorImporte.totalPrice }} pesos </p> -->
+
+                    <p class="card-text">La mesa {{ mesamenorfactura }} tuvo una factura por
+                        {{ mesamenorfacturanumber }} pesos </p>
             </div>
         </div>
     </div>
@@ -313,3 +326,8 @@
         </div>
     </div>
 </div>
+
+
+<!-- <p-chart type="bar" [data]="graficoUsadas" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart>
+<p-chart type="doughnut" [data]="graficoRecaudacion" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart>
+<p-chart type="polarArea" [data]="graficoFacturas" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart> -->

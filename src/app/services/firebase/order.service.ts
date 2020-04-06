@@ -256,4 +256,145 @@ export class OrderService {
       ref.where("client.email", "==", email)
     );
   }
+
+  public traerMesaMasUsada(): Observable<Map<string, number>> {
+    return this.traerMesasPedidosCont().pipe(
+      map(mesas => {
+        return new Map<string, number>().set(
+          [...mesas.keys()][0],
+          [...mesas.values()][0]
+        );
+      })
+    );
+  }
+
+  public traerMesaMenosUsada(): Observable<Map<string, number>> {
+    return this.traerMesasPedidosCont().pipe(
+      map(mesas => {
+        return new Map<string, number>().set(
+          [...mesas.keys()][mesas.size - 1],
+          [...mesas.values()][mesas.size - 1]
+        );
+      })
+    );
+  }
+
+  public traerMesasPedidosCont(): Observable<Map<string, number>> {
+    return this.db
+      .collection<Order>('pedidos', ref => ref.where('state', '==', 'Pagado'))
+      .valueChanges()
+      .pipe(
+        map(pedidos => {
+          const salida = new Map<string, number>();
+          const tmp = new Map<string, number>();
+          pedidos.forEach(pedido => {
+            if (tmp.has(pedido.tableID)) {
+              tmp.set(pedido.tableID, tmp.get(pedido.tableID) + 1);
+            } else {
+              tmp.set(pedido.tableID, 1);
+            }
+          });
+          for (const [clave, valor] of [...tmp.entries()].sort(
+            (valor1, valor2) => valor2[1] - valor1[1]
+          )) {
+            salida.set(clave, valor);
+          }
+
+          return salida;
+        })
+      );
+  }
+
+  public traerMesaMasRecaudo(): Observable<Map<string, number>> {
+    return this.traerMesasPedidosAcum().pipe(
+      map(mesas => {
+        return new Map<string, number>().set(
+          [...mesas.keys()][0],
+          [...mesas.values()][0]
+        );
+      })
+    );
+  }
+
+  public traerMesaMenosRecaudo(): Observable<Map<string, number>> {
+    return this.traerMesasPedidosAcum().pipe(
+      map(mesas => {
+        return new Map<string, number>().set(
+          [...mesas.keys()][mesas.size - 1],
+          [...mesas.values()][mesas.size - 1]
+        );
+      })
+    );
+  }
+
+  public traerMesaMayorFactura(): Observable<Map<number, string>> {
+    return this.traerMesasPedidosTotal().pipe(
+      map(mesas => {
+        return new Map<number, string>().set(
+          [...mesas.keys()][0],
+          [...mesas.values()][0]
+        );
+      })
+    );
+  }
+
+  public traerMesasPedidosTotal(): Observable<Map<number, string>> {
+    return this.db
+      .collection<Order>('pedidos', ref => ref.where('state', '==', 'Pagado'))
+      .valueChanges()
+      .pipe(
+        map(pedidos => {
+          const salida = new Map<number, string>();
+          const tmp = new Map<number, string>();
+          pedidos.forEach(pedido => {
+            tmp.set(pedido.totalPrice, pedido.tableID);
+          });
+          for (const [clave, valor] of [...tmp.entries()].sort(
+            (valor1, valor2) => valor2[0] - valor1[0]
+          )) {
+            salida.set(clave, valor);
+          }
+
+          return salida;
+        })
+      );
+  }
+
+  public traerMesaMenorFactura(): Observable<Map<number, string>> {
+    return this.traerMesasPedidosTotal().pipe(
+      map(mesas => {
+        return new Map<number, string>().set(
+          [...mesas.keys()][mesas.size - 1],
+          [...mesas.values()][mesas.size - 1]
+        );
+      })
+    );
+  }
+
+  public traerMesasPedidosAcum(): Observable<Map<string, number>> {
+    return this.db
+      .collection<Order>('pedidos', ref => ref.where('state', '==', 'Pagado'))
+      .valueChanges()
+      .pipe(
+        map(pedidos => {
+          const salida = new Map<string, number>();
+          const tmp = new Map<string, number>();
+          pedidos.forEach(pedido => {
+            if (tmp.has(pedido.tableID)) {
+              tmp.set(pedido.tableID, tmp.get(pedido.tableID) + pedido.totalPrice);
+            } else {
+              tmp.set(pedido.tableID, pedido.totalPrice);
+            }
+          });
+          for (const [clave, valor] of [...tmp.entries()].sort(
+            (valor1, valor2) => valor2[1] - valor1[1]
+          )) {
+            salida.set(clave, valor);
+          }
+
+          return salida;
+        })
+      );
+  }
+
 }
