@@ -60,7 +60,7 @@ import { ManejoLogsComponent } from './components/socio/views/manejo-logs/manejo
 import { EstadisticasPedidosComponent } from './components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component';
 import { EstadisticasMesasComponent } from './components/socio/views/estadisticas-mesas/estadisticas-mesas.component';
 import { FiltrarProductosPipe } from './pipes/filtrar-productos.pipe';
-
+import { PrimengModule } from './modulos/primeng/primeng.module';
 
 
 
@@ -128,6 +128,7 @@ import { FiltrarProductosPipe } from './pipes/filtrar-productos.pipe';
     AngularFireStorageModule,
     BrowserAnimationsModule,
     NgxCaptchaModule,
+    PrimengModule,
     ToastrModule.forRoot({
       timeOut: 2300,
       positionClass: 'toast-bottom-right',//aca iba left

@@ -9,6 +9,7 @@ import { map } from "rxjs/operators";
 import { Order } from "src/app/models/order";
 import { __values } from "tslib";
 
+
 @Component({
   selector: "app-estadisticas-mesas",
   templateUrl: "./estadisticas-mesas.component.html",
@@ -42,10 +43,19 @@ export class EstadisticasMesasComponent implements OnInit {
   public mesaMenosRecaudoNueva: Observable<Map<string, number>>;
   public mesaMayorFacturaNueva: Observable<Map<number, string>>;
   public mesaMenorFacturaNueva: Observable<Map<number, string>>;
-  public graficoUsadas: any;
-  public graficoRecaudacion: any;
-  public graficoFacturas: any;
-  public opcionesTodosLosGraficos: any;
+
+  public OGB: any;
+  public OGD: any;
+  public OGT: any;
+
+  public prueba1: Observable<Map<string, number>>;
+  public prueba2: Observable<Map<string, number>>;
+  public prueba3: Observable<Map<number,string>>;
+
+
+  public graficobarras: any;
+  public graficodona: any;
+  public graficotorta: any;
 
   public mesamas: string;
   public mesamasnumber: number;
@@ -79,91 +89,147 @@ export class EstadisticasMesasComponent implements OnInit {
     this.mesaMayorFacturaNueva = this.orderService.traerMesaMayorFactura();
     this.mesaMenorFacturaNueva = this.orderService.traerMesaMenorFactura();
 
+    this.prueba1 = this.orderService.traerMesasPedidosCont();
+    this.prueba2 = this.orderService.traerMesasPedidosAcum();
+   
+
+    /////////////////////GRAFICA 1/////////////////////////////
+
+    this.prueba1.subscribe(pru => {
+      let valores = new Array<number>();
+      let etiquetas = new Array<string>();
+      valores = [...pru.values()];
+      etiquetas = [...pru.keys()];
+      this.graficobarras = {
+        labels: etiquetas,
+        datasets: [
+          {
+            label: ["Uso de las mesas"],
+            backgroundColor: "#149C98",
+            borderColor: "#000000",
+            hoverBackgroundColor: "#42A5F5",
+            data: valores,
+            borderWidth: 1
+          }
+        ]
+      };
+    });
+
     this.mesaMasUsadaNueva.subscribe(mas => {
       this.mesaMenosUsadaNueva.subscribe(menos => {
-        
         this.mesamas = [...mas.keys()][0];
         this.mesamasnumber = [...mas.values()][0];
 
         this.mesamenos = [...menos.keys()][0];
-        this.mesamenosnumber = [...menos.values()][0];  
-
-        this.graficoUsadas = {
-          labels: ["Mesas que mas y menos fueron usadas"],
-          datasets: [
-            {
-              label: "La mesa " + [...mas.keys()][0] + " es la mas usada",
-              backgroundColor: "#42A5F5",
-              borderColor: "#1E88E5",
-              data: [...mas.values()]
-            },
-            {
-              label: "La mesa " + [...menos.keys()][0] + " es la menos usada",
-              backgroundColor: "#9CCC65",
-              borderColor: "#7CB342",
-              data: [...menos.values()]
-            }
-          ]
-        };
+        this.mesamenosnumber = [...menos.values()][0];
       });
+    });
+
+    /////////////////////GRAFICA 1/////////////////////////////
+
+    /////////////////////GRAFICA 2/////////////////////////////
+
+    this.prueba2.subscribe(pru => {
+      let valores = new Array<number>();
+      let etiquetas = new Array<string>();
+      valores = [...pru.values()];
+      etiquetas = [...pru.keys()];
+      this.graficodona = {
+        labels: etiquetas,
+        datasets: [
+          {
+            label: ["Facturación de las mesas"],
+            backgroundColor: ["#a67c00","#bf9b30","#ffbf00","#ffcf40","#ffdc73","#ffdf81","#ffe69d","#ffedb9"],
+            borderColor: "#000000",
+            hoverBackgroundColor: "#42A5F5",
+            data: valores,
+            borderWidth: 1
+          }
+        ]
+      };
     });
 
     this.mesaMasRecaudoNueva.subscribe(mas => {
       this.mesaMenosRecaudoNueva.subscribe(menos => {
-
         this.mesamasrecaudo = [...mas.keys()][0];
         this.mesamasrecaudonumber = [...mas.values()][0];
 
         this.mesamenosrecaudo = [...menos.keys()][0];
-        this.mesamenosrecaudonumber = [...menos.values()][0];  
-
-        this.graficoRecaudacion = {
-          labels: [
-            "La mesa que mas recaudo es la " + [...mas.keys()][0],
-            "La mesa que menos recaudo es la " + [...menos.keys()][0]
-          ],
-          datasets: [
-            {
-              data: [[...mas.values()][0], [...menos.values()][0]],
-              backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-              hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
-            }
-          ]
-        };
+        this.mesamenosrecaudonumber = [...menos.values()][0];
       });
     });
+
+    /////////////////////GRAFICA 2/////////////////////////////
+
+    /////////////////////GRAFICA 3/////////////////////////////
+
+
 
     this.mesaMayorFacturaNueva.subscribe(mas => {
       this.mesaMenorFacturaNueva.subscribe(menos => {
 
-        console.log("mesamayorfactura", [...mas.keys()][0], [...mas.values()][0]);
-        this.mesamayorfacturanumber = [...mas.keys()][0];
-        this.mesamayorfactura = [...mas.values()][0];
-
-        console.log("mesamenorfactura", [...menos.keys()][0], [...menos.values()][0]);
-        this.mesamenorfacturanumber = [...menos.keys()][0];
-        this.mesamenorfactura = [...menos.values()][0];
-
-        this.graficoFacturas = {
+        this.graficotorta = {
           datasets: [
             {
               data: [[...mas.keys()][0], [...menos.keys()][0]],
-              backgroundColor: ["#FF6384", "#4BC0C0"],
-              label: "My dataset"
+              backgroundColor: [
+                '#011f4b',
+                '#b3cde0'
+              ],
+              label: 'My dataset'
             }
           ],
-          labels: [
-            "La mesa con mayor factura es la " + [...mas.values()][0],
-            "La mesa con menor factura es la " + [...menos.values()][0]
-          ]
+          labels: ['La mesa con mayor factura es la ' + [...mas.values()][0],'La mesa con menor factura es la ' + [...menos.values()][0]]
         };
+
+        this.mesamayorfacturanumber = [...mas.keys()][0];
+        this.mesamayorfactura = [...mas.values()][0];
+
+        this.mesamenorfacturanumber = [...menos.keys()][0];
+        this.mesamenorfactura = [...menos.values()][0];
+
+        
       });
     });
 
-    this.opcionesTodosLosGraficos = {
+    /////////////////////GRAFICA 3/////////////////////////////
+    this.OGB = {
       title: {
         display: true,
-        text: "Custom Chart Title"
+        text: "Ranking de uso de mesas"
+      },
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true
+            }
+          }
+        ]
+      }
+    };
+
+    this.OGD = {
+      title: {
+        display: true,
+        text: "Ranking de facturación por mesa"
+      },
+
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true
+            }
+          }
+        ]
+      }
+    };
+
+    this.OGT = {
+      title: {
+        display: true,
+        text: "Ranking de importes de facturación"
       },
       scales: {
         yAxes: [

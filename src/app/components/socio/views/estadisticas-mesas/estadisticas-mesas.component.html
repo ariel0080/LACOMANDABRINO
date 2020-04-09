@@ -51,7 +51,7 @@
     </div>
     <hr>
     <div class="row">
-        <div class="card col-5 align-center" *ngIf="mesaMasUsada">
+        <div class="card col-2 align-center" *ngIf="mesaMasUsada">
             <img src="../../../../../assets/img/1.png" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa más usada</h5> 
@@ -60,7 +60,7 @@
                 </p>
             </div>
         </div>
-        <div class="card col-5 align-center" *ngIf="mesaMenosUsada">
+        <div class="card col-2 align-center" *ngIf="mesaMenosUsada">
             <img src="../../../../../assets/img/ultimo.png" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa menos usada</h5>
@@ -69,7 +69,13 @@
             </div>
         </div>
 
-        <div class="card col-5 align-center" *ngIf="mesaMayorFacturacion">
+        <div class="card col-5 align-center" *ngIf="mesaMenosUsada">
+            <p-chart type="bar" [data]="graficobarras"  [options]="OGB" width="20vw" height="40vh"></p-chart>
+        </div>
+
+
+
+        <div class="card col-2 align-center" *ngIf="mesaMayorFacturacion">
             <img src="../../../../../assets/img/billetes.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con mayor recaudación</h5>
@@ -81,7 +87,7 @@
 
             </div>
         </div>
-        <div class="card col-5 align-center" *ngIf="mesaMenorFacturacion">
+        <div class="card col-2 align-center" *ngIf="mesaMenorFacturacion">
             <img src="../../../../../assets/img/sinplata.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con menor recaudación</h5>
@@ -92,7 +98,11 @@
             </div>
         </div>
 
-        <div class="card col-5 align-center" *ngIf="mesaMenorFacturacion">
+        <div class="card col-5 align-center" *ngIf="mesaMenosUsada">
+            <p-chart type="doughnut" [data]="graficodona"  [options]="OGD" width="20vw" height="40vh"></p-chart>
+        </div>
+
+        <div class="card col-2 align-center" *ngIf="mesaMenorFacturacion">
             <img src="../../../../../assets/img/muchaprop.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con mayor importe de factura</h5>
@@ -103,7 +113,7 @@
                         {{ mesamayorfacturanumber }} pesos </p> 
             </div>
         </div>
-        <div class="card col-5 align-center" *ngIf="mesaMenorFacturacion">
+        <div class="card col-2 align-center" *ngIf="mesaMenorFacturacion">
             <img src="../../../../../assets/img/monedas.jpeg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Mesa con menor importe de factura</h5>
@@ -114,6 +124,11 @@
                         {{ mesamenorfacturanumber }} pesos </p>
             </div>
         </div>
+
+        <div class="card col-5 align-center" *ngIf="mesaMenosUsada">
+            <p-chart type="polarArea" [data]="graficotorta" [options]="OGT" width="20vw" height="40vh"></p-chart>
+        </div>
+
     </div>
 
     <div class="row middle-row" *ngIf="mesaMenorFacturacion">
@@ -326,8 +341,3 @@
         </div>
     </div>
 </div>
-
-
-<!-- <p-chart type="bar" [data]="graficoUsadas" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart>
-<p-chart type="doughnut" [data]="graficoRecaudacion" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart>
-<p-chart type="polarArea" [data]="graficoFacturas" [options]="opcionesTodosLosGraficos" width="40vw" height="80vh"></p-chart> -->
