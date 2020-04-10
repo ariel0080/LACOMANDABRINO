@@ -1,94 +1,108 @@
-<div class="align-center mar-top-1" *ngIf="this.topBest == null && this.topWorst == null">
-    <div class="row top-row page-title">
-        <div class="col-3"></div>
-        <div class="col-6"></div>
-        <div class="col-3"></div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-3 align-center">
-
+<div class="align-center mar-top-1" *ngIf="this.productosPedidosOrdenadosAsc == null && this.productosPedidosOrdenadosDesc == null">
+        <div class="row top-row page-title">
+            <div class="col-3"></div>
+            <div class="col-6"></div>
+            <div class="col-3"></div>
         </div>
-        <div class="col-6">
-
-        </div>
-        <div class="col-3">
-
-        </div>
-    </div>
-
-    <hr>
-    <app-spinner></app-spinner>
-</div>
-<div class="container" *ngIf="this.cancelledOrders != null">
-    <div class="row" *ngIf="this.topBest != null && this.topWorst != null">
-        <div class="col-3"></div>
-        <div class="col-6"></div>
-        <div class="col-3"></div>
         <hr>
-        <div class="col-3"></div>
-        <div class="col-6"></div>
-        <div class="col-3"></div>
-        <hr>
-        <div class="col-3">
-        </div>
-        <div class="col-6">
-            <button class="btn btn-outline-info full-width" data-toggle="modal" data-target="#settingsModal">Buscar por fecha</button>
-        </div>
-        <div class="col-3">
-            <button type="button" class="btn btn-info full-width" (click)="exportCSV()">Exportar a CSV<i
-                class="fas fa-angle-double-down" ></i></button>
-        </div>
-
         <div class="row">
             <div class="col-3 align-center">
+    
             </div>
-            <div class="col-6 align-center">
+            <div class="col-6">
+    
             </div>
-            <div class="col-3 align-center">
+            <div class="col-3">
+    
             </div>
         </div>
+    
+        <hr>
+        <app-spinner></app-spinner>
     </div>
-    <hr>
-    <div class="row" *ngIf="this.topBest">
-        <div class="col-3 align-center">
-        </div>
-        <div class="col-6 align-center">
-            <h2>Top 3 mas vendidos</h2>
-        </div>
-        <div class="col-3 align-center">
-        </div>
 
-        <div class="card col-3 align-center" *ngIf="this.topBest[0] != null">
+
+    <div class="container" *ngIf="this.cancelledOrders != null">
+            <div class="row" *ngIf="this.productosPedidosOrdenadosAsc != null && this.productosPedidosOrdenadosDesc != null">
+                <div class="col-3"></div>
+                <div class="col-6"></div>
+                <div class="col-3"></div>
+                <hr>
+                <div class="col-3"></div>
+                <div class="col-6"></div>
+                <div class="col-3"></div>
+                <hr>
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-outline-info full-width" data-toggle="modal" data-target="#settingsModal">Buscar por fecha</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-info full-width" (click)="exportCSV()">Exportar a CSV<i
+                        class="fas fa-angle-double-down" ></i></button>
+                </div>
+        
+                <div class="row">
+                    <div class="col-3 align-center">
+                    </div>
+                    <div class="col-6 align-center">
+                    </div>
+                    <div class="col-3 align-center">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row" *ngIf="this.productosPedidosOrdenadosAsc">
+                <div class="col-3 align-center">
+                </div>
+                <div class="col-6 align-center">
+                    <h2>Top 3 mas vendidos</h2>
+                </div>
+                <div class="col-3 align-center">
+                </div>
+
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosAsc != null">
             <img src="../../../../../assets/img/1.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">{{this.topBest[0][0]}}</h5>
-                <p class="card-text">El articulo {{this.topBest[0][0]}} fue el mas solicitado con {{this.topBest[0][1]}}
-                    ventas </p>
+                <!-- <h5 class="card-title">{{this.productosPedidosOrdenadosAsc[0][0]}}</h5>
+                <p class="card-text">El articulo {{this.productosPedidosOrdenadosAsc[0][0]}} fue el mas solicitado con {{this.productosPedidosOrdenadosAsc[0][1]}}
+                    ventas </p> -->
+                    <h5 class="card-title">{{top1}}</h5>
+                    <p class="card-text">El articulo {{top1}} fue el mas solicitado con {{top1n}}
+                        ventas </p>
             </div>
         </div>
 
-        <div class="card col-3 align-center" *ngIf="this.topBest[1] != null">
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosAsc != null">
             <img src="../../../../../assets/img/2.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">{{this.topBest[1][0]}}</h5>
-                <p class="card-text">En segundo lugar se encuentra {{this.topBest[1][0]}} con {{this.topBest[1][1]}}
+                <h5 class="card-title">{{top2}}</h5>
+                <p class="card-text">En segundo lugar se encuentra {{top2}} con {{top2n}}
                     ventas</p>
             </div>
         </div>
 
-        <div class="card col-3 align-center" *ngIf="this.topBest[2] != null">
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosAsc != null">
             <img src="../../../../../assets/img/3.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">{{this.topBest[2][0]}}</h5>
-                <p class="card-text">El tercer puesto es para {{this.topBest[2][0]}} con {{this.topBest[2][1]}} ventas
+                <h5 class="card-title">{{top3}}</h5>
+                <p class="card-text">El tercer puesto es para {{top3}} con {{top3n}} ventas
                 </p>
             </div>
         </div>
 
     </div>
 
-    <div class="row" *ngIf="this.topWorst">
+    <div class="row" *ngIf="this.productosPedidosOrdenadosAsc">
+            <div class="card col-10 align-center">
+
+            <p-chart type="bar" [data]="graficobarras"  [options]="OGB" width="40vw" height="80vh"></p-chart>
+             
+            </div>
+    </div>
+
+
+    <div class="row" *ngIf="this.productosPedidosOrdenadosDesc">
         <div class="col-3 align-center">
         </div>
         <div class="col-6 align-center">
@@ -96,31 +110,31 @@
         </div>
         <div class="col-3 align-center">
         </div>
-        <div class="card col-3 align-center" *ngIf="this.topWorst[0] != null">
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosDesc != null">
             <img src="../../../../../assets/img/antesqueelante.png" class="card-img-top">
             <div class="card-body">
                 <div class="card-body">
-                    <h5 class="card-title">{{this.topWorst[0][0]}}</h5>
-                    <p class="card-text">El articulo {{this.topWorst[0][0]}} no se vendió tanto, tuvo
-                        {{this.topWorst[0][1]}} ventas </p>
+                    <h5 class="card-title">{{top1m}}</h5>
+                    <p class="card-text">El articulo {{top1m}} no se vendió tanto, tuvo
+                        {{top1mn}} ventas </p>
                 </div>
             </div>
         </div>
-        <div class="card col-3 align-center" *ngIf="this.topWorst[1] != null">
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosDesc != null">
             <img src="../../../../../assets/img/anteultimo.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">{{this.topWorst[1][0]}}</h5>
-                <p class="card-text">El articulo {{this.topWorst[1][0]}} fue un poco menos solicitado que el anterior
+                <h5 class="card-title">{{top2m}}</h5>
+                <p class="card-text">El articulo {{top2m}} fue un poco menos solicitado que el anterior
                     con
-                    {{this.topWorst[1][1]}} ventas </p>
+                    {{top2mn}} ventas </p>
             </div>
         </div>
-        <div class="card col-3 align-center" *ngIf="this.topWorst[2] != null">
+        <div class="card col-3 align-center" *ngIf="this.productosPedidosOrdenadosDesc != null">
             <img src="../../../../../assets/img/ultimo.png" class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">{{this.topWorst[2][0]}}</h5>
-                <p class="card-text">El articulo {{this.topWorst[2][0]}} fue lo menos solicitado con
-                    {{this.topWorst[2][1]}} ventas </p>
+                <h5 class="card-title">{{top3m}}</h5>
+                <p class="card-text">El articulo {{top3m}} fue lo menos solicitado con
+                    {{top3mn}} ventas </p>
             </div>
         </div>
     </div>

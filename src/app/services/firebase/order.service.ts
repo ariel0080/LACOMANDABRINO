@@ -397,4 +397,57 @@ export class OrderService {
       );
   }
 
+  public traerProductosPedidos(): Observable<Map<string, number>> {
+    return this.db
+      .collection<Order>('pedidos', ref => ref.where('state', '==', 'Pagado'))
+      .valueChanges()
+      .pipe(
+        map(pedidos => {
+        
+          const salida = new Map<string, number>();
+          const tmp = new Map<string, number>();
+          pedidos.forEach(pedido => {
+            pedido.items.forEach(producto => {
+              if (tmp.has(producto.name)) {
+                tmp.set(producto.name, tmp.get(producto.name) + 1);
+              } else {
+                tmp.set(producto.name, 1);
+              }
+            });
+          });
+          for (const [clave, valor] of [...tmp.entries()].sort(
+            (valor1, valor2) => valor2[1] - valor1[1]
+          )) {
+            salida.set(clave, valor);
+          }
+
+          return salida;
+        })
+      );
+  }
+
+  public traerTop3ProductosMasVendidos(): Observable<Map<string, number>> {
+    return this.traerProductosPedidos().pipe(
+      map(productos => {
+        const salida = new Map<string, number>();
+        salida.set([...productos.keys()][0], [...productos.values()][0]);
+        salida.set([...productos.keys()][1], [...productos.values()][1]);
+        salida.set([...productos.keys()][2], [...productos.values()][2]);
+        return salida;
+      })
+    );
+  }
+
+  public traerTop3ProductosMenosVendidos(): Observable<Map<string, number>> {
+    return this.traerProductosPedidos().pipe(
+      map(productos => {
+        const salida = new Map<string, number>();
+        salida.set([...productos.keys()][productos.size - 1], [...productos.values()][productos.size - 1]);
+        salida.set([...productos.keys()][productos.size - 2], [...productos.values()][productos.size - 2]);
+        salida.set([...productos.keys()][productos.size - 3], [...productos.values()][productos.size - 3]);
+        return salida;
+      })
+    );
+  }
+
 }

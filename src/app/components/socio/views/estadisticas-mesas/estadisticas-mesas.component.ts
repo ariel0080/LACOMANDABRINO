@@ -50,7 +50,7 @@ export class EstadisticasMesasComponent implements OnInit {
 
   public prueba1: Observable<Map<string, number>>;
   public prueba2: Observable<Map<string, number>>;
-  public prueba3: Observable<Map<number,string>>;
+  
 
 
   public graficobarras: any;
