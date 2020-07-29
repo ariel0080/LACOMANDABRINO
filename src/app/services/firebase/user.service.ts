@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import {  AngularFirestore, AngularFirestoreCollection} from "angularfire2/firestore";
+import { AngularFirestore, AngularFirestoreCollection } from "angularfire2/firestore";
 import { AngularFireFunctions } from "@angular/fire/functions";
 import { User, Role } from "src/app/models/user";
 import { CommonHelper } from "src/app/classes/helpers/common-helper";
@@ -7,6 +7,7 @@ import { resolve, reject } from "q";
 import { Observable } from "rxjs";
 import { FileService } from "../firestorage/file.service";
 import { map } from "rxjs/operators";
+
 
 @Injectable({
   providedIn: "root"
@@ -215,7 +216,7 @@ export class UserService {
             .then(() => {
               return true;
             });
-       
+
         } else {
           return this.fileService
             .subirFotoGenericaUsuarios(idGenerado)
@@ -229,19 +230,50 @@ export class UserService {
       });
   }
 
-  updateState(uid: string, state: string) {
-    this.usuarios.doc(uid).update({ state: state });
+  public actualizarUsuarioFoto(userFoto: User, foto: File) {
+
+    this.GetUserByEmail(userFoto.email).then(doc => {
+      let user = doc;
+      user.name = userFoto.name;
+      user.lastname = userFoto.lastname;
+      user.role = userFoto.role;
+       this.db
+        .collection("usuarios")
+        .doc(doc.id)
+        .update(user).then(() => {
+          if (foto) {
+            return this.fileService
+              .subirFotoUsuarios(foto, user.id)
+              .then(() => {
+                return true;
+              });
+          } /*else {
+            return this.fileService
+              .subirFotoGenericaUsuarios(user.id)
+              .then(() => {
+                return true;
+              });
+          }*/
+        }).catch(() => {
+          return false;
+        });
+    })
   }
 
-  delete(uid: string) {
-    this.usuarios.doc(uid).update({ deleted: true });
-  }
+
+  updateState(uid: string, state: string) {
+      this.usuarios.doc(uid).update({ state: state });
+    }
+
+  delete (uid: string) {
+      this.usuarios.doc(uid).update({ deleted: true });
+    }
 
   public actualizarUsuario(
-    email: string,
-    nombre: string,
-    apellido: string
-  ): Promise<void> {
+      email: string,
+      nombre: string,
+      apellido: string
+    ): Promise<void> {
     return this.GetUserByEmail(email).then(doc => {
       let user = doc;
       user.name = nombre;
@@ -253,7 +285,14 @@ export class UserService {
     });
   }
 
+
+
+
+
+
   updateUser(usuario: User, foto: File): Promise<boolean> {
+    console.log("update user dentro de user service usuario y foto: ", usuario, foto)
+
     let retorno = this.usuarios
       .doc(usuario.id)
       .update({
@@ -261,19 +300,23 @@ export class UserService {
         lastname: usuario.lastname
       })
       .then(() => {
-        if (foto) {
-          return this.fileService
-            .subirFotoUsuarios(foto, usuario.id)
-            .then(() => {
-              return true;
-            });
-        }
+        // if (foto) {
+        //   return this.fileService
+        //     .subirFotoUsuarios(foto,usuario.id)
+        //     .then(() => {
+        console.log("VERDADERO")
+        return true;
+        //     });
+        // }
       })
       .catch(() => {
+        console.log("FALSO")
         return false;
       });
 
     console.log(retorno);
     return retorno;
   }
+
+
 }

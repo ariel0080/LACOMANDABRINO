@@ -60,7 +60,7 @@ export class ProfileComponent implements OnInit {
     let name = CommonHelper.GenerateProfileImageName(this.user);
     console.log(name);
     this.fileService
-      .Upload(name, this.selectedFile)
+      .subirFotoUsuarios(this.selectedFile,this.user.id)
       .then(() => {
         setTimeout(() => {
           this.ChangeProfilePic(name);

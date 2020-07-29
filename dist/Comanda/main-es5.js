@@ -1,3 +1,19 @@
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
@@ -32,6 +48,298 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
     module.exports = webpackEmptyAsyncContext;
     webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+    /***/
+  },
+
+  /***/
+  "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+  /*!**************************************************!*\
+    !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+    \**************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesMomentLocaleSyncRecursive$(module, exports, __webpack_require__) {
+    var map = {
+      "./af": "./node_modules/moment/locale/af.js",
+      "./af.js": "./node_modules/moment/locale/af.js",
+      "./ar": "./node_modules/moment/locale/ar.js",
+      "./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+      "./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+      "./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+      "./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+      "./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+      "./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+      "./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+      "./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+      "./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+      "./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+      "./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+      "./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+      "./ar.js": "./node_modules/moment/locale/ar.js",
+      "./az": "./node_modules/moment/locale/az.js",
+      "./az.js": "./node_modules/moment/locale/az.js",
+      "./be": "./node_modules/moment/locale/be.js",
+      "./be.js": "./node_modules/moment/locale/be.js",
+      "./bg": "./node_modules/moment/locale/bg.js",
+      "./bg.js": "./node_modules/moment/locale/bg.js",
+      "./bm": "./node_modules/moment/locale/bm.js",
+      "./bm.js": "./node_modules/moment/locale/bm.js",
+      "./bn": "./node_modules/moment/locale/bn.js",
+      "./bn.js": "./node_modules/moment/locale/bn.js",
+      "./bo": "./node_modules/moment/locale/bo.js",
+      "./bo.js": "./node_modules/moment/locale/bo.js",
+      "./br": "./node_modules/moment/locale/br.js",
+      "./br.js": "./node_modules/moment/locale/br.js",
+      "./bs": "./node_modules/moment/locale/bs.js",
+      "./bs.js": "./node_modules/moment/locale/bs.js",
+      "./ca": "./node_modules/moment/locale/ca.js",
+      "./ca.js": "./node_modules/moment/locale/ca.js",
+      "./cs": "./node_modules/moment/locale/cs.js",
+      "./cs.js": "./node_modules/moment/locale/cs.js",
+      "./cv": "./node_modules/moment/locale/cv.js",
+      "./cv.js": "./node_modules/moment/locale/cv.js",
+      "./cy": "./node_modules/moment/locale/cy.js",
+      "./cy.js": "./node_modules/moment/locale/cy.js",
+      "./da": "./node_modules/moment/locale/da.js",
+      "./da.js": "./node_modules/moment/locale/da.js",
+      "./de": "./node_modules/moment/locale/de.js",
+      "./de-at": "./node_modules/moment/locale/de-at.js",
+      "./de-at.js": "./node_modules/moment/locale/de-at.js",
+      "./de-ch": "./node_modules/moment/locale/de-ch.js",
+      "./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+      "./de.js": "./node_modules/moment/locale/de.js",
+      "./dv": "./node_modules/moment/locale/dv.js",
+      "./dv.js": "./node_modules/moment/locale/dv.js",
+      "./el": "./node_modules/moment/locale/el.js",
+      "./el.js": "./node_modules/moment/locale/el.js",
+      "./en-SG": "./node_modules/moment/locale/en-SG.js",
+      "./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+      "./en-au": "./node_modules/moment/locale/en-au.js",
+      "./en-au.js": "./node_modules/moment/locale/en-au.js",
+      "./en-ca": "./node_modules/moment/locale/en-ca.js",
+      "./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+      "./en-gb": "./node_modules/moment/locale/en-gb.js",
+      "./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+      "./en-ie": "./node_modules/moment/locale/en-ie.js",
+      "./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+      "./en-il": "./node_modules/moment/locale/en-il.js",
+      "./en-il.js": "./node_modules/moment/locale/en-il.js",
+      "./en-nz": "./node_modules/moment/locale/en-nz.js",
+      "./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+      "./eo": "./node_modules/moment/locale/eo.js",
+      "./eo.js": "./node_modules/moment/locale/eo.js",
+      "./es": "./node_modules/moment/locale/es.js",
+      "./es-do": "./node_modules/moment/locale/es-do.js",
+      "./es-do.js": "./node_modules/moment/locale/es-do.js",
+      "./es-us": "./node_modules/moment/locale/es-us.js",
+      "./es-us.js": "./node_modules/moment/locale/es-us.js",
+      "./es.js": "./node_modules/moment/locale/es.js",
+      "./et": "./node_modules/moment/locale/et.js",
+      "./et.js": "./node_modules/moment/locale/et.js",
+      "./eu": "./node_modules/moment/locale/eu.js",
+      "./eu.js": "./node_modules/moment/locale/eu.js",
+      "./fa": "./node_modules/moment/locale/fa.js",
+      "./fa.js": "./node_modules/moment/locale/fa.js",
+      "./fi": "./node_modules/moment/locale/fi.js",
+      "./fi.js": "./node_modules/moment/locale/fi.js",
+      "./fo": "./node_modules/moment/locale/fo.js",
+      "./fo.js": "./node_modules/moment/locale/fo.js",
+      "./fr": "./node_modules/moment/locale/fr.js",
+      "./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+      "./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+      "./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+      "./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+      "./fr.js": "./node_modules/moment/locale/fr.js",
+      "./fy": "./node_modules/moment/locale/fy.js",
+      "./fy.js": "./node_modules/moment/locale/fy.js",
+      "./ga": "./node_modules/moment/locale/ga.js",
+      "./ga.js": "./node_modules/moment/locale/ga.js",
+      "./gd": "./node_modules/moment/locale/gd.js",
+      "./gd.js": "./node_modules/moment/locale/gd.js",
+      "./gl": "./node_modules/moment/locale/gl.js",
+      "./gl.js": "./node_modules/moment/locale/gl.js",
+      "./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+      "./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+      "./gu": "./node_modules/moment/locale/gu.js",
+      "./gu.js": "./node_modules/moment/locale/gu.js",
+      "./he": "./node_modules/moment/locale/he.js",
+      "./he.js": "./node_modules/moment/locale/he.js",
+      "./hi": "./node_modules/moment/locale/hi.js",
+      "./hi.js": "./node_modules/moment/locale/hi.js",
+      "./hr": "./node_modules/moment/locale/hr.js",
+      "./hr.js": "./node_modules/moment/locale/hr.js",
+      "./hu": "./node_modules/moment/locale/hu.js",
+      "./hu.js": "./node_modules/moment/locale/hu.js",
+      "./hy-am": "./node_modules/moment/locale/hy-am.js",
+      "./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+      "./id": "./node_modules/moment/locale/id.js",
+      "./id.js": "./node_modules/moment/locale/id.js",
+      "./is": "./node_modules/moment/locale/is.js",
+      "./is.js": "./node_modules/moment/locale/is.js",
+      "./it": "./node_modules/moment/locale/it.js",
+      "./it-ch": "./node_modules/moment/locale/it-ch.js",
+      "./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+      "./it.js": "./node_modules/moment/locale/it.js",
+      "./ja": "./node_modules/moment/locale/ja.js",
+      "./ja.js": "./node_modules/moment/locale/ja.js",
+      "./jv": "./node_modules/moment/locale/jv.js",
+      "./jv.js": "./node_modules/moment/locale/jv.js",
+      "./ka": "./node_modules/moment/locale/ka.js",
+      "./ka.js": "./node_modules/moment/locale/ka.js",
+      "./kk": "./node_modules/moment/locale/kk.js",
+      "./kk.js": "./node_modules/moment/locale/kk.js",
+      "./km": "./node_modules/moment/locale/km.js",
+      "./km.js": "./node_modules/moment/locale/km.js",
+      "./kn": "./node_modules/moment/locale/kn.js",
+      "./kn.js": "./node_modules/moment/locale/kn.js",
+      "./ko": "./node_modules/moment/locale/ko.js",
+      "./ko.js": "./node_modules/moment/locale/ko.js",
+      "./ku": "./node_modules/moment/locale/ku.js",
+      "./ku.js": "./node_modules/moment/locale/ku.js",
+      "./ky": "./node_modules/moment/locale/ky.js",
+      "./ky.js": "./node_modules/moment/locale/ky.js",
+      "./lb": "./node_modules/moment/locale/lb.js",
+      "./lb.js": "./node_modules/moment/locale/lb.js",
+      "./lo": "./node_modules/moment/locale/lo.js",
+      "./lo.js": "./node_modules/moment/locale/lo.js",
+      "./lt": "./node_modules/moment/locale/lt.js",
+      "./lt.js": "./node_modules/moment/locale/lt.js",
+      "./lv": "./node_modules/moment/locale/lv.js",
+      "./lv.js": "./node_modules/moment/locale/lv.js",
+      "./me": "./node_modules/moment/locale/me.js",
+      "./me.js": "./node_modules/moment/locale/me.js",
+      "./mi": "./node_modules/moment/locale/mi.js",
+      "./mi.js": "./node_modules/moment/locale/mi.js",
+      "./mk": "./node_modules/moment/locale/mk.js",
+      "./mk.js": "./node_modules/moment/locale/mk.js",
+      "./ml": "./node_modules/moment/locale/ml.js",
+      "./ml.js": "./node_modules/moment/locale/ml.js",
+      "./mn": "./node_modules/moment/locale/mn.js",
+      "./mn.js": "./node_modules/moment/locale/mn.js",
+      "./mr": "./node_modules/moment/locale/mr.js",
+      "./mr.js": "./node_modules/moment/locale/mr.js",
+      "./ms": "./node_modules/moment/locale/ms.js",
+      "./ms-my": "./node_modules/moment/locale/ms-my.js",
+      "./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+      "./ms.js": "./node_modules/moment/locale/ms.js",
+      "./mt": "./node_modules/moment/locale/mt.js",
+      "./mt.js": "./node_modules/moment/locale/mt.js",
+      "./my": "./node_modules/moment/locale/my.js",
+      "./my.js": "./node_modules/moment/locale/my.js",
+      "./nb": "./node_modules/moment/locale/nb.js",
+      "./nb.js": "./node_modules/moment/locale/nb.js",
+      "./ne": "./node_modules/moment/locale/ne.js",
+      "./ne.js": "./node_modules/moment/locale/ne.js",
+      "./nl": "./node_modules/moment/locale/nl.js",
+      "./nl-be": "./node_modules/moment/locale/nl-be.js",
+      "./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+      "./nl.js": "./node_modules/moment/locale/nl.js",
+      "./nn": "./node_modules/moment/locale/nn.js",
+      "./nn.js": "./node_modules/moment/locale/nn.js",
+      "./pa-in": "./node_modules/moment/locale/pa-in.js",
+      "./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+      "./pl": "./node_modules/moment/locale/pl.js",
+      "./pl.js": "./node_modules/moment/locale/pl.js",
+      "./pt": "./node_modules/moment/locale/pt.js",
+      "./pt-br": "./node_modules/moment/locale/pt-br.js",
+      "./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+      "./pt.js": "./node_modules/moment/locale/pt.js",
+      "./ro": "./node_modules/moment/locale/ro.js",
+      "./ro.js": "./node_modules/moment/locale/ro.js",
+      "./ru": "./node_modules/moment/locale/ru.js",
+      "./ru.js": "./node_modules/moment/locale/ru.js",
+      "./sd": "./node_modules/moment/locale/sd.js",
+      "./sd.js": "./node_modules/moment/locale/sd.js",
+      "./se": "./node_modules/moment/locale/se.js",
+      "./se.js": "./node_modules/moment/locale/se.js",
+      "./si": "./node_modules/moment/locale/si.js",
+      "./si.js": "./node_modules/moment/locale/si.js",
+      "./sk": "./node_modules/moment/locale/sk.js",
+      "./sk.js": "./node_modules/moment/locale/sk.js",
+      "./sl": "./node_modules/moment/locale/sl.js",
+      "./sl.js": "./node_modules/moment/locale/sl.js",
+      "./sq": "./node_modules/moment/locale/sq.js",
+      "./sq.js": "./node_modules/moment/locale/sq.js",
+      "./sr": "./node_modules/moment/locale/sr.js",
+      "./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+      "./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+      "./sr.js": "./node_modules/moment/locale/sr.js",
+      "./ss": "./node_modules/moment/locale/ss.js",
+      "./ss.js": "./node_modules/moment/locale/ss.js",
+      "./sv": "./node_modules/moment/locale/sv.js",
+      "./sv.js": "./node_modules/moment/locale/sv.js",
+      "./sw": "./node_modules/moment/locale/sw.js",
+      "./sw.js": "./node_modules/moment/locale/sw.js",
+      "./ta": "./node_modules/moment/locale/ta.js",
+      "./ta.js": "./node_modules/moment/locale/ta.js",
+      "./te": "./node_modules/moment/locale/te.js",
+      "./te.js": "./node_modules/moment/locale/te.js",
+      "./tet": "./node_modules/moment/locale/tet.js",
+      "./tet.js": "./node_modules/moment/locale/tet.js",
+      "./tg": "./node_modules/moment/locale/tg.js",
+      "./tg.js": "./node_modules/moment/locale/tg.js",
+      "./th": "./node_modules/moment/locale/th.js",
+      "./th.js": "./node_modules/moment/locale/th.js",
+      "./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+      "./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+      "./tlh": "./node_modules/moment/locale/tlh.js",
+      "./tlh.js": "./node_modules/moment/locale/tlh.js",
+      "./tr": "./node_modules/moment/locale/tr.js",
+      "./tr.js": "./node_modules/moment/locale/tr.js",
+      "./tzl": "./node_modules/moment/locale/tzl.js",
+      "./tzl.js": "./node_modules/moment/locale/tzl.js",
+      "./tzm": "./node_modules/moment/locale/tzm.js",
+      "./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+      "./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+      "./tzm.js": "./node_modules/moment/locale/tzm.js",
+      "./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+      "./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+      "./uk": "./node_modules/moment/locale/uk.js",
+      "./uk.js": "./node_modules/moment/locale/uk.js",
+      "./ur": "./node_modules/moment/locale/ur.js",
+      "./ur.js": "./node_modules/moment/locale/ur.js",
+      "./uz": "./node_modules/moment/locale/uz.js",
+      "./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+      "./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+      "./uz.js": "./node_modules/moment/locale/uz.js",
+      "./vi": "./node_modules/moment/locale/vi.js",
+      "./vi.js": "./node_modules/moment/locale/vi.js",
+      "./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+      "./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+      "./yo": "./node_modules/moment/locale/yo.js",
+      "./yo.js": "./node_modules/moment/locale/yo.js",
+      "./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+      "./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+      "./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+      "./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+      "./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+      "./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+    };
+
+    function webpackContext(req) {
+      var id = webpackContextResolve(req);
+      return __webpack_require__(id);
+    }
+
+    function webpackContextResolve(req) {
+      if (!__webpack_require__.o(map, req)) {
+        var e = new Error("Cannot find module '" + req + "'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+      }
+
+      return map[req];
+    }
+
+    webpackContext.keys = function webpackContextKeys() {
+      return Object.keys(map);
+    };
+
+    webpackContext.resolve = webpackContextResolve;
+    module.exports = webpackContext;
+    webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
     /***/
   },
 
@@ -251,7 +559,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <div class=\"row top-row\">\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"card\">\r\n        <div class=\"card-body align-center\">\r\n          <h4 class=\"form-title\">Ingresar</h4>\r\n          <hr />\r\n          <form [formGroup]=\"loginForm\" (ngSubmit)=\"onSubmit()\">\r\n            <input\r\n              type=\"text\"\r\n              formControlName=\"email\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Email\"\r\n              autofocus\r\n            />\r\n            <input\r\n              type=\"password\"\r\n              formControlName=\"password\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Contraseña\"\r\n            />\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-8 align-center\">\r\n                <ngx-recaptcha2\r\n                  formControlName=\"captcha\"\r\n                  #captchaElem\r\n                  [siteKey]=\"'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'\"\r\n                  [useGlobalDomain]=\"false\"\r\n                >\r\n                </ngx-recaptcha2>\r\n\r\n                <!-- <ngx-recaptcha2  formControlName=\"captcha\" #captchaElem [siteKey]=\"'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'\" [useGlobalDomain]=\"false\"></ngx-recaptcha2> -->\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n            <button\r\n              *ngIf=\"!loading\"\r\n              [disabled]=\"!loginForm.valid\"\r\n              type=\"submit\"\r\n              class=\"btn btn-success full-width separate-top-input\"\r\n            >\r\n              Entrar\r\n            </button>\r\n            <div class=\"mar-top-1\">\r\n              <app-spinner *ngIf=\"loading\"></app-spinner>\r\n            </div>\r\n\r\n            <!-- hola -->\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-12 align-center\">\r\n                <div class=\"btn-group-toggle\" data-toggle=\"buttons\">\r\n\t\t\t\t\t<label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkHorario\"\r\n                      formControlName=\"chkHorario\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />FORZAR INGRESO\r\n                  </label>\r\n\r\n\t\t\t\t  <label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkLunes\"\r\n                      formControlName=\"chkLunes\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />\r\n                    ESTAMOS CERRADOS\r\n                  </label>\r\n                </div>\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n\r\n            <!-- chau -->\r\n          </form>\r\n          <hr />\r\n          <button routerLink=\"/app/register\" class=\"btn btn-primary full-width\">\r\n            Registrarse\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- <div class=\"col-3\"></div> -->\r\n  </div>\r\n  <div class=\"row middle-row\" [isProd]>\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente1\"\r\n          value=\"cliente1\"\r\n          (click)=\"ue('cliente1')\"\r\n        >\r\n          Cli1\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente2\"\r\n          value=\"cliente2\"\r\n          (click)=\"ue('cliente2')\"\r\n        >\r\n          Cli2\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opmozo\"\r\n          value=\"mozo\"\r\n          (click)=\"ue('mozo')\"\r\n        >\r\n          Mozo\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opbartender\"\r\n          value=\"bartender\"\r\n          (click)=\"ue('bartender')\"\r\n        >\r\n          Bartender\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcervecero\"\r\n          value=\"cervecero\"\r\n          (click)=\"ue('cervecero')\"\r\n        >\r\n          Cervecero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcocinero\"\r\n          value=\"cocinero\"\r\n          (click)=\"ue('cocinero')\"\r\n        >\r\n          Cocinero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opsocio\"\r\n          value=\"socio\"\r\n          (click)=\"ue('socio')\"\r\n        >\r\n          Socio\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-3\"></div>\r\n  </div>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\r\n  <div class=\"row top-row\">\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"card\">\r\n        <div class=\"card-body align-center\">\r\n          <h4 class=\"form-title\">Ingresar</h4>\r\n          <hr />\r\n          <form [formGroup]=\"loginForm\" (ngSubmit)=\"onSubmit()\">\r\n            <input\r\n              type=\"text\"\r\n              formControlName=\"email\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Email\"\r\n              autofocus\r\n            />\r\n            <input\r\n              type=\"password\"\r\n              formControlName=\"password\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Contraseña\"\r\n            />\r\n\r\n\r\n            <!-- <button class=\"btn btn-sm btn-outline-danger\"\r\n                *ngIf=\"captchasi\"\r\n                (click)=\"c_option()\"\r\n                unchecked\r\n                autocomplete=\"off\"\r\n              >OMITIR CAPTCHA\r\n          </button> -->\r\n\r\n    <button class=\"btn btn-sm btn-outline-danger\"\r\n          *ngIf=\"!captchasi\"\r\n          (click)=\"c_option()\"\r\n          unchecked\r\n          autocomplete=\"off\"\r\n        >ACTIVAR CAPTCHA\r\n    </button>\r\n\r\n\r\n\r\n            <div  class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-8 align-center\">\r\n                <ngx-recaptcha2\r\n                  *ngIf=\"captchasi\"\r\n                  formControlName=\"captcha\"\r\n                  #captchaElem\r\n                  [siteKey]=\"'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'\"\r\n                  [useGlobalDomain]=\"false\"\r\n                >\r\n                </ngx-recaptcha2>\r\n\r\n                <!-- <ngx-recaptcha2  formControlName=\"captcha\" #captchaElem [siteKey]=\"'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'\" [useGlobalDomain]=\"false\"></ngx-recaptcha2> -->\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n            <button\r\n              *ngIf=\"!loading\"\r\n              [disabled]=\"!loginForm.valid\"\r\n              type=\"submit\"\r\n              class=\"btn btn-success full-width separate-top-input\"\r\n            >\r\n              Entrar\r\n            </button>\r\n            <div class=\"mar-top-1\">\r\n              <app-spinner *ngIf=\"loading\"></app-spinner>\r\n            </div>\r\n\r\n            <!-- hola -->\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-12 align-center\">\r\n                <div class=\"btn-group-toggle\" data-toggle=\"buttons\">\r\n\t\t\t\t\t<label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkHorario\"\r\n                      formControlName=\"chkHorario\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />FORZAR INGRESO\r\n                  </label>\r\n\r\n\t\t\t\t  <label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkLunes\"\r\n                      formControlName=\"chkLunes\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />\r\n                    ESTAMOS CERRADOS\r\n                  </label>\r\n                </div>\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n\r\n            <!-- chau -->\r\n          </form>\r\n          <hr />\r\n          <button routerLink=\"/app/register\" class=\"btn btn-primary full-width\">\r\n            Registrarse\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- <div class=\"col-3\"></div> -->\r\n  </div>\r\n  <div class=\"row middle-row\" [isProd]>\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente1\"\r\n          value=\"cliente1\"\r\n          (click)=\"ue('cliente1')\"\r\n        >\r\n          Cli1\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente2\"\r\n          value=\"cliente2\"\r\n          (click)=\"ue('cliente2')\"\r\n        >\r\n          Cli2\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opmozo\"\r\n          value=\"mozo\"\r\n          (click)=\"ue('mozo')\"\r\n        >\r\n          Mozo\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opbartender\"\r\n          value=\"bartender\"\r\n          (click)=\"ue('bartender')\"\r\n        >\r\n          Bartender\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcervecero\"\r\n          value=\"cervecero\"\r\n          (click)=\"ue('cervecero')\"\r\n        >\r\n          Cervecero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcocinero\"\r\n          value=\"cocinero\"\r\n          (click)=\"ue('cocinero')\"\r\n        >\r\n          Cocinero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opsocio\"\r\n          value=\"socio\"\r\n          (click)=\"ue('socio')\"\r\n        >\r\n          Socio\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-3\"></div>\r\n\r\n    \r\n\r\n\r\n  </div>\r\n</div>\r\n";
     /***/
   },
 
@@ -291,7 +599,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"container\" *ngIf=\"user\">\r\n    <div class=\"row top-row\">\r\n        <div class=\"col-4 align-center\">\r\n            <img src=\"{{user.image}}\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <h1 class=\"tprincipal\">\r\n                {{user.name}} {{user.lastname}}\r\n            </h1>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <p>Tu privacidad está segura en este sitio. La información detallada anteriormente no se expone ni es visible\r\n            para nadie público. Solamente un administrador del sistema tiene acceso a estos datos.</p>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <div class=\"col-2\"></div>\r\n        <div class=\"col-8\">\r\n            <div class=\"card outside-shadow\">\r\n                <div class=\"card-header align-center\">\r\n                    <b>Editar perfil</b>\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Foto</h5>\r\n                            <p class=\"card-text\">Actualizar foto de perfil</p>\r\n                            <div class=\"btn-group\">\r\n                                <button class=\"btn btn-primary\" (click)=\"fileInput.click()\">Elegir imagen</button>\r\n                                <button [disabled]=\"!isLoaded\" class=\"btn btn-success\" (click)=\"Upload()\">Cargar imagen</button>\r\n                            </div>\r\n                        </div>\r\n                        <!-- aca arranca lo nuevo y termina en el otro comentario -->\r\n\r\n                        <div *ngIf=\"isAdmin\" class=\"col-4 align-center\">\r\n                        <select class=\"form-control\"  (ngModelChange)=\"completarUsuario($event)\" [(ngModel)]=\"userOption\">\r\n\r\n                            <option *ngFor=\"let usuario of listaUsuarios\" [ngValue]=\"usuario\">{{usuario}}</option>\r\n                            \r\n                        </select>\r\n                        <form [formGroup]=\"UpdateForm\" (ngSubmit)=\"onSubmit()\">\r\n                                <input type=\"text\" formControlName=\"nombre\" class=\"form-control separate-top-input align-center\" placeholder=\"Nombre\" autofocus>\r\n                                <input type=\"text\" formControlName=\"apellido\" class=\"form-control separate-top-input align-center\" placeholder=\"Apellido\">\r\n                                <button [disabled]=\"!UpdateForm.valid\" type=\"submit\" class=\"btn btn-danger full-width separate-top-input\">Modificar</button>\r\n                         </form></div>\r\n\r\n\r\n\r\n                        <!-- <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Nombre</h5>\r\n                            <p class=\"card-text\">Modificá tu nombre, apellido y/o email de una forma simple.</p>\r\n                            <button class=\"btn btn-primary\" disabled>Cambiar mis datos</button>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <input accept=\".png,.jpg\" type=\"file\" #fileInput style=\"display: none;\" (change)=\"OnFileSelected($event)\">\r\n</div>\r\n\r\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<div class=\"container\" *ngIf=\"user\">\r\n    <div class=\"row top-row\">\r\n        <div class=\"col-4 align-center\">\r\n            <img src=\"{{user.image}}\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <h1 class=\"tprincipal\">\r\n                {{user.name}} {{user.lastname}}\r\n            </h1>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <p>Tu privacidad está segura en este sitio. La información detallada anteriormente no se expone ni es visible\r\n            para nadie público. Solamente un administrador del sistema tiene acceso a estos datos.</p>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <div class=\"col-2\"></div>\r\n        <div class=\"col-8\">\r\n            <div class=\"card outside-shadow\">\r\n                <div class=\"card-header align-center\">\r\n                    <b>Editar perfil</b>\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <div class=\"row\">\r\n                         <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Foto</h5>\r\n                            <p class=\"card-text\">Actualizar foto de perfil</p>\r\n                            <div class=\"btn-group\">\r\n                                <button class=\"btn btn-primary\" (click)=\"fileInput.click()\">Elegir imagen</button>\r\n                                <button [disabled]=\"!isLoaded\" class=\"btn btn-success\" (click)=\"Upload()\">Cargar imagen</button>\r\n                            </div>\r\n                        </div> \r\n                        <!-- aca arranca lo nuevo y termina en el otro comentario -->\r\n\r\n                        <div *ngIf=\"isAdmin\" class=\"col-4 align-center\">\r\n                        <select class=\"form-control\"  (ngModelChange)=\"completarUsuario($event)\" [(ngModel)]=\"userOption\">\r\n\r\n                            <option *ngFor=\"let usuario of listaUsuarios\" [ngValue]=\"usuario\">{{usuario}}</option>\r\n                            \r\n                        </select>\r\n                        <form [formGroup]=\"UpdateForm\" (ngSubmit)=\"onSubmit()\">\r\n                                <input type=\"text\" formControlName=\"nombre\" class=\"form-control separate-top-input align-center\" placeholder=\"Nombre\" autofocus>\r\n                                <input type=\"text\" formControlName=\"apellido\" class=\"form-control separate-top-input align-center\" placeholder=\"Apellido\">\r\n                                <button [disabled]=\"!UpdateForm.valid\" type=\"submit\" class=\"btn btn-danger full-width separate-top-input\">Modificar</button>\r\n                         </form></div>\r\n\r\n\r\n\r\n                        <!-- <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Nombre</h5>\r\n                            <p class=\"card-text\">Modificá tu nombre, apellido y/o email de una forma simple.</p>\r\n                            <button class=\"btn btn-primary\" disabled>Cambiar mis datos</button>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <input accept=\".png,.jpg\" type=\"file\" #fileInput style=\"display: none;\" (change)=\"OnFileSelected($event)\">\r\n</div>\r\n\r\n<app-footer></app-footer>";
     /***/
   },
 
@@ -371,7 +679,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar bartender-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/bartender/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/bartender\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/bartender/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar bartender-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/bartender/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/bartender\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/bartender/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
     /***/
   },
 
@@ -431,7 +739,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cervecero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cervecero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cervecero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cervecero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cervecero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cervecero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cervecero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cervecero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
     /***/
   },
 
@@ -471,7 +779,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = " <!-- <nav>\r\n    <div class=\"row main-bar\"> \r\n        \r\n        <div class=\"col-6 profile\">\r\n            <tr>\r\n            <td><img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\"></td>\r\n\r\n            <td><label *ngIf=\"user\">{{user.name}}</label></td>\r\n        </tr>\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Mi perfil\" link=\"/cliente/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Realizar pedido\" link=\"/cliente\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Buscar pedido\" link=\"buscar\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>\r\n";
+    __webpack_exports__["default"] = " <!-- <nav>\r\n    <div class=\"row main-bar\"> \r\n        \r\n        <div class=\"col-6 profile\">\r\n            <tr>\r\n            <td><img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\"></td>\r\n\r\n            <td><label *ngIf=\"user\">{{user.name}}</label></td>\r\n        </tr>\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Mi perfil\" link=\"/cliente/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Realizar pedido\" link=\"/cliente\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Buscar pedido\" link=\"buscar\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>\r\n";
     /***/
   },
 
@@ -531,7 +839,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cocinero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label  class=\"tc\"   *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cocinero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cocinero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cocinero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cocinero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label  class=\"tc\"   *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cocinero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cocinero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cocinero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
     /***/
   },
 
@@ -591,7 +899,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar mozo-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/mozo/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/mozo\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/mozo/tables\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar mozo-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/mozo/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/mozo\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/mozo/tables\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
     /***/
   },
 
@@ -631,7 +939,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"align-center mar-top-1\" *ngIf=\"this.mesaMasUsada == null && this.mesaMenosUsada == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\" *ngIf=\"this.mesaMasUsada\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Personalizar</button>\r\n        </div>\r\n        <div class=\"col-3\" *ngIf=\"this.mesaMasUsada\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMasUsada\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa más usada</h5>\r\n                <p class=\"card-text\">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa menos usada</h5>\r\n                <p class=\"card-text\">La mesa {{ this.mesaMenosUsada[0] }} fue utilizada {{ this.mesaMenosUsada[1] }}\r\n                    veces </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMayorFacturacion\">\r\n            <img src=\"../../../../../assets/img/billetes.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor recaudación</h5>\r\n                <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó\r\n                    {{ this.mesaMayorFacturacion }} pesos </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/sinplata.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor recaudación</h5>\r\n                <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó\r\n                    {{ this.mesaMenorFacturacion }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/muchaprop.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor importe de factura</h5>\r\n                <p class=\"card-text\">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMayorImporte.totalPrice }} pesos </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/monedas.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor importe de factura</h5>\r\n                <p class=\"card-text\">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMenorImporte.totalPrice }} pesos </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Mejores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysGood | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Peores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysBad | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<!-- Survey modal -->\r\n<div class=\"modal fade\" id=\"surveyModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\" *ngIf=\"survey\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Pedido {{survey.order.codeID}}</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12 align-center\">\r\n                            <b>Promedio de los puntajes: </b> <span [surveyAverage]=\"survey\"\r\n                                returnAverage=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row middle-row\">\r\n                        <div class=\"col-12 align-center\" [surveyComment]='survey.commentType'></div>\r\n                    </div>\r\n                    <hr>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12\">\r\n                            <span [surveyComment]=\"survey.commentType\" isIcon=\"true\"></span> - {{survey.comment}}\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row mar-top-1\">\r\n                        <div class=\"col-1\"></div>\r\n                        <div class=\"col-10 align-right\">\r\n                            {{survey.order.client.name}} {{survey.order.client.lastname}}\r\n                        </div>\r\n                        <div class=\"col-1\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+    __webpack_exports__["default"] = "<div class=\"align-center mar-top-1\" *ngIf=\"this.mesaMasUsada == null && this.mesaMenosUsada == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\" *ngIf=\"this.mesaMasUsada\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Personalizar</button>\r\n        </div>\r\n        <div class=\"col-3\" *ngIf=\"this.mesaMasUsada\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMasUsada\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa más usada</h5> \r\n                <!-- <p class=\"card-text\">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces -->\r\n                <p class=\"card-text\">La mesa {{ mesamas }} fue utilizada {{ mesamasnumber }} veces   \r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa menos usada</h5>\r\n                <p class=\"card-text\">La mesa {{ mesamenos }} fue utilizada {{ mesamenosnumber }}\r\n                    veces </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"bar\" [data]=\"graficobarras\"  [options]=\"OGB\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n\r\n\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMayorFacturacion\">\r\n            <img src=\"../../../../../assets/img/billetes.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor recaudación</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó\r\n                    {{ this.mesaMayorFacturacion }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamasrecaudo }} recaudó\r\n                        {{ mesamasrecaudonumber }} pesos </p>    \r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/sinplata.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor recaudación</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó\r\n                    {{ this.mesaMenorFacturacion }} pesos </p> -->\r\n                    <p class=\"card-text\">La mesa {{ mesamenosrecaudo }} recaudó\r\n                        {{ mesamenosrecaudonumber }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"doughnut\" [data]=\"graficodona\"  [options]=\"OGD\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/muchaprop.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor importe de factura</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMayorImporte.totalPrice }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamayorfactura }} tuvo una factura por\r\n                        {{ mesamayorfacturanumber }} pesos </p> \r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/monedas.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor importe de factura</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMenorImporte.totalPrice }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamenorfactura }} tuvo una factura por\r\n                        {{ mesamenorfacturanumber }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"polarArea\" [data]=\"graficotorta\" [options]=\"OGT\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Mejores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysGood | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Peores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysBad | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<!-- Survey modal -->\r\n<div class=\"modal fade\" id=\"surveyModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\" *ngIf=\"survey\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Pedido {{survey.order.codeID}}</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12 align-center\">\r\n                            <b>Promedio de los puntajes: </b> <span [surveyAverage]=\"survey\"\r\n                                returnAverage=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row middle-row\">\r\n                        <div class=\"col-12 align-center\" [surveyComment]='survey.commentType'></div>\r\n                    </div>\r\n                    <hr>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12\">\r\n                            <span [surveyComment]=\"survey.commentType\" isIcon=\"true\"></span> - {{survey.comment}}\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row mar-top-1\">\r\n                        <div class=\"col-1\"></div>\r\n                        <div class=\"col-10 align-right\">\r\n                            {{survey.order.client.name}} {{survey.order.client.lastname}}\r\n                        </div>\r\n                        <div class=\"col-1\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
     /***/
   },
 
@@ -651,7 +959,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"align-center mar-top-1\" *ngIf=\"this.topBest == null && this.topWorst == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\" *ngIf=\"this.cancelledOrders != null\">\r\n    <div class=\"row\" *ngIf=\"this.topBest != null && this.topWorst != null\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Buscar por fecha</button>\r\n        </div>\r\n        <div class=\"col-3\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\" *ngIf=\"this.topBest\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 mas vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[0] != null\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[0][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topBest[0][0]}} fue el mas solicitado con {{this.topBest[0][1]}}\r\n                    ventas </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[1] != null\">\r\n            <img src=\"../../../../../assets/img/2.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[1][0]}}</h5>\r\n                <p class=\"card-text\">En segundo lugar se encuentra {{this.topBest[1][0]}} con {{this.topBest[1][1]}}\r\n                    ventas</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[2] != null\">\r\n            <img src=\"../../../../../assets/img/3.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[2][0]}}</h5>\r\n                <p class=\"card-text\">El tercer puesto es para {{this.topBest[2][0]}} con {{this.topBest[2][1]}} ventas\r\n                </p>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"this.topWorst\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 menos vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[0] != null\">\r\n            <img src=\"../../../../../assets/img/antesqueelante.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">{{this.topWorst[0][0]}}</h5>\r\n                    <p class=\"card-text\">El articulo {{this.topWorst[0][0]}} no se vendió tanto, tuvo\r\n                        {{this.topWorst[0][1]}} ventas </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[1] != null\">\r\n            <img src=\"../../../../../assets/img/anteultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topWorst[1][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topWorst[1][0]}} fue un poco menos solicitado que el anterior\r\n                    con\r\n                    {{this.topWorst[1][1]}} ventas </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[2] != null\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topWorst[2][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topWorst[2][0]}} fue lo menos solicitado con\r\n                    {{this.topWorst[2][1]}} ventas </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos Cancelados</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Estado</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of cancelledOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.state}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos no entregados en tiempo estipulado</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Demora</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of delayedOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.delayed | timeleft}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n</div>\r\n\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
+    __webpack_exports__["default"] = "<div class=\"align-center mar-top-1\" *ngIf=\"this.productosPedidosOrdenadosAsc == null && this.productosPedidosOrdenadosDesc == null\">\r\n        <div class=\"row top-row page-title\">\r\n            <div class=\"col-3\"></div>\r\n            <div class=\"col-6\"></div>\r\n            <div class=\"col-3\"></div>\r\n        </div>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n    \r\n            </div>\r\n            <div class=\"col-6\">\r\n    \r\n            </div>\r\n            <div class=\"col-3\">\r\n    \r\n            </div>\r\n        </div>\r\n    \r\n        <hr>\r\n        <app-spinner></app-spinner>\r\n    </div>\r\n\r\n\r\n    <div class=\"container\" *ngIf=\"this.cancelledOrders != null\">\r\n            <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc != null && this.productosPedidosOrdenadosDesc != null\">\r\n                <div class=\"col-3\"></div>\r\n                <div class=\"col-6\"></div>\r\n                <div class=\"col-3\"></div>\r\n                <hr>\r\n                <div class=\"col-3\"></div>\r\n                <div class=\"col-6\"></div>\r\n                <div class=\"col-3\"></div>\r\n                <hr>\r\n                <div class=\"col-3\">\r\n                </div>\r\n                <div class=\"col-6\">\r\n                    <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Buscar por fecha</button>\r\n                </div>\r\n                <div class=\"col-3\">\r\n                    <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                        class=\"fas fa-angle-double-down\" ></i></button>\r\n                </div>\r\n        \r\n                <div class=\"row\">\r\n                    <div class=\"col-3 align-center\">\r\n                    </div>\r\n                    <div class=\"col-6 align-center\">\r\n                    </div>\r\n                    <div class=\"col-3 align-center\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <hr>\r\n            <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc\">\r\n                <div class=\"col-3 align-center\">\r\n                </div>\r\n                <div class=\"col-6 align-center\">\r\n                    <h2>Top 3 mas vendidos</h2>\r\n                </div>\r\n                <div class=\"col-3 align-center\">\r\n                </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <!-- <h5 class=\"card-title\">{{this.productosPedidosOrdenadosAsc[0][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.productosPedidosOrdenadosAsc[0][0]}} fue el mas solicitado con {{this.productosPedidosOrdenadosAsc[0][1]}}\r\n                    ventas </p> -->\r\n                    <h5 class=\"card-title\">{{top1}}</h5>\r\n                    <p class=\"card-text\">El articulo {{top1}} fue el mas solicitado con {{top1n}}\r\n                        ventas </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/2.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top2}}</h5>\r\n                <p class=\"card-text\">En segundo lugar se encuentra {{top2}} con {{top2n}}\r\n                    ventas</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/3.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top3}}</h5>\r\n                <p class=\"card-text\">El tercer puesto es para {{top3}} con {{top3n}} ventas\r\n                </p>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc\">\r\n            <div class=\"card col-10 align-center\">\r\n\r\n            <p-chart type=\"bar\" [data]=\"graficobarras\"  [options]=\"OGB\" width=\"40vw\" height=\"80vh\"></p-chart>\r\n             \r\n            </div>\r\n    </div>\r\n\r\n\r\n    <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosDesc\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 menos vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/antesqueelante.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">{{top1m}}</h5>\r\n                    <p class=\"card-text\">El articulo {{top1m}} no se vendió tanto, tuvo\r\n                        {{top1mn}} ventas </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/anteultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top2m}}</h5>\r\n                <p class=\"card-text\">El articulo {{top2m}} fue un poco menos solicitado que el anterior\r\n                    con\r\n                    {{top2mn}} ventas </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top3m}}</h5>\r\n                <p class=\"card-text\">El articulo {{top3m}} fue lo menos solicitado con\r\n                    {{top3mn}} ventas </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos Cancelados</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Estado</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of cancelledOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.state}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos no entregados en tiempo estipulado</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Demora</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of delayedOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.delayed | timeleft}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n</div>\r\n\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
     /***/
   },
 
@@ -691,7 +999,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar socio-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/socio/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Panel de control\" link=\"/socio\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/socio/tables\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/socio/orders\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/socio/products\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de usuarios\" link=\"/socio/usuarios\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Ver encuestas\" link=\"/socio/surveys\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Logs del Sistema\" link=\"/socio/logs\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de pedidos\" link=\"/socio/estPedidos\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de mesas\" link=\"/socio/estMesas\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar socio-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/socio/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Panel de control\" link=\"/socio\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/socio/tables\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/socio/orders\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/socio/products\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de usuarios\" link=\"/socio/usuarios\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Ver encuestas\" link=\"/socio/surveys\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Logs del Sistema\" link=\"/socio/logs\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de pedidos\" link=\"/socio/estPedidos\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de mesas\" link=\"/socio/estMesas\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>";
     /***/
   },
 
@@ -2236,6 +2544,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _pipes_filtrar_productos_pipe__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(
     /*! ./pipes/filtrar-productos.pipe */
     "./src/app/pipes/filtrar-productos.pipe.ts");
+    /* harmony import */
+
+
+    var _modulos_primeng_primeng_module__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(
+    /*! ./modulos/primeng/primeng.module */
+    "./src/app/modulos/primeng/primeng.module.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -2243,7 +2557,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
       declarations: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"], _components_socio_views_main_socio_main_socio_component__WEBPACK_IMPORTED_MODULE_12__["MainSocioComponent"], _components_socio_views_home_socio_home_socio_component__WEBPACK_IMPORTED_MODULE_13__["HomeSocioComponent"], _components_mozo_views_main_mozo_main_mozo_component__WEBPACK_IMPORTED_MODULE_14__["MainMozoComponent"], _components_mozo_views_home_mozo_home_mozo_component__WEBPACK_IMPORTED_MODULE_15__["HomeMozoComponent"], _components_all_views_login_login_component__WEBPACK_IMPORTED_MODULE_16__["LoginComponent"], _components_all_views_register_register_component__WEBPACK_IMPORTED_MODULE_17__["RegisterComponent"], _components_all_views_main_general_main_general_component__WEBPACK_IMPORTED_MODULE_19__["MainGeneralComponent"], _components_all_views_error_error_component__WEBPACK_IMPORTED_MODULE_21__["ErrorComponent"], _components_cliente_views_home_cliente_home_cliente_component__WEBPACK_IMPORTED_MODULE_22__["HomeClienteComponent"], _components_cliente_views_main_cliente_main_cliente_component__WEBPACK_IMPORTED_MODULE_23__["MainClienteComponent"], _components_all_main_food_card_food_card_component__WEBPACK_IMPORTED_MODULE_24__["FoodCardComponent"], _components_all_main_sidebar_option_sidebar_option_component__WEBPACK_IMPORTED_MODULE_25__["SidebarOptionComponent"], _components_all_main_order_list_order_list_component__WEBPACK_IMPORTED_MODULE_26__["OrderListComponent"], _components_mozo_main_select_order_select_order_component__WEBPACK_IMPORTED_MODULE_27__["SelectOrderComponent"], _components_mozo_views_manage_tables_manage_tables_component__WEBPACK_IMPORTED_MODULE_28__["ManageTablesComponent"], _components_all_main_table_card_table_card_component__WEBPACK_IMPORTED_MODULE_29__["TableCardComponent"], _components_cocinero_views_main_cocinero_main_cocinero_component__WEBPACK_IMPORTED_MODULE_30__["MainCocineroComponent"], _components_cocinero_views_home_cocinero_home_cocinero_component__WEBPACK_IMPORTED_MODULE_31__["HomeCocineroComponent"], _components_bartender_views_home_bartender_home_bartender_component__WEBPACK_IMPORTED_MODULE_32__["HomeBartenderComponent"], _components_bartender_views_main_bartender_main_bartender_component__WEBPACK_IMPORTED_MODULE_33__["MainBartenderComponent"], _components_cervecero_views_main_cervecero_main_cervecero_component__WEBPACK_IMPORTED_MODULE_34__["MainCerveceroComponent"], _components_cervecero_views_home_cervecero_home_cervecero_component__WEBPACK_IMPORTED_MODULE_35__["HomeCerveceroComponent"], _components_all_main_work_order_work_order_component__WEBPACK_IMPORTED_MODULE_36__["WorkOrderComponent"], _pipes_timeleft_pipe__WEBPACK_IMPORTED_MODULE_37__["TimeleftPipe"], _pipes_table_pipe__WEBPACK_IMPORTED_MODULE_38__["TablePipe"], _components_cliente_views_search_order_search_order_component__WEBPACK_IMPORTED_MODULE_39__["SearchOrderComponent"], _components_all_main_spinner_spinner_component__WEBPACK_IMPORTED_MODULE_40__["SpinnerComponent"], _components_all_views_redirect_redirect_component__WEBPACK_IMPORTED_MODULE_41__["RedirectComponent"], _components_socio_views_manage_tables_admin_manage_tables_admin_component__WEBPACK_IMPORTED_MODULE_42__["ManageTablesAdminComponent"], _components_socio_views_manage_orders_admin_manage_orders_admin_component__WEBPACK_IMPORTED_MODULE_43__["ManageOrdersAdminComponent"], _components_all_views_profile_profile_component__WEBPACK_IMPORTED_MODULE_44__["ProfileComponent"], _components_all_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_45__["FooterComponent"], _components_socio_views_survey_table_survey_table_component__WEBPACK_IMPORTED_MODULE_46__["SurveyTableComponent"], _directives_survey_average_directive__WEBPACK_IMPORTED_MODULE_47__["SurveyAverageDirective"], _directives_survey_comment_directive__WEBPACK_IMPORTED_MODULE_48__["SurveyCommentDirective"], _pipes_neat_date_pipe__WEBPACK_IMPORTED_MODULE_49__["NeatDatePipe"], _pipes_sort_pipe_pipe__WEBPACK_IMPORTED_MODULE_53__["SortPipePipe"], _directives_is_prod_directive__WEBPACK_IMPORTED_MODULE_50__["IsProdDirective"], _components_bienvenida_bienvenida_component__WEBPACK_IMPORTED_MODULE_52__["BienvenidaComponent"], _components_all_main_admin_productos_admin_productos_component__WEBPACK_IMPORTED_MODULE_55__["AdminProductosComponent"], _components_socio_views_manage_products_manage_products_component__WEBPACK_IMPORTED_MODULE_56__["ManageProductsComponent"], _components_socio_views_manage_usr_manage_usr_component__WEBPACK_IMPORTED_MODULE_57__["ManageUsrComponent"], _components_socio_views_manejo_logs_manejo_logs_component__WEBPACK_IMPORTED_MODULE_58__["ManejoLogsComponent"], _components_socio_views_estadisticas_pedidos_estadisticas_pedidos_component__WEBPACK_IMPORTED_MODULE_59__["EstadisticasPedidosComponent"], _components_socio_views_estadisticas_mesas_estadisticas_mesas_component__WEBPACK_IMPORTED_MODULE_60__["EstadisticasMesasComponent"], _pipes_filtrar_productos_pipe__WEBPACK_IMPORTED_MODULE_61__["FiltrarProductosPipe"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_18__["FormsModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_54__["NgbModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_18__["ReactiveFormsModule"], angularfire2__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(src_environments_environment__WEBPACK_IMPORTED_MODULE_20__["FirebaseConfig"]), angularfire2_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"], _angular_fire_functions__WEBPACK_IMPORTED_MODULE_5__["AngularFireFunctionsModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_9__["AngularFireStorageModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], ngx_captcha__WEBPACK_IMPORTED_MODULE_51__["NgxCaptchaModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_8__["ToastrModule"].forRoot({
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_10__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_18__["FormsModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_54__["NgbModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_18__["ReactiveFormsModule"], angularfire2__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(src_environments_environment__WEBPACK_IMPORTED_MODULE_20__["FirebaseConfig"]), angularfire2_firestore__WEBPACK_IMPORTED_MODULE_4__["AngularFirestoreModule"], _angular_fire_functions__WEBPACK_IMPORTED_MODULE_5__["AngularFireFunctionsModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_9__["AngularFireStorageModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], ngx_captcha__WEBPACK_IMPORTED_MODULE_51__["NgxCaptchaModule"], _modulos_primeng_primeng_module__WEBPACK_IMPORTED_MODULE_62__["PrimengModule"], ngx_toastr__WEBPACK_IMPORTED_MODULE_8__["ToastrModule"].forRoot({
         timeOut: 2300,
         positionClass: 'toast-bottom-right',
         preventDuplicates: true
@@ -2738,7 +3052,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".img-shadow {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.img-shadow:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.price {\n  margin-top: 0.5rem;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n  border-radius: 100%;\n  border: solid 3px lightseagreen;\n  cursor: pointer;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.ordered {\n  color: green;\n}\n\n.quant {\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXGZvb2QtY2FyZFxcZm9vZC1jYXJkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb2QtY2FyZC9mb29kLWNhcmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx3RUFBQTtFQUNGLDZEQUFBO0VBQUEscURBQUE7QUNDRjs7QURFQTtFQUNJLDRFQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtFQUNBLHlDQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsK0JBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksWUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vZm9vZC1jYXJkL2Zvb2QtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbWctc2hhZG93IHtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsMCwwLDAuMTIpLCAwIDFweCAycHggcmdiYSgwLDAsMCwwLjI0KTtcclxuICB0cmFuc2l0aW9uOiBhbGwgMC4zcyBjdWJpYy1iZXppZXIoLjI1LC44LC4yNSwxKTtcclxufVxyXG5cclxuLmltZy1zaGFkb3c6aG92ZXIge1xyXG4gICAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLDAsMCwwLjI1KSwgMCAxMHB4IDEwcHggcmdiYSgwLDAsMCwwLjIyKTtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIG1hcmdpbi10b3A6IDAuNXJlbTtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG59XHJcblxyXG5pbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIHdpZHRoOiAxMDBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbiAgICBib3JkZXI6IHNvbGlkIDNweCBsaWdodHNlYWdyZWVuO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uY2FyZC10aXRsZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm9yZGVyZWQge1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ucXVhbnQge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCIuaW1nLXNoYWRvdyB7XG4gIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKDAuMjUsIDAuOCwgMC4yNSwgMSk7XG59XG5cbi5pbWctc2hhZG93OmhvdmVyIHtcbiAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLCAwLCAwLCAwLjI1KSwgMCAxMHB4IDEwcHggcmdiYSgwLCAwLCAwLCAwLjIyKTtcbn1cblxuLnByaWNlIHtcbiAgbWFyZ2luLXRvcDogMC41cmVtO1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbn1cblxuaW1nIHtcbiAgaGVpZ2h0OiAxMDBweDtcbiAgd2lkdGg6IDEwMHB4O1xuICBib3JkZXItcmFkaXVzOiAxMDAlO1xuICBib3JkZXI6IHNvbGlkIDNweCBsaWdodHNlYWdyZWVuO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5vcmRlcmVkIHtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4ucXVhbnQge1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".img-shadow {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.img-shadow:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.price {\n  margin-top: 0.5rem;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n  border-radius: 100%;\n  border: solid 3px lightseagreen;\n  cursor: pointer;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.ordered {\n  color: green;\n}\n\n.quant {\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxmb29kLWNhcmRcXGZvb2QtY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvZm9vZC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksd0VBQUE7RUFDRiw2REFBQTtFQUFBLHFEQUFBO0FDQ0Y7O0FERUE7RUFDSSw0RUFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7RUFDQSx5Q0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQTtFQUNBLCtCQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb2QtY2FyZC9mb29kLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1nLXNoYWRvdyB7XHJcbiAgICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLDAsMCwwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwwLDAsMC4yNCk7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKC4yNSwuOCwuMjUsMSk7XHJcbn1cclxuXHJcbi5pbWctc2hhZG93OmhvdmVyIHtcclxuICAgIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwwLDAsMC4yNSksIDAgMTBweCAxMHB4IHJnYmEoMCwwLDAsMC4yMik7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBtYXJnaW4tdG9wOiAwLjVyZW07XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm9yZGVyOiBzb2xpZCAzcHggbGlnaHRzZWFncmVlbjtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbi5vcmRlcmVkIHtcclxuICAgIGNvbG9yOiBncmVlbjtcclxufVxyXG5cclxuLnF1YW50IHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwiLmltZy1zaGFkb3cge1xuICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLCAwLCAwLCAwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwgMCwgMCwgMC4yNCk7XG4gIHRyYW5zaXRpb246IGFsbCAwLjNzIGN1YmljLWJlemllcigwLjI1LCAwLjgsIDAuMjUsIDEpO1xufVxuXG4uaW1nLXNoYWRvdzpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwgMCwgMCwgMC4yNSksIDAgMTBweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4yMik7XG59XG5cbi5wcmljZSB7XG4gIG1hcmdpbi10b3A6IDAuNXJlbTtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbiAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgYm9yZGVyOiBzb2xpZCAzcHggbGlnaHRzZWFncmVlbjtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4uY2FyZC10aXRsZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4ub3JkZXJlZCB7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxuLnF1YW50IHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */";
     /***/
   },
 
@@ -2843,7 +3157,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".footer {\n  width: 100%;\n  background: #333;\n  color: white;\n  font-size: 0.9rem;\n  padding: 0.3rem 0 0.3rem 0;\n}\n\n.footer-shadow {\n  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.96);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXGZvb3RlclxcZm9vdGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSwwQkFBQTtBQ0NKOztBREVBO0VBR0ksZ0RBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb290ZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMzMzO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgZm9udC1zaXplOiAwLjlyZW07XHJcbiAgICBwYWRkaW5nOiAuM3JlbSAwIC4zcmVtIDA7XHJcbn1cclxuXHJcbi5mb290ZXItc2hhZG93IHtcclxuICAgIC13ZWJraXQtYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG4gICAgLW1vei1ib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwwLDAsMC45Nik7XHJcbiAgICBib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwwLDAsMC45Nik7XHJcbn0iLCIuZm9vdGVyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGJhY2tncm91bmQ6ICMzMzM7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC1zaXplOiAwLjlyZW07XG4gIHBhZGRpbmc6IDAuM3JlbSAwIDAuM3JlbSAwO1xufVxuXG4uZm9vdGVyLXNoYWRvdyB7XG4gIC13ZWJraXQtYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuOTYpO1xuICAtbW96LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbiAgYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuOTYpO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".footer {\n  width: 100%;\n  background: #333;\n  color: white;\n  font-size: 0.9rem;\n  padding: 0.3rem 0 0.3rem 0;\n}\n\n.footer-shadow {\n  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.96);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxmb290ZXJcXGZvb3Rlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksV0FBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsMEJBQUE7QUNDSjs7QURFQTtFQUdJLGdEQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYmFja2dyb3VuZDogIzMzMztcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtc2l6ZTogMC45cmVtO1xyXG4gICAgcGFkZGluZzogLjNyZW0gMCAuM3JlbSAwO1xyXG59XHJcblxyXG4uZm9vdGVyLXNoYWRvdyB7XHJcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLDAsMCwwLjk2KTtcclxuICAgIC1tb3otYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG4gICAgYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG59IiwiLmZvb3RlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBiYWNrZ3JvdW5kOiAjMzMzO1xuICBjb2xvcjogd2hpdGU7XG4gIGZvbnQtc2l6ZTogMC45cmVtO1xuICBwYWRkaW5nOiAwLjNyZW0gMCAwLjNyZW0gMDtcbn1cblxuLmZvb3Rlci1zaGFkb3cge1xuICAtd2Via2l0LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbiAgLW1vei1ib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwgMCwgMCwgMC45Nik7XG4gIGJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbn0iXX0= */";
     /***/
   },
 
@@ -2922,7 +3236,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".order {\n  cursor: pointer;\n}\n\ntable {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxvcmRlci1saXN0XFxvcmRlci1saXN0LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL29yZGVyLWxpc3Qvb3JkZXItbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURFQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNDSjs7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSOztBRENJO0VBQ0ksa0JBQUE7QUNDUjs7QURHQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L29yZGVyLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIub3JkZXIge1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG50YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsIi5vcmRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxudGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".order {\n  cursor: pointer;\n}\n\ntable {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcb3JkZXItbGlzdFxcb3JkZXItbGlzdC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L29yZGVyLWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxlQUFBO0FDQ0o7O0FERUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7O0FEQ0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNDUjs7QURDSTtFQUNJLGtCQUFBO0FDQ1I7O0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vb3JkZXItbGlzdC9vcmRlci1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm9yZGVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuOWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCIub3JkZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -3144,7 +3458,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".option {\n  border-color: blue;\n  border-right: none;\n  border-left: none;\n  border-bottom: none;\n  border-radius: 0;\n  font-size: 1rem;\n}\n\n.last {\n  border-bottom: 1px solid blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcc2lkZWJhci1vcHRpb25cXHNpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NpZGViYXItb3B0aW9uL3NpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNDSjs7QURFQTtFQUNJLDZCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NpZGViYXItb3B0aW9uL3NpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm9wdGlvbiB7XHJcbiAgICBib3JkZXItY29sb3I6IGJsdWU7XHJcbiAgICBib3JkZXItcmlnaHQ6IG5vbmU7XHJcbiAgICBib3JkZXItbGVmdDogbm9uZTtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgZm9udC1zaXplOiAxLjByZW07XHJcbn1cclxuXHJcbi5sYXN0IHtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBibHVlO1xyXG59IiwiLm9wdGlvbiB7XG4gIGJvcmRlci1jb2xvcjogYmx1ZTtcbiAgYm9yZGVyLXJpZ2h0OiBub25lO1xuICBib3JkZXItbGVmdDogbm9uZTtcbiAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgYm9yZGVyLXJhZGl1czogMDtcbiAgZm9udC1zaXplOiAxcmVtO1xufVxuXG4ubGFzdCB7XG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBibHVlO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".option {\n  border-color: blue;\n  border-right: none;\n  border-left: none;\n  border-bottom: none;\n  border-radius: 0;\n  font-size: 1rem;\n}\n\n.last {\n  border-bottom: 1px solid blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXHNpZGViYXItb3B0aW9uXFxzaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9zaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSw2QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9zaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5vcHRpb24ge1xyXG4gICAgYm9yZGVyLWNvbG9yOiBibHVlO1xyXG4gICAgYm9yZGVyLXJpZ2h0OiBub25lO1xyXG4gICAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgICBib3JkZXItYm90dG9tOiBub25lO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMDtcclxuICAgIGZvbnQtc2l6ZTogMS4wcmVtO1xyXG59XHJcblxyXG4ubGFzdCB7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgYmx1ZTtcclxufSIsIi5vcHRpb24ge1xuICBib3JkZXItY29sb3I6IGJsdWU7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XG4gIGJvcmRlci1ib3R0b206IG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDA7XG4gIGZvbnQtc2l6ZTogMXJlbTtcbn1cblxuLmxhc3Qge1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgYmx1ZTtcbn0iXX0= */";
     /***/
   },
 
@@ -3279,7 +3593,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "img {\n  height: 60px;\n  width: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxzcGlubmVyXFxzcGlubmVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NwaW5uZXIvc3Bpbm5lci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxXQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NwaW5uZXIvc3Bpbm5lci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgICBoZWlnaHQ6IDYwcHg7XHJcbiAgICB3aWR0aDogNjBweDtcclxufSIsImltZyB7XG4gIGhlaWdodDogNjBweDtcbiAgd2lkdGg6IDYwcHg7XG59Il19 */";
+    __webpack_exports__["default"] = "img {\n  height: 60px;\n  width: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcc3Bpbm5lclxcc3Bpbm5lci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL3NwaW5uZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL3NwaW5uZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xyXG4gICAgaGVpZ2h0OiA2MHB4O1xyXG4gICAgd2lkdGg6IDYwcHg7XHJcbn0iLCJpbWcge1xuICBoZWlnaHQ6IDYwcHg7XG4gIHdpZHRoOiA2MHB4O1xufSJdfQ== */";
     /***/
   },
 
@@ -3358,7 +3672,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".icon {\n  font-size: 2rem;\n}\n\n.card-title {\n  font-size: 1.5rem;\n}\n\n.green {\n  color: green;\n}\n\n.red {\n  color: red;\n}\n\n.orange {\n  color: orange;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFx0YWJsZS1jYXJkXFx0YWJsZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3RhYmxlLWNhcmQvdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0FDQ0o7O0FERUE7RUFDSSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxVQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3RhYmxlLWNhcmQvdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pY29uIHtcclxuICAgIGZvbnQtc2l6ZTogMnJlbTtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgZm9udC1zaXplOiAxLjVyZW07XHJcbn1cclxuXHJcbi5ncmVlbiB7XHJcbiAgICBjb2xvcjogZ3JlZW47XHJcbn1cclxuXHJcbi5yZWQge1xyXG4gICAgY29sb3I6IHJlZDtcclxufVxyXG5cclxuLm9yYW5nZSB7XHJcbiAgICBjb2xvcjogb3JhbmdlO1xyXG59IiwiLmljb24ge1xuICBmb250LXNpemU6IDJyZW07XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC1zaXplOiAxLjVyZW07XG59XG5cbi5ncmVlbiB7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxuLnJlZCB7XG4gIGNvbG9yOiByZWQ7XG59XG5cbi5vcmFuZ2Uge1xuICBjb2xvcjogb3JhbmdlO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".icon {\n  font-size: 2rem;\n}\n\n.card-title {\n  font-size: 1.5rem;\n}\n\n.green {\n  color: green;\n}\n\n.red {\n  color: red;\n}\n\n.orange {\n  color: orange;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcdGFibGUtY2FyZFxcdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL3RhYmxlLWNhcmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksWUFBQTtBQ0NKOztBREVBO0VBQ0ksVUFBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL3RhYmxlLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaWNvbiB7XHJcbiAgICBmb250LXNpemU6IDJyZW07XHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ucmVkIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi5vcmFuZ2Uge1xyXG4gICAgY29sb3I6IG9yYW5nZTtcclxufSIsIi5pY29uIHtcbiAgZm9udC1zaXplOiAycmVtO1xufVxuXG4uY2FyZC10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMS41cmVtO1xufVxuXG4uZ3JlZW4ge1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi5yZWQge1xuICBjb2xvcjogcmVkO1xufVxuXG4ub3JhbmdlIHtcbiAgY29sb3I6IG9yYW5nZTtcbn0iXX0= */";
     /***/
   },
 
@@ -3537,7 +3851,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\ninput {\n  text-align: center;\n}\n\ninput::-webkit-input-placeholder {\n  text-align: center;\n}\n\ninput::-moz-placeholder {\n  text-align: center;\n}\n\ninput::-ms-input-placeholder {\n  text-align: center;\n}\n\ninput::placeholder {\n  text-align: center;\n}\n\nh5 {\n  margin-top: 1rem;\n  font-weight: bold;\n}\n\n.or {\n  text-align: center;\n  margin: 0.5rem 0 0.5rem 0;\n}\n\n.order {\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFx3b3JrLW9yZGVyXFx3b3JrLW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3dvcmstb3JkZXIvd29yay1vcmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSjs7QURFQTtFQUNJLGtCQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtBQ0NKOztBREZBO0VBQ0ksa0JBQUE7QUNDSjs7QURGQTtFQUNJLGtCQUFBO0FDQ0o7O0FERkE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksZ0JBQUE7RUFDQSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7RUFDQSx5QkFBQTtBQ0NKOztBREVBO0VBQ0ksZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL3dvcmstb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbmlucHV0IHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaW5wdXQ6OnBsYWNlaG9sZGVyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaDUge1xyXG4gICAgbWFyZ2luLXRvcDogMXJlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4ub3Ige1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbWFyZ2luOiAwLjVyZW0gMCAwLjVyZW0gMDtcclxufVxyXG5cclxuLm9yZGVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufSIsInNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufVxuXG5pbnB1dCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW5wdXQ6OnBsYWNlaG9sZGVyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5oNSB7XG4gIG1hcmdpbi10b3A6IDFyZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4ub3Ige1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1hcmdpbjogMC41cmVtIDAgMC41cmVtIDA7XG59XG5cbi5vcmRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn0iXX0= */";
+    __webpack_exports__["default"] = "select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\ninput {\n  text-align: center;\n}\n\ninput::-webkit-input-placeholder {\n  text-align: center;\n}\n\ninput::-moz-placeholder {\n  text-align: center;\n}\n\ninput::-ms-input-placeholder {\n  text-align: center;\n}\n\ninput::placeholder {\n  text-align: center;\n}\n\nh5 {\n  margin-top: 1rem;\n  font-weight: bold;\n}\n\n.or {\n  text-align: center;\n  margin: 0.5rem 0 0.5rem 0;\n}\n\n.order {\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcd29yay1vcmRlclxcd29yay1vcmRlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL3dvcmstb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0QkFBQTtPQUFBLHVCQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7QUNDSjs7QURGQTtFQUNJLGtCQUFBO0FDQ0o7O0FERkE7RUFDSSxrQkFBQTtBQ0NKOztBREZBO0VBQ0ksa0JBQUE7QUNDSjs7QURFQTtFQUNJLGdCQUFBO0VBQ0EsaUJBQUE7QUNDSjs7QURFQTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vd29yay1vcmRlci93b3JrLW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsic2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmlucHV0OjpwbGFjZWhvbGRlciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmg1IHtcclxuICAgIG1hcmdpbi10b3A6IDFyZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm9yIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbjogMC41cmVtIDAgMC41cmVtIDA7XHJcbn1cclxuXHJcbi5vcmRlciB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn0iLCJzZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn1cblxuaW5wdXQge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmlucHV0OjpwbGFjZWhvbGRlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaDUge1xuICBtYXJnaW4tdG9wOiAxcmVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLm9yIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW46IDAuNXJlbSAwIDAuNXJlbSAwO1xufVxuXG4ub3JkZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -3895,7 +4209,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\n.centrado {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXHZpZXdzXFxsb2dpblxcbG9naW4uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jZW50cmFkbyB7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxufSIsInNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufVxuXG4uY2VudHJhZG8ge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */";
+    __webpack_exports__["default"] = "select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\n.centrado {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFx2aWV3c1xcbG9naW5cXGxvZ2luLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSjs7QURFQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsic2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG4uY2VudHJhZG8ge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn0iLCJzZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn1cblxuLmNlbnRyYWRvIHtcbiAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -3977,21 +4291,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.toastr = toastr;
         this.userService = userService;
         this.lS = lS;
-        this.userOption = 'none';
+        this.userOption = "none";
         this.loading = false;
+        this.loginForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
+          email: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
+          chkHorario: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
+          chkLunes: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
+          password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
+          captcha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required])
+        });
+        this.loginForm.controls.captcha.setValidators(null);
+        this.captchasi = false;
       }
 
       _createClass(LoginComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {
-          this.loginForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
-            email: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            chkHorario: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            chkLunes: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            captcha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required])
-          });
-        }
+        value: function ngOnInit() {}
       }, {
         key: "onSubmit",
         value: function onSubmit() {
@@ -4011,16 +4326,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 setTimeout(function () {
                   _this15.loading = false;
 
-                  _this15.loginForm.get('email').setValue('');
+                  _this15.loginForm.get("email").setValue("");
 
-                  _this15.loginForm.get('password').setValue('');
+                  _this15.loginForm.get("password").setValue("");
 
-                  _this15.loginForm.get('email').enable();
+                  _this15.loginForm.get("email").enable();
 
-                  _this15.loginForm.get('password').enable();
+                  _this15.loginForm.get("password").enable();
                 }, 2000);
               } else {
-                //this.authService.GetCurrentUser().then(user => 
+                //this.authService.GetCurrentUser().then(user =>
                 //{const msj = `El usuario ${user.email} inicio sesion`;
                 //this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
                 _this15.userService.GetUserByEmail(usr).then(function (user) {
@@ -4058,6 +4373,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.userOption = u;
           console.log('esta en la base', u);
           this.LoadUser();
+        }
+      }, {
+        key: "c_option",
+        value: function c_option() {
+          // if (this.captchasi) {
+          //   this.loginForm.controls.captcha.setValidators(null);
+          //   this.captchasi = false;
+          // } else {
+          this.loginForm.controls.captcha.setValidators(_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required);
+          this.captchasi = true; //  }
         }
       }, {
         key: "LoadUser",
@@ -4151,7 +4476,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-login',
+      selector: "app-login",
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./login.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/all/views/login/login.component.html")).default,
@@ -4178,7 +4503,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".general-color {\n  background-color: #83f174;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbWFpbi1nZW5lcmFsL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFx2aWV3c1xcbWFpbi1nZW5lcmFsXFxtYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL21haW4tZ2VuZXJhbC9tYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYTtBQ0VqQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL21haW4tZ2VuZXJhbC9tYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZ2VuZXJhbFByaW1hcnk6IHJnYigxMzEsIDI0MSwgMTE2KTtcclxuXHJcbi5nZW5lcmFsLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRnZW5lcmFsUHJpbWFyeTtcclxufSIsIi5nZW5lcmFsLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgzZjE3NDtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".general-color {\n  background-color: #83f174;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbWFpbi1nZW5lcmFsL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcdmlld3NcXG1haW4tZ2VuZXJhbFxcbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9tYWluLWdlbmVyYWwvbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGE7QUNFakIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9tYWluLWdlbmVyYWwvbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGdlbmVyYWxQcmltYXJ5OiByZ2IoMTMxLCAyNDEsIDExNik7XHJcblxyXG4uZ2VuZXJhbC1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkZ2VuZXJhbFByaW1hcnk7XHJcbn0iLCIuZ2VuZXJhbC1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4M2YxNzQ7XG59Il19 */";
     /***/
   },
 
@@ -4257,7 +4582,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "img {\n  height: 150px;\n  width: 150px;\n  border-radius: 100%;\n  border: 1px solid #333;\n}\n\nh1 {\n  margin: 0 auto;\n  position: absolute;\n  top: 30%;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcdmlld3NcXHByb2ZpbGVcXHByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBQ0NKOztBREVBO0VBQ0ksY0FBQTtFQUNBLGtCQUFBO0VBQ0EsUUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcclxuICAgIGhlaWdodDogMTUwcHg7XHJcbiAgICB3aWR0aDogMTUwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcclxufVxyXG5cclxuaDEge1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDMwJTtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwgMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiaW1nIHtcbiAgaGVpZ2h0OiAxNTBweDtcbiAgd2lkdGg6IDE1MHB4O1xuICBib3JkZXItcmFkaXVzOiAxMDAlO1xuICBib3JkZXI6IDFweCBzb2xpZCAjMzMzO1xufVxuXG5oMSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMzAlO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "img {\n  height: 150px;\n  width: 150px;\n  border-radius: 100%;\n  border: 1px solid #333;\n}\n\nh1 {\n  margin: 0 auto;\n  position: absolute;\n  top: 30%;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXHZpZXdzXFxwcm9maWxlXFxwcm9maWxlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9wcm9maWxlL3Byb2ZpbGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0Esc0JBQUE7QUNDSjs7QURFQTtFQUNJLGNBQUE7RUFDQSxrQkFBQTtFQUNBLFFBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgICBoZWlnaHQ6IDE1MHB4O1xyXG4gICAgd2lkdGg6IDE1MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICMzMzM7XHJcbn1cclxuXHJcbmgxIHtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAzMCU7XHJcbn1cclxuXHJcbi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsIDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsImltZyB7XG4gIGhlaWdodDogMTUwcHg7XG4gIHdpZHRoOiAxNTBweDtcbiAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcbn1cblxuaDEge1xuICBtYXJnaW46IDAgYXV0bztcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDMwJTtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -4391,7 +4716,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var name = src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_4__["CommonHelper"].GenerateProfileImageName(this.user);
           console.log(name);
-          this.fileService.Upload(name, this.selectedFile).then(function () {
+          this.fileService.subirFotoUsuarios(this.selectedFile, this.user.id).then(function () {
             setTimeout(function () {
               _this18.ChangeProfilePic(name);
             }, 1000);
@@ -4818,7 +5143,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxiYXJ0ZW5kZXJcXHZpZXdzXFxob21lLWJhcnRlbmRlclxcaG9tZS1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL2hvbWUtYmFydGVuZGVyL2hvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvaG9tZS1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmFydGVuZGVyXFx2aWV3c1xcaG9tZS1iYXJ0ZW5kZXJcXGhvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2JhcnRlbmRlci92aWV3cy9ob21lLWJhcnRlbmRlci9ob21lLWJhcnRlbmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL2hvbWUtYmFydGVuZGVyL2hvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -4902,7 +5227,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".bartender-color {\n  background-color: #d840dd;\n}\n\n.bc {\n  background-color: #ddb281;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxiYXJ0ZW5kZXJcXHZpZXdzXFxtYWluLWJhcnRlbmRlclxcbWFpbi1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL21haW4tYmFydGVuZGVyL21haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGU7QUNFbkI7O0FESUE7RUFDSSx5QkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvbWFpbi1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkYmFydGVuZGVyUHJpbWFyeTogcmdiKDIxNiwgNjQsIDIyMSk7XHJcblxyXG4uYmFydGVuZGVyLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRiYXJ0ZW5kZXJQcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIxLCAxNzgsIDEyOSk7XHJcbn0iLCIuYmFydGVuZGVyLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Q4NDBkZDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2RkYjI4MTtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".bartender-color {\n  background-color: #d840dd;\n}\n\n.bc {\n  background-color: #ddb281;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmFydGVuZGVyXFx2aWV3c1xcbWFpbi1iYXJ0ZW5kZXJcXG1haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2JhcnRlbmRlci92aWV3cy9tYWluLWJhcnRlbmRlci9tYWluLWJhcnRlbmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhlO0FDRW5COztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURJQTtFQUVJLGVBQUE7QUNGSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL21haW4tYmFydGVuZGVyL21haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGJhcnRlbmRlclByaW1hcnk6IHJnYigyMTYsIDY0LCAyMjEpO1xyXG5cclxuLmJhcnRlbmRlci1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkYmFydGVuZGVyUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMSwgMTc4LCAxMjkpO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn0iLCIuYmFydGVuZGVyLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Q4NDBkZDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2RkYjI4MTtcbn1cblxuLmZpam8ge1xuICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */";
     /***/
   },
 
@@ -5007,7 +5332,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".titulo {\n  font-family: Arial, Helvetica, sans-serif;\n  color: lightseagreen;\n  font-size: 36px;\n}\n\n.color {\n  color: lightseagreen;\n  background-color: black;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 20px;\n  text-align: center;\n}\n\n.fondo {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmllbnZlbmlkYVxcYmllbnZlbmlkYS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL2JpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLG9CQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0ksb0JBQUE7RUFDQSx1QkFBQTtFQUNBLHlDQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FDQ0o7O0FERUE7RUFDSSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL2JpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGl0dWxvIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XHJcbiAgICBmb250LXNpemU6IDM2cHg7XHJcbn1cclxuXHJcbi5jb2xvciB7XHJcbiAgICBjb2xvcjogbGlnaHRzZWFncmVlbjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb25kbyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufSIsIi50aXR1bG8ge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XG4gIGZvbnQtc2l6ZTogMzZweDtcbn1cblxuLmNvbG9yIHtcbiAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAyMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5mb25kbyB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".titulo {\n  font-family: Arial, Helvetica, sans-serif;\n  color: lightseagreen;\n  font-size: 36px;\n}\n\n.color {\n  color: lightseagreen;\n  background-color: black;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 20px;\n  text-align: center;\n}\n\n.fondo {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGJpZW52ZW5pZGFcXGJpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmllbnZlbmlkYS9iaWVudmVuaWRhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxvQkFBQTtFQUNBLGVBQUE7QUNDSjs7QURFQTtFQUNJLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSx5Q0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmllbnZlbmlkYS9iaWVudmVuaWRhLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdHVsbyB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xyXG4gICAgZm9udC1zaXplOiAzNnB4O1xyXG59XHJcblxyXG4uY29sb3Ige1xyXG4gICAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZm9uZG8ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbn0iLCIudGl0dWxvIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xuICBmb250LXNpemU6IDM2cHg7XG59XG5cbi5jb2xvciB7XG4gIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZm9uZG8ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbn0iXX0= */";
     /***/
   },
 
@@ -5128,7 +5453,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjZXJ2ZWNlcm9cXHZpZXdzXFxob21lLWNlcnZlY2Vyb1xcaG9tZS1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL2hvbWUtY2VydmVjZXJvL2hvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vaG9tZS1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY2VydmVjZXJvXFx2aWV3c1xcaG9tZS1jZXJ2ZWNlcm9cXGhvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NlcnZlY2Vyby92aWV3cy9ob21lLWNlcnZlY2Vyby9ob21lLWNlcnZlY2Vyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL2hvbWUtY2VydmVjZXJvL2hvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -5212,7 +5537,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".cervecero-color {\n  background-color: #805552;\n}\n\n.bc {\n  background-color: #f0ed54;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjZXJ2ZWNlcm9cXHZpZXdzXFxtYWluLWNlcnZlY2Vyb1xcbWFpbi1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL21haW4tY2VydmVjZXJvL21haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGU7QUNFbkI7O0FESUE7RUFDSSx5QkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vbWFpbi1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkY2VydmVjZXJvUHJpbWFyeTogcmdiKDEyOCwgODUsIDgyKTtcclxuXHJcbi5jZXJ2ZWNlcm8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGNlcnZlY2Vyb1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDAsIDIzNywgODQpO1xyXG59XHJcbiIsIi5jZXJ2ZWNlcm8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjODA1NTUyO1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjBlZDU0O1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".cervecero-color {\n  background-color: #805552;\n}\n\n.bc {\n  background-color: #f0ed54;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY2VydmVjZXJvXFx2aWV3c1xcbWFpbi1jZXJ2ZWNlcm9cXG1haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NlcnZlY2Vyby92aWV3cy9tYWluLWNlcnZlY2Vyby9tYWluLWNlcnZlY2Vyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhlO0FDRW5COztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURJQTtFQUVJLGVBQUE7QUNGSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL21haW4tY2VydmVjZXJvL21haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGNlcnZlY2Vyb1ByaW1hcnk6IHJnYigxMjgsIDg1LCA4Mik7XHJcblxyXG4uY2VydmVjZXJvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRjZXJ2ZWNlcm9QcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjQwLCAyMzcsIDg0KTtcclxufVxyXG5cclxuLmZpam9cclxue1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG59IiwiLmNlcnZlY2Vyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4MDU1NTI7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmMGVkNTQ7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */";
     /***/
   },
 
@@ -5317,7 +5642,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".btn-info {\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  color: green;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxob21lLWNsaWVudGVcXGhvbWUtY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9ob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0FDQ0o7O0FERUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3MvaG9tZS1jbGllbnRlL2hvbWUtY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4taW5mbyB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IGdyZWVuXHJcbn1cclxuXHJcbi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDQ1LCAxNDcsIDE4Nyk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLmJ0bi1pbmZvIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG59XG5cbi5wcmljZSB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiAjMmQ5M2JiO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".btn-info {\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  color: green;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcaG9tZS1jbGllbnRlXFxob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9ob21lLWNsaWVudGUvaG9tZS1jbGllbnRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9ob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuLWluZm8ge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiBncmVlblxyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYig0NSwgMTQ3LCAxODcpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi5idG4taW5mbyB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xufVxuXG4ucHJpY2Uge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzJkOTNiYjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
     /***/
   },
 
@@ -5583,7 +5908,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".general-color {\n  background-color: #83f174;\n}\n\n.bc {\n  background-color: lightskyblue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxtYWluLWNsaWVudGVcXG1haW4tY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9tYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYTtBQ0VqQjs7QURJQTtFQUNJLDhCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3MvbWFpbi1jbGllbnRlL21haW4tY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRnZW5lcmFsUHJpbWFyeTogcmdiKDEzMSwgMjQxLCAxMTYpO1xyXG5cclxuLmdlbmVyYWwtY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGdlbmVyYWxQcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XHJcbn1cclxuXHJcbiIsIi5nZW5lcmFsLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgzZjE3NDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".general-color {\n  background-color: #83f174;\n}\n\n.bc {\n  background-color: lightskyblue;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcbWFpbi1jbGllbnRlXFxtYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9tYWluLWNsaWVudGUvbWFpbi1jbGllbnRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGE7QUNFakI7O0FESUE7RUFDSSw4QkFBQTtBQ0RKOztBRElBO0VBRUksZUFBQTtBQ0ZKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9tYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZ2VuZXJhbFByaW1hcnk6IHJnYigxMzEsIDI0MSwgMTE2KTtcclxuXHJcbi5nZW5lcmFsLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRnZW5lcmFsUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn1cclxuIiwiLmdlbmVyYWwtY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjODNmMTc0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */";
     /***/
   },
 
@@ -5688,7 +6013,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "input {\n  text-align: center;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: green;\n}\n\ntextarea {\n  resize: none;\n}\n\n.positive {\n  font-weight: bold;\n  color: green;\n}\n\n.negative {\n  font-weight: bold;\n  color: red;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxzZWFyY2gtb3JkZXJcXHNlYXJjaC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9zZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxpQkFBQTtFQUNBLFlBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7RUFDQSxVQUFBO0FDQ0o7O0FERUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3Mvc2VhcmNoLW9yZGVyL3NlYXJjaC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlucHV0IHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBjb2xvcjogZ3JlZW47XHJcbn1cclxuXHJcbnRleHRhcmVhIHtcclxuICAgIHJlc2l6ZTogbm9uZTtcclxufVxyXG5cclxuLnBvc2l0aXZlIHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ubmVnYXRpdmUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYig0NSwgMTQ3LCAxODcpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsImlucHV0IHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4ucHJpY2Uge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxudGV4dGFyZWEge1xuICByZXNpemU6IG5vbmU7XG59XG5cbi5wb3NpdGl2ZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi5uZWdhdGl2ZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogcmVkO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzJkOTNiYjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = "input {\n  text-align: center;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: green;\n}\n\ntextarea {\n  resize: none;\n}\n\n.positive {\n  font-weight: bold;\n  color: green;\n}\n\n.negative {\n  font-weight: bold;\n  color: red;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcc2VhcmNoLW9yZGVyXFxzZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9zZWFyY2gtb3JkZXIvc2VhcmNoLW9yZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsaUJBQUE7RUFDQSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtFQUNBLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0VBQ0EsVUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9zZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbnB1dCB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG50ZXh0YXJlYSB7XHJcbiAgICByZXNpemU6IG5vbmU7XHJcbn1cclxuXHJcbi5wb3NpdGl2ZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGNvbG9yOiBncmVlbjtcclxufVxyXG5cclxuLm5lZ2F0aXZlIHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IHJlZDtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoNDUsIDE0NywgMTg3KTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCJpbnB1dCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnByaWNlIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbnRleHRhcmVhIHtcbiAgcmVzaXplOiBub25lO1xufVxuXG4ucG9zaXRpdmUge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4ubmVnYXRpdmUge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgY29sb3I6IHJlZDtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6ICMyZDkzYmI7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -6021,7 +6346,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY29jaW5lcm9cXHZpZXdzXFxob21lLWNvY2luZXJvXFxob21lLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL2hvbWUtY29jaW5lcm8vaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29jaW5lcm8vdmlld3MvaG9tZS1jb2NpbmVyby9ob21lLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNvY2luZXJvXFx2aWV3c1xcaG9tZS1jb2NpbmVyb1xcaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL2hvbWUtY29jaW5lcm8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL2hvbWUtY29jaW5lcm8vaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -6105,7 +6430,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".cocinero-color {\n  background-color: #f7e11c;\n}\n\n.bc {\n  background-color: #020202;\n}\n\n.tc {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY29jaW5lcm9cXHZpZXdzXFxtYWluLWNvY2luZXJvXFxtYWluLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL21haW4tY29jaW5lcm8vbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhjO0FDRWxCOztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURHQTtFQUNJLFlBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29jaW5lcm8vdmlld3MvbWFpbi1jb2NpbmVyby9tYWluLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGNvY2luZXJvUHJpbWFyeTogcmdiKDI0NywgMjI1LCAyOCk7XHJcblxyXG4uY29jaW5lcm8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGNvY2luZXJvUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIsIDIsIDIpO1xyXG59XHJcbi50Y3tcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufSIsIi5jb2NpbmVyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2UxMWM7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMjAyMDI7XG59XG5cbi50YyB7XG4gIGNvbG9yOiB3aGl0ZTtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".cocinero-color {\n  background-color: #f7e11c;\n}\n\n.bc {\n  background-color: #020202;\n}\n\n.tc {\n  color: white;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNvY2luZXJvXFx2aWV3c1xcbWFpbi1jb2NpbmVyb1xcbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL21haW4tY29jaW5lcm8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYztBQ0VsQjs7QURJQTtFQUNJLHlCQUFBO0FDREo7O0FER0E7RUFDSSxZQUFBO0FDQUo7O0FER0E7RUFFSSxlQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL21haW4tY29jaW5lcm8vbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRjb2NpbmVyb1ByaW1hcnk6IHJnYigyNDcsIDIyNSwgMjgpO1xyXG5cclxuLmNvY2luZXJvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2NpbmVyb1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyLCAyLCAyKTtcclxufVxyXG4udGN7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5maWpvXHJcbntcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxufSIsIi5jb2NpbmVyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2UxMWM7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMjAyMDI7XG59XG5cbi50YyB7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLmZpam8ge1xuICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */";
     /***/
   },
 
@@ -6210,7 +6535,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "h5 {\n  font-weight: bold;\n}\n\nselect {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcbW96b1xcbWFpblxcc2VsZWN0LW9yZGVyXFxzZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by9tYWluL3NlbGVjdC1vcmRlci9zZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL3NlbGVjdC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImg1IHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG5zZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbiIsImg1IHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbnNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "h5 {\n  font-weight: bold;\n}\n\nselect {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXG1haW5cXHNlbGVjdC1vcmRlclxcc2VsZWN0LW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL21vem8vbWFpbi9zZWxlY3Qtb3JkZXIvc2VsZWN0LW9yZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQUE7QUNDSjs7QURFQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by9tYWluL3NlbGVjdC1vcmRlci9zZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoNSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuc2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG4iLCJoNSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5zZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */";
     /***/
   },
 
@@ -6448,7 +6773,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #0d7c0a;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXHZpZXdzXFxob21lLW1vem9cXGhvbWUtbW96by5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9ob21lLW1vem8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvaG9tZS1tb3pvL2hvbWUtbW96by5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDEzLCAxMjQsIDEwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzBkN2MwYTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #0d7c0a;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcaG9tZS1tb3pvXFxob21lLW1vem8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9ob21lLW1vem8vaG9tZS1tb3pvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9ob21lLW1vem8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigxMywgMTI0LCAxMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6ICMwZDdjMGE7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -6532,7 +6857,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".mozo-color {\n  background-color: #356e06;\n}\n\n.bc {\n  background-color: #60c960;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXHZpZXdzXFxtYWluLW1vem9cXG1haW4tbW96by5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9tYWluLW1vem8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIVTtBQ0VkOztBRElBO0VBQ0kseUJBQUE7QUNESiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYWluLW1vem8vbWFpbi1tb3pvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJG1vem9QcmltYXJ5OiByZ2IoNTMsIDExMCwgNik7XHJcblxyXG4ubW96by1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkbW96b1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig5NiwgMjAxLCA5Nik7XHJcbn1cclxuIiwiLm1vem8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzU2ZTA2O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNjBjOTYwO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".mozo-color {\n  background-color: #356e06;\n}\n\n.bc {\n  background-color: #60c960;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcbWFpbi1tb3pvXFxtYWluLW1vem8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYWluLW1vem8vbWFpbi1tb3pvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSFU7QUNFZDs7QURJQTtFQUNJLHlCQUFBO0FDREo7O0FESUE7RUFFSSxlQUFBO0FDRkoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvbWFpbi1tb3pvL21haW4tbW96by5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRtb3pvUHJpbWFyeTogcmdiKDUzLCAxMTAsIDYpO1xyXG5cclxuLm1vem8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJG1vem9QcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoOTYsIDIwMSwgOTYpO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn0iLCIubW96by1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzNTZlMDY7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM2MGM5NjA7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */";
     /***/
   },
 
@@ -6637,7 +6962,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcbWFuYWdlLXRhYmxlc1xcbWFuYWdlLXRhYmxlcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvbWFuYWdlLXRhYmxlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYW5hZ2UtdGFibGVzL21hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcbW96b1xcdmlld3NcXG1hbmFnZS10YWJsZXNcXG1hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYW5hZ2UtdGFibGVzL21hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvbWFuYWdlLXRhYmxlcy9tYW5hZ2UtdGFibGVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -6732,7 +7057,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXGVzdGFkaXN0aWNhcy1tZXNhc1xcZXN0YWRpc3RpY2FzLW1lc2FzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1tZXNhcy9lc3RhZGlzdGljYXMtbWVzYXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREdBO0VBQ0csaUJBQUE7QUNBSDs7QURFQTtFQUNJLFlBQUE7RUFDQSx5QkFBQTtVQUFBLG1CQUFBO0FDQ0o7O0FER0E7RUFDSSwwQ0FBQTtFQUNBLG1CQUFBO0FDQUo7O0FERUk7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNBUjs7QURFSTtFQUNJLGtCQUFBO0FDQVI7O0FESUE7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNESiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvZXN0YWRpc3RpY2FzLW1lc2FzL2VzdGFkaXN0aWNhcy1tZXNhcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImgzLCBoMiwgaDF7XHJcbiAgICBjb2xvcjogcmdiKDI1NCwgMTQ0LCAwKTtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgXHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLmNhcmR7XHJcbiAgICBtYXJnaW46IDJyZW07ICAgIFxyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjsgIFxyXG59XHJcblxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjVlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4iLCJoMywgaDIsIGgxIHtcbiAgY29sb3I6ICNmZTkwMDA7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbn1cblxuLmNhcmQtdGl0bGUge1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLmNhcmQge1xuICBtYXJnaW46IDJyZW07XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjVlbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = "h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxlc3RhZGlzdGljYXMtbWVzYXNcXGVzdGFkaXN0aWNhcy1tZXNhcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvZXN0YWRpc3RpY2FzLW1lc2FzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUNDSjs7QURHQTtFQUNHLGlCQUFBO0FDQUg7O0FERUE7RUFDSSxZQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtBQ0NKOztBREdBO0VBQ0ksMENBQUE7RUFDQSxtQkFBQTtBQ0FKOztBREVJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQVI7O0FERUk7RUFDSSxrQkFBQTtBQ0FSOztBRElBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1tZXNhcy9lc3RhZGlzdGljYXMtbWVzYXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMywgaDIsIGgxe1xyXG4gICAgY29sb3I6IHJnYigyNTQsIDE0NCwgMCk7XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgICBoZWlnaHQ6IDEwMHB4O1xyXG4gICAgd2lkdGg6IDEwMHB4O1xyXG4gIFxyXG59XHJcblxyXG4uY2FyZC10aXRsZSB7XHJcbiAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcbi5jYXJke1xyXG4gICAgbWFyZ2luOiAycmVtOyAgICBcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7ICBcclxufVxyXG5cclxuXHJcbnRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC41ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuIiwiaDMsIGgyLCBoMSB7XG4gIGNvbG9yOiAjZmU5MDAwO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDEwMHB4O1xuICB3aWR0aDogMTAwcHg7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5jYXJkIHtcbiAgbWFyZ2luOiAycmVtO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG50YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC41ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -6820,6 +7145,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function EstadisticasMesasComponent(orderService, surveyService, toastr) {
+        var _this37 = this;
+
         _classCallCheck(this, EstadisticasMesasComponent);
 
         this.orderService = orderService;
@@ -6832,11 +7159,131 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.facturaMayorImporte = null;
         this.facturaMenorImporte = null;
         this.onReset = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+        this.mesaMasUsadaNueva = this.orderService.traerMesaMasUsada();
+        this.mesaMenosUsadaNueva = this.orderService.traerMesaMenosUsada();
+        this.mesaMasRecaudoNueva = this.orderService.traerMesaMasRecaudo();
+        this.mesaMenosRecaudoNueva = this.orderService.traerMesaMenosRecaudo();
+        this.mesaMayorFacturaNueva = this.orderService.traerMesaMayorFactura();
+        this.mesaMenorFacturaNueva = this.orderService.traerMesaMenorFactura();
+        this.prueba1 = this.orderService.traerMesasPedidosCont();
+        this.prueba2 = this.orderService.traerMesasPedidosAcum(); /////////////////////GRAFICA 1/////////////////////////////
+
+        this.prueba1.subscribe(function (pru) {
+          var valores = new Array();
+          var etiquetas = new Array();
+          valores = _toConsumableArray(pru.values());
+          etiquetas = _toConsumableArray(pru.keys());
+          _this37.graficobarras = {
+            labels: etiquetas,
+            datasets: [{
+              label: ["Uso de las mesas"],
+              backgroundColor: "#149C98",
+              borderColor: "#000000",
+              hoverBackgroundColor: "#42A5F5",
+              data: valores,
+              borderWidth: 1
+            }]
+          };
+        });
+        this.mesaMasUsadaNueva.subscribe(function (mas) {
+          _this37.mesaMenosUsadaNueva.subscribe(function (menos) {
+            _this37.mesamas = _toConsumableArray(mas.keys())[0];
+            _this37.mesamasnumber = _toConsumableArray(mas.values())[0];
+            _this37.mesamenos = _toConsumableArray(menos.keys())[0];
+            _this37.mesamenosnumber = _toConsumableArray(menos.values())[0];
+          });
+        }); /////////////////////GRAFICA 1/////////////////////////////
+        /////////////////////GRAFICA 2/////////////////////////////
+
+        this.prueba2.subscribe(function (pru) {
+          var valores = new Array();
+          var etiquetas = new Array();
+          valores = _toConsumableArray(pru.values());
+          etiquetas = _toConsumableArray(pru.keys());
+          _this37.graficodona = {
+            labels: etiquetas,
+            datasets: [{
+              label: ["Facturación de las mesas"],
+              backgroundColor: ["#a67c00", "#bf9b30", "#ffbf00", "#ffcf40", "#ffdc73", "#ffdf81", "#ffe69d", "#ffedb9"],
+              borderColor: "#000000",
+              hoverBackgroundColor: "#42A5F5",
+              data: valores,
+              borderWidth: 1
+            }]
+          };
+        });
+        this.mesaMasRecaudoNueva.subscribe(function (mas) {
+          _this37.mesaMenosRecaudoNueva.subscribe(function (menos) {
+            _this37.mesamasrecaudo = _toConsumableArray(mas.keys())[0];
+            _this37.mesamasrecaudonumber = _toConsumableArray(mas.values())[0];
+            _this37.mesamenosrecaudo = _toConsumableArray(menos.keys())[0];
+            _this37.mesamenosrecaudonumber = _toConsumableArray(menos.values())[0];
+          });
+        }); /////////////////////GRAFICA 2/////////////////////////////
+        /////////////////////GRAFICA 3/////////////////////////////
+
+        this.mesaMayorFacturaNueva.subscribe(function (mas) {
+          _this37.mesaMenorFacturaNueva.subscribe(function (menos) {
+            _this37.graficotorta = {
+              datasets: [{
+                data: [_toConsumableArray(mas.keys())[0], _toConsumableArray(menos.keys())[0]],
+                backgroundColor: ['#011f4b', '#b3cde0'],
+                label: 'My dataset'
+              }],
+              labels: ['La mesa con mayor factura es la ' + _toConsumableArray(mas.values())[0], 'La mesa con menor factura es la ' + _toConsumableArray(menos.values())[0]]
+            };
+            _this37.mesamayorfacturanumber = _toConsumableArray(mas.keys())[0];
+            _this37.mesamayorfactura = _toConsumableArray(mas.values())[0];
+            _this37.mesamenorfacturanumber = _toConsumableArray(menos.keys())[0];
+            _this37.mesamenorfactura = _toConsumableArray(menos.values())[0];
+          });
+        }); /////////////////////GRAFICA 3/////////////////////////////
+
+        this.OGB = {
+          title: {
+            display: true,
+            text: "Ranking de uso de mesas"
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        };
+        this.OGD = {
+          title: {
+            display: true,
+            text: "Ranking de facturación por mesa"
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        };
+        this.OGT = {
+          title: {
+            display: true,
+            text: "Ranking de importes de facturación"
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        };
       }
 
       _createClass(EstadisticasMesasComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
+          // this.columnasamostrar = ['ID', 'Cliente', 'Mesa', 'Mozo', 'Comentario'];
           this.surveys = this.surveyService.GetAll().valueChanges();
           this.settingsForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormGroup"]({
             fechaInicio: new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControl"](null),
@@ -6860,14 +7307,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function Cancel() {
           this.settingsForm.reset();
           this.onReset.next();
-          this.settingsForm.controls['fechaInicio'].setValue(null);
-          this.settingsForm.controls['fechaFin'].setValue(null);
+          this.settingsForm.controls["fechaInicio"].setValue(null);
+          this.settingsForm.controls["fechaFin"].setValue(null);
           this.search();
         }
       }, {
         key: "search",
         value: function search() {
-          var _this37 = this;
+          var _this38 = this;
 
           this.setNulls();
 
@@ -6887,7 +7334,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return orders.filter(function (order) {
               order = Object.assign(new src_app_models_order__WEBPACK_IMPORTED_MODULE_9__["Order"](), order);
 
-              if (order['timestamp'] > _this37.fechaInicio && order['timestamp'] < _this37.fechaFin) {
+              if (order["timestamp"] > _this38.fechaInicio && order["timestamp"] < _this38.fechaFin) {
                 return order;
               }
             });
@@ -6896,8 +7343,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return surveys.filter(function (survey) {
               survey = Object.assign(new src_app_models_survey__WEBPACK_IMPORTED_MODULE_3__["Survey"](), survey);
 
-              if (survey['order']['timestamp'] > _this37.fechaInicio && survey['order']['timestamp'] < _this37.fechaFin) {
-                if ((survey['cookScore'] + survey['restaurantScore'] + survey['tableScore'] + survey['waiterScore']) / 4 >= 7) return survey;
+              if (survey["order"]["timestamp"] > _this38.fechaInicio && survey["order"]["timestamp"] < _this38.fechaFin) {
+                if ((survey["cookScore"] + survey["restaurantScore"] + survey["tableScore"] + survey["waiterScore"]) / 4 >= 7) {
+                  return survey;
+                }
               }
             });
           }));
@@ -6905,8 +7354,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return surveys.filter(function (survey) {
               survey = Object.assign(new src_app_models_survey__WEBPACK_IMPORTED_MODULE_3__["Survey"](), survey);
 
-              if (survey['order']['timestamp'] > _this37.fechaInicio && survey['order']['timestamp'] < _this37.fechaFin) {
-                if ((survey['cookScore'] + survey['restaurantScore'] + survey['tableScore'] + survey['waiterScore']) / 4 <= 4) return survey;
+              if (survey["order"]["timestamp"] > _this38.fechaInicio && survey["order"]["timestamp"] < _this38.fechaFin) {
+                if ((survey["cookScore"] + survey["restaurantScore"] + survey["tableScore"] + survey["waiterScore"]) / 4 <= 4) {
+                  return survey;
+                }
               }
             });
           }));
@@ -6927,7 +7378,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getTops",
         value: function getTops() {
-          var _this38 = this;
+          var _this39 = this;
 
           this.lista = new Array();
           var cantidadNombres = new Array();
@@ -6939,14 +7390,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           copia.subscribe(function (orders) {
             orders.map(function (order) {
               if (order) {
-                _this38.sumarIngresos(order);
+                _this39.sumarIngresos(order);
 
-                _this38.lista.push(order.tableID);
+                _this39.lista.push(order.tableID);
 
-                _this38.mayorMenorImporte(order);
+                _this39.mayorMenorImporte(order);
               }
             }).map(function () {
-              cantidadNombres = _this38.lista.reduce(function (contadorNombre, nombre) {
+              cantidadNombres = _this39.lista.reduce(function (contadorNombre, nombre) {
                 contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
                 return contadorNombre;
               }, {});
@@ -6955,16 +7406,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               return [String(key), cantidadNombres[key]];
             });
 
-            _this38.getMayoryMenorFacturación();
+            _this39.getMayoryMenorFacturación();
 
             cantidad = result.length;
-            _this38.mesaMasUsada = result[cantidad - 1];
-            _this38.mesaMenosUsada = result[0]; // console.log(this.mesaMenosUsada);
-            // console.log(this.mesaMasUsada);
-            // console.log(this.facturaMenorImporte);
-            // console.log(this.facturaMayorImporte);
-            // console.log(this.mesaMenorFacturacion);
-            // console.log(this.mesaMayorFacturacion);
+            _this39.mesaMasUsada = result[cantidad - 1];
+            _this39.mesaMenosUsada = result[0];
           });
         }
       }, {
@@ -6995,21 +7441,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getMayoryMenorFacturaci\xF3n",
         value: function getMayoryMenorFacturaciN() {
-          var _this39 = this;
+          var _this40 = this;
 
           this.arrayAcumulador.forEach(function (elemento) {
             console.log(elemento);
 
-            if (_this39.mesaMayorFacturacion == null || _this39.mesaMenorFacturacion == null) {
-              _this39.mesaMenorFacturacion = _this39.arrayAcumulador[_this39.arrayAcumulador.indexOf(elemento)];
-              _this39.mesaMayorFacturacion = _this39.arrayAcumulador[_this39.arrayAcumulador.indexOf(elemento)];
+            if (_this40.mesaMayorFacturacion == null || _this40.mesaMenorFacturacion == null) {
+              _this40.mesaMenorFacturacion = _this40.arrayAcumulador[_this40.arrayAcumulador.indexOf(elemento)];
+              _this40.mesaMayorFacturacion = _this40.arrayAcumulador[_this40.arrayAcumulador.indexOf(elemento)];
             } else {
-              if (elemento < _this39.mesaMenorFacturacion) {
-                _this39.mesaMenorFacturacion = _this39.arrayAcumulador[_this39.arrayAcumulador.indexOf(elemento)];
+              if (elemento < _this40.mesaMenorFacturacion) {
+                _this40.mesaMenorFacturacion = _this40.arrayAcumulador[_this40.arrayAcumulador.indexOf(elemento)];
               }
 
-              if (elemento > _this39.mesaMayorFacturacion) {
-                _this39.mesaMayorFacturacion = _this39.arrayAcumulador[_this39.arrayAcumulador.indexOf(elemento)];
+              if (elemento > _this40.mesaMayorFacturacion) {
+                _this40.mesaMayorFacturacion = _this40.arrayAcumulador[_this40.arrayAcumulador.indexOf(elemento)];
               }
             }
           });
@@ -7028,23 +7474,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "exportCSV",
         value: function exportCSV() {
-          this.toastr.info('Exportando estadística...');
-          var csvData = 'categoria,numDeMesa,cantidad,tipo\n';
-          csvData += 'masUsada' + ',' + this.mesaMasUsada[0] + ',' + this.mesaMasUsada[1] + ',veces\n';
-          csvData += 'menosUsada' + ',' + this.mesaMenosUsada[0] + ',' + this.mesaMenosUsada[1] + ',veces\n';
-          csvData += 'mayorRecaudacion' + ',' + this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) + ',' + this.mesaMayorFacturacion + ',pesos\n';
-          csvData += 'menorRecaudacion' + ',' + this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) + ',' + this.mesaMenorFacturacion + ',pesos\n';
-          csvData += 'mayorFactura' + ',' + this.facturaMayorImporte.tableID + ',' + this.facturaMayorImporte.totalPrice + ',pesos\n';
-          csvData += 'menorFactura' + ',' + this.facturaMenorImporte.tableID + ',' + this.facturaMenorImporte.totalPrice + ',pesos\n';
+          this.toastr.info("Exportando estadística...");
+          var csvData = "categoria,numDeMesa,cantidad,tipo\n";
+          csvData += "masUsada" + "," + this.mesaMasUsada[0] + "," + this.mesaMasUsada[1] + ",veces\n";
+          csvData += "menosUsada" + "," + this.mesaMenosUsada[0] + "," + this.mesaMenosUsada[1] + ",veces\n";
+          csvData += "mayorRecaudacion" + "," + this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) + "," + this.mesaMayorFacturacion + ",pesos\n";
+          csvData += "menorRecaudacion" + "," + this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) + "," + this.mesaMenorFacturacion + ",pesos\n";
+          csvData += "mayorFactura" + "," + this.facturaMayorImporte.tableID + "," + this.facturaMayorImporte.totalPrice + ",pesos\n";
+          csvData += "menorFactura" + "," + this.facturaMenorImporte.tableID + "," + this.facturaMenorImporte.totalPrice + ",pesos\n";
           console.log(csvData);
           var file = new Blob([csvData], {
-            type: 'text/csv'
+            type: "text/csv"
           });
           var fileUrl = URL.createObjectURL(file);
-          var hiddenEl = document.createElement('a');
+          var hiddenEl = document.createElement("a");
           hiddenEl.href = fileUrl;
-          hiddenEl.target = '_blank';
-          hiddenEl.download = 'EstadisticasMesas.csv';
+          hiddenEl.target = "_blank";
+          hiddenEl.download = "EstadisticasMesas.csv";
           hiddenEl.click();
         }
       }]);
@@ -7065,7 +7511,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], EstadisticasMesasComponent.prototype, "fechaInicio", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], EstadisticasMesasComponent.prototype, "fechaFin", void 0);
     EstadisticasMesasComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-estadisticas-mesas',
+      selector: "app-estadisticas-mesas",
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./estadisticas-mesas.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/socio/views/estadisticas-mesas/estadisticas-mesas.component.html")).default,
@@ -7092,7 +7538,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcZXN0YWRpc3RpY2FzLXBlZGlkb3NcXGVzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1wZWRpZG9zL2VzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUNDSjs7QURHQTtFQUNHLGlCQUFBO0FDQUg7O0FERUE7RUFDSSxZQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtBQ0NKOztBREdBO0VBQ0ksMENBQUE7RUFDQSxtQkFBQTtBQ0FKOztBREVJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQVI7O0FERUk7RUFDSSxrQkFBQTtBQ0FSOztBRElBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1wZWRpZG9zL2VzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDMsIGgyLCBoMXtcclxuICAgIGNvbG9yOiByZ2IoMjU0LCAxNDQsIDApO1xyXG59XHJcblxyXG5pbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIHdpZHRoOiAxMDBweDtcclxuICBcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uY2FyZHtcclxuICAgIG1hcmdpbjogMnJlbTsgICAgXHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyOyAgXHJcbn1cclxuXHJcblxyXG50YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NCwgMTQ0LCAwLCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuNWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCJoMywgaDIsIGgxIHtcbiAgY29sb3I6ICNmZTkwMDA7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbn1cblxuLmNhcmQtdGl0bGUge1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLmNhcmQge1xuICBtYXJnaW46IDJyZW07XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjVlbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = "h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXGVzdGFkaXN0aWNhcy1wZWRpZG9zXFxlc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9lc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7QUNDSjs7QURFQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0FDQ0o7O0FER0E7RUFDRyxpQkFBQTtBQ0FIOztBREVBO0VBQ0ksWUFBQTtFQUNBLHlCQUFBO1VBQUEsbUJBQUE7QUNDSjs7QURHQTtFQUNJLDBDQUFBO0VBQ0EsbUJBQUE7QUNBSjs7QURFSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0FSOztBREVJO0VBQ0ksa0JBQUE7QUNBUjs7QURJQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9lc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImgzLCBoMiwgaDF7XHJcbiAgICBjb2xvcjogcmdiKDI1NCwgMTQ0LCAwKTtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgXHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLmNhcmR7XHJcbiAgICBtYXJnaW46IDJyZW07ICAgIFxyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjsgIFxyXG59XHJcblxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjVlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwiaDMsIGgyLCBoMSB7XG4gIGNvbG9yOiAjZmU5MDAwO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDEwMHB4O1xuICB3aWR0aDogMTAwcHg7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5jYXJkIHtcbiAgbWFyZ2luOiAycmVtO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG50YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC41ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -7174,16 +7620,65 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*#__PURE__*/
     function () {
       function EstadisticasPedidosComponent(orderService, toastr) {
+        var _this41 = this;
+
         _classCallCheck(this, EstadisticasPedidosComponent);
 
         this.orderService = orderService;
         this.toastr = toastr;
         this.cancelledOrders = null;
         this.delayedOrders = null;
-        this.topBest = null;
-        this.topWorst = null;
         this.mostrar = false;
         this.onReset = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+        this.prueba1 = this.orderService.traerProductosPedidos();
+        this.productosPedidosOrdenadosAsc = this.orderService.traerTop3ProductosMasVendidos();
+        this.productosPedidosOrdenadosDesc = this.orderService.traerTop3ProductosMenosVendidos();
+        this.productosPedidosOrdenadosAsc.subscribe(function (topmas3) {
+          _this41.top1 = _toConsumableArray(topmas3.keys())[0];
+          _this41.top2 = _toConsumableArray(topmas3.keys())[1];
+          _this41.top3 = _toConsumableArray(topmas3.keys())[2];
+          _this41.top1n = _toConsumableArray(topmas3.values())[0];
+          _this41.top2n = _toConsumableArray(topmas3.values())[1];
+          _this41.top3n = _toConsumableArray(topmas3.values())[2];
+        });
+        this.prueba1.subscribe(function (pru) {
+          var valores = new Array();
+          var etiquetas = new Array();
+          valores = _toConsumableArray(pru.values());
+          etiquetas = _toConsumableArray(pru.keys());
+          _this41.graficobarras = {
+            labels: etiquetas,
+            datasets: [{
+              label: ["Top de Pedidos"],
+              backgroundColor: "#149C98",
+              borderColor: "#000000",
+              hoverBackgroundColor: "#42A5F5",
+              data: valores,
+              borderWidth: 1
+            }]
+          };
+        });
+        this.OGB = {
+          title: {
+            display: true,
+            text: "Ranking productos mas consumidos"
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        };
+        this.productosPedidosOrdenadosDesc.subscribe(function (topmenos3) {
+          _this41.top1m = _toConsumableArray(topmenos3.keys())[0];
+          _this41.top2m = _toConsumableArray(topmenos3.keys())[1];
+          _this41.top3m = _toConsumableArray(topmenos3.keys())[2];
+          _this41.top1mn = _toConsumableArray(topmenos3.values())[0];
+          _this41.top2mn = _toConsumableArray(topmenos3.values())[1];
+          _this41.top3mn = _toConsumableArray(topmenos3.values())[2];
+        });
       }
 
       _createClass(EstadisticasPedidosComponent, [{
@@ -7213,7 +7708,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "search",
         value: function search() {
-          var _this40 = this;
+          var _this42 = this;
 
           if (this.settingsForm.value.fechaInicio == null || this.settingsForm.value.fechaInicio == NaN) {
             this.fechaInicio = 0;
@@ -7231,14 +7726,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return orders.filter(function (order) {
               order = Object.assign(new src_app_models_order__WEBPACK_IMPORTED_MODULE_7__["Order"](), order);
 
-              if (order['timestamp'] > _this40.fechaInicio && order['timestamp'] < _this40.fechaFin) {
+              if (order['timestamp'] > _this42.fechaInicio && order['timestamp'] < _this42.fechaFin) {
                 return order;
               }
             });
           }));
           this.getDelayed();
-          this.getCancelled();
-          this.getTop();
+          this.getCancelled(); // this.getTop();
         }
       }, {
         key: "getCancelled",
@@ -7276,50 +7770,36 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           } else {
             this.fechaFin = Date.parse(this.settingsForm.value.fechaFin.toString());
           }
-        }
-      }, {
-        key: "getTop",
-        value: function getTop() {
-          var _this41 = this;
+        } //  public getTop() {
+        //    this.lista = new Array<any>();
+        //    let cantidadNombres = new Array<any>();
+        //    let cantidad: number;
+        //    let copia = this.showingOrders;
+        //    copia.subscribe(orders => {
+        //      orders.map(order => {
+        //        order.items.map(uno => {
+        //          this.lista.push(uno['name']);
+        //        }).map(() => {
+        //          cantidadNombres = this.lista.reduce((contadorNombre, nombre) => {
+        //            contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
+        //            return contadorNombre;
+        //          }, {});
+        //        })
+        //      })
+        //      var result = Object.keys(cantidadNombres).map(function (key) {
+        //        return [String(key), cantidadNombres[key]];
+        //      });
+        //      const mejores  = Object.assign([], result);
+        //      const peores  = Object.assign([], result);
+        //      mejores.sort((a,b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0));
+        //      peores.sort((a,b) => (a[1] > b[1]) ? 1 : ((b[1] > a[1]) ? -1 : 0));
+        //      this.topBest = new Array<any>();
+        //      this.topWorst = new Array<any>();
+        //      this.topBest.push(mejores[0], mejores[1], mejores[2]);
+        //      this.topWorst.push(peores[0], peores[1], peores[2]);
+        //    });
+        //  }
 
-          this.lista = new Array();
-          var cantidadNombres = new Array();
-          var cantidad;
-          var copia = this.showingOrders;
-          copia.subscribe(function (orders) {
-            orders.map(function (order) {
-              order.items.map(function (uno) {
-                _this41.lista.push(uno['name']);
-              }).map(function () {
-                cantidadNombres = _this41.lista.reduce(function (contadorNombre, nombre) {
-                  contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
-                  return contadorNombre;
-                }, {});
-              });
-            });
-            var result = Object.keys(cantidadNombres).map(function (key) {
-              return [String(key), cantidadNombres[key]];
-            }); //console.log(result);
-            // console.table(result);
-
-            var mejores = Object.assign([], result);
-            var peores = Object.assign([], result);
-            mejores.sort(function (a, b) {
-              return a[1] > b[1] ? -1 : b[1] > a[1] ? 1 : 0;
-            });
-            peores.sort(function (a, b) {
-              return a[1] > b[1] ? 1 : b[1] > a[1] ? -1 : 0;
-            });
-            console.table(mejores);
-            console.table(peores);
-            _this41.topBest = new Array();
-            _this41.topWorst = new Array();
-
-            _this41.topBest.push(mejores[0], mejores[1], mejores[2]);
-
-            _this41.topWorst.push(peores[0], peores[1], peores[2]);
-          });
-        }
       }, {
         key: "exportCSV",
         value: function exportCSV() {
@@ -7329,8 +7809,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           setTimeout(function () {
             data.map(function (row) {
               csvData += row;
-            }); // console.log(csvData);
-
+            });
             var file = new Blob([csvData], {
               type: 'text/csv'
             });
@@ -7345,20 +7824,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getData",
         value: function getData() {
-          var _this42 = this;
+          var _this43 = this;
 
           var data = [];
           data.push(['categoria,nombre,cantidad,tipo\n']);
-          data.push(['puesto1MasVendido' + ',' + this.topBest[0][0] + ',' + this.topBest[0][1] + ',unidades\n']);
-          data.push(['puesto2MasVendido' + ',' + this.topBest[1][0] + ',' + this.topBest[1][1] + ',unidades\n']);
-          data.push(['puesto3MasVendido' + ',' + this.topBest[2][0] + ',' + this.topBest[2][1] + ',unidades\n']);
-          data.push(['puesto1MenosVendido' + ',' + this.topWorst[2][0] + ',' + this.topWorst[2][1] + ',unidades\n']);
-          data.push(['puesto2MenosVendido' + ',' + this.topWorst[1][0] + ',' + this.topWorst[1][1] + ',unidades\n']);
-          data.push(['puesto3MenosVendido' + ',' + this.topWorst[0][0] + ',' + this.topWorst[0][1] + ',unidades\n']);
+          data.push(['puesto1MasVendido' + ',' + this.top1 + ',' + this.top1n + ',unidades\n']);
+          data.push(['puesto2MasVendido' + ',' + this.top2 + ',' + this.top2n + ',unidades\n']);
+          data.push(['puesto3MasVendido' + ',' + this.top3 + ',' + this.top3n + ',unidades\n']);
+          data.push(['puesto1MenosVendido' + ',' + this.top1m + ',' + this.top1mn + ',unidades\n']);
+          data.push(['puesto2MenosVendido' + ',' + this.top2m + ',' + this.top2mn + ',unidades\n']);
+          data.push(['puesto3MenosVendido' + ',' + this.top3m + ',' + this.top3mn + ',unidades\n']);
           this.orderService.GetAllDelayedOrders_InArray().then(function (orders) {
             data.push(['pedidosNoEntregadosEnTiempoEstipulado\n' + 'codigo,fecha,demora\n']);
             orders.filter(function (order) {
-              if (order.timestamp > _this42.fechaInicio && order.timestamp < _this42.fechaFin) {
+              if (order.timestamp > _this43.fechaInicio && order.timestamp < _this43.fechaFin) {
                 var datePipe = new _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"]('en-US');
                 var myFormattedDate = datePipe.transform(order.timestamp, 'hh:mm dd/MM/yyyy');
                 var diff = Math.floor(order.delayed / (1000 * 60));
@@ -7368,10 +7847,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               }
             });
           }).then(function () {
-            _this42.orderService.GetAllCancelledOrders_InArray().then(function (orders) {
+            _this43.orderService.GetAllCancelledOrders_InArray().then(function (orders) {
               data.push(['pedidosCancelados\n' + 'codigo,fecha,estado\n']);
               orders.filter(function (order) {
-                if (order.timestamp > _this42.fechaInicio && order.timestamp < _this42.fechaFin) {
+                if (order.timestamp > _this43.fechaInicio && order.timestamp < _this43.fechaFin) {
                   var datePipe = new _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"]('en-US');
                   var myFormattedDate = datePipe.transform(order.timestamp, 'hh:mm dd/MM/yyyy');
                   data.push([order.codeID + ',' + myFormattedDate + ',' + order.state + '\n']);
@@ -7424,7 +7903,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".role-panel {\n  margin: 0 2rem 0 2rem;\n}\n\n.role-input {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxob21lLXNvY2lvXFxob21lLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2hvbWUtc29jaW8vaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0FDQ0o7O0FERUE7RUFDSSw0QkFBQTtPQUFBLHVCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2hvbWUtc29jaW8vaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb2xlLXBhbmVsIHtcclxuICAgIG1hcmdpbjogMCAycmVtIDAgMnJlbTtcclxufVxyXG5cclxuLnJvbGUtaW5wdXQge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn0iLCIucm9sZS1wYW5lbCB7XG4gIG1hcmdpbjogMCAycmVtIDAgMnJlbTtcbn1cblxuLnJvbGUtaW5wdXQge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".role-panel {\n  margin: 0 2rem 0 2rem;\n}\n\n.role-input {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcaG9tZS1zb2Npb1xcaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL2hvbWUtc29jaW8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxxQkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL2hvbWUtc29jaW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm9sZS1wYW5lbCB7XHJcbiAgICBtYXJnaW46IDAgMnJlbSAwIDJyZW07XHJcbn1cclxuXHJcbi5yb2xlLWlucHV0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59IiwiLnJvbGUtcGFuZWwge1xuICBtYXJnaW46IDAgMnJlbSAwIDJyZW07XG59XG5cbi5yb2xlLWlucHV0IHtcbiAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -7600,7 +8079,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".socio-color {\n  background-color: #f51404;\n}\n\n.bc {\n  background-color: #f39b9b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYWluLXNvY2lvXFxtYWluLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21haW4tc29jaW8vbWFpbi1zb2Npby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhXO0FDRWY7O0FES0E7RUFDSSx5QkFBQTtBQ0ZKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL21haW4tc29jaW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkc29jaW9QcmltYXJ5OiByZ2IoMjQ1LCAyMCwgNCk7XHJcblxyXG4uc29jaW8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJHNvY2lvUHJpbWFyeTtcclxufVxyXG5cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDMsIDE1NSwgMTU1KTtcclxufVxyXG4iLCIuc29jaW8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjUxNDA0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjM5YjliO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".socio-color {\n  background-color: #f51404;\n}\n\n.bc {\n  background-color: #f39b9b;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFpbi1zb2Npb1xcbWFpbi1zb2Npby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL21haW4tc29jaW8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIVztBQ0VmOztBREtBO0VBQ0kseUJBQUE7QUNGSjs7QURLQTtFQUVJLGVBQUE7QUNISiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFpbi1zb2Npby9tYWluLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJHNvY2lvUHJpbWFyeTogcmdiKDI0NSwgMjAsIDQpO1xyXG5cclxuLnNvY2lvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRzb2Npb1ByaW1hcnk7XHJcbn1cclxuXHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjQzLCAxNTUsIDE1NSk7XHJcbn1cclxuXHJcbi5maWpvXHJcbntcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxufVxyXG4iLCIuc29jaW8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjUxNDA0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjM5YjliO1xufVxuXG4uZmlqbyB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbn0iXX0= */";
     /***/
   },
 
@@ -7660,10 +8139,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this43 = this;
+          var _this44 = this;
 
           this.authService.GetCurrentUser().then(function (x) {
-            return _this43.user = x;
+            return _this44.user = x;
           });
         }
       }]);
@@ -7705,7 +8184,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2Utb3JkZXJzLWFkbWluXFxtYW5hZ2Utb3JkZXJzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1vcmRlcnMtYWRtaW4vbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLW9yZGVycy1hZG1pbi9tYW5hZ2Utb3JkZXJzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLW9yZGVycy1hZG1pblxcbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL21hbmFnZS1vcmRlcnMtYWRtaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1vcmRlcnMtYWRtaW4vbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -7789,7 +8268,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXG1hbmFnZS1wcm9kdWN0c1xcbWFuYWdlLXByb2R1Y3RzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1wcm9kdWN0cy9tYW5hZ2UtcHJvZHVjdHMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSO0FEQ0k7RUFDSSxrQkFBQTtBQ0NSO0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXByb2R1Y3RzL21hbmFnZS1wcm9kdWN0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbInRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjllbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtcHJvZHVjdHNcXG1hbmFnZS1wcm9kdWN0cy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvbWFuYWdlLXByb2R1Y3RzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNENBQUE7RUFDQSxtQkFBQTtBQ0NKO0FEQ0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNDUjtBRENJO0VBQ0ksa0JBQUE7QUNDUjtBREdBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDQUoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1wcm9kdWN0cy9tYW5hZ2UtcHJvZHVjdHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -7843,10 +8322,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ManageProductsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this44 = this;
+          var _this45 = this;
 
           this.authService.GetCurrentUser().then(function (user) {
-            _this44.role = user.role;
+            _this45.role = user.role;
           });
         }
       }]);
@@ -7888,7 +8367,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtdGFibGVzLWFkbWluXFxtYW5hZ2UtdGFibGVzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS10YWJsZXMtYWRtaW4vbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXRhYmxlcy1hZG1pbi9tYW5hZ2UtdGFibGVzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLXRhYmxlcy1hZG1pblxcbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL21hbmFnZS10YWJsZXMtYWRtaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS10YWJsZXMtYWRtaW4vbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
     /***/
   },
 
@@ -7983,7 +8462,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtdXNyXFxtYW5hZ2UtdXNyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS11c3IvbWFuYWdlLXVzci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNDSjtBRENJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQ1I7QURDSTtFQUNJLGtCQUFBO0FDQ1I7QURHQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL21hbmFnZS11c3IuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLnVzZXIge1xyXG4gICAgLy9jdXJzb3I6IHBvaW50ZXI7XHJcbn0iLCJ0YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjllbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */";
+    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLXVzclxcbWFuYWdlLXVzci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL21hbmFnZS11c3IuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSO0FEQ0k7RUFDSSxrQkFBQTtBQ0NSO0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXVzci9tYW5hZ2UtdXNyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuOWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbi51c2VyIHtcclxuICAgIC8vY3Vyc29yOiBwb2ludGVyO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */";
     /***/
   },
 
@@ -8114,26 +8593,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addUser",
         value: function addUser() {
-          var _this45 = this;
+          var _this46 = this;
 
           var user;
           this.userService.buscarEmail(this.userForm.value.userMail).then(function (resultado) {
             if (resultado) {
-              _this45.toastr.error("Email duplicado");
+              _this46.toastr.error("Email duplicado");
 
-              _this45.Cancel();
+              _this46.Cancel();
             } else if (!resultado) {
-              user = src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["User"].CreateUserFromAdmin(_this45.userForm.value.userName, _this45.userForm.value.userLastname, _this45.userForm.value.userMail, _this45.userForm.value.userRole);
+              user = src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["User"].CreateUserFromAdmin(_this46.userForm.value.userName, _this46.userForm.value.userLastname, _this46.userForm.value.userMail, _this46.userForm.value.userRole);
 
-              _this45.userService.persistirUsuario(user, _this45.file).then(function (value) {
+              _this46.userService.persistirUsuario(user, _this46.file).then(function (value) {
                 if (value) {
-                  _this45.Cancel();
+                  _this46.Cancel();
                 }
 
-                _this45.authService.GetCurrentUser().then(function (usr) {
+                _this46.authService.GetCurrentUser().then(function (usr) {
                   var mensaje = "El usuario ".concat(usr.email, " di\xF3 de alta el usuario ").concat(user.email);
 
-                  _this45.movimientoService.persistirMovimiento(usr, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].alta, mensaje);
+                  _this46.movimientoService.persistirMovimiento(usr, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].alta, mensaje);
                 });
               });
             }
@@ -8147,26 +8626,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "changeState",
         value: function changeState(uid, state) {
-          var _this46 = this;
+          var _this47 = this;
 
           this.userService.GetUserByID(uid).then(function (usuarioMod) {
             if (state == "habilitado") {
-              _this46.userService.updateState(uid, "deshabilitado");
+              _this47.userService.updateState(uid, "deshabilitado");
 
-              _this46.authService.GetCurrentUser().then(function (user) {
+              _this47.authService.GetCurrentUser().then(function (user) {
                 var mensaje = "El usuario ".concat(user.email, " cambio el estado a deshabilitado  del usuario ").concat(usuarioMod.email);
 
-                _this46.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].deshabilitacion, mensaje);
+                _this47.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].deshabilitacion, mensaje);
               });
             }
 
             if (state === "deshabilitado") {
-              _this46.userService.updateState(uid, "habilitado");
+              _this47.userService.updateState(uid, "habilitado");
 
-              _this46.authService.GetCurrentUser().then(function (user) {
+              _this47.authService.GetCurrentUser().then(function (user) {
                 var mensaje = "El usuario ".concat(user.email, " cambio el estado a habilitado  del usuario ").concat(usuarioMod.email);
 
-                _this46.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].habilitacion, mensaje);
+                _this47.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].habilitacion, mensaje);
               });
             }
           });
@@ -8174,15 +8653,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "deleteUser",
         value: function deleteUser(uid) {
-          var _this47 = this;
+          var _this48 = this;
 
           this.userService.GetUserByID(uid).then(function (usuarioMod) {
-            _this47.userService.delete(uid);
+            _this48.userService.delete(uid);
 
-            _this47.authService.GetCurrentUser().then(function (user) {
+            _this48.authService.GetCurrentUser().then(function (user) {
               var mensaje = "El usuario ".concat(user.email, " dio de baja al usuario ").concat(usuarioMod.email);
 
-              _this47.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].borrado, mensaje);
+              _this48.movimientoService.persistirMovimiento(user, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].borrado, mensaje);
             });
           });
         }
@@ -8195,32 +8674,67 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.userForm.controls["userLastname"].setValue(usuario.lastname);
           this.userForm.controls["userMail"].setValue(usuario.email);
           this.userForm.controls["userRole"].setValue(usuario.role);
-          console.log(this.usuarioSeleccionado);
         }
       }, {
         key: "updateUser",
         value: function updateUser() {
-          var _this48 = this;
-
-          var rol = this.usuarioSeleccionado.role;
-          this.usuarioSeleccionado.name = this.userForm.value.userName;
-          this.usuarioSeleccionado.lastname = this.userForm.value.userLastname;
-          this.usuarioSeleccionado.email = this.userForm.value.userMail;
-          this.usuarioSeleccionado.role = this.userForm.value.userRole;
-          this.userService.updateUser(this.usuarioSeleccionado, this.file).then(function () {
-            if (rol !== _this48.usuarioSeleccionado.role) {
-              _this48.userService.SetRole(_this48.usuarioSeleccionado.email, _this48.usuarioSeleccionado.role);
-            }
-
-            _this48.authService.GetCurrentUser().then(function (usr) {
-              var mensaje = "El usuario ".concat(usr.email, " di\xF3 de modific\xF3 el usuario ").concat(_this48.usuarioSeleccionado.email);
-
-              _this48.movimientoService.persistirMovimiento(usr, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].alta, mensaje);
-            }).then(function () {
-              _this48.Cancel();
-            });
-          });
-        } // ##### FILTER FUNCTIONS #####
+          var user;
+          user = src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["User"].CreateUserFromAdmin(this.userForm.value.userName, this.userForm.value.userLastname, this.userForm.value.userMail, this.userForm.value.userRole);
+          this.userService.actualizarUsuarioFoto(user, this.file);
+        }
+        /*
+           console.log("XXXXXXXXXXXXXXXXXXXXXXXXX",this.usuarioSeleccionado);
+           let name = CommonHelper.GenerateProfileImageName(this.usuarioSeleccionado);
+           this.fileService
+         .subirFotoUsuarios(this.file,this.usuarioSeleccionado.id)
+         .then(() => {
+           setTimeout(() => {
+             this.ChangeProfilePic(name);
+           }, 1000);
+         })
+         .catch(() =>
+           this.toastr.error("Se ha producido un error al cargar la imagen.")
+         );
+         
+         
+        
+         
+         //final
+           let rol = this.usuarioSeleccionado.role;
+        
+        this.usuarioSeleccionado.name = this.userForm.value.userName;
+        this.usuarioSeleccionado.lastname = this.userForm.value.userLastname;
+        this.usuarioSeleccionado.email = this.userForm.value.userMail;
+        this.usuarioSeleccionado.role = this.userForm.value.userRole;
+        console.log("culo");
+        this.userService
+         .updateUser(this.usuarioSeleccionado, this.file)
+         .then(() => {
+           
+           if (rol !== this.usuarioSeleccionado.role) {
+             this.userService.SetRole(
+               this.usuarioSeleccionado.email,
+               this.usuarioSeleccionado.role
+             );
+           }
+         
+               this.authService
+             .GetCurrentUser()
+             .then(usr => {
+               let mensaje: string = `El usuario ${usr.email} dió de modificó el usuario ${this.usuarioSeleccionado.email}`;
+               this.movimientoService.persistirMovimiento(
+                 usr,
+                 TargetMovimiento.usuario,
+                 TipoMovimiento.alta,
+                 mensaje
+               );
+             })
+             .then(() => {
+               this.Cancel();
+             });
+         });
+        }*/
+        // ##### FILTER FUNCTIONS #####
 
       }, {
         key: "Filter",
@@ -8278,6 +8792,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function ClearFilters() {
           this.search();
         }
+      }, {
+        key: "ChangeProfilePic",
+        value: function ChangeProfilePic(imgName) {
+          var _this50 = this;
+
+          this.fileService.GetImageURL(imgName).then(function (img) {
+            _this50.userService.ModifyProfileImage(_this50.usuarioSeleccionado.email, img).then(function () {
+              _this50.toastr.success("Imagen cargada con éxito.");
+
+              setTimeout(function () {
+                //location.reload();
+                location.assign("http://localhost:4200/");
+              }, 1000);
+            });
+          });
+        }
       }]);
 
       return ManageUsrComponent;
@@ -8325,7 +8855,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\nh4 {\n  color: darkgrey;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuZWpvLWxvZ3NcXG1hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmVqby1sb2dzL21hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBO0VBQ0ksNENBQUE7RUFDQSxtQkFBQTtBQ0hKO0FES0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNIUjtBREtJO0VBQ0ksa0JBQUE7QUNIUjtBRE9BO0VBQ0ksZUFBQTtBQ0pKO0FET0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNKSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuZWpvLWxvZ3MvbWFuZWpvLWxvZ3MuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudXNlciB7XHJcbiAgICAvL2N1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuaDR7XHJcbiAgICBjb2xvcjogZGFya2dyZXk7XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjllbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaDQge1xuICBjb2xvcjogZGFya2dyZXk7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */";
+    __webpack_exports__["default"] = "table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\nh4 {\n  color: darkgrey;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXG1hbmVqby1sb2dzXFxtYW5lam8tbG9ncy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9tYW5lam8tbG9ncy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNISjtBREtJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDSFI7QURLSTtFQUNJLGtCQUFBO0FDSFI7QURPQTtFQUNJLGVBQUE7QUNKSjtBRE9BO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDSkoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmVqby1sb2dzL21hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnVzZXIge1xyXG4gICAgLy9jdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuXHJcbnRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbmg0e1xyXG4gICAgY29sb3I6IGRhcmtncmV5O1xyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmg0IHtcbiAgY29sb3I6IGRhcmtncmV5O1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjllbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */";
     /***/
   },
 
@@ -8444,7 +8974,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0,
           /*#__PURE__*/
           regeneratorRuntime.mark(function _callee() {
-            var _this50 = this;
+            var _this51 = this;
 
             return regeneratorRuntime.wrap(function _callee$(_context) {
               while (1) {
@@ -8456,68 +8986,68 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                       return logs.filter(function (res) {
                         res = Object.assign(new src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Log"](), res);
 
-                        if (res['fecha'] > _this50.fechaInicio && res['fecha'] < _this50.fechaFin) {
-                          if (res['usuario'].includes(_this50.busqueda) || _this50.busqueda == null) {
-                            if (_this50.logForm.value.typeMozo && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].mozo) {
-                              _this50.coincidencias++;
+                        if (res['fecha'] > _this51.fechaInicio && res['fecha'] < _this51.fechaFin) {
+                          if (res['usuario'].includes(_this51.busqueda) || _this51.busqueda == null) {
+                            if (_this51.logForm.value.typeMozo && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].mozo) {
+                              _this51.coincidencias++;
 
-                              _this50.data.push(res);
-
-                              return res;
-                            }
-
-                            if (_this50.logForm.value.typeBartender && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].bartender) {
-                              _this50.coincidencias++;
-
-                              _this50.data.push(res);
+                              _this51.data.push(res);
 
                               return res;
                             }
 
-                            if (_this50.logForm.value.typeCervecero && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cervecero) {
-                              _this50.coincidencias++;
+                            if (_this51.logForm.value.typeBartender && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].bartender) {
+                              _this51.coincidencias++;
 
-                              _this50.data.push(res);
-
-                              return res;
-                            }
-
-                            if (_this50.logForm.value.typeCliente && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cliente) {
-                              _this50.coincidencias++;
-
-                              _this50.data.push(res);
+                              _this51.data.push(res);
 
                               return res;
                             }
 
-                            if (_this50.logForm.value.typeCocinero && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cocinero) {
-                              _this50.coincidencias++;
+                            if (_this51.logForm.value.typeCervecero && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cervecero) {
+                              _this51.coincidencias++;
 
-                              _this50.data.push(res);
-
-                              return res;
-                            }
-
-                            if (_this50.logForm.value.typeDelivery && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].delivery) {
-                              _this50.coincidencias++;
-
-                              _this50.data.push(res);
+                              _this51.data.push(res);
 
                               return res;
                             }
 
-                            if (_this50.logForm.value.typeSocio && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].socio) {
-                              _this50.coincidencias++;
+                            if (_this51.logForm.value.typeCliente && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cliente) {
+                              _this51.coincidencias++;
 
-                              _this50.data.push(res);
+                              _this51.data.push(res);
 
                               return res;
                             }
 
-                            if (_this50.logForm.value.typeTodos) {
-                              _this50.coincidencias++;
+                            if (_this51.logForm.value.typeCocinero && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cocinero) {
+                              _this51.coincidencias++;
 
-                              _this50.data.push(res);
+                              _this51.data.push(res);
+
+                              return res;
+                            }
+
+                            if (_this51.logForm.value.typeDelivery && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].delivery) {
+                              _this51.coincidencias++;
+
+                              _this51.data.push(res);
+
+                              return res;
+                            }
+
+                            if (_this51.logForm.value.typeSocio && res['role'] === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].socio) {
+                              _this51.coincidencias++;
+
+                              _this51.data.push(res);
+
+                              return res;
+                            }
+
+                            if (_this51.logForm.value.typeTodos) {
+                              _this51.coincidencias++;
+
+                              _this51.data.push(res);
 
                               return res;
                             }
@@ -8609,40 +9139,40 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "sendSettings",
         value: function sendSettings() {
-          var _this51 = this;
+          var _this52 = this;
 
           // this.showingLogs = this.logs.filter(res => {
           this.showingLogs = this.logs.valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["map"])(function (logs) {
             logs.filter(function (res) {
-              if (_this51.logForm.value.typeMozo && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].mozo) {
+              if (_this52.logForm.value.typeMozo && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].mozo) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeBartender && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].bartender) {
+              if (_this52.logForm.value.typeBartender && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].bartender) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeCervecero && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cervecero) {
+              if (_this52.logForm.value.typeCervecero && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cervecero) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeCliente && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cliente) {
+              if (_this52.logForm.value.typeCliente && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cliente) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeCocinero && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cocinero) {
+              if (_this52.logForm.value.typeCocinero && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].cocinero) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeDelivery && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].delivery) {
+              if (_this52.logForm.value.typeDelivery && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].delivery) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeSocio && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].socio) {
+              if (_this52.logForm.value.typeSocio && res.role === src_app_models_logging__WEBPACK_IMPORTED_MODULE_2__["Role"].socio) {
                 return res;
               }
 
-              if (_this51.logForm.value.typeTodos) {
+              if (_this52.logForm.value.typeTodos) {
                 return res;
               }
 
@@ -8653,7 +9183,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "ClearFilters",
         value: function ClearFilters() {
-          var _this52 = this;
+          var _this53 = this;
 
           if (this.logForm.value.fechaInicio == null || this.logForm.value.fechaInicio === NaN) {
             this.fechaInicio = 0;
@@ -8669,8 +9199,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           console.log("1" + this.esVisible);
           this.search().then(function () {
-            _this52.esVisible = true;
-            console.log("2" + _this52.esVisible);
+            _this53.esVisible = true;
+            console.log("2" + _this53.esVisible);
           });
           console.log("3" + this.esVisible);
         }
@@ -8749,7 +9279,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "table {\n  background: silver;\n  border: 1px solid black;\n}\ntable th {\n  border: none;\n}\n.red {\n  color: red;\n}\n.yellow {\n  color: #d8b800;\n}\n.green {\n  color: #01b301;\n}\n.survey {\n  cursor: pointer;\n}\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXHN1cnZleS10YWJsZVxcc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL3N1cnZleS10YWJsZS9zdXJ2ZXktdGFibGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLHVCQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7QUNDUjtBREdBO0VBQ0ksVUFBQTtBQ0FKO0FER0E7RUFDSSxjQUFBO0FDQUo7QURHQTtFQUNJLGNBQUE7QUNBSjtBREdBO0VBQ0ksZUFBQTtBQ0FKO0FER0E7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQUoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL3N1cnZleS10YWJsZS9zdXJ2ZXktdGFibGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kOiBzaWx2ZXI7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgfVxyXG59XHJcblxyXG4ucmVkIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi55ZWxsb3cge1xyXG4gICAgY29sb3I6IHJnYigyMTYsIDE4NCwgMCk7XHJcbn1cclxuXHJcbi5ncmVlbiB7XHJcbiAgICBjb2xvcjogcmdiKDEsIDE3OSwgMSk7XHJcbn1cclxuXHJcbi5zdXJ2ZXkge1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZDogc2lsdmVyO1xuICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xufVxuXG4ucmVkIHtcbiAgY29sb3I6IHJlZDtcbn1cblxuLnllbGxvdyB7XG4gIGNvbG9yOiAjZDhiODAwO1xufVxuXG4uZ3JlZW4ge1xuICBjb2xvcjogIzAxYjMwMTtcbn1cblxuLnN1cnZleSB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */";
+    __webpack_exports__["default"] = "table {\n  background: silver;\n  border: 1px solid black;\n}\ntable th {\n  border: none;\n}\n.red {\n  color: red;\n}\n.yellow {\n  color: #d8b800;\n}\n.green {\n  color: #01b301;\n}\n.survey {\n  cursor: pointer;\n}\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxzdXJ2ZXktdGFibGVcXHN1cnZleS10YWJsZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSx1QkFBQTtBQ0NKO0FEQ0k7RUFDSSxZQUFBO0FDQ1I7QURHQTtFQUNJLFVBQUE7QUNBSjtBREdBO0VBQ0ksY0FBQTtBQ0FKO0FER0E7RUFDSSxjQUFBO0FDQUo7QURHQTtFQUNJLGVBQUE7QUNBSjtBREdBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gICAgYmFja2dyb3VuZDogc2lsdmVyO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgIH1cclxufVxyXG5cclxuLnJlZCB7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcblxyXG4ueWVsbG93IHtcclxuICAgIGNvbG9yOiByZ2IoMjE2LCAxODQsIDApO1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gICAgY29sb3I6IHJnYigxLCAxNzksIDEpO1xyXG59XHJcblxyXG4uc3VydmV5IHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCJ0YWJsZSB7XG4gIGJhY2tncm91bmQ6IHNpbHZlcjtcbiAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbn1cblxuLnJlZCB7XG4gIGNvbG9yOiByZWQ7XG59XG5cbi55ZWxsb3cge1xuICBjb2xvcjogI2Q4YjgwMDtcbn1cblxuLmdyZWVuIHtcbiAgY29sb3I6ICMwMWIzMDE7XG59XG5cbi5zdXJ2ZXkge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */";
     /***/
   },
 
@@ -9116,12 +9646,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AuthGuard, [{
         key: "canActivate",
         value: function canActivate(next, state) {
-          var _this53 = this;
+          var _this54 = this;
 
           return this.afsAuth.authState.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (authState) {
             return !!authState;
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (auth) {
-            if (!auth) _this53.router.navigate(['/app/login']);else console.log('Is auth:', auth);
+            if (!auth) _this54.router.navigate(['/app/login']);else console.log('Is auth:', auth);
           }));
         }
       }]);
@@ -9749,6 +10279,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           user.role = role;
           user.deleted = false;
           user.state = 'habilitado';
+          user.image = 'https://firebasestorage.googleapis.com/v0/b/lacomanda-brino.appspot.com/o/SOCIOSOCIOS8182?alt=media&token=89b72e99-2bcf-4b05-9ac7-5a40e5ce2b1b';
           return user;
         }
       }, {
@@ -9781,6 +10312,62 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     })(Role || (Role = {}));
     /***/
 
+  },
+
+  /***/
+  "./src/app/modulos/primeng/primeng.module.ts":
+  /*!***************************************************!*\
+    !*** ./src/app/modulos/primeng/primeng.module.ts ***!
+    \***************************************************/
+
+  /*! exports provided: PrimengModule */
+
+  /***/
+  function srcAppModulosPrimengPrimengModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PrimengModule", function () {
+      return PrimengModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var primeng_chart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! primeng/chart */
+    "./node_modules/primeng/fesm2015/primeng-chart.js");
+
+    var PrimengModule = function PrimengModule() {
+      _classCallCheck(this, PrimengModule);
+    };
+
+    PrimengModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      declarations: [],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], primeng_chart__WEBPACK_IMPORTED_MODULE_3__["ChartModule"]],
+      exports: [primeng_chart__WEBPACK_IMPORTED_MODULE_3__["ChartModule"]]
+    })], PrimengModule);
+    /***/
   },
 
   /***/
@@ -10215,13 +10802,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AuthService, [{
         key: "RegisterWithEmail",
         value: function RegisterWithEmail(user) {
-          var _this54 = this;
+          var _this55 = this;
 
           return new Promise(function (resolve, reject) {
-            _this54.afsAuth.auth.createUserWithEmailAndPassword(user.email, user.password).then(function (userData) {
+            _this55.afsAuth.auth.createUserWithEmailAndPassword(user.email, user.password).then(function (userData) {
               resolve(userData);
 
-              _this54.userService.Add(user);
+              _this55.userService.Add(user);
 
               console.log('Register successful');
             }).catch(function (error) {
@@ -10232,27 +10819,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "RegisterWithEmailAdmin",
         value: function RegisterWithEmailAdmin(mail) {
-          var _this55 = this;
+          var _this56 = this;
 
           this.userService.GetUserByEmail(mail).then(function (user) {
             var pass = user.password;
 
-            _this55.RegisterWithEmail(user).then(function () {
-              _this55.LoginWithEmail(mail, pass);
+            _this56.RegisterWithEmail(user).then(function () {
+              _this56.LoginWithEmail(mail, pass);
             });
           });
         }
       }, {
         key: "LoginWithEmail",
         value: function LoginWithEmail(email, pwd) {
-          var _this56 = this;
+          var _this57 = this;
 
           return new Promise(function (resolve, reject) {
-            _this56.afsAuth.auth.signInWithEmailAndPassword(email, pwd).then(function (userData) {
+            _this57.afsAuth.auth.signInWithEmailAndPassword(email, pwd).then(function (userData) {
               resolve(userData);
               console.log('Login success', userData);
 
-              _this56.RedirectForRole(email);
+              _this57.RedirectForRole(email);
             }).catch(function (error) {
               return reject(error);
             });
@@ -10266,12 +10853,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "GetCurrentUser",
         value: function GetCurrentUser() {
-          var _this57 = this;
+          var _this58 = this;
 
           return this.GetCurrentEmail().then(function (email) {
             if (!email) Object(q__WEBPACK_IMPORTED_MODULE_8__["reject"])('error');
-            return _this57.userService.GetUserByEmail(email).then(function (user) {
-              return _this57.RemoveUserPassword(user);
+            return _this58.userService.GetUserByEmail(email).then(function (user) {
+              return _this58.RemoveUserPassword(user);
             });
           });
         }
@@ -10291,37 +10878,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "RedirectForRole",
         value: function RedirectForRole(email) {
-          var _this58 = this;
+          var _this59 = this;
 
           this.userService.GetUserByEmail(email).then(function (user) {
             switch (user.role) {
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].cliente:
-                _this58.router.navigate(['/cliente']);
+                _this59.router.navigate(['/cliente']);
 
                 break;
 
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].mozo:
-                _this58.router.navigate(['/mozo']);
+                _this59.router.navigate(['/mozo']);
 
                 break;
 
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].socio:
-                _this58.router.navigate(['/socio']);
+                _this59.router.navigate(['/socio']);
 
                 break;
 
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].cocinero:
-                _this58.router.navigate(['/cocinero']);
+                _this59.router.navigate(['/cocinero']);
 
                 break;
 
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].cervecero:
-                _this58.router.navigate(['/cervecero']);
+                _this59.router.navigate(['/cervecero']);
 
                 break;
 
               case src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].bartender:
-                _this58.router.navigate(['/bartender']);
+                _this59.router.navigate(['/bartender']);
 
                 break;
 
@@ -10465,7 +11052,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "traerMovimientosArray",
         value: function traerMovimientosArray() {
-          var _this59 = this;
+          var _this60 = this;
 
           var listadoObservable = null;
           listadoObservable = this.traerMovimientos();
@@ -10480,7 +11067,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               m.fecha = unMov.fecha;
               m.observacion = unMov.observacion;
 
-              _this59.listado.push(m);
+              _this60.listado.push(m);
             });
           });
         }
@@ -10500,11 +11087,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "persistirMovimiento",
         value: function persistirMovimiento(usuario, target, tipo, observacion) {
-          var _this60 = this;
+          var _this61 = this;
 
           var movimiento = src_app_models_logging__WEBPACK_IMPORTED_MODULE_3__["Log"].CreateLogWithParams(usuario.email, usuario.role, target, tipo, observacion);
           return this.movimientos.add(src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_7__["CommonHelper"].ConvertToObject(movimiento)).then(function (doc) {
-            _this60.movimientos.doc(doc.id).update({
+            _this61.movimientos.doc(doc.id).update({
               id: doc.id
             });
 
@@ -10633,10 +11220,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "setOrderImage",
         value: function setOrderImage(code, image) {
-          var _this61 = this;
+          var _this62 = this;
 
           this.GetByCodeID(code).then(function (ord) {
-            _this61.UpdateImage(ord, image);
+            _this62.UpdateImage(ord, image);
           }).catch(function () {
             console.log("no se pudo subir");
           });
@@ -10737,21 +11324,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "ChangeStatus",
         value: function ChangeStatus(state, orderCode) {
-          var _this62 = this;
+          var _this63 = this;
 
           this.GetByCodeID(orderCode).then(function (order) {
             order.state = state;
 
-            _this62.db.collection("pedidos").doc(order.id).update(order);
+            _this63.db.collection("pedidos").doc(order.id).update(order);
           });
         }
       }, {
         key: "UpdateImageURL",
         value: function UpdateImageURL(order, url) {
-          var _this63 = this;
+          var _this64 = this;
 
           this.GetByCodeID(order.codeID).then(function (ord) {
-            _this63.fileService.updatePhotoUrlOrders(url, ord.id);
+            _this64.fileService.updatePhotoUrlOrders(url, ord.id);
           }).catch(function () {
             console.log("no se pudo actualizar url de imagen");
           });
@@ -10759,12 +11346,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "Update",
         value: function Update(order) {
-          var _this64 = this;
+          var _this65 = this;
 
           return this.GetByCodeID(order.codeID).then(function (or) {
             var obj = src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_4__["CommonHelper"].ConvertToObject(order);
 
-            _this64.db.collection("pedidos").doc(or.id).update(obj);
+            _this65.db.collection("pedidos").doc(or.id).update(obj);
           }).then(function () {
             return true;
           }).catch(function () {
@@ -10836,6 +11423,256 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           return this.db.collection("pedidos", function (ref) {
             return ref.where("client.email", "==", email);
           });
+        }
+      }, {
+        key: "traerMesaMasUsada",
+        value: function traerMesaMasUsada() {
+          return this.traerMesasPedidosCont().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[0], _toConsumableArray(mesas.values())[0]);
+          }));
+        }
+      }, {
+        key: "traerMesaMenosUsada",
+        value: function traerMesaMenosUsada() {
+          return this.traerMesasPedidosCont().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[mesas.size - 1], _toConsumableArray(mesas.values())[mesas.size - 1]);
+          }));
+        }
+      }, {
+        key: "traerMesasPedidosCont",
+        value: function traerMesasPedidosCont() {
+          return this.db.collection('pedidos', function (ref) {
+            return ref.where('state', '==', 'Pagado');
+          }).valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (pedidos) {
+            var salida = new Map();
+            var tmp = new Map();
+            pedidos.forEach(function (pedido) {
+              if (tmp.has(pedido.tableID)) {
+                tmp.set(pedido.tableID, tmp.get(pedido.tableID) + 1);
+              } else {
+                tmp.set(pedido.tableID, 1);
+              }
+            });
+            var _iteratorNormalCompletion = true;
+            var _didIteratorError = false;
+            var _iteratorError = undefined;
+
+            try {
+              for (var _iterator = _toConsumableArray(tmp.entries()).sort(function (valor1, valor2) {
+                return valor2[1] - valor1[1];
+              })[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                var _step$value = _slicedToArray(_step.value, 2),
+                    clave = _step$value[0],
+                    valor = _step$value[1];
+
+                salida.set(clave, valor);
+              }
+            } catch (err) {
+              _didIteratorError = true;
+              _iteratorError = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion && _iterator.return != null) {
+                  _iterator.return();
+                }
+              } finally {
+                if (_didIteratorError) {
+                  throw _iteratorError;
+                }
+              }
+            }
+
+            return salida;
+          }));
+        }
+      }, {
+        key: "traerMesaMasRecaudo",
+        value: function traerMesaMasRecaudo() {
+          return this.traerMesasPedidosAcum().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[0], _toConsumableArray(mesas.values())[0]);
+          }));
+        }
+      }, {
+        key: "traerMesaMenosRecaudo",
+        value: function traerMesaMenosRecaudo() {
+          return this.traerMesasPedidosAcum().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[mesas.size - 1], _toConsumableArray(mesas.values())[mesas.size - 1]);
+          }));
+        }
+      }, {
+        key: "traerMesaMayorFactura",
+        value: function traerMesaMayorFactura() {
+          return this.traerMesasPedidosTotal().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[0], _toConsumableArray(mesas.values())[0]);
+          }));
+        }
+      }, {
+        key: "traerMesasPedidosTotal",
+        value: function traerMesasPedidosTotal() {
+          return this.db.collection('pedidos', function (ref) {
+            return ref.where('state', '==', 'Pagado');
+          }).valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (pedidos) {
+            var salida = new Map();
+            var tmp = new Map();
+            pedidos.forEach(function (pedido) {
+              tmp.set(pedido.totalPrice, pedido.tableID);
+            });
+            var _iteratorNormalCompletion2 = true;
+            var _didIteratorError2 = false;
+            var _iteratorError2 = undefined;
+
+            try {
+              for (var _iterator2 = _toConsumableArray(tmp.entries()).sort(function (valor1, valor2) {
+                return valor2[0] - valor1[0];
+              })[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+                var _step2$value = _slicedToArray(_step2.value, 2),
+                    clave = _step2$value[0],
+                    valor = _step2$value[1];
+
+                salida.set(clave, valor);
+              }
+            } catch (err) {
+              _didIteratorError2 = true;
+              _iteratorError2 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion2 && _iterator2.return != null) {
+                  _iterator2.return();
+                }
+              } finally {
+                if (_didIteratorError2) {
+                  throw _iteratorError2;
+                }
+              }
+            }
+
+            return salida;
+          }));
+        }
+      }, {
+        key: "traerMesaMenorFactura",
+        value: function traerMesaMenorFactura() {
+          return this.traerMesasPedidosTotal().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (mesas) {
+            return new Map().set(_toConsumableArray(mesas.keys())[mesas.size - 1], _toConsumableArray(mesas.values())[mesas.size - 1]);
+          }));
+        }
+      }, {
+        key: "traerMesasPedidosAcum",
+        value: function traerMesasPedidosAcum() {
+          return this.db.collection('pedidos', function (ref) {
+            return ref.where('state', '==', 'Pagado');
+          }).valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (pedidos) {
+            var salida = new Map();
+            var tmp = new Map();
+            pedidos.forEach(function (pedido) {
+              if (tmp.has(pedido.tableID)) {
+                tmp.set(pedido.tableID, tmp.get(pedido.tableID) + pedido.totalPrice);
+              } else {
+                tmp.set(pedido.tableID, pedido.totalPrice);
+              }
+            });
+            var _iteratorNormalCompletion3 = true;
+            var _didIteratorError3 = false;
+            var _iteratorError3 = undefined;
+
+            try {
+              for (var _iterator3 = _toConsumableArray(tmp.entries()).sort(function (valor1, valor2) {
+                return valor2[1] - valor1[1];
+              })[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+                var _step3$value = _slicedToArray(_step3.value, 2),
+                    clave = _step3$value[0],
+                    valor = _step3$value[1];
+
+                salida.set(clave, valor);
+              }
+            } catch (err) {
+              _didIteratorError3 = true;
+              _iteratorError3 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion3 && _iterator3.return != null) {
+                  _iterator3.return();
+                }
+              } finally {
+                if (_didIteratorError3) {
+                  throw _iteratorError3;
+                }
+              }
+            }
+
+            return salida;
+          }));
+        }
+      }, {
+        key: "traerProductosPedidos",
+        value: function traerProductosPedidos() {
+          return this.db.collection('pedidos', function (ref) {
+            return ref.where('state', '==', 'Pagado');
+          }).valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (pedidos) {
+            var salida = new Map();
+            var tmp = new Map();
+            pedidos.forEach(function (pedido) {
+              pedido.items.forEach(function (producto) {
+                if (tmp.has(producto.name)) {
+                  tmp.set(producto.name, tmp.get(producto.name) + 1);
+                } else {
+                  tmp.set(producto.name, 1);
+                }
+              });
+            });
+            var _iteratorNormalCompletion4 = true;
+            var _didIteratorError4 = false;
+            var _iteratorError4 = undefined;
+
+            try {
+              for (var _iterator4 = _toConsumableArray(tmp.entries()).sort(function (valor1, valor2) {
+                return valor2[1] - valor1[1];
+              })[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
+                var _step4$value = _slicedToArray(_step4.value, 2),
+                    clave = _step4$value[0],
+                    valor = _step4$value[1];
+
+                salida.set(clave, valor);
+              }
+            } catch (err) {
+              _didIteratorError4 = true;
+              _iteratorError4 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion4 && _iterator4.return != null) {
+                  _iterator4.return();
+                }
+              } finally {
+                if (_didIteratorError4) {
+                  throw _iteratorError4;
+                }
+              }
+            }
+
+            return salida;
+          }));
+        }
+      }, {
+        key: "traerTop3ProductosMasVendidos",
+        value: function traerTop3ProductosMasVendidos() {
+          return this.traerProductosPedidos().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (productos) {
+            var salida = new Map();
+            salida.set(_toConsumableArray(productos.keys())[0], _toConsumableArray(productos.values())[0]);
+            salida.set(_toConsumableArray(productos.keys())[1], _toConsumableArray(productos.values())[1]);
+            salida.set(_toConsumableArray(productos.keys())[2], _toConsumableArray(productos.values())[2]);
+            return salida;
+          }));
+        }
+      }, {
+        key: "traerTop3ProductosMenosVendidos",
+        value: function traerTop3ProductosMenosVendidos() {
+          return this.traerProductosPedidos().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(function (productos) {
+            var salida = new Map();
+            salida.set(_toConsumableArray(productos.keys())[productos.size - 1], _toConsumableArray(productos.values())[productos.size - 1]);
+            salida.set(_toConsumableArray(productos.keys())[productos.size - 2], _toConsumableArray(productos.values())[productos.size - 2]);
+            salida.set(_toConsumableArray(productos.keys())[productos.size - 3], _toConsumableArray(productos.values())[productos.size - 3]);
+            return salida;
+          }));
         }
       }]);
 
@@ -10968,7 +11805,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "traerProductosArray",
         value: function traerProductosArray() {
-          var _this65 = this;
+          var _this66 = this;
 
           var listadoObservable = null;
           listadoObservable = this.traerProductos();
@@ -10986,22 +11823,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               p.state = unProd.state;
               p.worker = unProd.worker;
 
-              _this65.listado.push(p);
+              _this66.listado.push(p);
             });
           });
         }
       }, {
         key: "persistirProducto",
         value: function persistirProducto(producto, foto) {
-          var _this66 = this;
+          var _this67 = this;
 
           return this.productos.add(src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_7__["CommonHelper"].ConvertToObject(producto)).then(function (doc) {
-            _this66.productos.doc(doc.id).update({
+            _this67.productos.doc(doc.id).update({
               codeID: doc.id
             });
 
             if (foto) {
-              _this66.fileService.subirFotoProducto(foto, doc.id);
+              _this67.fileService.subirFotoProducto(foto, doc.id);
             }
           }).then(function () {
             return true;
@@ -11019,7 +11856,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "updateProd",
         value: function updateProd(producto, foto) {
-          var _this67 = this;
+          var _this68 = this;
 
           return this.productos.doc(producto.codeID).update({
             name: producto.name,
@@ -11029,7 +11866,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             description: producto.description
           }).then(function () {
             if (foto) {
-              _this67.fileService.subirFotoProducto(foto, producto.codeID);
+              _this68.fileService.subirFotoProducto(foto, producto.codeID);
             }
           }).then(function () {
             return true;
@@ -11137,10 +11974,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "Add",
         value: function Add(surv) {
-          var _this68 = this;
+          var _this69 = this;
 
           return new Promise(function (resolve, reject) {
-            _this68.db.collection('encuestas').add(src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_3__["CommonHelper"].ConvertToObject(surv)).then(function () {
+            _this69.db.collection('encuestas').add(src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_3__["CommonHelper"].ConvertToObject(surv)).then(function () {
               return resolve();
             }).catch(function () {
               return reject();
@@ -11236,7 +12073,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "UpdateStatus",
         value: function UpdateStatus(tableID, newState) {
-          var _this69 = this;
+          var _this70 = this;
 
           var document = this.db.collection("mesas", function (ref) {
             return ref.where('tableID', '==', tableID);
@@ -11245,7 +12082,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var table = doc.docs[0].data();
             table.id = doc.docs[0].id;
             table.state = newState;
-            return _this69.db.collection("mesas").doc(table.id).update(table).then(function () {
+            return _this70.db.collection("mesas").doc(table.id).update(table).then(function () {
               return true;
             }).catch(function () {
               return false;
@@ -11431,13 +12268,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "SetRoleInFirebase",
         value: function SetRoleInFirebase(email, role) {
-          var _this70 = this;
+          var _this71 = this;
 
           this.GetUserByEmail(email).then(function (doc) {
             var user = doc;
             user.role = role;
 
-            _this70.db.collection("usuarios").doc(doc.id).update(user);
+            _this71.db.collection("usuarios").doc(doc.id).update(user);
 
             console.log("User role updated on firebase!");
           });
@@ -11503,18 +12340,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "ModifyProfileImage",
         value: function ModifyProfileImage(email, image) {
-          var _this71 = this;
+          var _this72 = this;
 
           return this.GetUserByEmail(email).then(function (doc) {
             var user = doc;
 
-            _this71.fileService.subirFotoUsuarios(image, user.id);
+            _this72.fileService.subirFotoUsuarios(image, user.id);
           });
         }
       }, {
         key: "traerUsuariosArray",
         value: function traerUsuariosArray() {
-          var _this72 = this;
+          var _this73 = this;
 
           var listadoObservable = null;
           listadoObservable = this.traerUsuarios();
@@ -11534,7 +12371,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
               if (!u.deleted) {
                 if (u.role !== src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["Role"].cliente) {
-                  _this72.listado.push(u);
+                  _this73.listado.push(u);
                 }
               }
             });
@@ -11556,27 +12393,57 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "persistirUsuario",
         value: function persistirUsuario(usuario, foto) {
-          var _this73 = this;
+          var _this74 = this;
 
           var idGenerado;
           return this.usuarios.add(src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_5__["CommonHelper"].ConvertToObject(usuario)).then(function (doc) {
-            _this73.usuarios.doc(doc.id).update({
+            _this74.usuarios.doc(doc.id).update({
               id: doc.id
             });
 
             idGenerado = doc.id;
           }).then(function () {
             if (foto) {
-              return _this73.fileService.subirFotoUsuarios(foto, idGenerado).then(function () {
+              return _this74.fileService.subirFotoUsuarios(foto, idGenerado).then(function () {
                 return true;
               });
             } else {
-              return _this73.fileService.subirFotoGenericaUsuarios(idGenerado).then(function () {
+              return _this74.fileService.subirFotoGenericaUsuarios(idGenerado).then(function () {
                 return true;
               });
             }
           }).catch(function () {
             return false;
+          });
+        }
+      }, {
+        key: "actualizarUsuarioFoto",
+        value: function actualizarUsuarioFoto(userFoto, foto) {
+          var _this75 = this;
+
+          this.GetUserByEmail(userFoto.email).then(function (doc) {
+            var user = doc;
+            user.name = userFoto.name;
+            user.lastname = userFoto.lastname;
+            user.role = userFoto.role;
+
+            _this75.db.collection("usuarios").doc(doc.id).update(user).then(function () {
+              if (foto) {
+                return _this75.fileService.subirFotoUsuarios(foto, user.id).then(function () {
+                  return true;
+                });
+              }
+              /*else {
+              return this.fileService
+                .subirFotoGenericaUsuarios(user.id)
+                .then(() => {
+                  return true;
+                });
+              }*/
+
+            }).catch(function () {
+              return false;
+            });
           });
         }
       }, {
@@ -11596,31 +12463,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "actualizarUsuario",
         value: function actualizarUsuario(email, nombre, apellido) {
-          var _this74 = this;
+          var _this76 = this;
 
           return this.GetUserByEmail(email).then(function (doc) {
             var user = doc;
             user.name = nombre;
             user.lastname = apellido;
 
-            _this74.db.collection("usuarios").doc(doc.id).update(user);
+            _this76.db.collection("usuarios").doc(doc.id).update(user);
           });
         }
       }, {
         key: "updateUser",
         value: function updateUser(usuario, foto) {
-          var _this75 = this;
-
+          console.log("update user dentro de user service usuario y foto: ", usuario, foto);
           var retorno = this.usuarios.doc(usuario.id).update({
             name: usuario.name,
             lastname: usuario.lastname
           }).then(function () {
-            if (foto) {
-              return _this75.fileService.subirFotoUsuarios(foto, usuario.id).then(function () {
-                return true;
-              });
-            }
+            // if (foto) {
+            //   return this.fileService
+            //     .subirFotoUsuarios(foto,usuario.id)
+            //     .then(() => {
+            console.log("VERDADERO");
+            return true; //     });
+            // }
           }).catch(function () {
+            console.log("FALSO");
             return false;
           });
           console.log(retorno);
@@ -11743,14 +12612,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "subirFotoPedido",
         value: function subirFotoPedido(foto, uid) {
-          var _this76 = this;
+          var _this77 = this;
 
           var pathFoto = "imagenesPedidos/".concat(uid);
           var tarea = this.storage.upload(pathFoto, foto);
           console.log("uid" + uid);
           return tarea.then(function () {
-            _this76.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
-              _this76.updatePhotoUrlOrders(url, uid);
+            _this77.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
+              _this77.updatePhotoUrlOrders(url, uid);
             });
           }).then(function () {
             return true;
@@ -11768,13 +12637,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "subirFotoProducto",
         value: function subirFotoProducto(foto, uid) {
-          var _this77 = this;
+          var _this78 = this;
 
           var pathFoto = "imagenesProductos/".concat(uid);
           var tarea = this.storage.upload(pathFoto, foto);
           tarea.then(function () {
-            _this77.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
-              _this77.updatePhotoUrlProduct(url, uid);
+            _this78.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
+              _this78.updatePhotoUrlProduct(url, uid);
             });
           });
         }
@@ -11788,16 +12657,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "subirFotoUsuarios",
         value: function subirFotoUsuarios(foto, uid) {
-          var _this78 = this;
+          var _this79 = this;
 
+          console.log("file subirfotousuarios: foto y uid: ", foto, uid);
           var pathFoto = "imagenesUsuarios/".concat(uid);
           var tarea = this.storage.upload(pathFoto, foto);
           return tarea.then(function () {
-            _this78.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
-              _this78.updatePhotoUrlUsers(url, uid); //this.updatePhotoUrlUsers(url, uid).then(()=>{
-              //location.reload();
-              //});
+            _this79.storage.ref(pathFoto).getDownloadURL().subscribe(function (url) {
+              _this79.updatePhotoUrlUsers(url, uid);
 
+              _this79.updatePhotoUrlUsers(url, uid).then(function () {
+                location.reload();
+              });
             });
           }).then(function () {
             //location.reload();
@@ -11969,7 +12840,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\Ariel\Desktop\LC\LACOMANDABRINO\src\main.ts */
+    /*! C:\Users\ariel\Desktop\GIT\LACOMANDABRINO\src\main.ts */
     "./src/main.ts");
     /***/
   }

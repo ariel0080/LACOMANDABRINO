@@ -30,6 +30,7 @@ export class User
         user.role = role;
         user.deleted = false;
         user.state = 'habilitado';
+        user.image ='https://firebasestorage.googleapis.com/v0/b/lacomanda-brino.appspot.com/o/SOCIOSOCIOS8182?alt=media&token=89b72e99-2bcf-4b05-9ac7-5a40e5ce2b1b';
         return user;
     }
 

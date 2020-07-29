@@ -23,6 +23,292 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -162,7 +448,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\r\n  <div class=\"row top-row\">\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"card\">\r\n        <div class=\"card-body align-center\">\r\n          <h4 class=\"form-title\">Ingresar</h4>\r\n          <hr />\r\n          <form [formGroup]=\"loginForm\" (ngSubmit)=\"onSubmit()\">\r\n            <input\r\n              type=\"text\"\r\n              formControlName=\"email\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Email\"\r\n              autofocus\r\n            />\r\n            <input\r\n              type=\"password\"\r\n              formControlName=\"password\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Contraseña\"\r\n            />\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-8 align-center\">\r\n                <ngx-recaptcha2\r\n                  formControlName=\"captcha\"\r\n                  #captchaElem\r\n                  [siteKey]=\"'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'\"\r\n                  [useGlobalDomain]=\"false\"\r\n                >\r\n                </ngx-recaptcha2>\r\n\r\n                <!-- <ngx-recaptcha2  formControlName=\"captcha\" #captchaElem [siteKey]=\"'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'\" [useGlobalDomain]=\"false\"></ngx-recaptcha2> -->\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n            <button\r\n              *ngIf=\"!loading\"\r\n              [disabled]=\"!loginForm.valid\"\r\n              type=\"submit\"\r\n              class=\"btn btn-success full-width separate-top-input\"\r\n            >\r\n              Entrar\r\n            </button>\r\n            <div class=\"mar-top-1\">\r\n              <app-spinner *ngIf=\"loading\"></app-spinner>\r\n            </div>\r\n\r\n            <!-- hola -->\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-12 align-center\">\r\n                <div class=\"btn-group-toggle\" data-toggle=\"buttons\">\r\n\t\t\t\t\t<label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkHorario\"\r\n                      formControlName=\"chkHorario\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />FORZAR INGRESO\r\n                  </label>\r\n\r\n\t\t\t\t  <label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkLunes\"\r\n                      formControlName=\"chkLunes\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />\r\n                    ESTAMOS CERRADOS\r\n                  </label>\r\n                </div>\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n\r\n            <!-- chau -->\r\n          </form>\r\n          <hr />\r\n          <button routerLink=\"/app/register\" class=\"btn btn-primary full-width\">\r\n            Registrarse\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- <div class=\"col-3\"></div> -->\r\n  </div>\r\n  <div class=\"row middle-row\" [isProd]>\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente1\"\r\n          value=\"cliente1\"\r\n          (click)=\"ue('cliente1')\"\r\n        >\r\n          Cli1\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente2\"\r\n          value=\"cliente2\"\r\n          (click)=\"ue('cliente2')\"\r\n        >\r\n          Cli2\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opmozo\"\r\n          value=\"mozo\"\r\n          (click)=\"ue('mozo')\"\r\n        >\r\n          Mozo\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opbartender\"\r\n          value=\"bartender\"\r\n          (click)=\"ue('bartender')\"\r\n        >\r\n          Bartender\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcervecero\"\r\n          value=\"cervecero\"\r\n          (click)=\"ue('cervecero')\"\r\n        >\r\n          Cervecero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcocinero\"\r\n          value=\"cocinero\"\r\n          (click)=\"ue('cocinero')\"\r\n        >\r\n          Cocinero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opsocio\"\r\n          value=\"socio\"\r\n          (click)=\"ue('socio')\"\r\n        >\r\n          Socio\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-3\"></div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\r\n  <div class=\"row top-row\">\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"card\">\r\n        <div class=\"card-body align-center\">\r\n          <h4 class=\"form-title\">Ingresar</h4>\r\n          <hr />\r\n          <form [formGroup]=\"loginForm\" (ngSubmit)=\"onSubmit()\">\r\n            <input\r\n              type=\"text\"\r\n              formControlName=\"email\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Email\"\r\n              autofocus\r\n            />\r\n            <input\r\n              type=\"password\"\r\n              formControlName=\"password\"\r\n              class=\"form-control separate-top-input align-center\"\r\n              placeholder=\"Contraseña\"\r\n            />\r\n\r\n\r\n            <!-- <button class=\"btn btn-sm btn-outline-danger\"\r\n                *ngIf=\"captchasi\"\r\n                (click)=\"c_option()\"\r\n                unchecked\r\n                autocomplete=\"off\"\r\n              >OMITIR CAPTCHA\r\n          </button> -->\r\n\r\n    <button class=\"btn btn-sm btn-outline-danger\"\r\n          *ngIf=\"!captchasi\"\r\n          (click)=\"c_option()\"\r\n          unchecked\r\n          autocomplete=\"off\"\r\n        >ACTIVAR CAPTCHA\r\n    </button>\r\n\r\n\r\n\r\n            <div  class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-8 align-center\">\r\n                <ngx-recaptcha2\r\n                  *ngIf=\"captchasi\"\r\n                  formControlName=\"captcha\"\r\n                  #captchaElem\r\n                  [siteKey]=\"'6LfkNMgUAAAAAKL-SQOpiC8bI18fZFeW4U3cYniE'\"\r\n                  [useGlobalDomain]=\"false\"\r\n                >\r\n                </ngx-recaptcha2>\r\n\r\n                <!-- <ngx-recaptcha2  formControlName=\"captcha\" #captchaElem [siteKey]=\"'6Le9VcYUAAAAAK4z-Fj0YlhKfrNIc9eqvsNuMSsy'\" [useGlobalDomain]=\"false\"></ngx-recaptcha2> -->\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n            <button\r\n              *ngIf=\"!loading\"\r\n              [disabled]=\"!loginForm.valid\"\r\n              type=\"submit\"\r\n              class=\"btn btn-success full-width separate-top-input\"\r\n            >\r\n              Entrar\r\n            </button>\r\n            <div class=\"mar-top-1\">\r\n              <app-spinner *ngIf=\"loading\"></app-spinner>\r\n            </div>\r\n\r\n            <!-- hola -->\r\n            <div class=\"row mar-top-2\">\r\n              <div class=\"col-2\"></div>\r\n              <div class=\"col-12 align-center\">\r\n                <div class=\"btn-group-toggle\" data-toggle=\"buttons\">\r\n\t\t\t\t\t<label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkHorario\"\r\n                      formControlName=\"chkHorario\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />FORZAR INGRESO\r\n                  </label>\r\n\r\n\t\t\t\t  <label class=\"btn btn-sm btn-outline-info\">\r\n                    <input\r\n                      type=\"checkbox\"\r\n                      id=\"chkLunes\"\r\n                      formControlName=\"chkLunes\"\r\n                      unchecked\r\n                      autocomplete=\"off\"\r\n                    />\r\n                    ESTAMOS CERRADOS\r\n                  </label>\r\n                </div>\r\n              </div>\r\n              <div class=\"col-2\"></div>\r\n            </div>\r\n\r\n            <!-- chau -->\r\n          </form>\r\n          <hr />\r\n          <button routerLink=\"/app/register\" class=\"btn btn-primary full-width\">\r\n            Registrarse\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- <div class=\"col-3\"></div> -->\r\n  </div>\r\n  <div class=\"row middle-row\" [isProd]>\r\n    <div class=\"col-3\"></div>\r\n    <div class=\"col-6\">\r\n      <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente1\"\r\n          value=\"cliente1\"\r\n          (click)=\"ue('cliente1')\"\r\n        >\r\n          Cli1\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcliente2\"\r\n          value=\"cliente2\"\r\n          (click)=\"ue('cliente2')\"\r\n        >\r\n          Cli2\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opmozo\"\r\n          value=\"mozo\"\r\n          (click)=\"ue('mozo')\"\r\n        >\r\n          Mozo\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opbartender\"\r\n          value=\"bartender\"\r\n          (click)=\"ue('bartender')\"\r\n        >\r\n          Bartender\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcervecero\"\r\n          value=\"cervecero\"\r\n          (click)=\"ue('cervecero')\"\r\n        >\r\n          Cervecero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opcocinero\"\r\n          value=\"cocinero\"\r\n          (click)=\"ue('cocinero')\"\r\n        >\r\n          Cocinero\r\n        </button>\r\n\r\n        <button\r\n          class=\"btn btn-info\"\r\n          type=\"button\"\r\n          name=\"opsocio\"\r\n          value=\"socio\"\r\n          (click)=\"ue('socio')\"\r\n        >\r\n          Socio\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-3\"></div>\r\n\r\n    \r\n\r\n\r\n  </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -188,7 +474,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" *ngIf=\"user\">\r\n    <div class=\"row top-row\">\r\n        <div class=\"col-4 align-center\">\r\n            <img src=\"{{user.image}}\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <h1 class=\"tprincipal\">\r\n                {{user.name}} {{user.lastname}}\r\n            </h1>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <p>Tu privacidad está segura en este sitio. La información detallada anteriormente no se expone ni es visible\r\n            para nadie público. Solamente un administrador del sistema tiene acceso a estos datos.</p>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <div class=\"col-2\"></div>\r\n        <div class=\"col-8\">\r\n            <div class=\"card outside-shadow\">\r\n                <div class=\"card-header align-center\">\r\n                    <b>Editar perfil</b>\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Foto</h5>\r\n                            <p class=\"card-text\">Actualizar foto de perfil</p>\r\n                            <div class=\"btn-group\">\r\n                                <button class=\"btn btn-primary\" (click)=\"fileInput.click()\">Elegir imagen</button>\r\n                                <button [disabled]=\"!isLoaded\" class=\"btn btn-success\" (click)=\"Upload()\">Cargar imagen</button>\r\n                            </div>\r\n                        </div>\r\n                        <!-- aca arranca lo nuevo y termina en el otro comentario -->\r\n\r\n                        <div *ngIf=\"isAdmin\" class=\"col-4 align-center\">\r\n                        <select class=\"form-control\"  (ngModelChange)=\"completarUsuario($event)\" [(ngModel)]=\"userOption\">\r\n\r\n                            <option *ngFor=\"let usuario of listaUsuarios\" [ngValue]=\"usuario\">{{usuario}}</option>\r\n                            \r\n                        </select>\r\n                        <form [formGroup]=\"UpdateForm\" (ngSubmit)=\"onSubmit()\">\r\n                                <input type=\"text\" formControlName=\"nombre\" class=\"form-control separate-top-input align-center\" placeholder=\"Nombre\" autofocus>\r\n                                <input type=\"text\" formControlName=\"apellido\" class=\"form-control separate-top-input align-center\" placeholder=\"Apellido\">\r\n                                <button [disabled]=\"!UpdateForm.valid\" type=\"submit\" class=\"btn btn-danger full-width separate-top-input\">Modificar</button>\r\n                         </form></div>\r\n\r\n\r\n\r\n                        <!-- <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Nombre</h5>\r\n                            <p class=\"card-text\">Modificá tu nombre, apellido y/o email de una forma simple.</p>\r\n                            <button class=\"btn btn-primary\" disabled>Cambiar mis datos</button>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <input accept=\".png,.jpg\" type=\"file\" #fileInput style=\"display: none;\" (change)=\"OnFileSelected($event)\">\r\n</div>\r\n\r\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" *ngIf=\"user\">\r\n    <div class=\"row top-row\">\r\n        <div class=\"col-4 align-center\">\r\n            <img src=\"{{user.image}}\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <h1 class=\"tprincipal\">\r\n                {{user.name}} {{user.lastname}}\r\n            </h1>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <p>Tu privacidad está segura en este sitio. La información detallada anteriormente no se expone ni es visible\r\n            para nadie público. Solamente un administrador del sistema tiene acceso a estos datos.</p>\r\n    </div>\r\n    <div class=\"row middle-row\">\r\n        <div class=\"col-2\"></div>\r\n        <div class=\"col-8\">\r\n            <div class=\"card outside-shadow\">\r\n                <div class=\"card-header align-center\">\r\n                    <b>Editar perfil</b>\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <div class=\"row\">\r\n                         <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Foto</h5>\r\n                            <p class=\"card-text\">Actualizar foto de perfil</p>\r\n                            <div class=\"btn-group\">\r\n                                <button class=\"btn btn-primary\" (click)=\"fileInput.click()\">Elegir imagen</button>\r\n                                <button [disabled]=\"!isLoaded\" class=\"btn btn-success\" (click)=\"Upload()\">Cargar imagen</button>\r\n                            </div>\r\n                        </div> \r\n                        <!-- aca arranca lo nuevo y termina en el otro comentario -->\r\n\r\n                        <div *ngIf=\"isAdmin\" class=\"col-4 align-center\">\r\n                        <select class=\"form-control\"  (ngModelChange)=\"completarUsuario($event)\" [(ngModel)]=\"userOption\">\r\n\r\n                            <option *ngFor=\"let usuario of listaUsuarios\" [ngValue]=\"usuario\">{{usuario}}</option>\r\n                            \r\n                        </select>\r\n                        <form [formGroup]=\"UpdateForm\" (ngSubmit)=\"onSubmit()\">\r\n                                <input type=\"text\" formControlName=\"nombre\" class=\"form-control separate-top-input align-center\" placeholder=\"Nombre\" autofocus>\r\n                                <input type=\"text\" formControlName=\"apellido\" class=\"form-control separate-top-input align-center\" placeholder=\"Apellido\">\r\n                                <button [disabled]=\"!UpdateForm.valid\" type=\"submit\" class=\"btn btn-danger full-width separate-top-input\">Modificar</button>\r\n                         </form></div>\r\n\r\n\r\n\r\n                        <!-- <div class=\"col-6 align-center\">\r\n                            <h5 class=\"card-title\">Nombre</h5>\r\n                            <p class=\"card-text\">Modificá tu nombre, apellido y/o email de una forma simple.</p>\r\n                            <button class=\"btn btn-primary\" disabled>Cambiar mis datos</button>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-2\"></div>\r\n    </div>\r\n    <input accept=\".png,.jpg\" type=\"file\" #fileInput style=\"display: none;\" (change)=\"OnFileSelected($event)\">\r\n</div>\r\n\r\n<app-footer></app-footer>");
 
 /***/ }),
 
@@ -240,7 +526,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar bartender-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/bartender/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/bartender\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/bartender/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar bartender-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/bartender/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/bartender\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/bartender/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
 
 /***/ }),
 
@@ -279,7 +565,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cervecero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cervecero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cervecero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cervecero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cervecero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cervecero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cervecero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cervecero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
 
 /***/ }),
 
@@ -305,7 +591,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (" <!-- <nav>\r\n    <div class=\"row main-bar\"> \r\n        \r\n        <div class=\"col-6 profile\">\r\n            <tr>\r\n            <td><img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\"></td>\r\n\r\n            <td><label *ngIf=\"user\">{{user.name}}</label></td>\r\n        </tr>\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Mi perfil\" link=\"/cliente/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Realizar pedido\" link=\"/cliente\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Buscar pedido\" link=\"buscar\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = (" <!-- <nav>\r\n    <div class=\"row main-bar\"> \r\n        \r\n        <div class=\"col-6 profile\">\r\n            <tr>\r\n            <td><img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\"></td>\r\n\r\n            <td><label *ngIf=\"user\">{{user.name}}</label></td>\r\n        </tr>\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Mi perfil\" link=\"/cliente/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Realizar pedido\" link=\"/cliente\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Buscar pedido\" link=\"buscar\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -344,7 +630,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cocinero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label  class=\"tc\"   *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cocinero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cocinero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cocinero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar cocinero-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label  class=\"tc\"   *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/cocinero/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/cocinero\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/cocinero/productos\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
 
 /***/ }),
 
@@ -383,7 +669,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar mozo-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/mozo/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/mozo\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/mozo/tables\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar mozo-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/mozo/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/mozo\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/mozo/tables\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
 
 /***/ }),
 
@@ -409,7 +695,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"align-center mar-top-1\" *ngIf=\"this.mesaMasUsada == null && this.mesaMenosUsada == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\" *ngIf=\"this.mesaMasUsada\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Personalizar</button>\r\n        </div>\r\n        <div class=\"col-3\" *ngIf=\"this.mesaMasUsada\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMasUsada\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa más usada</h5>\r\n                <p class=\"card-text\">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa menos usada</h5>\r\n                <p class=\"card-text\">La mesa {{ this.mesaMenosUsada[0] }} fue utilizada {{ this.mesaMenosUsada[1] }}\r\n                    veces </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMayorFacturacion\">\r\n            <img src=\"../../../../../assets/img/billetes.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor recaudación</h5>\r\n                <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó\r\n                    {{ this.mesaMayorFacturacion }} pesos </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/sinplata.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor recaudación</h5>\r\n                <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó\r\n                    {{ this.mesaMenorFacturacion }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/muchaprop.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor importe de factura</h5>\r\n                <p class=\"card-text\">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMayorImporte.totalPrice }} pesos </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/monedas.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor importe de factura</h5>\r\n                <p class=\"card-text\">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMenorImporte.totalPrice }} pesos </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Mejores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysGood | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Peores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysBad | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<!-- Survey modal -->\r\n<div class=\"modal fade\" id=\"surveyModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\" *ngIf=\"survey\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Pedido {{survey.order.codeID}}</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12 align-center\">\r\n                            <b>Promedio de los puntajes: </b> <span [surveyAverage]=\"survey\"\r\n                                returnAverage=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row middle-row\">\r\n                        <div class=\"col-12 align-center\" [surveyComment]='survey.commentType'></div>\r\n                    </div>\r\n                    <hr>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12\">\r\n                            <span [surveyComment]=\"survey.commentType\" isIcon=\"true\"></span> - {{survey.comment}}\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row mar-top-1\">\r\n                        <div class=\"col-1\"></div>\r\n                        <div class=\"col-10 align-right\">\r\n                            {{survey.order.client.name}} {{survey.order.client.lastname}}\r\n                        </div>\r\n                        <div class=\"col-1\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"align-center mar-top-1\" *ngIf=\"this.mesaMasUsada == null && this.mesaMenosUsada == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\" *ngIf=\"this.mesaMasUsada\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Personalizar</button>\r\n        </div>\r\n        <div class=\"col-3\" *ngIf=\"this.mesaMasUsada\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMasUsada\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa más usada</h5> \r\n                <!-- <p class=\"card-text\">La mesa {{ this.mesaMasUsada[0] }} fue utilizada {{ this.mesaMasUsada[1] }} veces -->\r\n                <p class=\"card-text\">La mesa {{ mesamas }} fue utilizada {{ mesamasnumber }} veces   \r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa menos usada</h5>\r\n                <p class=\"card-text\">La mesa {{ mesamenos }} fue utilizada {{ mesamenosnumber }}\r\n                    veces </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"bar\" [data]=\"graficobarras\"  [options]=\"OGB\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n\r\n\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMayorFacturacion\">\r\n            <img src=\"../../../../../assets/img/billetes.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor recaudación</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) }} recaudó\r\n                    {{ this.mesaMayorFacturacion }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamasrecaudo }} recaudó\r\n                        {{ mesamasrecaudonumber }} pesos </p>    \r\n\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/sinplata.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor recaudación</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) }} recaudó\r\n                    {{ this.mesaMenorFacturacion }} pesos </p> -->\r\n                    <p class=\"card-text\">La mesa {{ mesamenosrecaudo }} recaudó\r\n                        {{ mesamenosrecaudonumber }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"doughnut\" [data]=\"graficodona\"  [options]=\"OGD\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/muchaprop.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con mayor importe de factura</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ facturaMayorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMayorImporte.totalPrice }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamayorfactura }} tuvo una factura por\r\n                        {{ mesamayorfacturanumber }} pesos </p> \r\n            </div>\r\n        </div>\r\n        <div class=\"card col-2 align-center\" *ngIf=\"mesaMenorFacturacion\">\r\n            <img src=\"../../../../../assets/img/monedas.jpeg\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">Mesa con menor importe de factura</h5>\r\n                <!-- <p class=\"card-text\">La mesa {{ facturaMenorImporte.tableID }} tuvo una factura por\r\n                    {{ facturaMenorImporte.totalPrice }} pesos </p> -->\r\n\r\n                    <p class=\"card-text\">La mesa {{ mesamenorfactura }} tuvo una factura por\r\n                        {{ mesamenorfacturanumber }} pesos </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-5 align-center\" *ngIf=\"mesaMenosUsada\">\r\n            <p-chart type=\"polarArea\" [data]=\"graficotorta\" [options]=\"OGT\" width=\"20vw\" height=\"40vh\"></p-chart>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Mejores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysGood | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-1\"></div>\r\n        <div class=\"col-10\">\r\n            <h3 class=\"align-center\">Peores Comentarios</h3>\r\n\r\n        </div>\r\n        <div class=\"col-1\"></div>\r\n    </div>\r\n    <div class=\"row middle-row\" *ngIf=\"mesaMenorFacturacion\">\r\n        <div class=\"col-12\">\r\n\r\n            <div class=\"table-responsive\">\r\n                <table class=\"table table-hover\">\r\n                    <thead class=\"align-center\">\r\n                        <tr>\r\n                            <th scope=\"col\">Pedido</th>\r\n                            <th scope=\"col\">Cliente</th>\r\n                            <th scope=\"col\">Mesa</th>\r\n                            <th scope=\"col\">Mozo</th>\r\n                            <th scope=\"col\">Comentario</th>\r\n\r\n                            <!-- <th scope=\"col\">Punt. mesa</th>\r\n                            <th scope=\"col\">Punt. mozo</th>\r\n                            <th scope=\"col\">Punt. restaurante</th>\r\n                            <th scope=\"col\">Punt. cocinero</th> -->\r\n                            <!-- <th scope=\"col\">Fecha</th> -->\r\n                        </tr>\r\n                    </thead>\r\n                    <tbody>\r\n                        <tr [surveyAverage]=\"sur\" *ngFor=\"let sur of surveysBad | async\" class=\"survey align-center\"\r\n                            data-toggle=\"modal\" data-target=\"#surveyModal\" (click)=\"SelectSurvey(sur)\">\r\n                            \r\n                            <td>{{sur.order.codeID}}</td>\r\n                            <td>{{sur.order.client.name}} {{sur.order.client.lastname}}</td>\r\n                            <td>{{sur.order.tableID}}</td>\r\n                            <td>{{sur.order.waiter.name}} {{sur.order.waiter.lastname}}</td>\r\n                            <td>{{sur.comment}}</td>\r\n\r\n                            <!-- <td>{{sur.tableScore}}</td>\r\n                            <td>{{sur.waiterScore}}</td>\r\n                            <td>{{sur.restaurantScore}}</td>\r\n                            <td>{{sur.cookScore}}</td> -->\r\n                            <!-- <td>{{sur.order.timeLeft | neatDate}}</td> -->\r\n                        </tr>\r\n                    </tbody>\r\n                </table>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<!-- Survey modal -->\r\n<div class=\"modal fade\" id=\"surveyModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\" *ngIf=\"survey\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Pedido {{survey.order.codeID}}</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12 align-center\">\r\n                            <b>Promedio de los puntajes: </b> <span [surveyAverage]=\"survey\"\r\n                                returnAverage=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row middle-row\">\r\n                        <div class=\"col-12 align-center\" [surveyComment]='survey.commentType'></div>\r\n                    </div>\r\n                    <hr>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-12\">\r\n                            <span [surveyComment]=\"survey.commentType\" isIcon=\"true\"></span> - {{survey.comment}}\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"row mar-top-1\">\r\n                        <div class=\"col-1\"></div>\r\n                        <div class=\"col-10 align-right\">\r\n                            {{survey.order.client.name}} {{survey.order.client.lastname}}\r\n                        </div>\r\n                        <div class=\"col-1\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -422,7 +708,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"align-center mar-top-1\" *ngIf=\"this.topBest == null && this.topWorst == null\">\r\n    <div class=\"row top-row page-title\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6\">\r\n\r\n        </div>\r\n        <div class=\"col-3\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n    <hr>\r\n    <app-spinner></app-spinner>\r\n</div>\r\n<div class=\"container\" *ngIf=\"this.cancelledOrders != null\">\r\n    <div class=\"row\" *ngIf=\"this.topBest != null && this.topWorst != null\">\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\"></div>\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-3\"></div>\r\n        <hr>\r\n        <div class=\"col-3\">\r\n        </div>\r\n        <div class=\"col-6\">\r\n            <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Buscar por fecha</button>\r\n        </div>\r\n        <div class=\"col-3\">\r\n            <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                class=\"fas fa-angle-double-down\" ></i></button>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n            <div class=\"col-6 align-center\">\r\n            </div>\r\n            <div class=\"col-3 align-center\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"row\" *ngIf=\"this.topBest\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 mas vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[0] != null\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[0][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topBest[0][0]}} fue el mas solicitado con {{this.topBest[0][1]}}\r\n                    ventas </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[1] != null\">\r\n            <img src=\"../../../../../assets/img/2.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[1][0]}}</h5>\r\n                <p class=\"card-text\">En segundo lugar se encuentra {{this.topBest[1][0]}} con {{this.topBest[1][1]}}\r\n                    ventas</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topBest[2] != null\">\r\n            <img src=\"../../../../../assets/img/3.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topBest[2][0]}}</h5>\r\n                <p class=\"card-text\">El tercer puesto es para {{this.topBest[2][0]}} con {{this.topBest[2][1]}} ventas\r\n                </p>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"this.topWorst\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 menos vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[0] != null\">\r\n            <img src=\"../../../../../assets/img/antesqueelante.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">{{this.topWorst[0][0]}}</h5>\r\n                    <p class=\"card-text\">El articulo {{this.topWorst[0][0]}} no se vendió tanto, tuvo\r\n                        {{this.topWorst[0][1]}} ventas </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[1] != null\">\r\n            <img src=\"../../../../../assets/img/anteultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topWorst[1][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topWorst[1][0]}} fue un poco menos solicitado que el anterior\r\n                    con\r\n                    {{this.topWorst[1][1]}} ventas </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.topWorst[2] != null\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{this.topWorst[2][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.topWorst[2][0]}} fue lo menos solicitado con\r\n                    {{this.topWorst[2][1]}} ventas </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos Cancelados</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Estado</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of cancelledOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.state}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos no entregados en tiempo estipulado</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Demora</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of delayedOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.delayed | timeleft}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n</div>\r\n\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"align-center mar-top-1\" *ngIf=\"this.productosPedidosOrdenadosAsc == null && this.productosPedidosOrdenadosDesc == null\">\r\n        <div class=\"row top-row page-title\">\r\n            <div class=\"col-3\"></div>\r\n            <div class=\"col-6\"></div>\r\n            <div class=\"col-3\"></div>\r\n        </div>\r\n        <hr>\r\n        <div class=\"row\">\r\n            <div class=\"col-3 align-center\">\r\n    \r\n            </div>\r\n            <div class=\"col-6\">\r\n    \r\n            </div>\r\n            <div class=\"col-3\">\r\n    \r\n            </div>\r\n        </div>\r\n    \r\n        <hr>\r\n        <app-spinner></app-spinner>\r\n    </div>\r\n\r\n\r\n    <div class=\"container\" *ngIf=\"this.cancelledOrders != null\">\r\n            <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc != null && this.productosPedidosOrdenadosDesc != null\">\r\n                <div class=\"col-3\"></div>\r\n                <div class=\"col-6\"></div>\r\n                <div class=\"col-3\"></div>\r\n                <hr>\r\n                <div class=\"col-3\"></div>\r\n                <div class=\"col-6\"></div>\r\n                <div class=\"col-3\"></div>\r\n                <hr>\r\n                <div class=\"col-3\">\r\n                </div>\r\n                <div class=\"col-6\">\r\n                    <button class=\"btn btn-outline-info full-width\" data-toggle=\"modal\" data-target=\"#settingsModal\">Buscar por fecha</button>\r\n                </div>\r\n                <div class=\"col-3\">\r\n                    <button type=\"button\" class=\"btn btn-info full-width\" (click)=\"exportCSV()\">Exportar a CSV<i\r\n                        class=\"fas fa-angle-double-down\" ></i></button>\r\n                </div>\r\n        \r\n                <div class=\"row\">\r\n                    <div class=\"col-3 align-center\">\r\n                    </div>\r\n                    <div class=\"col-6 align-center\">\r\n                    </div>\r\n                    <div class=\"col-3 align-center\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <hr>\r\n            <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc\">\r\n                <div class=\"col-3 align-center\">\r\n                </div>\r\n                <div class=\"col-6 align-center\">\r\n                    <h2>Top 3 mas vendidos</h2>\r\n                </div>\r\n                <div class=\"col-3 align-center\">\r\n                </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/1.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <!-- <h5 class=\"card-title\">{{this.productosPedidosOrdenadosAsc[0][0]}}</h5>\r\n                <p class=\"card-text\">El articulo {{this.productosPedidosOrdenadosAsc[0][0]}} fue el mas solicitado con {{this.productosPedidosOrdenadosAsc[0][1]}}\r\n                    ventas </p> -->\r\n                    <h5 class=\"card-title\">{{top1}}</h5>\r\n                    <p class=\"card-text\">El articulo {{top1}} fue el mas solicitado con {{top1n}}\r\n                        ventas </p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/2.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top2}}</h5>\r\n                <p class=\"card-text\">En segundo lugar se encuentra {{top2}} con {{top2n}}\r\n                    ventas</p>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosAsc != null\">\r\n            <img src=\"../../../../../assets/img/3.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top3}}</h5>\r\n                <p class=\"card-text\">El tercer puesto es para {{top3}} con {{top3n}} ventas\r\n                </p>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n\r\n    <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosAsc\">\r\n            <div class=\"card col-10 align-center\">\r\n\r\n            <p-chart type=\"bar\" [data]=\"graficobarras\"  [options]=\"OGB\" width=\"40vw\" height=\"80vh\"></p-chart>\r\n             \r\n            </div>\r\n    </div>\r\n\r\n\r\n    <div class=\"row\" *ngIf=\"this.productosPedidosOrdenadosDesc\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Top 3 menos vendidos</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/antesqueelante.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">{{top1m}}</h5>\r\n                    <p class=\"card-text\">El articulo {{top1m}} no se vendió tanto, tuvo\r\n                        {{top1mn}} ventas </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/anteultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top2m}}</h5>\r\n                <p class=\"card-text\">El articulo {{top2m}} fue un poco menos solicitado que el anterior\r\n                    con\r\n                    {{top2mn}} ventas </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"card col-3 align-center\" *ngIf=\"this.productosPedidosOrdenadosDesc != null\">\r\n            <img src=\"../../../../../assets/img/ultimo.png\" class=\"card-img-top\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">{{top3m}}</h5>\r\n                <p class=\"card-text\">El articulo {{top3m}} fue lo menos solicitado con\r\n                    {{top3mn}} ventas </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos Cancelados</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Estado</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of cancelledOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.state}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n        <div class=\"col-6 align-center\">\r\n            <h2>Pedidos no entregados en tiempo estipulado</h2>\r\n        </div>\r\n        <div class=\"col-3 align-center\">\r\n        </div>\r\n\r\n\r\n        <div class=\"table-responsive\">\r\n            <table class=\"table table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th scope=\"col\">Codigo de pedido</th>\r\n                        <th scope=\"col\">Fecha</th>\r\n                        <th scope=\"col\">Demora</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr class=\"order\" *ngFor=\"let order of delayedOrders | async\">\r\n                        <td><label>{{order.codeID}}</label></td>\r\n                        <td>{{order.timestamp | date:'hh:mm dd/MM/yyyy'}}</td>\r\n                        <td>{{order.delayed | timeleft}}</td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n    <hr>\r\n</div>\r\n\r\n\r\n<!-- Settings modal -->\r\n<div class=\"modal fade\" id=\"settingsModal\">\r\n    <div class=\"modal-dialog\">\r\n        <div class=\"modal-content\">\r\n            <div class=\"modal-body\">\r\n                <div class=\"container-fluid\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <h3 class=\"align-center\">Personalizar Busqueda</h3>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <form [formGroup]=\"settingsForm\" (ngSubmit)=\"SendSettings()\">\r\n\r\n                        <div class=\"row\">\r\n                            <div class=\"col-1\"></div>\r\n                            <div class=\"col-10\">\r\n                                <div class=\"row middle-row\">\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Desde fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaInicio\" formControlName=\"fechaInicio\"\r\n                                                (change)=\"setDate()\">\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-6\">\r\n                                        <div class=\"col-12\">\r\n                                            <label>Hasta fecha:</label>\r\n                                        </div>\r\n                                        <div>\r\n                                            <input type=\"date\" name=\"fechaFin\" formControlName=\"fechaFin\"\r\n                                                (change)=\"setDate(false)\">\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"col-1\"></div>\r\n                        </div>\r\n                    </form>\r\n\r\n                    <hr class=\"mar-top-1\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-2\"></div>\r\n                        <div class=\"col-8\">\r\n                            <div class=\"btn-group full-width\">\r\n                                <button class=\"btn btn-outline-danger\" title=\"Cancelar\" (click)=\"Cancel()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-times\"></i></button>\r\n\r\n                                <button class=\"btn btn-outline-success\" title=\"Filtrar tabla\" (click)=\"search()\"\r\n                                    data-dismiss=\"modal\"><i class=\"fas fa-check\"></i></button>\r\n\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-2\"></div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -448,7 +734,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar socio-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/socio/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Panel de control\" link=\"/socio\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/socio/tables\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/socio/orders\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/socio/products\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de usuarios\" link=\"/socio/usuarios\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Ver encuestas\" link=\"/socio/surveys\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Logs del Sistema\" link=\"/socio/logs\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de pedidos\" link=\"/socio/estPedidos\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de mesas\" link=\"/socio/estMesas\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <nav class=\"bottom-shadow\">\r\n    <div class=\"row main-bar socio-color\">\r\n        <div class=\"col-6\">\r\n            <h1 class=\"main-title\">La Comanda</h1>\r\n        </div>\r\n        <div class=\"col-6 profile\">\r\n            <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n        </div>\r\n    </div>\r\n</nav> -->\r\n\r\n<nav>\r\n    <div class=\"row main-bar bc\">\r\n        <div class=\"col-6\"></div>\r\n        <div class=\"col-5 profile\">\r\n            \r\n                <img *ngIf=\"user\" src=\"{{user.image}}\" class=\"profile-pic\" [ngClass]=\"open ? 'active': ''\" (click)=\"toggleSidebar()\">\r\n    \r\n                <label *ngIf=\"user\">{{user.name}} {{user.lastname}}</label>\r\n            \r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n\r\n<div class=\"sidebar bc fijo\" [ngClass]=\"open ? '' : 'collapsed'\">\r\n    <div class=\"top-row\">\r\n        <app-sidebar-option name=\"Perfil\" link=\"/socio/profile\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Panel de control\" link=\"/socio\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de mesas\" link=\"/socio/tables\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de pedidos\" link=\"/socio/orders\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de productos\" link=\"/socio/products\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Gestión de usuarios\" link=\"/socio/usuarios\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Ver encuestas\" link=\"/socio/surveys\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Logs del Sistema\" link=\"/socio/logs\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de pedidos\" link=\"/socio/estPedidos\"></app-sidebar-option>\r\n        <app-sidebar-option name=\"Estadisticas de mesas\" link=\"/socio/estMesas\"></app-sidebar-option>\r\n        <app-sidebar-option logOut=true></app-sidebar-option>\r\n    </div>\r\n</div>\r\n<div class=\"content\">\r\n    <router-outlet></router-outlet>\r\n</div>");
 
 /***/ }),
 
@@ -1044,6 +1330,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_socio_views_estadisticas_pedidos_estadisticas_pedidos_component__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component */ "./src/app/components/socio/views/estadisticas-pedidos/estadisticas-pedidos.component.ts");
 /* harmony import */ var _components_socio_views_estadisticas_mesas_estadisticas_mesas_component__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./components/socio/views/estadisticas-mesas/estadisticas-mesas.component */ "./src/app/components/socio/views/estadisticas-mesas/estadisticas-mesas.component.ts");
 /* harmony import */ var _pipes_filtrar_productos_pipe__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./pipes/filtrar-productos.pipe */ "./src/app/pipes/filtrar-productos.pipe.ts");
+/* harmony import */ var _modulos_primeng_primeng_module__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./modulos/primeng/primeng.module */ "./src/app/modulos/primeng/primeng.module.ts");
+
 
 
 
@@ -1171,6 +1459,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_fire_storage__WEBPACK_IMPORTED_MODULE_9__["AngularFireStorageModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"],
             ngx_captcha__WEBPACK_IMPORTED_MODULE_51__["NgxCaptchaModule"],
+            _modulos_primeng_primeng_module__WEBPACK_IMPORTED_MODULE_62__["PrimengModule"],
             ngx_toastr__WEBPACK_IMPORTED_MODULE_8__["ToastrModule"].forRoot({
                 timeOut: 2300,
                 positionClass: 'toast-bottom-right',
@@ -1496,7 +1785,7 @@ AdminProductosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".img-shadow {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.img-shadow:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.price {\n  margin-top: 0.5rem;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n  border-radius: 100%;\n  border: solid 3px lightseagreen;\n  cursor: pointer;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.ordered {\n  color: green;\n}\n\n.quant {\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXGZvb2QtY2FyZFxcZm9vZC1jYXJkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb2QtY2FyZC9mb29kLWNhcmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx3RUFBQTtFQUNGLDZEQUFBO0VBQUEscURBQUE7QUNDRjs7QURFQTtFQUNJLDRFQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtFQUNBLHlDQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsK0JBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksWUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vZm9vZC1jYXJkL2Zvb2QtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbWctc2hhZG93IHtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsMCwwLDAuMTIpLCAwIDFweCAycHggcmdiYSgwLDAsMCwwLjI0KTtcclxuICB0cmFuc2l0aW9uOiBhbGwgMC4zcyBjdWJpYy1iZXppZXIoLjI1LC44LC4yNSwxKTtcclxufVxyXG5cclxuLmltZy1zaGFkb3c6aG92ZXIge1xyXG4gICAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLDAsMCwwLjI1KSwgMCAxMHB4IDEwcHggcmdiYSgwLDAsMCwwLjIyKTtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIG1hcmdpbi10b3A6IDAuNXJlbTtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG59XHJcblxyXG5pbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIHdpZHRoOiAxMDBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbiAgICBib3JkZXI6IHNvbGlkIDNweCBsaWdodHNlYWdyZWVuO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uY2FyZC10aXRsZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm9yZGVyZWQge1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ucXVhbnQge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCIuaW1nLXNoYWRvdyB7XG4gIGJveC1zaGFkb3c6IDAgMXB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMTIpLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKDAuMjUsIDAuOCwgMC4yNSwgMSk7XG59XG5cbi5pbWctc2hhZG93OmhvdmVyIHtcbiAgYm94LXNoYWRvdzogMCAxNHB4IDI4cHggcmdiYSgwLCAwLCAwLCAwLjI1KSwgMCAxMHB4IDEwcHggcmdiYSgwLCAwLCAwLCAwLjIyKTtcbn1cblxuLnByaWNlIHtcbiAgbWFyZ2luLXRvcDogMC41cmVtO1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbn1cblxuaW1nIHtcbiAgaGVpZ2h0OiAxMDBweDtcbiAgd2lkdGg6IDEwMHB4O1xuICBib3JkZXItcmFkaXVzOiAxMDAlO1xuICBib3JkZXI6IHNvbGlkIDNweCBsaWdodHNlYWdyZWVuO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5vcmRlcmVkIHtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4ucXVhbnQge1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".img-shadow {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.img-shadow:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.price {\n  margin-top: 0.5rem;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n  border-radius: 100%;\n  border: solid 3px lightseagreen;\n  cursor: pointer;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.ordered {\n  color: green;\n}\n\n.quant {\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxmb29kLWNhcmRcXGZvb2QtY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb29kLWNhcmQvZm9vZC1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksd0VBQUE7RUFDRiw2REFBQTtFQUFBLHFEQUFBO0FDQ0Y7O0FERUE7RUFDSSw0RUFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7RUFDQSx5Q0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQTtFQUNBLCtCQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb2QtY2FyZC9mb29kLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1nLXNoYWRvdyB7XHJcbiAgICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLDAsMCwwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwwLDAsMC4yNCk7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3MgY3ViaWMtYmV6aWVyKC4yNSwuOCwuMjUsMSk7XHJcbn1cclxuXHJcbi5pbWctc2hhZG93OmhvdmVyIHtcclxuICAgIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwwLDAsMC4yNSksIDAgMTBweCAxMHB4IHJnYmEoMCwwLDAsMC4yMik7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBtYXJnaW4tdG9wOiAwLjVyZW07XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm9yZGVyOiBzb2xpZCAzcHggbGlnaHRzZWFncmVlbjtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbi5vcmRlcmVkIHtcclxuICAgIGNvbG9yOiBncmVlbjtcclxufVxyXG5cclxuLnF1YW50IHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwiLmltZy1zaGFkb3cge1xuICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLCAwLCAwLCAwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwgMCwgMCwgMC4yNCk7XG4gIHRyYW5zaXRpb246IGFsbCAwLjNzIGN1YmljLWJlemllcigwLjI1LCAwLjgsIDAuMjUsIDEpO1xufVxuXG4uaW1nLXNoYWRvdzpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgMTRweCAyOHB4IHJnYmEoMCwgMCwgMCwgMC4yNSksIDAgMTBweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC4yMik7XG59XG5cbi5wcmljZSB7XG4gIG1hcmdpbi10b3A6IDAuNXJlbTtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbiAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgYm9yZGVyOiBzb2xpZCAzcHggbGlnaHRzZWFncmVlbjtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4uY2FyZC10aXRsZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4ub3JkZXJlZCB7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxuLnF1YW50IHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */");
 
 /***/ }),
 
@@ -1565,7 +1854,7 @@ FoodCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".footer {\n  width: 100%;\n  background: #333;\n  color: white;\n  font-size: 0.9rem;\n  padding: 0.3rem 0 0.3rem 0;\n}\n\n.footer-shadow {\n  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.96);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXGZvb3RlclxcZm9vdGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSwwQkFBQTtBQ0NKOztBREVBO0VBR0ksZ0RBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb290ZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMzMzO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgZm9udC1zaXplOiAwLjlyZW07XHJcbiAgICBwYWRkaW5nOiAuM3JlbSAwIC4zcmVtIDA7XHJcbn1cclxuXHJcbi5mb290ZXItc2hhZG93IHtcclxuICAgIC13ZWJraXQtYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG4gICAgLW1vei1ib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwwLDAsMC45Nik7XHJcbiAgICBib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwwLDAsMC45Nik7XHJcbn0iLCIuZm9vdGVyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGJhY2tncm91bmQ6ICMzMzM7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgZm9udC1zaXplOiAwLjlyZW07XG4gIHBhZGRpbmc6IDAuM3JlbSAwIDAuM3JlbSAwO1xufVxuXG4uZm9vdGVyLXNoYWRvdyB7XG4gIC13ZWJraXQtYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuOTYpO1xuICAtbW96LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbiAgYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuOTYpO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".footer {\n  width: 100%;\n  background: #333;\n  color: white;\n  font-size: 0.9rem;\n  padding: 0.3rem 0 0.3rem 0;\n}\n\n.footer-shadow {\n  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.96);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxmb290ZXJcXGZvb3Rlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksV0FBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsMEJBQUE7QUNDSjs7QURFQTtFQUdJLGdEQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYmFja2dyb3VuZDogIzMzMztcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtc2l6ZTogMC45cmVtO1xyXG4gICAgcGFkZGluZzogLjNyZW0gMCAuM3JlbSAwO1xyXG59XHJcblxyXG4uZm9vdGVyLXNoYWRvdyB7XHJcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLDAsMCwwLjk2KTtcclxuICAgIC1tb3otYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG4gICAgYm94LXNoYWRvdzogMnB4IDJweCAzMXB4IDBweCByZ2JhKDAsMCwwLDAuOTYpO1xyXG59IiwiLmZvb3RlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBiYWNrZ3JvdW5kOiAjMzMzO1xuICBjb2xvcjogd2hpdGU7XG4gIGZvbnQtc2l6ZTogMC45cmVtO1xuICBwYWRkaW5nOiAwLjNyZW0gMCAwLjNyZW0gMDtcbn1cblxuLmZvb3Rlci1zaGFkb3cge1xuICAtd2Via2l0LWJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbiAgLW1vei1ib3gtc2hhZG93OiAycHggMnB4IDMxcHggMHB4IHJnYmEoMCwgMCwgMCwgMC45Nik7XG4gIGJveC1zaGFkb3c6IDJweCAycHggMzFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjk2KTtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1609,7 +1898,7 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".order {\n  cursor: pointer;\n}\n\ntable {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxvcmRlci1saXN0XFxvcmRlci1saXN0LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL29yZGVyLWxpc3Qvb3JkZXItbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURFQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNDSjs7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSOztBRENJO0VBQ0ksa0JBQUE7QUNDUjs7QURHQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L29yZGVyLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIub3JkZXIge1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG50YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsIi5vcmRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxudGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".order {\n  cursor: pointer;\n}\n\ntable {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcb3JkZXItbGlzdFxcb3JkZXItbGlzdC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9vcmRlci1saXN0L29yZGVyLWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxlQUFBO0FDQ0o7O0FERUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7O0FEQ0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNDUjs7QURDSTtFQUNJLGtCQUFBO0FDQ1I7O0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vb3JkZXItbGlzdC9vcmRlci1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm9yZGVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuOWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCIub3JkZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1769,7 +2058,7 @@ OrderListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".option {\n  border-color: blue;\n  border-right: none;\n  border-left: none;\n  border-bottom: none;\n  border-radius: 0;\n  font-size: 1rem;\n}\n\n.last {\n  border-bottom: 1px solid blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcc2lkZWJhci1vcHRpb25cXHNpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NpZGViYXItb3B0aW9uL3NpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNDSjs7QURFQTtFQUNJLDZCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NpZGViYXItb3B0aW9uL3NpZGViYXItb3B0aW9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm9wdGlvbiB7XHJcbiAgICBib3JkZXItY29sb3I6IGJsdWU7XHJcbiAgICBib3JkZXItcmlnaHQ6IG5vbmU7XHJcbiAgICBib3JkZXItbGVmdDogbm9uZTtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgZm9udC1zaXplOiAxLjByZW07XHJcbn1cclxuXHJcbi5sYXN0IHtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBibHVlO1xyXG59IiwiLm9wdGlvbiB7XG4gIGJvcmRlci1jb2xvcjogYmx1ZTtcbiAgYm9yZGVyLXJpZ2h0OiBub25lO1xuICBib3JkZXItbGVmdDogbm9uZTtcbiAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgYm9yZGVyLXJhZGl1czogMDtcbiAgZm9udC1zaXplOiAxcmVtO1xufVxuXG4ubGFzdCB7XG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCBibHVlO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".option {\n  border-color: blue;\n  border-right: none;\n  border-left: none;\n  border-bottom: none;\n  border-radius: 0;\n  font-size: 1rem;\n}\n\n.last {\n  border-bottom: 1px solid blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXG1haW5cXHNpZGViYXItb3B0aW9uXFxzaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9zaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSw2QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zaWRlYmFyLW9wdGlvbi9zaWRlYmFyLW9wdGlvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5vcHRpb24ge1xyXG4gICAgYm9yZGVyLWNvbG9yOiBibHVlO1xyXG4gICAgYm9yZGVyLXJpZ2h0OiBub25lO1xyXG4gICAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgICBib3JkZXItYm90dG9tOiBub25lO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMDtcclxuICAgIGZvbnQtc2l6ZTogMS4wcmVtO1xyXG59XHJcblxyXG4ubGFzdCB7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgYmx1ZTtcclxufSIsIi5vcHRpb24ge1xuICBib3JkZXItY29sb3I6IGJsdWU7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XG4gIGJvcmRlci1ib3R0b206IG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDA7XG4gIGZvbnQtc2l6ZTogMXJlbTtcbn1cblxuLmxhc3Qge1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgYmx1ZTtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1851,7 +2140,7 @@ SidebarOptionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("img {\n  height: 60px;\n  width: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFxzcGlubmVyXFxzcGlubmVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NwaW5uZXIvc3Bpbm5lci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQUE7RUFDQSxXQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3NwaW5uZXIvc3Bpbm5lci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgICBoZWlnaHQ6IDYwcHg7XHJcbiAgICB3aWR0aDogNjBweDtcclxufSIsImltZyB7XG4gIGhlaWdodDogNjBweDtcbiAgd2lkdGg6IDYwcHg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("img {\n  height: 60px;\n  width: 60px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcc3Bpbm5lclxcc3Bpbm5lci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL3NwaW5uZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi9zcGlubmVyL3NwaW5uZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xyXG4gICAgaGVpZ2h0OiA2MHB4O1xyXG4gICAgd2lkdGg6IDYwcHg7XHJcbn0iLCJpbWcge1xuICBoZWlnaHQ6IDYwcHg7XG4gIHdpZHRoOiA2MHB4O1xufSJdfQ== */");
 
 /***/ }),
 
@@ -1895,7 +2184,7 @@ SpinnerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".icon {\n  font-size: 2rem;\n}\n\n.card-title {\n  font-size: 1.5rem;\n}\n\n.green {\n  color: green;\n}\n\n.red {\n  color: red;\n}\n\n.orange {\n  color: orange;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFx0YWJsZS1jYXJkXFx0YWJsZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3RhYmxlLWNhcmQvdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0FDQ0o7O0FERUE7RUFDSSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxVQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3RhYmxlLWNhcmQvdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pY29uIHtcclxuICAgIGZvbnQtc2l6ZTogMnJlbTtcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICAgZm9udC1zaXplOiAxLjVyZW07XHJcbn1cclxuXHJcbi5ncmVlbiB7XHJcbiAgICBjb2xvcjogZ3JlZW47XHJcbn1cclxuXHJcbi5yZWQge1xyXG4gICAgY29sb3I6IHJlZDtcclxufVxyXG5cclxuLm9yYW5nZSB7XHJcbiAgICBjb2xvcjogb3JhbmdlO1xyXG59IiwiLmljb24ge1xuICBmb250LXNpemU6IDJyZW07XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC1zaXplOiAxLjVyZW07XG59XG5cbi5ncmVlbiB7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxuLnJlZCB7XG4gIGNvbG9yOiByZWQ7XG59XG5cbi5vcmFuZ2Uge1xuICBjb2xvcjogb3JhbmdlO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".icon {\n  font-size: 2rem;\n}\n\n.card-title {\n  font-size: 1.5rem;\n}\n\n.green {\n  color: green;\n}\n\n.red {\n  color: red;\n}\n\n.orange {\n  color: orange;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcdGFibGUtY2FyZFxcdGFibGUtY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL3RhYmxlLWNhcmQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksWUFBQTtBQ0NKOztBREVBO0VBQ0ksVUFBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi90YWJsZS1jYXJkL3RhYmxlLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaWNvbiB7XHJcbiAgICBmb250LXNpemU6IDJyZW07XHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMS41cmVtO1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ucmVkIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi5vcmFuZ2Uge1xyXG4gICAgY29sb3I6IG9yYW5nZTtcclxufSIsIi5pY29uIHtcbiAgZm9udC1zaXplOiAycmVtO1xufVxuXG4uY2FyZC10aXRsZSB7XG4gIGZvbnQtc2l6ZTogMS41cmVtO1xufVxuXG4uZ3JlZW4ge1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi5yZWQge1xuICBjb2xvcjogcmVkO1xufVxuXG4ub3JhbmdlIHtcbiAgY29sb3I6IG9yYW5nZTtcbn0iXX0= */");
 
 /***/ }),
 
@@ -2003,7 +2292,7 @@ TableCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\ninput {\n  text-align: center;\n}\n\ninput::-webkit-input-placeholder {\n  text-align: center;\n}\n\ninput::-moz-placeholder {\n  text-align: center;\n}\n\ninput::-ms-input-placeholder {\n  text-align: center;\n}\n\ninput::placeholder {\n  text-align: center;\n}\n\nh5 {\n  margin-top: 1rem;\n  font-weight: bold;\n}\n\n.or {\n  text-align: center;\n  margin: 0.5rem 0 0.5rem 0;\n}\n\n.order {\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFxtYWluXFx3b3JrLW9yZGVyXFx3b3JrLW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC9tYWluL3dvcmstb3JkZXIvd29yay1vcmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSjs7QURFQTtFQUNJLGtCQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtBQ0NKOztBREZBO0VBQ0ksa0JBQUE7QUNDSjs7QURGQTtFQUNJLGtCQUFBO0FDQ0o7O0FERkE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksZ0JBQUE7RUFDQSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7RUFDQSx5QkFBQTtBQ0NKOztBREVBO0VBQ0ksZUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL3dvcmstb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbmlucHV0IHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaW5wdXQ6OnBsYWNlaG9sZGVyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuaDUge1xyXG4gICAgbWFyZ2luLXRvcDogMXJlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4ub3Ige1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbWFyZ2luOiAwLjVyZW0gMCAwLjVyZW0gMDtcclxufVxyXG5cclxuLm9yZGVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufSIsInNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufVxuXG5pbnB1dCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaW5wdXQ6OnBsYWNlaG9sZGVyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5oNSB7XG4gIG1hcmdpbi10b3A6IDFyZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4ub3Ige1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1hcmdpbjogMC41cmVtIDAgMC41cmVtIDA7XG59XG5cbi5vcmRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\ninput {\n  text-align: center;\n}\n\ninput::-webkit-input-placeholder {\n  text-align: center;\n}\n\ninput::-moz-placeholder {\n  text-align: center;\n}\n\ninput::-ms-input-placeholder {\n  text-align: center;\n}\n\ninput::placeholder {\n  text-align: center;\n}\n\nh5 {\n  margin-top: 1rem;\n  font-weight: bold;\n}\n\n.or {\n  text-align: center;\n  margin: 0.5rem 0 0.5rem 0;\n}\n\n.order {\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcbWFpblxcd29yay1vcmRlclxcd29yay1vcmRlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9hbGwvbWFpbi93b3JrLW9yZGVyL3dvcmstb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0QkFBQTtPQUFBLHVCQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksa0JBQUE7QUNDSjs7QURGQTtFQUNJLGtCQUFBO0FDQ0o7O0FERkE7RUFDSSxrQkFBQTtBQ0NKOztBREZBO0VBQ0ksa0JBQUE7QUNDSjs7QURFQTtFQUNJLGdCQUFBO0VBQ0EsaUJBQUE7QUNDSjs7QURFQTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL21haW4vd29yay1vcmRlci93b3JrLW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsic2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmlucHV0OjpwbGFjZWhvbGRlciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbmg1IHtcclxuICAgIG1hcmdpbi10b3A6IDFyZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm9yIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbjogMC41cmVtIDAgMC41cmVtIDA7XHJcbn1cclxuXHJcbi5vcmRlciB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn0iLCJzZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn1cblxuaW5wdXQge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmlucHV0OjpwbGFjZWhvbGRlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaDUge1xuICBtYXJnaW4tdG9wOiAxcmVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLm9yIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW46IDAuNXJlbSAwIDAuNXJlbSAwO1xufVxuXG4ub3JkZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */");
 
 /***/ }),
 
@@ -2226,7 +2515,7 @@ ErrorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\n.centrado {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXHZpZXdzXFxsb2dpblxcbG9naW4uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jZW50cmFkbyB7XHJcbiAgICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcclxufSIsInNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufVxuXG4uY2VudHJhZG8ge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("select {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n\n.centrado {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbG9naW4vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFx2aWV3c1xcbG9naW5cXGxvZ2luLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSjs7QURFQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsic2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG4uY2VudHJhZG8ge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn0iLCJzZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn1cblxuLmNlbnRyYWRvIHtcbiAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XG59Il19 */");
 
 /***/ }),
 
@@ -2262,23 +2551,24 @@ let LoginComponent = class LoginComponent {
         this.toastr = toastr;
         this.userService = userService;
         this.lS = lS;
-        this.userOption = 'none';
+        this.userOption = "none";
         this.loading = false;
-    }
-    ngOnInit() {
         this.loginForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
             email: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
             chkHorario: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
             chkLunes: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](false, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
             password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]),
-            captcha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required])
+            captcha: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]("", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required])
         });
+        this.loginForm.controls.captcha.setValidators(null);
+        this.captchasi = false;
     }
+    ngOnInit() { }
     onSubmit() {
         this.loading = true;
         const usr = this.loginForm.get('email').value;
         const pass = this.loginForm.get('password').value;
-        let restriccion = this.restriccionHoraria(this.loginForm.get('chkHorario').value);
+        const restriccion = this.restriccionHoraria(this.loginForm.get('chkHorario').value);
         this.userService
             .GetUserByEmail(usr)
             .then(usuario => {
@@ -2288,14 +2578,14 @@ let LoginComponent = class LoginComponent {
                     this.toastr.info('El horario de atencion es de Miercoles a Domingo de 18:00 a 2:00');
                     setTimeout(() => {
                         this.loading = false;
-                        this.loginForm.get('email').setValue('');
-                        this.loginForm.get('password').setValue('');
-                        this.loginForm.get('email').enable();
-                        this.loginForm.get('password').enable();
+                        this.loginForm.get("email").setValue("");
+                        this.loginForm.get("password").setValue("");
+                        this.loginForm.get("email").enable();
+                        this.loginForm.get("password").enable();
                     }, 2000);
                 }
                 else {
-                    //this.authService.GetCurrentUser().then(user => 
+                    //this.authService.GetCurrentUser().then(user =>
                     //{const msj = `El usuario ${user.email} inicio sesion`;
                     //this.lS.persistirMovimiento(user, TargetMovimiento.usuario, TipoMovimiento.ingreso, msj);
                     this.userService.GetUserByEmail(usr).then(user => {
@@ -2331,6 +2621,15 @@ let LoginComponent = class LoginComponent {
         this.userOption = u;
         console.log('esta en la base', u);
         this.LoadUser();
+    }
+    c_option() {
+        // if (this.captchasi) {
+        //   this.loginForm.controls.captcha.setValidators(null);
+        //   this.captchasi = false;
+        // } else {
+        this.loginForm.controls.captcha.setValidators(_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required);
+        this.captchasi = true;
+        //  }
     }
     LoadUser() {
         let isNull = false;
@@ -2399,7 +2698,7 @@ LoginComponent.ctorParameters = () => [
 ];
 LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-login',
+        selector: "app-login",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/all/views/login/login.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.scss */ "./src/app/components/all/views/login/login.component.scss")).default]
     })
@@ -2418,7 +2717,7 @@ LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".general-color {\n  background-color: #83f174;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbWFpbi1nZW5lcmFsL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYWxsXFx2aWV3c1xcbWFpbi1nZW5lcmFsXFxtYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL21haW4tZ2VuZXJhbC9tYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYTtBQ0VqQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL21haW4tZ2VuZXJhbC9tYWluLWdlbmVyYWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZ2VuZXJhbFByaW1hcnk6IHJnYigxMzEsIDI0MSwgMTE2KTtcclxuXHJcbi5nZW5lcmFsLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRnZW5lcmFsUHJpbWFyeTtcclxufSIsIi5nZW5lcmFsLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgzZjE3NDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".general-color {\n  background-color: #83f174;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvbWFpbi1nZW5lcmFsL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcdmlld3NcXG1haW4tZ2VuZXJhbFxcbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9tYWluLWdlbmVyYWwvbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGE7QUNFakIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9tYWluLWdlbmVyYWwvbWFpbi1nZW5lcmFsLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGdlbmVyYWxQcmltYXJ5OiByZ2IoMTMxLCAyNDEsIDExNik7XHJcblxyXG4uZ2VuZXJhbC1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkZ2VuZXJhbFByaW1hcnk7XHJcbn0iLCIuZ2VuZXJhbC1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4M2YxNzQ7XG59Il19 */");
 
 /***/ }),
 
@@ -2462,7 +2761,7 @@ MainGeneralComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("img {\n  height: 150px;\n  width: 150px;\n  border-radius: 100%;\n  border: 1px solid #333;\n}\n\nh1 {\n  margin: 0 auto;\n  position: absolute;\n  top: 30%;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGFsbFxcdmlld3NcXHByb2ZpbGVcXHByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBQ0NKOztBREVBO0VBQ0ksY0FBQTtFQUNBLGtCQUFBO0VBQ0EsUUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcclxuICAgIGhlaWdodDogMTUwcHg7XHJcbiAgICB3aWR0aDogMTUwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcclxufVxyXG5cclxuaDEge1xyXG4gICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDMwJTtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwgMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiaW1nIHtcbiAgaGVpZ2h0OiAxNTBweDtcbiAgd2lkdGg6IDE1MHB4O1xuICBib3JkZXItcmFkaXVzOiAxMDAlO1xuICBib3JkZXI6IDFweCBzb2xpZCAjMzMzO1xufVxuXG5oMSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMzAlO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("img {\n  height: 150px;\n  width: 150px;\n  border-radius: 100%;\n  border: 1px solid #333;\n}\n\nh1 {\n  margin: 0 auto;\n  position: absolute;\n  top: 30%;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hbGwvdmlld3MvcHJvZmlsZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxhbGxcXHZpZXdzXFxwcm9maWxlXFxwcm9maWxlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2FsbC92aWV3cy9wcm9maWxlL3Byb2ZpbGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0Esc0JBQUE7QUNDSjs7QURFQTtFQUNJLGNBQUE7RUFDQSxrQkFBQTtFQUNBLFFBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWxsL3ZpZXdzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XHJcbiAgICBoZWlnaHQ6IDE1MHB4O1xyXG4gICAgd2lkdGg6IDE1MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICMzMzM7XHJcbn1cclxuXHJcbmgxIHtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAzMCU7XHJcbn1cclxuXHJcbi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsIDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsImltZyB7XG4gIGhlaWdodDogMTUwcHg7XG4gIHdpZHRoOiAxNTBweDtcbiAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcbn1cblxuaDEge1xuICBtYXJnaW46IDAgYXV0bztcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDMwJTtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -2533,7 +2832,7 @@ let ProfileComponent = class ProfileComponent {
         let name = src_app_classes_helpers_common_helper__WEBPACK_IMPORTED_MODULE_4__["CommonHelper"].GenerateProfileImageName(this.user);
         console.log(name);
         this.fileService
-            .Upload(name, this.selectedFile)
+            .subirFotoUsuarios(this.selectedFile, this.user.id)
             .then(() => {
             setTimeout(() => {
                 this.ChangeProfilePic(name);
@@ -2787,7 +3086,7 @@ RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxiYXJ0ZW5kZXJcXHZpZXdzXFxob21lLWJhcnRlbmRlclxcaG9tZS1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL2hvbWUtYmFydGVuZGVyL2hvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvaG9tZS1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvaG9tZS1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmFydGVuZGVyXFx2aWV3c1xcaG9tZS1iYXJ0ZW5kZXJcXGhvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2JhcnRlbmRlci92aWV3cy9ob21lLWJhcnRlbmRlci9ob21lLWJhcnRlbmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL2hvbWUtYmFydGVuZGVyL2hvbWUtYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -2834,7 +3133,7 @@ HomeBartenderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".bartender-color {\n  background-color: #d840dd;\n}\n\n.bc {\n  background-color: #ddb281;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxiYXJ0ZW5kZXJcXHZpZXdzXFxtYWluLWJhcnRlbmRlclxcbWFpbi1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL21haW4tYmFydGVuZGVyL21haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGU7QUNFbkI7O0FESUE7RUFDSSx5QkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvbWFpbi1iYXJ0ZW5kZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkYmFydGVuZGVyUHJpbWFyeTogcmdiKDIxNiwgNjQsIDIyMSk7XHJcblxyXG4uYmFydGVuZGVyLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRiYXJ0ZW5kZXJQcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIxLCAxNzgsIDEyOSk7XHJcbn0iLCIuYmFydGVuZGVyLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Q4NDBkZDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2RkYjI4MTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".bartender-color {\n  background-color: #d840dd;\n}\n\n.bc {\n  background-color: #ddb281;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXJ0ZW5kZXIvdmlld3MvbWFpbi1iYXJ0ZW5kZXIvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmFydGVuZGVyXFx2aWV3c1xcbWFpbi1iYXJ0ZW5kZXJcXG1haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2JhcnRlbmRlci92aWV3cy9tYWluLWJhcnRlbmRlci9tYWluLWJhcnRlbmRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhlO0FDRW5COztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURJQTtFQUVJLGVBQUE7QUNGSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmFydGVuZGVyL3ZpZXdzL21haW4tYmFydGVuZGVyL21haW4tYmFydGVuZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGJhcnRlbmRlclByaW1hcnk6IHJnYigyMTYsIDY0LCAyMjEpO1xyXG5cclxuLmJhcnRlbmRlci1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkYmFydGVuZGVyUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyMSwgMTc4LCAxMjkpO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn0iLCIuYmFydGVuZGVyLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Q4NDBkZDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2RkYjI4MTtcbn1cblxuLmZpam8ge1xuICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */");
 
 /***/ }),
 
@@ -2890,7 +3189,7 @@ MainBartenderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".titulo {\n  font-family: Arial, Helvetica, sans-serif;\n  color: lightseagreen;\n  font-size: 36px;\n}\n\n.color {\n  color: lightseagreen;\n  background-color: black;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 20px;\n  text-align: center;\n}\n\n.fondo {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcYmllbnZlbmlkYVxcYmllbnZlbmlkYS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL2JpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLG9CQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0ksb0JBQUE7RUFDQSx1QkFBQTtFQUNBLHlDQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0FDQ0o7O0FERUE7RUFDSSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL2JpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGl0dWxvIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XHJcbiAgICBmb250LXNpemU6IDM2cHg7XHJcbn1cclxuXHJcbi5jb2xvciB7XHJcbiAgICBjb2xvcjogbGlnaHRzZWFncmVlbjtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb25kbyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufSIsIi50aXR1bG8ge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XG4gIGZvbnQtc2l6ZTogMzZweDtcbn1cblxuLmNvbG9yIHtcbiAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAyMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5mb25kbyB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".titulo {\n  font-family: Arial, Helvetica, sans-serif;\n  color: lightseagreen;\n  font-size: 36px;\n}\n\n.color {\n  color: lightseagreen;\n  background-color: black;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 20px;\n  text-align: center;\n}\n\n.fondo {\n  background-color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iaWVudmVuaWRhL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGJpZW52ZW5pZGFcXGJpZW52ZW5pZGEuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmllbnZlbmlkYS9iaWVudmVuaWRhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxvQkFBQTtFQUNBLGVBQUE7QUNDSjs7QURFQTtFQUNJLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSx5Q0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBQ0NKOztBREVBO0VBQ0ksdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmllbnZlbmlkYS9iaWVudmVuaWRhLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdHVsbyB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xyXG4gICAgZm9udC1zaXplOiAzNnB4O1xyXG59XHJcblxyXG4uY29sb3Ige1xyXG4gICAgY29sb3I6IGxpZ2h0c2VhZ3JlZW47XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZm9uZG8ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbn0iLCIudGl0dWxvIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xuICBmb250LXNpemU6IDM2cHg7XG59XG5cbi5jb2xvciB7XG4gIGNvbG9yOiBsaWdodHNlYWdyZWVuO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZm9uZG8ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbn0iXX0= */");
 
 /***/ }),
 
@@ -2960,7 +3259,7 @@ BienvenidaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjZXJ2ZWNlcm9cXHZpZXdzXFxob21lLWNlcnZlY2Vyb1xcaG9tZS1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL2hvbWUtY2VydmVjZXJvL2hvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vaG9tZS1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvaG9tZS1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY2VydmVjZXJvXFx2aWV3c1xcaG9tZS1jZXJ2ZWNlcm9cXGhvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NlcnZlY2Vyby92aWV3cy9ob21lLWNlcnZlY2Vyby9ob21lLWNlcnZlY2Vyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL2hvbWUtY2VydmVjZXJvL2hvbWUtY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3007,7 +3306,7 @@ HomeCerveceroComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".cervecero-color {\n  background-color: #805552;\n}\n\n.bc {\n  background-color: #f0ed54;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjZXJ2ZWNlcm9cXHZpZXdzXFxtYWluLWNlcnZlY2Vyb1xcbWFpbi1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL21haW4tY2VydmVjZXJvL21haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGU7QUNFbkI7O0FESUE7RUFDSSx5QkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vbWFpbi1jZXJ2ZWNlcm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkY2VydmVjZXJvUHJpbWFyeTogcmdiKDEyOCwgODUsIDgyKTtcclxuXHJcbi5jZXJ2ZWNlcm8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGNlcnZlY2Vyb1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDAsIDIzNywgODQpO1xyXG59XHJcbiIsIi5jZXJ2ZWNlcm8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjODA1NTUyO1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjBlZDU0O1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".cervecero-color {\n  background-color: #805552;\n}\n\n.bc {\n  background-color: #f0ed54;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jZXJ2ZWNlcm8vdmlld3MvbWFpbi1jZXJ2ZWNlcm8vQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY2VydmVjZXJvXFx2aWV3c1xcbWFpbi1jZXJ2ZWNlcm9cXG1haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NlcnZlY2Vyby92aWV3cy9tYWluLWNlcnZlY2Vyby9tYWluLWNlcnZlY2Vyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhlO0FDRW5COztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURJQTtFQUVJLGVBQUE7QUNGSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2VydmVjZXJvL3ZpZXdzL21haW4tY2VydmVjZXJvL21haW4tY2VydmVjZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGNlcnZlY2Vyb1ByaW1hcnk6IHJnYigxMjgsIDg1LCA4Mik7XHJcblxyXG4uY2VydmVjZXJvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRjZXJ2ZWNlcm9QcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjQwLCAyMzcsIDg0KTtcclxufVxyXG5cclxuLmZpam9cclxue1xyXG4gICAgcG9zaXRpb246IGZpeGVkO1xyXG59IiwiLmNlcnZlY2Vyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4MDU1NTI7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmMGVkNTQ7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3063,7 +3362,7 @@ MainCerveceroComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".btn-info {\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  color: green;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxob21lLWNsaWVudGVcXGhvbWUtY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9ob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0FDQ0o7O0FERUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3MvaG9tZS1jbGllbnRlL2hvbWUtY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4taW5mbyB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IGdyZWVuXHJcbn1cclxuXHJcbi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDQ1LCAxNDcsIDE4Nyk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLmJ0bi1pbmZvIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG59XG5cbi5wcmljZSB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiAjMmQ5M2JiO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".btn-info {\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  color: green;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcaG9tZS1jbGllbnRlXFxob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9ob21lLWNsaWVudGUvaG9tZS1jbGllbnRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL2hvbWUtY2xpZW50ZS9ob21lLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuLWluZm8ge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiBncmVlblxyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYig0NSwgMTQ3LCAxODcpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi5idG4taW5mbyB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xufVxuXG4ucHJpY2Uge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzJkOTNiYjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
 
 /***/ }),
 
@@ -3229,7 +3528,7 @@ HomeClienteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".general-color {\n  background-color: #83f174;\n}\n\n.bc {\n  background-color: lightskyblue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxtYWluLWNsaWVudGVcXG1haW4tY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9tYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYTtBQ0VqQjs7QURJQTtFQUNJLDhCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3MvbWFpbi1jbGllbnRlL21haW4tY2xpZW50ZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRnZW5lcmFsUHJpbWFyeTogcmdiKDEzMSwgMjQxLCAxMTYpO1xyXG5cclxuLmdlbmVyYWwtY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGdlbmVyYWxQcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XHJcbn1cclxuXHJcbiIsIi5nZW5lcmFsLWNvbG9yIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgzZjE3NDtcbn1cblxuLmJjIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".general-color {\n  background-color: #83f174;\n}\n\n.bc {\n  background-color: lightskyblue;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcbWFpbi1jbGllbnRlXFxtYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9tYWluLWNsaWVudGUvbWFpbi1jbGllbnRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSGE7QUNFakI7O0FESUE7RUFDSSw4QkFBQTtBQ0RKOztBRElBO0VBRUksZUFBQTtBQ0ZKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL21haW4tY2xpZW50ZS9tYWluLWNsaWVudGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZ2VuZXJhbFByaW1hcnk6IHJnYigxMzEsIDI0MSwgMTE2KTtcclxuXHJcbi5nZW5lcmFsLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRnZW5lcmFsUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn1cclxuIiwiLmdlbmVyYWwtY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjODNmMTc0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3285,7 +3584,7 @@ MainClienteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("input {\n  text-align: center;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: green;\n}\n\ntextarea {\n  resize: none;\n}\n\n.positive {\n  font-weight: bold;\n  color: green;\n}\n\n.negative {\n  font-weight: bold;\n  color: red;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNsaWVudGVcXHZpZXdzXFxzZWFyY2gtb3JkZXJcXHNlYXJjaC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9zZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxpQkFBQTtFQUNBLFlBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBO0VBQ0ksaUJBQUE7RUFDQSxVQUFBO0FDQ0o7O0FERUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NsaWVudGUvdmlld3Mvc2VhcmNoLW9yZGVyL3NlYXJjaC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlucHV0IHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnByaWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBjb2xvcjogZ3JlZW47XHJcbn1cclxuXHJcbnRleHRhcmVhIHtcclxuICAgIHJlc2l6ZTogbm9uZTtcclxufVxyXG5cclxuLnBvc2l0aXZlIHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG4ubmVnYXRpdmUge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYig0NSwgMTQ3LCAxODcpO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsImlucHV0IHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4ucHJpY2Uge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGNvbG9yOiBncmVlbjtcbn1cblxudGV4dGFyZWEge1xuICByZXNpemU6IG5vbmU7XG59XG5cbi5wb3NpdGl2ZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbi5uZWdhdGl2ZSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogcmVkO1xufVxuXG4udHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzJkOTNiYjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("input {\n  text-align: center;\n}\n\n.price {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: green;\n}\n\ntextarea {\n  resize: none;\n}\n\n.positive {\n  font-weight: bold;\n  color: green;\n}\n\n.negative {\n  font-weight: bold;\n  color: red;\n}\n\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #2d93bb;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjbGllbnRlXFx2aWV3c1xcc2VhcmNoLW9yZGVyXFxzZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvY2xpZW50ZS92aWV3cy9zZWFyY2gtb3JkZXIvc2VhcmNoLW9yZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7QUNDSjs7QURFQTtFQUNJLHlDQUFBO0VBQ0EsaUJBQUE7RUFDQSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxZQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtFQUNBLFlBQUE7QUNDSjs7QURFQTtFQUNJLGlCQUFBO0VBQ0EsVUFBQTtBQ0NKOztBREVBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jbGllbnRlL3ZpZXdzL3NlYXJjaC1vcmRlci9zZWFyY2gtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbnB1dCB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IGdyZWVuO1xyXG59XHJcblxyXG50ZXh0YXJlYSB7XHJcbiAgICByZXNpemU6IG5vbmU7XHJcbn1cclxuXHJcbi5wb3NpdGl2ZSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGNvbG9yOiBncmVlbjtcclxufVxyXG5cclxuLm5lZ2F0aXZlIHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY29sb3I6IHJlZDtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoNDUsIDE0NywgMTg3KTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCJpbnB1dCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnByaWNlIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogZ3JlZW47XG59XG5cbnRleHRhcmVhIHtcbiAgcmVzaXplOiBub25lO1xufVxuXG4ucG9zaXRpdmUge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgY29sb3I6IGdyZWVuO1xufVxuXG4ubmVnYXRpdmUge1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgY29sb3I6IHJlZDtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6ICMyZDkzYmI7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3516,7 +3815,7 @@ SearchOrderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY29jaW5lcm9cXHZpZXdzXFxob21lLWNvY2luZXJvXFxob21lLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL2hvbWUtY29jaW5lcm8vaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29jaW5lcm8vdmlld3MvaG9tZS1jb2NpbmVyby9ob21lLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNvY2luZXJvXFx2aWV3c1xcaG9tZS1jb2NpbmVyb1xcaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9ob21lLWNvY2luZXJvL2hvbWUtY29jaW5lcm8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL2hvbWUtY29jaW5lcm8vaG9tZS1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -3563,7 +3862,7 @@ HomeCocineroComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".cocinero-color {\n  background-color: #f7e11c;\n}\n\n.bc {\n  background-color: #020202;\n}\n\n.tc {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcY29jaW5lcm9cXHZpZXdzXFxtYWluLWNvY2luZXJvXFxtYWluLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL21haW4tY29jaW5lcm8vbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhjO0FDRWxCOztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURHQTtFQUNJLFlBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29jaW5lcm8vdmlld3MvbWFpbi1jb2NpbmVyby9tYWluLWNvY2luZXJvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGNvY2luZXJvUHJpbWFyeTogcmdiKDI0NywgMjI1LCAyOCk7XHJcblxyXG4uY29jaW5lcm8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGNvY2luZXJvUHJpbWFyeTtcclxufVxyXG5cclxuLmJje1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIsIDIsIDIpO1xyXG59XHJcbi50Y3tcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufSIsIi5jb2NpbmVyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2UxMWM7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMjAyMDI7XG59XG5cbi50YyB7XG4gIGNvbG9yOiB3aGl0ZTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".cocinero-color {\n  background-color: #f7e11c;\n}\n\n.bc {\n  background-color: #020202;\n}\n\n.tc {\n  color: white;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXGNvY2luZXJvXFx2aWV3c1xcbWFpbi1jb2NpbmVyb1xcbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jb2NpbmVyby92aWV3cy9tYWluLWNvY2luZXJvL21haW4tY29jaW5lcm8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIYztBQ0VsQjs7QURJQTtFQUNJLHlCQUFBO0FDREo7O0FER0E7RUFDSSxZQUFBO0FDQUo7O0FER0E7RUFFSSxlQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvY2luZXJvL3ZpZXdzL21haW4tY29jaW5lcm8vbWFpbi1jb2NpbmVyby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRjb2NpbmVyb1ByaW1hcnk6IHJnYigyNDcsIDIyNSwgMjgpO1xyXG5cclxuLmNvY2luZXJvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2NpbmVyb1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyLCAyLCAyKTtcclxufVxyXG4udGN7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5maWpvXHJcbntcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxufSIsIi5jb2NpbmVyby1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2UxMWM7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMjAyMDI7XG59XG5cbi50YyB7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLmZpam8ge1xuICBwb3NpdGlvbjogZml4ZWQ7XG59Il19 */");
 
 /***/ }),
 
@@ -3619,7 +3918,7 @@ MainCocineroComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h5 {\n  font-weight: bold;\n}\n\nselect {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcbW96b1xcbWFpblxcc2VsZWN0LW9yZGVyXFxzZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by9tYWluL3NlbGVjdC1vcmRlci9zZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL3NlbGVjdC1vcmRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImg1IHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG5zZWxlY3Qge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn1cclxuXHJcbiIsImg1IHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbnNlbGVjdCB7XG4gIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("h5 {\n  font-weight: bold;\n}\n\nselect {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL21haW4vc2VsZWN0LW9yZGVyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXG1haW5cXHNlbGVjdC1vcmRlclxcc2VsZWN0LW9yZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL21vem8vbWFpbi9zZWxlY3Qtb3JkZXIvc2VsZWN0LW9yZGVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQUE7QUNDSjs7QURFQTtFQUNJLDRCQUFBO09BQUEsdUJBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by9tYWluL3NlbGVjdC1vcmRlci9zZWxlY3Qtb3JkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoNSB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuc2VsZWN0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59XHJcblxyXG4iLCJoNSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5zZWxlY3Qge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */");
 
 /***/ }),
 
@@ -3764,7 +4063,7 @@ SelectOrderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #0d7c0a;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXHZpZXdzXFxob21lLW1vem9cXGhvbWUtbW96by5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9ob21lLW1vem8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvaG9tZS1tb3pvL2hvbWUtbW96by5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDEzLCAxMjQsIDEwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogIzBkN2MwYTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: #0d7c0a;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcaG9tZS1tb3pvXFxob21lLW1vem8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9ob21lLW1vem8vaG9tZS1tb3pvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUNBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL2hvbWUtbW96by9ob21lLW1vem8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigxMywgMTI0LCAxMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6ICMwZDdjMGE7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3811,7 +4110,7 @@ HomeMozoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".mozo-color {\n  background-color: #356e06;\n}\n\n.bc {\n  background-color: #60c960;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXG1vem9cXHZpZXdzXFxtYWluLW1vem9cXG1haW4tbW96by5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9tYWluLW1vem8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIVTtBQ0VkOztBRElBO0VBQ0kseUJBQUE7QUNESiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYWluLW1vem8vbWFpbi1tb3pvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJG1vem9QcmltYXJ5OiByZ2IoNTMsIDExMCwgNik7XHJcblxyXG4ubW96by1jb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkbW96b1ByaW1hcnk7XHJcbn1cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig5NiwgMjAxLCA5Nik7XHJcbn1cclxuIiwiLm1vem8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzU2ZTA2O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNjBjOTYwO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".mozo-color {\n  background-color: #356e06;\n}\n\n.bc {\n  background-color: #60c960;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21haW4tbW96by9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcbWFpbi1tb3pvXFxtYWluLW1vem8uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYWluLW1vem8vbWFpbi1tb3pvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0kseUJBSFU7QUNFZDs7QURJQTtFQUNJLHlCQUFBO0FDREo7O0FESUE7RUFFSSxlQUFBO0FDRkoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvbWFpbi1tb3pvL21haW4tbW96by5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRtb3pvUHJpbWFyeTogcmdiKDUzLCAxMTAsIDYpO1xyXG5cclxuLm1vem8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJG1vem9QcmltYXJ5O1xyXG59XHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoOTYsIDIwMSwgOTYpO1xyXG59XHJcblxyXG4uZmlqb1xyXG57XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbn0iLCIubW96by1jb2xvciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzNTZlMDY7XG59XG5cbi5iYyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM2MGM5NjA7XG59XG5cbi5maWpvIHtcbiAgcG9zaXRpb246IGZpeGVkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3867,7 +4166,7 @@ MainMozoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxtb3pvXFx2aWV3c1xcbWFuYWdlLXRhYmxlc1xcbWFuYWdlLXRhYmxlcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvbWFuYWdlLXRhYmxlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYW5hZ2UtdGFibGVzL21hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsIi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9tb3pvL3ZpZXdzL21hbmFnZS10YWJsZXMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcbW96b1xcdmlld3NcXG1hbmFnZS10YWJsZXNcXG1hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvbW96by92aWV3cy9tYW5hZ2UtdGFibGVzL21hbmFnZS10YWJsZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL21vem8vdmlld3MvbWFuYWdlLXRhYmxlcy9tYW5hZ2UtdGFibGVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3919,7 +4218,7 @@ ManageTablesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXGVzdGFkaXN0aWNhcy1tZXNhc1xcZXN0YWRpc3RpY2FzLW1lc2FzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1tZXNhcy9lc3RhZGlzdGljYXMtbWVzYXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREdBO0VBQ0csaUJBQUE7QUNBSDs7QURFQTtFQUNJLFlBQUE7RUFDQSx5QkFBQTtVQUFBLG1CQUFBO0FDQ0o7O0FER0E7RUFDSSwwQ0FBQTtFQUNBLG1CQUFBO0FDQUo7O0FERUk7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNBUjs7QURFSTtFQUNJLGtCQUFBO0FDQVI7O0FESUE7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNESiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvZXN0YWRpc3RpY2FzLW1lc2FzL2VzdGFkaXN0aWNhcy1tZXNhcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImgzLCBoMiwgaDF7XHJcbiAgICBjb2xvcjogcmdiKDI1NCwgMTQ0LCAwKTtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgXHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLmNhcmR7XHJcbiAgICBtYXJnaW46IDJyZW07ICAgIFxyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjsgIFxyXG59XHJcblxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjVlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4iLCJoMywgaDIsIGgxIHtcbiAgY29sb3I6ICNmZTkwMDA7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbn1cblxuLmNhcmQtdGl0bGUge1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLmNhcmQge1xuICBtYXJnaW46IDJyZW07XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjVlbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxlc3RhZGlzdGljYXMtbWVzYXNcXGVzdGFkaXN0aWNhcy1tZXNhcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtbWVzYXMvZXN0YWRpc3RpY2FzLW1lc2FzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUNDSjs7QURHQTtFQUNHLGlCQUFBO0FDQUg7O0FERUE7RUFDSSxZQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtBQ0NKOztBREdBO0VBQ0ksMENBQUE7RUFDQSxtQkFBQTtBQ0FKOztBREVJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQVI7O0FERUk7RUFDSSxrQkFBQTtBQ0FSOztBRElBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1tZXNhcy9lc3RhZGlzdGljYXMtbWVzYXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMywgaDIsIGgxe1xyXG4gICAgY29sb3I6IHJnYigyNTQsIDE0NCwgMCk7XHJcbn1cclxuXHJcbmltZyB7XHJcbiAgICBoZWlnaHQ6IDEwMHB4O1xyXG4gICAgd2lkdGg6IDEwMHB4O1xyXG4gIFxyXG59XHJcblxyXG4uY2FyZC10aXRsZSB7XHJcbiAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcbi5jYXJke1xyXG4gICAgbWFyZ2luOiAycmVtOyAgICBcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7ICBcclxufVxyXG5cclxuXHJcbnRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC41ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuIiwiaDMsIGgyLCBoMSB7XG4gIGNvbG9yOiAjZmU5MDAwO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDEwMHB4O1xuICB3aWR0aDogMTAwcHg7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5jYXJkIHtcbiAgbWFyZ2luOiAycmVtO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG50YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC41ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -3965,12 +4264,147 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
         this.facturaMayorImporte = null;
         this.facturaMenorImporte = null;
         this.onReset = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+        this.mesaMasUsadaNueva = this.orderService.traerMesaMasUsada();
+        this.mesaMenosUsadaNueva = this.orderService.traerMesaMenosUsada();
+        this.mesaMasRecaudoNueva = this.orderService.traerMesaMasRecaudo();
+        this.mesaMenosRecaudoNueva = this.orderService.traerMesaMenosRecaudo();
+        this.mesaMayorFacturaNueva = this.orderService.traerMesaMayorFactura();
+        this.mesaMenorFacturaNueva = this.orderService.traerMesaMenorFactura();
+        this.prueba1 = this.orderService.traerMesasPedidosCont();
+        this.prueba2 = this.orderService.traerMesasPedidosAcum();
+        /////////////////////GRAFICA 1/////////////////////////////
+        this.prueba1.subscribe(pru => {
+            let valores = new Array();
+            let etiquetas = new Array();
+            valores = [...pru.values()];
+            etiquetas = [...pru.keys()];
+            this.graficobarras = {
+                labels: etiquetas,
+                datasets: [
+                    {
+                        label: ["Uso de las mesas"],
+                        backgroundColor: "#149C98",
+                        borderColor: "#000000",
+                        hoverBackgroundColor: "#42A5F5",
+                        data: valores,
+                        borderWidth: 1
+                    }
+                ]
+            };
+        });
+        this.mesaMasUsadaNueva.subscribe(mas => {
+            this.mesaMenosUsadaNueva.subscribe(menos => {
+                this.mesamas = [...mas.keys()][0];
+                this.mesamasnumber = [...mas.values()][0];
+                this.mesamenos = [...menos.keys()][0];
+                this.mesamenosnumber = [...menos.values()][0];
+            });
+        });
+        /////////////////////GRAFICA 1/////////////////////////////
+        /////////////////////GRAFICA 2/////////////////////////////
+        this.prueba2.subscribe(pru => {
+            let valores = new Array();
+            let etiquetas = new Array();
+            valores = [...pru.values()];
+            etiquetas = [...pru.keys()];
+            this.graficodona = {
+                labels: etiquetas,
+                datasets: [
+                    {
+                        label: ["Facturación de las mesas"],
+                        backgroundColor: ["#a67c00", "#bf9b30", "#ffbf00", "#ffcf40", "#ffdc73", "#ffdf81", "#ffe69d", "#ffedb9"],
+                        borderColor: "#000000",
+                        hoverBackgroundColor: "#42A5F5",
+                        data: valores,
+                        borderWidth: 1
+                    }
+                ]
+            };
+        });
+        this.mesaMasRecaudoNueva.subscribe(mas => {
+            this.mesaMenosRecaudoNueva.subscribe(menos => {
+                this.mesamasrecaudo = [...mas.keys()][0];
+                this.mesamasrecaudonumber = [...mas.values()][0];
+                this.mesamenosrecaudo = [...menos.keys()][0];
+                this.mesamenosrecaudonumber = [...menos.values()][0];
+            });
+        });
+        /////////////////////GRAFICA 2/////////////////////////////
+        /////////////////////GRAFICA 3/////////////////////////////
+        this.mesaMayorFacturaNueva.subscribe(mas => {
+            this.mesaMenorFacturaNueva.subscribe(menos => {
+                this.graficotorta = {
+                    datasets: [
+                        {
+                            data: [[...mas.keys()][0], [...menos.keys()][0]],
+                            backgroundColor: [
+                                '#011f4b',
+                                '#b3cde0'
+                            ],
+                            label: 'My dataset'
+                        }
+                    ],
+                    labels: ['La mesa con mayor factura es la ' + [...mas.values()][0], 'La mesa con menor factura es la ' + [...menos.values()][0]]
+                };
+                this.mesamayorfacturanumber = [...mas.keys()][0];
+                this.mesamayorfactura = [...mas.values()][0];
+                this.mesamenorfacturanumber = [...menos.keys()][0];
+                this.mesamenorfactura = [...menos.values()][0];
+            });
+        });
+        /////////////////////GRAFICA 3/////////////////////////////
+        this.OGB = {
+            title: {
+                display: true,
+                text: "Ranking de uso de mesas"
+            },
+            scales: {
+                yAxes: [
+                    {
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }
+                ]
+            }
+        };
+        this.OGD = {
+            title: {
+                display: true,
+                text: "Ranking de facturación por mesa"
+            },
+            scales: {
+                yAxes: [
+                    {
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }
+                ]
+            }
+        };
+        this.OGT = {
+            title: {
+                display: true,
+                text: "Ranking de importes de facturación"
+            },
+            scales: {
+                yAxes: [
+                    {
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }
+                ]
+            }
+        };
     }
     ngOnInit() {
+        // this.columnasamostrar = ['ID', 'Cliente', 'Mesa', 'Mozo', 'Comentario'];
         this.surveys = this.surveyService.GetAll().valueChanges();
         this.settingsForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormGroup"]({
             fechaInicio: new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControl"](null),
-            fechaFin: new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControl"](null),
+            fechaFin: new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControl"](null)
         });
         this.orders = this.orderService.GetAll();
         this.ClearFilters();
@@ -3984,47 +4418,73 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
     Cancel() {
         this.settingsForm.reset();
         this.onReset.next();
-        this.settingsForm.controls['fechaInicio'].setValue(null);
-        this.settingsForm.controls['fechaFin'].setValue(null);
+        this.settingsForm.controls["fechaInicio"].setValue(null);
+        this.settingsForm.controls["fechaFin"].setValue(null);
         this.search();
     }
     search() {
         this.setNulls();
-        if (this.settingsForm.value.fechaInicio == null || this.settingsForm.value.fechaInicio == NaN) {
+        if (this.settingsForm.value.fechaInicio == null ||
+            this.settingsForm.value.fechaInicio == NaN) {
             this.fechaInicio = 0;
         }
         else {
             this.fechaInicio = Date.parse(this.settingsForm.value.fechaInicio.toString());
         }
-        if (this.settingsForm.value.fechaFin == null || this.settingsForm.value.fechaFin == NaN) {
+        if (this.settingsForm.value.fechaFin == null ||
+            this.settingsForm.value.fechaFin == NaN) {
             this.fechaFin = Date.now();
         }
         else {
             this.fechaFin = Date.parse(this.settingsForm.value.fechaFin.toString());
         }
-        this.showingOrders = this.orderService.GetAll().valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(orders => {
+        this.showingOrders = this.orderService
+            .GetAll()
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(orders => {
             return orders.filter(order => {
                 order = Object.assign(new src_app_models_order__WEBPACK_IMPORTED_MODULE_9__["Order"](), order);
-                if (order['timestamp'] > this.fechaInicio && order['timestamp'] < this.fechaFin) {
+                if (order["timestamp"] > this.fechaInicio &&
+                    order["timestamp"] < this.fechaFin) {
                     return order;
                 }
             });
         }));
-        this.surveysGood = this.surveyService.GetAll2().valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(surveys => {
+        this.surveysGood = this.surveyService
+            .GetAll2()
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(surveys => {
             return surveys.filter(survey => {
                 survey = Object.assign(new src_app_models_survey__WEBPACK_IMPORTED_MODULE_3__["Survey"](), survey);
-                if (survey['order']['timestamp'] > this.fechaInicio && survey['order']['timestamp'] < this.fechaFin) {
-                    if (((survey['cookScore'] + survey['restaurantScore'] + survey['tableScore'] + survey['waiterScore']) / 4) >= 7)
+                if (survey["order"]["timestamp"] > this.fechaInicio &&
+                    survey["order"]["timestamp"] < this.fechaFin) {
+                    if ((survey["cookScore"] +
+                        survey["restaurantScore"] +
+                        survey["tableScore"] +
+                        survey["waiterScore"]) /
+                        4 >=
+                        7) {
                         return survey;
+                    }
                 }
             });
         }));
-        this.surveysBad = this.surveyService.GetAll2().valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(surveys => {
+        this.surveysBad = this.surveyService
+            .GetAll2()
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_8__["map"])(surveys => {
             return surveys.filter(survey => {
                 survey = Object.assign(new src_app_models_survey__WEBPACK_IMPORTED_MODULE_3__["Survey"](), survey);
-                if (survey['order']['timestamp'] > this.fechaInicio && survey['order']['timestamp'] < this.fechaFin) {
-                    if (((survey['cookScore'] + survey['restaurantScore'] + survey['tableScore'] + survey['waiterScore']) / 4) <= 4)
+                if (survey["order"]["timestamp"] > this.fechaInicio &&
+                    survey["order"]["timestamp"] < this.fechaFin) {
+                    if ((survey["cookScore"] +
+                        survey["restaurantScore"] +
+                        survey["tableScore"] +
+                        survey["waiterScore"]) /
+                        4 <=
+                        4) {
                         return survey;
+                    }
                 }
             });
         }));
@@ -4049,13 +4509,15 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
         this.facturaMenorImporte = new src_app_models_order__WEBPACK_IMPORTED_MODULE_9__["Order"]();
         this.arrayAcumulador = new Array();
         copia.subscribe(orders => {
-            orders.map(order => {
+            orders
+                .map(order => {
                 if (order) {
                     this.sumarIngresos(order);
                     this.lista.push(order.tableID);
                     this.mayorMenorImporte(order);
                 }
-            }).map(() => {
+            })
+                .map(() => {
                 cantidadNombres = this.lista.reduce((contadorNombre, nombre) => {
                     contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
                     return contadorNombre;
@@ -4068,12 +4530,6 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
             cantidad = result.length;
             this.mesaMasUsada = result[cantidad - 1];
             this.mesaMenosUsada = result[0];
-            // console.log(this.mesaMenosUsada);
-            // console.log(this.mesaMasUsada);
-            // console.log(this.facturaMenorImporte);
-            // console.log(this.facturaMayorImporte);
-            // console.log(this.mesaMenorFacturacion);
-            // console.log(this.mesaMayorFacturacion);
         });
     }
     mayorMenorImporte(order) {
@@ -4095,13 +4551,15 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
             this.arrayAcumulador[order.tableID] = order.totalPrice;
         }
         else {
-            this.arrayAcumulador[order.tableID] = this.arrayAcumulador[order.tableID] + order.totalPrice;
+            this.arrayAcumulador[order.tableID] =
+                this.arrayAcumulador[order.tableID] + order.totalPrice;
         }
     }
     getMayoryMenorFacturación() {
         this.arrayAcumulador.forEach(elemento => {
             console.log(elemento);
-            if (this.mesaMayorFacturacion == null || this.mesaMenorFacturacion == null) {
+            if (this.mesaMayorFacturacion == null ||
+                this.mesaMenorFacturacion == null) {
                 this.mesaMenorFacturacion = this.arrayAcumulador[this.arrayAcumulador.indexOf(elemento)];
                 this.mesaMayorFacturacion = this.arrayAcumulador[this.arrayAcumulador.indexOf(elemento)];
             }
@@ -4125,21 +4583,57 @@ let EstadisticasMesasComponent = class EstadisticasMesasComponent {
         }
     }
     exportCSV() {
-        this.toastr.info('Exportando estadística...');
-        let csvData = 'categoria,numDeMesa,cantidad,tipo\n';
-        csvData += 'masUsada' + ',' + this.mesaMasUsada[0] + ',' + this.mesaMasUsada[1] + ',veces\n';
-        csvData += 'menosUsada' + ',' + this.mesaMenosUsada[0] + ',' + this.mesaMenosUsada[1] + ',veces\n';
-        csvData += 'mayorRecaudacion' + ',' + this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) + ',' + this.mesaMayorFacturacion + ',pesos\n';
-        csvData += 'menorRecaudacion' + ',' + this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) + ',' + this.mesaMenorFacturacion + ',pesos\n';
-        csvData += 'mayorFactura' + ',' + this.facturaMayorImporte.tableID + ',' + this.facturaMayorImporte.totalPrice + ',pesos\n';
-        csvData += 'menorFactura' + ',' + this.facturaMenorImporte.tableID + ',' + this.facturaMenorImporte.totalPrice + ',pesos\n';
+        this.toastr.info("Exportando estadística...");
+        let csvData = "categoria,numDeMesa,cantidad,tipo\n";
+        csvData +=
+            "masUsada" +
+                "," +
+                this.mesaMasUsada[0] +
+                "," +
+                this.mesaMasUsada[1] +
+                ",veces\n";
+        csvData +=
+            "menosUsada" +
+                "," +
+                this.mesaMenosUsada[0] +
+                "," +
+                this.mesaMenosUsada[1] +
+                ",veces\n";
+        csvData +=
+            "mayorRecaudacion" +
+                "," +
+                this.arrayAcumulador.indexOf(this.mesaMayorFacturacion) +
+                "," +
+                this.mesaMayorFacturacion +
+                ",pesos\n";
+        csvData +=
+            "menorRecaudacion" +
+                "," +
+                this.arrayAcumulador.indexOf(this.mesaMenorFacturacion) +
+                "," +
+                this.mesaMenorFacturacion +
+                ",pesos\n";
+        csvData +=
+            "mayorFactura" +
+                "," +
+                this.facturaMayorImporte.tableID +
+                "," +
+                this.facturaMayorImporte.totalPrice +
+                ",pesos\n";
+        csvData +=
+            "menorFactura" +
+                "," +
+                this.facturaMenorImporte.tableID +
+                "," +
+                this.facturaMenorImporte.totalPrice +
+                ",pesos\n";
         console.log(csvData);
-        let file = new Blob([csvData], { type: 'text/csv' });
+        let file = new Blob([csvData], { type: "text/csv" });
         let fileUrl = URL.createObjectURL(file);
-        let hiddenEl = document.createElement('a');
+        let hiddenEl = document.createElement("a");
         hiddenEl.href = fileUrl;
-        hiddenEl.target = '_blank';
-        hiddenEl.download = 'EstadisticasMesas.csv';
+        hiddenEl.target = "_blank";
+        hiddenEl.download = "EstadisticasMesas.csv";
         hiddenEl.click();
     }
 };
@@ -4156,7 +4650,7 @@ tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 ], EstadisticasMesasComponent.prototype, "fechaFin", void 0);
 EstadisticasMesasComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-estadisticas-mesas',
+        selector: "app-estadisticas-mesas",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./estadisticas-mesas.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/socio/views/estadisticas-mesas/estadisticas-mesas.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./estadisticas-mesas.component.scss */ "./src/app/components/socio/views/estadisticas-mesas/estadisticas-mesas.component.scss")).default]
     })
@@ -4175,7 +4669,7 @@ EstadisticasMesasComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcZXN0YWRpc3RpY2FzLXBlZGlkb3NcXGVzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1wZWRpZG9zL2VzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksYUFBQTtFQUNBLFlBQUE7QUNDSjs7QURHQTtFQUNHLGlCQUFBO0FDQUg7O0FERUE7RUFDSSxZQUFBO0VBQ0EseUJBQUE7VUFBQSxtQkFBQTtBQ0NKOztBREdBO0VBQ0ksMENBQUE7RUFDQSxtQkFBQTtBQ0FKOztBREVJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQVI7O0FERUk7RUFDSSxrQkFBQTtBQ0FSOztBRElBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2VzdGFkaXN0aWNhcy1wZWRpZG9zL2VzdGFkaXN0aWNhcy1wZWRpZG9zLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDMsIGgyLCBoMXtcclxuICAgIGNvbG9yOiByZ2IoMjU0LCAxNDQsIDApO1xyXG59XHJcblxyXG5pbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIHdpZHRoOiAxMDBweDtcclxuICBcclxufVxyXG5cclxuLmNhcmQtdGl0bGUge1xyXG4gICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uY2FyZHtcclxuICAgIG1hcmdpbjogMnJlbTsgICAgXHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyOyAgXHJcbn1cclxuXHJcblxyXG50YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NCwgMTQ0LCAwLCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuNWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn0iLCJoMywgaDIsIGgxIHtcbiAgY29sb3I6ICNmZTkwMDA7XG59XG5cbmltZyB7XG4gIGhlaWdodDogMTAwcHg7XG4gIHdpZHRoOiAxMDBweDtcbn1cblxuLmNhcmQtdGl0bGUge1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLmNhcmQge1xuICBtYXJnaW46IDJyZW07XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbnRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjVlbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("h3, h2, h1 {\n  color: #fe9000;\n}\n\nimg {\n  height: 100px;\n  width: 100px;\n}\n\n.card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin: 2rem;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\ntable {\n  background-color: rgba(254, 144, 0, 0.877);\n  border-radius: 20px;\n}\n\ntable th {\n  border: none;\n  text-align: center;\n}\n\ntable tr {\n  text-align: center;\n}\n\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.5em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXGVzdGFkaXN0aWNhcy1wZWRpZG9zXFxlc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9lc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7QUNDSjs7QURFQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0FDQ0o7O0FER0E7RUFDRyxpQkFBQTtBQ0FIOztBREVBO0VBQ0ksWUFBQTtFQUNBLHlCQUFBO1VBQUEsbUJBQUE7QUNDSjs7QURHQTtFQUNJLDBDQUFBO0VBQ0EsbUJBQUE7QUNBSjs7QURFSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0FSOztBREVJO0VBQ0ksa0JBQUE7QUNBUjs7QURJQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0RKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9lc3RhZGlzdGljYXMtcGVkaWRvcy9lc3RhZGlzdGljYXMtcGVkaWRvcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImgzLCBoMiwgaDF7XHJcbiAgICBjb2xvcjogcmdiKDI1NCwgMTQ0LCAwKTtcclxufVxyXG5cclxuaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogMTAwcHg7XHJcbiAgXHJcbn1cclxuXHJcbi5jYXJkLXRpdGxlIHtcclxuICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLmNhcmR7XHJcbiAgICBtYXJnaW46IDJyZW07ICAgIFxyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjsgIFxyXG59XHJcblxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTQsIDE0NCwgMCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjVlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwiaDMsIGgyLCBoMSB7XG4gIGNvbG9yOiAjZmU5MDAwO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDEwMHB4O1xuICB3aWR0aDogMTAwcHg7XG59XG5cbi5jYXJkLXRpdGxlIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5jYXJkIHtcbiAgbWFyZ2luOiAycmVtO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG50YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU0LCAxNDQsIDAsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC41ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -4213,10 +4707,61 @@ let EstadisticasPedidosComponent = class EstadisticasPedidosComponent {
         this.toastr = toastr;
         this.cancelledOrders = null;
         this.delayedOrders = null;
-        this.topBest = null;
-        this.topWorst = null;
         this.mostrar = false;
         this.onReset = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+        this.prueba1 = this.orderService.traerProductosPedidos();
+        this.productosPedidosOrdenadosAsc = this.orderService.traerTop3ProductosMasVendidos();
+        this.productosPedidosOrdenadosDesc = this.orderService.traerTop3ProductosMenosVendidos();
+        this.productosPedidosOrdenadosAsc.subscribe(topmas3 => {
+            this.top1 = [...topmas3.keys()][0];
+            this.top2 = [...topmas3.keys()][1];
+            this.top3 = [...topmas3.keys()][2];
+            this.top1n = [...topmas3.values()][0];
+            this.top2n = [...topmas3.values()][1];
+            this.top3n = [...topmas3.values()][2];
+        });
+        this.prueba1.subscribe(pru => {
+            let valores = new Array();
+            let etiquetas = new Array();
+            valores = [...pru.values()];
+            etiquetas = [...pru.keys()];
+            this.graficobarras = {
+                labels: etiquetas,
+                datasets: [
+                    {
+                        label: ["Top de Pedidos"],
+                        backgroundColor: "#149C98",
+                        borderColor: "#000000",
+                        hoverBackgroundColor: "#42A5F5",
+                        data: valores,
+                        borderWidth: 1
+                    }
+                ]
+            };
+        });
+        this.OGB = {
+            title: {
+                display: true,
+                text: "Ranking productos mas consumidos"
+            },
+            scales: {
+                yAxes: [
+                    {
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }
+                ]
+            }
+        };
+        this.productosPedidosOrdenadosDesc.subscribe(topmenos3 => {
+            this.top1m = [...topmenos3.keys()][0];
+            this.top2m = [...topmenos3.keys()][1];
+            this.top3m = [...topmenos3.keys()][2];
+            this.top1mn = [...topmenos3.values()][0];
+            this.top2mn = [...topmenos3.values()][1];
+            this.top3mn = [...topmenos3.values()][2];
+        });
     }
     ngOnInit() {
         this.settingsForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
@@ -4259,7 +4804,7 @@ let EstadisticasPedidosComponent = class EstadisticasPedidosComponent {
         }));
         this.getDelayed();
         this.getCancelled();
-        this.getTop();
+        // this.getTop();
     }
     getCancelled() {
         this.cancelledOrders = this.showingOrders.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["map"])(orders => {
@@ -4290,39 +4835,35 @@ let EstadisticasPedidosComponent = class EstadisticasPedidosComponent {
             this.fechaFin = Date.parse(this.settingsForm.value.fechaFin.toString());
         }
     }
-    getTop() {
-        this.lista = new Array();
-        let cantidadNombres = new Array();
-        let cantidad;
-        let copia = this.showingOrders;
-        copia.subscribe(orders => {
-            orders.map(order => {
-                order.items.map(uno => {
-                    this.lista.push(uno['name']);
-                }).map(() => {
-                    cantidadNombres = this.lista.reduce((contadorNombre, nombre) => {
-                        contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
-                        return contadorNombre;
-                    }, {});
-                });
-            });
-            var result = Object.keys(cantidadNombres).map(function (key) {
-                return [String(key), cantidadNombres[key]];
-            });
-            //console.log(result);
-            // console.table(result);
-            const mejores = Object.assign([], result);
-            const peores = Object.assign([], result);
-            mejores.sort((a, b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0));
-            peores.sort((a, b) => (a[1] > b[1]) ? 1 : ((b[1] > a[1]) ? -1 : 0));
-            console.table(mejores);
-            console.table(peores);
-            this.topBest = new Array();
-            this.topWorst = new Array();
-            this.topBest.push(mejores[0], mejores[1], mejores[2]);
-            this.topWorst.push(peores[0], peores[1], peores[2]);
-        });
-    }
+    //  public getTop() {
+    //    this.lista = new Array<any>();
+    //    let cantidadNombres = new Array<any>();
+    //    let cantidad: number;
+    //    let copia = this.showingOrders;
+    //    copia.subscribe(orders => {
+    //      orders.map(order => {
+    //        order.items.map(uno => {
+    //          this.lista.push(uno['name']);
+    //        }).map(() => {
+    //          cantidadNombres = this.lista.reduce((contadorNombre, nombre) => {
+    //            contadorNombre[nombre] = (contadorNombre[nombre] || 0) + 1;
+    //            return contadorNombre;
+    //          }, {});
+    //        })
+    //      })
+    //      var result = Object.keys(cantidadNombres).map(function (key) {
+    //        return [String(key), cantidadNombres[key]];
+    //      });
+    //      const mejores  = Object.assign([], result);
+    //      const peores  = Object.assign([], result);
+    //      mejores.sort((a,b) => (a[1] > b[1]) ? -1 : ((b[1] > a[1]) ? 1 : 0));
+    //      peores.sort((a,b) => (a[1] > b[1]) ? 1 : ((b[1] > a[1]) ? -1 : 0));
+    //      this.topBest = new Array<any>();
+    //      this.topWorst = new Array<any>();
+    //      this.topBest.push(mejores[0], mejores[1], mejores[2]);
+    //      this.topWorst.push(peores[0], peores[1], peores[2]);
+    //    });
+    //  }
     exportCSV() {
         this.toastr.info('Exportando estadística...');
         let csvData;
@@ -4331,7 +4872,6 @@ let EstadisticasPedidosComponent = class EstadisticasPedidosComponent {
             data.map(row => {
                 csvData += row;
             });
-            // console.log(csvData);
             let file = new Blob([csvData], { type: 'text/csv' });
             let fileUrl = URL.createObjectURL(file);
             let hiddenEl = document.createElement('a');
@@ -4344,12 +4884,12 @@ let EstadisticasPedidosComponent = class EstadisticasPedidosComponent {
     getData() {
         let data = [];
         data.push(['categoria,nombre,cantidad,tipo\n']);
-        data.push(['puesto1MasVendido' + ',' + this.topBest[0][0] + ',' + this.topBest[0][1] + ',unidades\n']);
-        data.push(['puesto2MasVendido' + ',' + this.topBest[1][0] + ',' + this.topBest[1][1] + ',unidades\n']);
-        data.push(['puesto3MasVendido' + ',' + this.topBest[2][0] + ',' + this.topBest[2][1] + ',unidades\n']);
-        data.push(['puesto1MenosVendido' + ',' + this.topWorst[2][0] + ',' + this.topWorst[2][1] + ',unidades\n']);
-        data.push(['puesto2MenosVendido' + ',' + this.topWorst[1][0] + ',' + this.topWorst[1][1] + ',unidades\n']);
-        data.push(['puesto3MenosVendido' + ',' + this.topWorst[0][0] + ',' + this.topWorst[0][1] + ',unidades\n']);
+        data.push(['puesto1MasVendido' + ',' + this.top1 + ',' + this.top1n + ',unidades\n']);
+        data.push(['puesto2MasVendido' + ',' + this.top2 + ',' + this.top2n + ',unidades\n']);
+        data.push(['puesto3MasVendido' + ',' + this.top3 + ',' + this.top3n + ',unidades\n']);
+        data.push(['puesto1MenosVendido' + ',' + this.top1m + ',' + this.top1mn + ',unidades\n']);
+        data.push(['puesto2MenosVendido' + ',' + this.top2m + ',' + this.top2mn + ',unidades\n']);
+        data.push(['puesto3MenosVendido' + ',' + this.top3m + ',' + this.top3mn + ',unidades\n']);
         this.orderService.GetAllDelayedOrders_InArray().then(orders => {
             data.push(['pedidosNoEntregadosEnTiempoEstipulado\n' + 'codigo,fecha,demora\n']);
             orders.filter(order => {
@@ -4411,7 +4951,7 @@ EstadisticasPedidosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"](
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".role-panel {\n  margin: 0 2rem 0 2rem;\n}\n\n.role-input {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxob21lLXNvY2lvXFxob21lLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2hvbWUtc29jaW8vaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0FDQ0o7O0FERUE7RUFDSSw0QkFBQTtPQUFBLHVCQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL2hvbWUtc29jaW8vaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb2xlLXBhbmVsIHtcclxuICAgIG1hcmdpbjogMCAycmVtIDAgMnJlbTtcclxufVxyXG5cclxuLnJvbGUtaW5wdXQge1xyXG4gICAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XHJcbn0iLCIucm9sZS1wYW5lbCB7XG4gIG1hcmdpbjogMCAycmVtIDAgMnJlbTtcbn1cblxuLnJvbGUtaW5wdXQge1xuICB0ZXh0LWFsaWduLWxhc3Q6IGNlbnRlcjtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".role-panel {\n  margin: 0 2rem 0 2rem;\n}\n\n.role-input {\n  -moz-text-align-last: center;\n       text-align-last: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcaG9tZS1zb2Npb1xcaG9tZS1zb2Npby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL2hvbWUtc29jaW8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxxQkFBQTtBQ0NKOztBREVBO0VBQ0ksNEJBQUE7T0FBQSx1QkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9ob21lLXNvY2lvL2hvbWUtc29jaW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm9sZS1wYW5lbCB7XHJcbiAgICBtYXJnaW46IDAgMnJlbSAwIDJyZW07XHJcbn1cclxuXHJcbi5yb2xlLWlucHV0IHtcclxuICAgIHRleHQtYWxpZ24tbGFzdDogY2VudGVyO1xyXG59IiwiLnJvbGUtcGFuZWwge1xuICBtYXJnaW46IDAgMnJlbSAwIDJyZW07XG59XG5cbi5yb2xlLWlucHV0IHtcbiAgdGV4dC1hbGlnbi1sYXN0OiBjZW50ZXI7XG59Il19 */");
 
 /***/ }),
 
@@ -4522,7 +5062,7 @@ HomeSocioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".socio-color {\n  background-color: #f51404;\n}\n\n.bc {\n  background-color: #f39b9b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYWluLXNvY2lvXFxtYWluLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21haW4tc29jaW8vbWFpbi1zb2Npby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHlCQUhXO0FDRWY7O0FES0E7RUFDSSx5QkFBQTtBQ0ZKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL21haW4tc29jaW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkc29jaW9QcmltYXJ5OiByZ2IoMjQ1LCAyMCwgNCk7XHJcblxyXG4uc29jaW8tY29sb3Ige1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJHNvY2lvUHJpbWFyeTtcclxufVxyXG5cclxuXHJcbi5iY3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDMsIDE1NSwgMTU1KTtcclxufVxyXG4iLCIuc29jaW8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjUxNDA0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjM5YjliO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".socio-color {\n  background-color: #f51404;\n}\n\n.bc {\n  background-color: #f39b9b;\n}\n\n.fijo {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFpbi1zb2Npb1xcbWFpbi1zb2Npby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYWluLXNvY2lvL21haW4tc29jaW8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx5QkFIVztBQ0VmOztBREtBO0VBQ0kseUJBQUE7QUNGSjs7QURLQTtFQUVJLGVBQUE7QUNISiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFpbi1zb2Npby9tYWluLXNvY2lvLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJHNvY2lvUHJpbWFyeTogcmdiKDI0NSwgMjAsIDQpO1xyXG5cclxuLnNvY2lvLWNvbG9yIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRzb2Npb1ByaW1hcnk7XHJcbn1cclxuXHJcblxyXG4uYmN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjQzLCAxNTUsIDE1NSk7XHJcbn1cclxuXHJcbi5maWpvXHJcbntcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxufVxyXG4iLCIuc29jaW8tY29sb3Ige1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjUxNDA0O1xufVxuXG4uYmMge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjM5YjliO1xufVxuXG4uZmlqbyB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -4578,7 +5118,7 @@ MainSocioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2Utb3JkZXJzLWFkbWluXFxtYW5hZ2Utb3JkZXJzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1vcmRlcnMtYWRtaW4vbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLW9yZGVycy1hZG1pbi9tYW5hZ2Utb3JkZXJzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLW9yZGVycy1hZG1pblxcbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2Utb3JkZXJzLWFkbWluL21hbmFnZS1vcmRlcnMtYWRtaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1vcmRlcnMtYWRtaW4vbWFuYWdlLW9yZGVycy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -4625,7 +5165,7 @@ ManageOrdersAdminComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXG1hbmFnZS1wcm9kdWN0c1xcbWFuYWdlLXByb2R1Y3RzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1wcm9kdWN0cy9tYW5hZ2UtcHJvZHVjdHMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSO0FEQ0k7RUFDSSxrQkFBQTtBQ0NSO0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXByb2R1Y3RzL21hbmFnZS1wcm9kdWN0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbInRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjllbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtcHJvZHVjdHNcXG1hbmFnZS1wcm9kdWN0cy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtcHJvZHVjdHMvbWFuYWdlLXByb2R1Y3RzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNENBQUE7RUFDQSxtQkFBQTtBQ0NKO0FEQ0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNDUjtBRENJO0VBQ0ksa0JBQUE7QUNDUjtBREdBO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDQUoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS1wcm9kdWN0cy9tYW5hZ2UtcHJvZHVjdHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -4679,7 +5219,7 @@ ManageProductsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtdGFibGVzLWFkbWluXFxtYW5hZ2UtdGFibGVzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS10YWJsZXMtYWRtaW4vbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlDQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXRhYmxlcy1hZG1pbi9tYW5hZ2UtdGFibGVzLWFkbWluLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCIudHByaW5jaXBhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogYmxhY2s7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiA0MHB4O1xuICBmb250OiBib2xkO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLXRhYmxlcy1hZG1pblxcbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdGFibGVzLWFkbWluL21hbmFnZS10YWJsZXMtYWRtaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS10YWJsZXMtYWRtaW4vbWFuYWdlLXRhYmxlcy1hZG1pbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50cHJpbmNpcGFse1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogcmdiKDAsIDAsMCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250OiBib2xkO1xyXG59IiwiLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -4731,7 +5271,7 @@ ManageTablesAdminComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL0M6XFxVc2Vyc1xcQXJpZWxcXERlc2t0b3BcXExDXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxtYW5hZ2UtdXNyXFxtYW5hZ2UtdXNyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmFnZS11c3IvbWFuYWdlLXVzci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNDSjtBRENJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDQ1I7QURDSTtFQUNJLGtCQUFBO0FDQ1I7QURHQTtFQUNJLHlDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL21hbmFnZS11c3IuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbiAgICB0ciB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLnVzZXIge1xyXG4gICAgLy9jdXJzb3I6IHBvaW50ZXI7XHJcbn0iLCJ0YWJsZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xufVxudGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbnRhYmxlIHRyIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjllbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL0M6XFxVc2Vyc1xcYXJpZWxcXERlc2t0b3BcXEdJVFxcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuYWdlLXVzclxcbWFuYWdlLXVzci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5hZ2UtdXNyL21hbmFnZS11c3IuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSw0Q0FBQTtFQUNBLG1CQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQ0NSO0FEQ0k7RUFDSSxrQkFBQTtBQ0NSO0FER0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuYWdlLXVzci9tYW5hZ2UtdXNyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuLmFyaWFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAuOWVtO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbi51c2VyIHtcclxuICAgIC8vY3Vyc29yOiBwb2ludGVyO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmFyaWFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGZvbnQtc2l6ZTogMC45ZW07XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -4854,31 +5394,69 @@ let ManageUsrComponent = class ManageUsrComponent {
         this.userForm.controls["userLastname"].setValue(usuario.lastname);
         this.userForm.controls["userMail"].setValue(usuario.email);
         this.userForm.controls["userRole"].setValue(usuario.role);
-        console.log(this.usuarioSeleccionado);
     }
     updateUser() {
-        let rol = this.usuarioSeleccionado.role;
-        this.usuarioSeleccionado.name = this.userForm.value.userName;
-        this.usuarioSeleccionado.lastname = this.userForm.value.userLastname;
-        this.usuarioSeleccionado.email = this.userForm.value.userMail;
-        this.usuarioSeleccionado.role = this.userForm.value.userRole;
-        this.userService
-            .updateUser(this.usuarioSeleccionado, this.file)
-            .then(() => {
-            if (rol !== this.usuarioSeleccionado.role) {
-                this.userService.SetRole(this.usuarioSeleccionado.email, this.usuarioSeleccionado.role);
-            }
-            this.authService
-                .GetCurrentUser()
-                .then(usr => {
-                let mensaje = `El usuario ${usr.email} dió de modificó el usuario ${this.usuarioSeleccionado.email}`;
-                this.movimientoService.persistirMovimiento(usr, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TargetMovimiento"].usuario, src_app_models_logging__WEBPACK_IMPORTED_MODULE_5__["TipoMovimiento"].alta, mensaje);
-            })
-                .then(() => {
-                this.Cancel();
-            });
-        });
+        let user;
+        user = src_app_models_user__WEBPACK_IMPORTED_MODULE_4__["User"].CreateUserFromAdmin(this.userForm.value.userName, this.userForm.value.userLastname, this.userForm.value.userMail, this.userForm.value.userRole);
+        this.userService.actualizarUsuarioFoto(user, this.file);
     }
+    /*
+       console.log("XXXXXXXXXXXXXXXXXXXXXXXXX",this.usuarioSeleccionado);
+       let name = CommonHelper.GenerateProfileImageName(this.usuarioSeleccionado);
+       this.fileService
+     .subirFotoUsuarios(this.file,this.usuarioSeleccionado.id)
+     .then(() => {
+       setTimeout(() => {
+         this.ChangeProfilePic(name);
+       }, 1000);
+     })
+     .catch(() =>
+       this.toastr.error("Se ha producido un error al cargar la imagen.")
+     );
+     
+     
+    
+     
+     //final
+
+
+   let rol = this.usuarioSeleccionado.role;
+  
+
+   this.usuarioSeleccionado.name = this.userForm.value.userName;
+   this.usuarioSeleccionado.lastname = this.userForm.value.userLastname;
+   this.usuarioSeleccionado.email = this.userForm.value.userMail;
+   this.usuarioSeleccionado.role = this.userForm.value.userRole;
+   console.log("culo");
+   this.userService
+     .updateUser(this.usuarioSeleccionado, this.file)
+     .then(() => {
+       
+       if (rol !== this.usuarioSeleccionado.role) {
+         this.userService.SetRole(
+           this.usuarioSeleccionado.email,
+           this.usuarioSeleccionado.role
+         );
+       }
+     
+
+
+       this.authService
+         .GetCurrentUser()
+         .then(usr => {
+           let mensaje: string = `El usuario ${usr.email} dió de modificó el usuario ${this.usuarioSeleccionado.email}`;
+           this.movimientoService.persistirMovimiento(
+             usr,
+             TargetMovimiento.usuario,
+             TipoMovimiento.alta,
+             mensaje
+           );
+         })
+         .then(() => {
+           this.Cancel();
+         });
+     });
+ }*/
     // ##### FILTER FUNCTIONS #####
     Filter(type) {
         this.showingUsers = this.users.valueChanges().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["map"])(users => {
@@ -4927,6 +5505,17 @@ let ManageUsrComponent = class ManageUsrComponent {
     ClearFilters() {
         this.search();
     }
+    ChangeProfilePic(imgName) {
+        this.fileService.GetImageURL(imgName).then(img => {
+            this.userService.ModifyProfileImage(this.usuarioSeleccionado.email, img).then(() => {
+                this.toastr.success("Imagen cargada con éxito.");
+                setTimeout(() => {
+                    //location.reload();
+                    location.assign("http://localhost:4200/");
+                }, 1000);
+            });
+        });
+    }
 };
 ManageUsrComponent.ctorParameters = () => [
     { type: src_app_services_firebase_user_service__WEBPACK_IMPORTED_MODULE_7__["UserService"] },
@@ -4956,7 +5545,7 @@ ManageUsrComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\nh4 {\n  color: darkgrey;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9DOlxcVXNlcnNcXEFyaWVsXFxEZXNrdG9wXFxMQ1xcTEFDT01BTkRBQlJJTk8vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHNvY2lvXFx2aWV3c1xcbWFuZWpvLWxvZ3NcXG1hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmVqby1sb2dzL21hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBO0VBQ0ksNENBQUE7RUFDQSxtQkFBQTtBQ0hKO0FES0k7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7QUNIUjtBREtJO0VBQ0ksa0JBQUE7QUNIUjtBRE9BO0VBQ0ksZUFBQTtBQ0pKO0FET0E7RUFDSSx5Q0FBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7QUNKSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc29jaW8vdmlld3MvbWFuZWpvLWxvZ3MvbWFuZWpvLWxvZ3MuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudXNlciB7XHJcbiAgICAvL2N1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxudGFibGUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG5cclxuICAgIHRoIHtcclxuICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgdHIge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxufVxyXG5cclxuaDR7XHJcbiAgICBjb2xvcjogZGFya2dyZXk7XHJcbn1cclxuXHJcbi5hcmlhbCB7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogLjllbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59IiwidGFibGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU0LCAyNTQsIDAuODc3KTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG50YWJsZSB0ciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaDQge1xuICBjb2xvcjogZGFya2dyZXk7XG59XG5cbi5hcmlhbCB7XG4gIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDAuOWVtO1xuICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background-color: rgba(255, 254, 254, 0.877);\n  border-radius: 20px;\n}\ntable th {\n  border: none;\n  text-align: center;\n}\ntable tr {\n  text-align: center;\n}\nh4 {\n  color: darkgrey;\n}\n.arial {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 0.9em;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9DOlxcVXNlcnNcXGFyaWVsXFxEZXNrdG9wXFxHSVRcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXG1hbmVqby1sb2dzXFxtYW5lam8tbG9ncy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9tYW5lam8tbG9ncy9tYW5lam8tbG9ncy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLDRDQUFBO0VBQ0EsbUJBQUE7QUNISjtBREtJO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0FDSFI7QURLSTtFQUNJLGtCQUFBO0FDSFI7QURPQTtFQUNJLGVBQUE7QUNKSjtBRE9BO0VBQ0kseUNBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0FDSkoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL21hbmVqby1sb2dzL21hbmVqby1sb2dzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnVzZXIge1xyXG4gICAgLy9jdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuXHJcbnRhYmxlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTQsIDI1NCwgMC44NzcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuICAgIHRyIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcbn1cclxuXHJcbmg0e1xyXG4gICAgY29sb3I6IGRhcmtncmV5O1xyXG59XHJcblxyXG4uYXJpYWwge1xyXG4gICAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IC45ZW07XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NCwgMjU0LCAwLjg3Nyk7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxudGFibGUgdHIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmg0IHtcbiAgY29sb3I6IGRhcmtncmV5O1xufVxuXG4uYXJpYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAwLjllbTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */");
 
 /***/ }),
 
@@ -5240,7 +5829,7 @@ ManejoLogsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background: silver;\n  border: 1px solid black;\n}\ntable th {\n  border: none;\n}\n.red {\n  color: red;\n}\n.yellow {\n  color: #d8b800;\n}\n.green {\n  color: #01b301;\n}\n.survey {\n  cursor: pointer;\n}\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvQzpcXFVzZXJzXFxBcmllbFxcRGVza3RvcFxcTENcXExBQ09NQU5EQUJSSU5PL3NyY1xcYXBwXFxjb21wb25lbnRzXFxzb2Npb1xcdmlld3NcXHN1cnZleS10YWJsZVxcc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL3N1cnZleS10YWJsZS9zdXJ2ZXktdGFibGUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLHVCQUFBO0FDQ0o7QURDSTtFQUNJLFlBQUE7QUNDUjtBREdBO0VBQ0ksVUFBQTtBQ0FKO0FER0E7RUFDSSxjQUFBO0FDQUo7QURHQTtFQUNJLGNBQUE7QUNBSjtBREdBO0VBQ0ksZUFBQTtBQ0FKO0FER0E7RUFDSSx5Q0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDQUoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lvL3ZpZXdzL3N1cnZleS10YWJsZS9zdXJ2ZXktdGFibGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgICBiYWNrZ3JvdW5kOiBzaWx2ZXI7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuXHJcbiAgICB0aCB7XHJcbiAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgfVxyXG59XHJcblxyXG4ucmVkIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbn1cclxuXHJcbi55ZWxsb3cge1xyXG4gICAgY29sb3I6IHJnYigyMTYsIDE4NCwgMCk7XHJcbn1cclxuXHJcbi5ncmVlbiB7XHJcbiAgICBjb2xvcjogcmdiKDEsIDE3OSwgMSk7XHJcbn1cclxuXHJcbi5zdXJ2ZXkge1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4udHByaW5jaXBhbHtcclxuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6IHJnYigwLCAwLDApO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG4gICAgZm9udDogYm9sZDtcclxufSIsInRhYmxlIHtcbiAgYmFja2dyb3VuZDogc2lsdmVyO1xuICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcbn1cbnRhYmxlIHRoIHtcbiAgYm9yZGVyOiBub25lO1xufVxuXG4ucmVkIHtcbiAgY29sb3I6IHJlZDtcbn1cblxuLnllbGxvdyB7XG4gIGNvbG9yOiAjZDhiODAwO1xufVxuXG4uZ3JlZW4ge1xuICBjb2xvcjogIzAxYjMwMTtcbn1cblxuLnN1cnZleSB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLnRwcmluY2lwYWwge1xuICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogNDBweDtcbiAgZm9udDogYm9sZDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("table {\n  background: silver;\n  border: 1px solid black;\n}\ntable th {\n  border: none;\n}\n.red {\n  color: red;\n}\n.yellow {\n  color: #d8b800;\n}\n.green {\n  color: #01b301;\n}\n.survey {\n  cursor: pointer;\n}\n.tprincipal {\n  font-family: Arial, Helvetica, sans-serif;\n  color: black;\n  text-align: center;\n  font-size: 40px;\n  font: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvQzpcXFVzZXJzXFxhcmllbFxcRGVza3RvcFxcR0lUXFxMQUNPTUFOREFCUklOTy9zcmNcXGFwcFxcY29tcG9uZW50c1xcc29jaW9cXHZpZXdzXFxzdXJ2ZXktdGFibGVcXHN1cnZleS10YWJsZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSx1QkFBQTtBQ0NKO0FEQ0k7RUFDSSxZQUFBO0FDQ1I7QURHQTtFQUNJLFVBQUE7QUNBSjtBREdBO0VBQ0ksY0FBQTtBQ0FKO0FER0E7RUFDSSxjQUFBO0FDQUo7QURHQTtFQUNJLGVBQUE7QUNBSjtBREdBO0VBQ0kseUNBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0FKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2Npby92aWV3cy9zdXJ2ZXktdGFibGUvc3VydmV5LXRhYmxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gICAgYmFja2dyb3VuZDogc2lsdmVyO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XHJcblxyXG4gICAgdGgge1xyXG4gICAgICAgIGJvcmRlcjogbm9uZTtcclxuICAgIH1cclxufVxyXG5cclxuLnJlZCB7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcblxyXG4ueWVsbG93IHtcclxuICAgIGNvbG9yOiByZ2IoMjE2LCAxODQsIDApO1xyXG59XHJcblxyXG4uZ3JlZW4ge1xyXG4gICAgY29sb3I6IHJnYigxLCAxNzksIDEpO1xyXG59XHJcblxyXG4uc3VydmV5IHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLnRwcmluY2lwYWx7XHJcbiAgICBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiByZ2IoMCwgMCwwKTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQ6IGJvbGQ7XHJcbn0iLCJ0YWJsZSB7XG4gIGJhY2tncm91bmQ6IHNpbHZlcjtcbiAgYm9yZGVyOiAxcHggc29saWQgYmxhY2s7XG59XG50YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbn1cblxuLnJlZCB7XG4gIGNvbG9yOiByZWQ7XG59XG5cbi55ZWxsb3cge1xuICBjb2xvcjogI2Q4YjgwMDtcbn1cblxuLmdyZWVuIHtcbiAgY29sb3I6ICMwMWIzMDE7XG59XG5cbi5zdXJ2ZXkge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi50cHJpbmNpcGFsIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IDQwcHg7XG4gIGZvbnQ6IGJvbGQ7XG59Il19 */");
 
 /***/ }),
 
@@ -5874,6 +6463,7 @@ class User {
         user.role = role;
         user.deleted = false;
         user.state = 'habilitado';
+        user.image = 'https://firebasestorage.googleapis.com/v0/b/lacomanda-brino.appspot.com/o/SOCIOSOCIOS8182?alt=media&token=89b72e99-2bcf-4b05-9ac7-5a40e5ce2b1b';
         return user;
     }
     static CreateUserFromAdmin(name, lastname, email, role) {
@@ -5897,6 +6487,38 @@ var Role;
     Role["bartender"] = "bartender";
     Role["cliente"] = "cliente";
 })(Role || (Role = {}));
+
+
+/***/ }),
+
+/***/ "./src/app/modulos/primeng/primeng.module.ts":
+/*!***************************************************!*\
+  !*** ./src/app/modulos/primeng/primeng.module.ts ***!
+  \***************************************************/
+/*! exports provided: PrimengModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrimengModule", function() { return PrimengModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/fesm2015/primeng-chart.js");
+
+
+
+
+let PrimengModule = class PrimengModule {
+};
+PrimengModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        declarations: [],
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], primeng_chart__WEBPACK_IMPORTED_MODULE_3__["ChartModule"]],
+        exports: [primeng_chart__WEBPACK_IMPORTED_MODULE_3__["ChartModule"]]
+    })
+], PrimengModule);
+
 
 
 /***/ }),
@@ -6573,6 +7195,135 @@ let OrderService = class OrderService {
         const servido = "Servido";
         return this.db.collection("pedidos", ref => ref.where("client.email", "==", email));
     }
+    traerMesaMasUsada() {
+        return this.traerMesasPedidosCont().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][0], [...mesas.values()][0]);
+        }));
+    }
+    traerMesaMenosUsada() {
+        return this.traerMesasPedidosCont().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][mesas.size - 1], [...mesas.values()][mesas.size - 1]);
+        }));
+    }
+    traerMesasPedidosCont() {
+        return this.db
+            .collection('pedidos', ref => ref.where('state', '==', 'Pagado'))
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(pedidos => {
+            const salida = new Map();
+            const tmp = new Map();
+            pedidos.forEach(pedido => {
+                if (tmp.has(pedido.tableID)) {
+                    tmp.set(pedido.tableID, tmp.get(pedido.tableID) + 1);
+                }
+                else {
+                    tmp.set(pedido.tableID, 1);
+                }
+            });
+            for (const [clave, valor] of [...tmp.entries()].sort((valor1, valor2) => valor2[1] - valor1[1])) {
+                salida.set(clave, valor);
+            }
+            return salida;
+        }));
+    }
+    traerMesaMasRecaudo() {
+        return this.traerMesasPedidosAcum().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][0], [...mesas.values()][0]);
+        }));
+    }
+    traerMesaMenosRecaudo() {
+        return this.traerMesasPedidosAcum().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][mesas.size - 1], [...mesas.values()][mesas.size - 1]);
+        }));
+    }
+    traerMesaMayorFactura() {
+        return this.traerMesasPedidosTotal().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][0], [...mesas.values()][0]);
+        }));
+    }
+    traerMesasPedidosTotal() {
+        return this.db
+            .collection('pedidos', ref => ref.where('state', '==', 'Pagado'))
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(pedidos => {
+            const salida = new Map();
+            const tmp = new Map();
+            pedidos.forEach(pedido => {
+                tmp.set(pedido.totalPrice, pedido.tableID);
+            });
+            for (const [clave, valor] of [...tmp.entries()].sort((valor1, valor2) => valor2[0] - valor1[0])) {
+                salida.set(clave, valor);
+            }
+            return salida;
+        }));
+    }
+    traerMesaMenorFactura() {
+        return this.traerMesasPedidosTotal().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(mesas => {
+            return new Map().set([...mesas.keys()][mesas.size - 1], [...mesas.values()][mesas.size - 1]);
+        }));
+    }
+    traerMesasPedidosAcum() {
+        return this.db
+            .collection('pedidos', ref => ref.where('state', '==', 'Pagado'))
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(pedidos => {
+            const salida = new Map();
+            const tmp = new Map();
+            pedidos.forEach(pedido => {
+                if (tmp.has(pedido.tableID)) {
+                    tmp.set(pedido.tableID, tmp.get(pedido.tableID) + pedido.totalPrice);
+                }
+                else {
+                    tmp.set(pedido.tableID, pedido.totalPrice);
+                }
+            });
+            for (const [clave, valor] of [...tmp.entries()].sort((valor1, valor2) => valor2[1] - valor1[1])) {
+                salida.set(clave, valor);
+            }
+            return salida;
+        }));
+    }
+    traerProductosPedidos() {
+        return this.db
+            .collection('pedidos', ref => ref.where('state', '==', 'Pagado'))
+            .valueChanges()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(pedidos => {
+            const salida = new Map();
+            const tmp = new Map();
+            pedidos.forEach(pedido => {
+                pedido.items.forEach(producto => {
+                    if (tmp.has(producto.name)) {
+                        tmp.set(producto.name, tmp.get(producto.name) + 1);
+                    }
+                    else {
+                        tmp.set(producto.name, 1);
+                    }
+                });
+            });
+            for (const [clave, valor] of [...tmp.entries()].sort((valor1, valor2) => valor2[1] - valor1[1])) {
+                salida.set(clave, valor);
+            }
+            return salida;
+        }));
+    }
+    traerTop3ProductosMasVendidos() {
+        return this.traerProductosPedidos().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(productos => {
+            const salida = new Map();
+            salida.set([...productos.keys()][0], [...productos.values()][0]);
+            salida.set([...productos.keys()][1], [...productos.values()][1]);
+            salida.set([...productos.keys()][2], [...productos.values()][2]);
+            return salida;
+        }));
+    }
+    traerTop3ProductosMenosVendidos() {
+        return this.traerProductosPedidos().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(productos => {
+            const salida = new Map();
+            salida.set([...productos.keys()][productos.size - 1], [...productos.values()][productos.size - 1]);
+            salida.set([...productos.keys()][productos.size - 2], [...productos.values()][productos.size - 2]);
+            salida.set([...productos.keys()][productos.size - 3], [...productos.values()][productos.size - 3]);
+            return salida;
+        }));
+    }
 };
 OrderService.ctorParameters = () => [
     { type: angularfire2_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"] },
@@ -7051,6 +7802,34 @@ let UserService = class UserService {
             return false;
         });
     }
+    actualizarUsuarioFoto(userFoto, foto) {
+        this.GetUserByEmail(userFoto.email).then(doc => {
+            let user = doc;
+            user.name = userFoto.name;
+            user.lastname = userFoto.lastname;
+            user.role = userFoto.role;
+            this.db
+                .collection("usuarios")
+                .doc(doc.id)
+                .update(user).then(() => {
+                if (foto) {
+                    return this.fileService
+                        .subirFotoUsuarios(foto, user.id)
+                        .then(() => {
+                        return true;
+                    });
+                } /*else {
+                  return this.fileService
+                    .subirFotoGenericaUsuarios(user.id)
+                    .then(() => {
+                      return true;
+                    });
+                }*/
+            }).catch(() => {
+                return false;
+            });
+        });
+    }
     updateState(uid, state) {
         this.usuarios.doc(uid).update({ state: state });
     }
@@ -7069,6 +7848,7 @@ let UserService = class UserService {
         });
     }
     updateUser(usuario, foto) {
+        console.log("update user dentro de user service usuario y foto: ", usuario, foto);
         let retorno = this.usuarios
             .doc(usuario.id)
             .update({
@@ -7076,15 +7856,17 @@ let UserService = class UserService {
             lastname: usuario.lastname
         })
             .then(() => {
-            if (foto) {
-                return this.fileService
-                    .subirFotoUsuarios(foto, usuario.id)
-                    .then(() => {
-                    return true;
-                });
-            }
+            // if (foto) {
+            //   return this.fileService
+            //     .subirFotoUsuarios(foto,usuario.id)
+            //     .then(() => {
+            console.log("VERDADERO");
+            return true;
+            //     });
+            // }
         })
             .catch(() => {
+            console.log("FALSO");
             return false;
         });
         console.log(retorno);
@@ -7190,6 +7972,7 @@ let FileService = class FileService {
         this.products.doc(uid).update({ image: url });
     }
     subirFotoUsuarios(foto, uid) {
+        console.log("file subirfotousuarios: foto y uid: ", foto, uid);
         const pathFoto = `imagenesUsuarios/${uid}`;
         const tarea = this.storage.upload(pathFoto, foto);
         return tarea
@@ -7199,9 +7982,9 @@ let FileService = class FileService {
                 .getDownloadURL()
                 .subscribe(url => {
                 this.updatePhotoUrlUsers(url, uid);
-                //this.updatePhotoUrlUsers(url, uid).then(()=>{
-                //location.reload();
-                //});
+                this.updatePhotoUrlUsers(url, uid).then(() => {
+                    location.reload();
+                });
             });
         })
             .then(() => {
@@ -7321,7 +8104,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Ariel\Desktop\LC\LACOMANDABRINO\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\ariel\Desktop\GIT\LACOMANDABRINO\src\main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -23,14 +23,14 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-6 align-center">
+                         <div class="col-6 align-center">
                             <h5 class="card-title">Foto</h5>
                             <p class="card-text">Actualizar foto de perfil</p>
                             <div class="btn-group">
                                 <button class="btn btn-primary" (click)="fileInput.click()">Elegir imagen</button>
                                 <button [disabled]="!isLoaded" class="btn btn-success" (click)="Upload()">Cargar imagen</button>
                             </div>
-                        </div>
+                        </div> 
                         <!-- aca arranca lo nuevo y termina en el otro comentario -->
 
                         <div *ngIf="isAdmin" class="col-4 align-center">

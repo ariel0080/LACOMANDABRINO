@@ -24,12 +24,15 @@ export class FileService {
     this.users = this.angularFirestore.collection<User>("usuarios");
     this.orders = this.angularFirestore.collection<User>("pedidos");
   }
+
   public Upload(fileName: string, file: File): Promise<void> {
     return this.storage
       .upload(fileName, file)
       .then(success => resolve(success))
       .catch(error => reject(error.message));
   }
+
+
 
   public updatePhotoUrlOrders(url: string, uid: string): Promise<boolean>{
 	
@@ -87,6 +90,7 @@ export class FileService {
   }
 
   public subirFotoUsuarios(foto: File, uid: string): Promise<boolean> {
+    console.log("file subirfotousuarios: foto y uid: ", foto,uid);
     const pathFoto = `imagenesUsuarios/${uid}`;
     const tarea = this.storage.upload(pathFoto, foto);
 
@@ -97,9 +101,9 @@ export class FileService {
           .getDownloadURL()
           .subscribe(url => {
             this.updatePhotoUrlUsers(url, uid);
-            //this.updatePhotoUrlUsers(url, uid).then(()=>{
-            //location.reload();
-            //});
+            this.updatePhotoUrlUsers(url, uid).then(()=>{
+            location.reload();
+          });
           });
       })
       .then(() => {

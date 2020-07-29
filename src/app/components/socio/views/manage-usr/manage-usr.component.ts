@@ -10,6 +10,7 @@ import { FileService } from "src/app/services/firestorage/file.service";
 import { AuthService } from "src/app/services/authentication/auth.service";
 import { LoggingService } from "src/app/services/firebase/logging.service";
 import { ToastrService } from "ngx-toastr";
+import { CommonHelper } from 'src/app/classes/helpers/common-helper';
 
 @Component({
   selector: "app-manage-usr",
@@ -143,26 +144,63 @@ export class ManageUsrComponent implements OnInit {
     this.userForm.controls["userLastname"].setValue(usuario.lastname);
     this.userForm.controls["userMail"].setValue(usuario.email);
     this.userForm.controls["userRole"].setValue(usuario.role);
-    console.log(this.usuarioSeleccionado);
+    
   }
 
   public updateUser() {
+    let user: User;
+
+    user = User.CreateUserFromAdmin(
+      this.userForm.value.userName,
+      this.userForm.value.userLastname,
+      this.userForm.value.userMail,
+      this.userForm.value.userRole
+    );
+
+    this.userService.actualizarUsuarioFoto(user, this.file);
+
+    }
+    
+     /*
+        console.log("XXXXXXXXXXXXXXXXXXXXXXXXX",this.usuarioSeleccionado);
+        let name = CommonHelper.GenerateProfileImageName(this.usuarioSeleccionado);
+        this.fileService
+      .subirFotoUsuarios(this.file,this.usuarioSeleccionado.id)
+      .then(() => {
+        setTimeout(() => {
+          this.ChangeProfilePic(name);
+        }, 1000);
+      })
+      .catch(() =>
+        this.toastr.error("Se ha producido un error al cargar la imagen.")
+      );
+      
+      
+     
+      
+      //final
+
+
     let rol = this.usuarioSeleccionado.role;
+   
 
     this.usuarioSeleccionado.name = this.userForm.value.userName;
     this.usuarioSeleccionado.lastname = this.userForm.value.userLastname;
     this.usuarioSeleccionado.email = this.userForm.value.userMail;
     this.usuarioSeleccionado.role = this.userForm.value.userRole;
-
+    console.log("culo");
     this.userService
       .updateUser(this.usuarioSeleccionado, this.file)
       .then(() => {
+        
         if (rol !== this.usuarioSeleccionado.role) {
           this.userService.SetRole(
             this.usuarioSeleccionado.email,
             this.usuarioSeleccionado.role
           );
         }
+      
+
 
         this.authService
           .GetCurrentUser()
@@ -179,7 +217,7 @@ export class ManageUsrComponent implements OnInit {
             this.Cancel();
           });
       });
-  }
+  }*/
 
   // ##### FILTER FUNCTIONS #####
 
@@ -236,4 +274,18 @@ export class ManageUsrComponent implements OnInit {
   public ClearFilters(): void {
     this.search();
   }
+
+  private ChangeProfilePic(imgName: string): void {
+    this.fileService.GetImageURL(imgName).then(img => {
+      this.userService.ModifyProfileImage(this.usuarioSeleccionado.email, img).then(() => {
+        this.toastr.success("Imagen cargada con éxito.");
+        setTimeout(() => {
+          //location.reload();
+          location.assign("http://localhost:4200/");
+        }, 1000);
+      });
+    });
+  }
+
+ 
 }
